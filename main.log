@@ -1,0 +1,1800 @@
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.4.7)  28 APR 2026 23:44
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(./12pt.tex (/usr/share/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count271
+\c@chapter=\count272
+\c@section=\count273
+\c@subsection=\count274
+\c@subsubsection=\count275
+\c@paragraph=\count276
+\c@subparagraph=\count277
+\c@figure=\count278
+\c@table=\count279
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(/usr/share/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
+\c@tracingmulticols=\count280
+\mult@box=\box53
+\multicol@leftmargin=\dimen149
+\c@unbalance=\count281
+\c@collectmore=\count282
+\doublecol@number=\count283
+\multicoltolerance=\count284
+\multicolpretolerance=\count285
+\full@width=\dimen150
+\page@free=\dimen151
+\premulticols=\dimen152
+\postmulticols=\dimen153
+\multicolsep=\skip51
+\multicolbaselineskip=\skip52
+\partial@page=\box54
+\last@line=\box55
+\mc@boxedresult=\box56
+\maxbalancingoverflow=\dimen154
+\mult@rightbox=\box57
+\mult@grightbox=\box58
+\mult@firstbox=\box59
+\mult@gfirstbox=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\c@minrows=\count286
+\c@columnbadness=\count287
+\c@finalcolumnbadness=\count288
+\last@try=\dimen155
+\multicolovershoot=\dimen156
+\multicolundershoot=\dimen157
+\mult@nat@firstbox=\box97
+\colbreak@box=\box98
+\mc@col@check@num=\count289
+\g__mc_curr_col_int=\count290
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 106.
+
+(/usr/share/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
+))
+(/usr/share/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2026/02/14 v26.3 The multilingual framework for LuaLaTeX, pdfLaT
+eX and XeLaTeX
+\babel@savecnt=\count291
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2078.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2080.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2082.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2083.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2084.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2086.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2111.
+\U@D=\dimen158
+\l@unhyphenated=\language4
+
+(/usr/share/texmf-dist/tex/generic/babel/xebabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count292
+
+(/usr/share/texmf-dist/tex/generic/babel/locale/invalid/babel-brazil.tex)
+
+Package babel Warning: Name 'brazil' is deprecated.
+(babel)                Use 'brazilian' instead.
+(babel)                Reported on input line 4330.
+
+Package babel Info: Importing font and identification data for brazil
+(babel)             from babel-pt-BR.ini. Reported on input line 4330.
+(/usr/share/texmf-dist/tex/generic/babel-portuges/brazilian.ldf
+Language: portuges 2026/01/24 v1.2u Portuguese support from the babel system
+Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
+(babel)             (\language3). Reported on input line 100.
+Package babel Info: Making " an active character on input line 132.
+))
+(/usr/share/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count293
+\calc@Bcount=\count294
+\calc@Adimen=\dimen159
+\calc@Bdimen=\dimen160
+\calc@Askip=\skip53
+\calc@Bskip=\skip54
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count295
+\calc@Cskip=\skip55
+)
+(/usr/share/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count296
+)
+\MT@toks=\toks18
+\MT@tempbox=\box99
+\MT@count=\count297
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
+LaTeX Info: Redefining \leftprotrusion on input line 1085.
+\MT@prot@toks=\toks19
+LaTeX Info: Redefining \rightprotrusion on input line 1104.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen161
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count298
+
+(/usr/share/texmf-dist/tex/latex/microtype/microtype-xetex.def
+File: microtype-xetex.def 2026/03/01 v3.2d Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 443.
+LaTeX Info: Redefining \lslig on input line 451.
+\MT@outer@space=\skip56
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/share/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+)
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
+
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+(/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+))
+(/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+
+(/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count299
+)
+(/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen162
+\Hy@linkcounter=\count300
+\Hy@pagecounter=\count301
+
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count302
+
+(/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4072.
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4468.
+\c@Hy@tempcnt=\count303
+
+(/usr/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4807.
+\XeTeXLinkMargin=\dimen163
+
+(/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count304
+\Field@Width=\dimen164
+\Fld@charsize=\dimen165
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring ON on input line 6102.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
+\Hy@abspage=\count305
+\c@Item=\count306
+\c@Hfootnote=\count307
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(/usr/share/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2026-01-29 v7.01p Hyperref driver for XeTeX
+\pdfm@box=\box100
+\c@Hy@AnnotLevel=\count308
+\HyField@AnnotCount=\count309
+\Fld@listcount=\count310
+\c@bookmark@seq@number=\count311
+
+(/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip57
+)
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count312
+\Gm@cntv=\count313
+\c@Gm@tempcnt=\count314
+\Gm@bindingoffset=\dimen166
+\Gm@wd@mp=\dimen167
+\Gm@odd@mp=\dimen168
+\Gm@even@mp=\dimen169
+\Gm@layoutwidth=\dimen170
+\Gm@layoutheight=\dimen171
+\Gm@layouthoffset=\dimen172
+\Gm@layoutvoffset=\dimen173
+\Gm@dimlist=\toks20
+) (./footkmpj.sty
+Package: footkmpj 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks21
+\footnotemargin=\dimen174
+
+
+LaTeX Warning: Command \@makecol  has changed.
+               Check if current package is valid.
+
+\FN@tempboxb=\box101
+\FN@tempboxc=\box102
+\footglue=\skip58
+\footnotebaselineskip=\dimen175
+\c@pp@next@reset=\count315
+Package footkmpj Info: Declaring symbol style bringhurst on input line 852.
+Package footkmpj Info: Declaring symbol style chicago on input line 860.
+Package footkmpj Info: Declaring symbol style wiley on input line 869.
+Package footkmpj Info: Declaring symbol style lamport-robust on input line 880.
+
+Package footkmpj Info: Declaring symbol style lamport* on input line 900.
+Package footkmpj Info: Declaring symbol style lamport*-robust on input line 921
+.
+) (/usr/share/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip59
+\cftbeforetoctitleskip=\skip60
+\cftaftertoctitleskip=\skip61
+\cftbeforepartskip=\skip62
+\cftpartnumwidth=\skip63
+\cftpartindent=\skip64
+\cftbeforechapskip=\skip65
+\cftchapindent=\skip66
+\cftchapnumwidth=\skip67
+\cftbeforesecskip=\skip68
+\cftsecindent=\skip69
+\cftsecnumwidth=\skip70
+\cftbeforesubsecskip=\skip71
+\cftsubsecindent=\skip72
+\cftsubsecnumwidth=\skip73
+\cftbeforesubsubsecskip=\skip74
+\cftsubsubsecindent=\skip75
+\cftsubsubsecnumwidth=\skip76
+\cftbeforeparaskip=\skip77
+\cftparaindent=\skip78
+\cftparanumwidth=\skip79
+\cftbeforesubparaskip=\skip80
+\cftsubparaindent=\skip81
+\cftsubparanumwidth=\skip82
+\cftbeforeloftitleskip=\skip83
+\cftafterloftitleskip=\skip84
+\cftbeforefigskip=\skip85
+\cftfigindent=\skip86
+\cftfignumwidth=\skip87
+\c@lofdepth=\count316
+\c@lotdepth=\count317
+\cftbeforelottitleskip=\skip88
+\cftafterlottitleskip=\skip89
+\cftbeforetabskip=\skip90
+\cfttabindent=\skip91
+\cfttabnumwidth=\skip92
+)
+(/usr/share/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty
+Package: ucharclasses 2022/10/20 v2.6.0 Unicode block character classes for XeL
+aTeX
+
+(/usr/share/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+\AegeanNumbersClass=\XeTeXcharclass4
+\AlphabeticPresentationFormsClass=\XeTeXcharclass5
+\AncientGreekMusicalNotationClass=\XeTeXcharclass6
+\AncientGreekNumbersClass=\XeTeXcharclass7
+\AncientSymbolsClass=\XeTeXcharclass8
+\ArabicClass=\XeTeXcharclass9
+\ArabicPresentationFormsAClass=\XeTeXcharclass10
+\ArabicPresentationFormsBClass=\XeTeXcharclass11
+\ArabicSupplementClass=\XeTeXcharclass12
+\ArmenianClass=\XeTeXcharclass13
+\ArrowsClass=\XeTeXcharclass14
+\BalineseClass=\XeTeXcharclass15
+\BasicLatinClass=\XeTeXcharclass16
+\BengaliClass=\XeTeXcharclass17
+\BlockElementsClass=\XeTeXcharclass18
+\BopomofoClass=\XeTeXcharclass19
+\BopomofoExtendedClass=\XeTeXcharclass20
+\BoxDrawingClass=\XeTeXcharclass21
+\BraillePatternsClass=\XeTeXcharclass22
+\BugineseClass=\XeTeXcharclass23
+\BuhidClass=\XeTeXcharclass24
+\ByzantineMusicalSymbolsClass=\XeTeXcharclass25
+\ChamClass=\XeTeXcharclass26
+\CherokeeClass=\XeTeXcharclass27
+\CJKCompatibilityClass=\XeTeXcharclass28
+\CJKCompatibilityFormsClass=\XeTeXcharclass29
+\CJKCompatibilityIdeographsClass=\XeTeXcharclass30
+\CJKCompatibilityIdeographsSupplementClass=\XeTeXcharclass31
+\CJKRadicalsSupplementClass=\XeTeXcharclass32
+\CJKStrokesClass=\XeTeXcharclass33
+\CJKSymbolsAndPunctuationClass=\XeTeXcharclass34
+\CJKUnifiedIdeographsClass=\XeTeXcharclass35
+\CJKUnifiedIdeographsExtensionAClass=\XeTeXcharclass36
+\CJKUnifiedIdeographsExtensionBClass=\XeTeXcharclass37
+\CombiningDiacriticalMarksClass=\XeTeXcharclass38
+\CombiningDiacriticalMarksForSymbolsClass=\XeTeXcharclass39
+\CombiningDiacriticalMarksSupplementClass=\XeTeXcharclass40
+\CombiningHalfMarksClass=\XeTeXcharclass41
+\ControlPicturesClass=\XeTeXcharclass42
+\CopticClass=\XeTeXcharclass43
+\CountingRodNumeralsClass=\XeTeXcharclass44
+\CuneiformClass=\XeTeXcharclass45
+\CuneiformNumbersAndPunctuationClass=\XeTeXcharclass46
+\CurrencySymbolsClass=\XeTeXcharclass47
+\CypriotSyllabaryClass=\XeTeXcharclass48
+\CyrillicClass=\XeTeXcharclass49
+\CyrillicExtendedAClass=\XeTeXcharclass50
+\CyrillicExtendedBClass=\XeTeXcharclass51
+\CyrillicSupplementClass=\XeTeXcharclass52
+\DeseretClass=\XeTeXcharclass53
+\DevanagariDanDaClass=\XeTeXcharclass54
+\DevanagariMarksClass=\XeTeXcharclass55
+\DevanagariPostDanDaClass=\XeTeXcharclass56
+\DevanagariPostMarksClass=\XeTeXcharclass57
+\DevanagariPreMarksClass=\XeTeXcharclass58
+\DingbatsClass=\XeTeXcharclass59
+\DominoTilesClass=\XeTeXcharclass60
+\EnclosedAlphanumericsClass=\XeTeXcharclass61
+\EnclosedCJKLettersAndMonthsClass=\XeTeXcharclass62
+\EthiopicClass=\XeTeXcharclass63
+\EthiopicExtendedClass=\XeTeXcharclass64
+\EthiopicSupplementClass=\XeTeXcharclass65
+\GeneralPunctuationClass=\XeTeXcharclass66
+\GeometricShapesClass=\XeTeXcharclass67
+\GeorgianClass=\XeTeXcharclass68
+\GeorgianSupplementClass=\XeTeXcharclass69
+\GlagoliticClass=\XeTeXcharclass70
+\GreekAndCopticClass=\XeTeXcharclass71
+\GreekExtendedClass=\XeTeXcharclass72
+\GujaratiClass=\XeTeXcharclass73
+\GurmukhiClass=\XeTeXcharclass74
+\HalfwidthAndFullwidthFormsClass=\XeTeXcharclass75
+\HangulCompatibilityJamoClass=\XeTeXcharclass76
+\HangulJamoClass=\XeTeXcharclass77
+\HangulSyllablesClass=\XeTeXcharclass78
+\HanunooClass=\XeTeXcharclass79
+\HebrewClass=\XeTeXcharclass80
+\HiraganaClass=\XeTeXcharclass81
+\IdeographicDescriptionCharactersClass=\XeTeXcharclass82
+\IPAExtensionsClass=\XeTeXcharclass83
+\KanbunClass=\XeTeXcharclass84
+\KangxiRadicalsClass=\XeTeXcharclass85
+\KannadaClass=\XeTeXcharclass86
+\KatakanaClass=\XeTeXcharclass87
+\KatakanaPhoneticExtensionsClass=\XeTeXcharclass88
+\KayahLiClass=\XeTeXcharclass89
+\KhmerClass=\XeTeXcharclass90
+\KhmerSymbolsClass=\XeTeXcharclass91
+\LaoClass=\XeTeXcharclass92
+\LatinExtendedAdditionalClass=\XeTeXcharclass93
+\LatinExtendedAClass=\XeTeXcharclass94
+\LatinExtendedBClass=\XeTeXcharclass95
+\LatinExtendedCClass=\XeTeXcharclass96
+\LatinExtendedDClass=\XeTeXcharclass97
+\LatinSupplementClass=\XeTeXcharclass98
+\LepchaClass=\XeTeXcharclass99
+\LetterlikeSymbolsClass=\XeTeXcharclass100
+\LimbuClass=\XeTeXcharclass101
+\LinearBIdeogramsClass=\XeTeXcharclass102
+\LinearBSyllabaryClass=\XeTeXcharclass103
+\MahjongTilesClass=\XeTeXcharclass104
+\MalayalamClass=\XeTeXcharclass105
+\MathematicalAlphanumericSymbolsClass=\XeTeXcharclass106
+\MathematicalOperatorsClass=\XeTeXcharclass107
+\MiscellaneousMathematicalSymbolsAClass=\XeTeXcharclass108
+\MiscellaneousMathematicalSymbolsBClass=\XeTeXcharclass109
+\MiscellaneousSymbolsClass=\XeTeXcharclass110
+\MiscellaneousSymbolsAndArrowsClass=\XeTeXcharclass111
+\MiscellaneousTechnicalClass=\XeTeXcharclass112
+\ModifierToneLettersClass=\XeTeXcharclass113
+\MongolianClass=\XeTeXcharclass114
+\MusicalSymbolsClass=\XeTeXcharclass115
+\MyanmarClass=\XeTeXcharclass116
+\NewTaiLueClass=\XeTeXcharclass117
+\NKoClass=\XeTeXcharclass118
+\NumberFormsClass=\XeTeXcharclass119
+\OghamClass=\XeTeXcharclass120
+\OlChikiClass=\XeTeXcharclass121
+\OldPersianClass=\XeTeXcharclass122
+\OpticalCharacterRecognitionClass=\XeTeXcharclass123
+\OriyaClass=\XeTeXcharclass124
+\OsmanyaClass=\XeTeXcharclass125
+\PhagsPaClass=\XeTeXcharclass126
+\PhoenicianClass=\XeTeXcharclass127
+\PhoneticExtensionsClass=\XeTeXcharclass128
+\PhoneticExtensionsSupplementClass=\XeTeXcharclass129
+\PrivateUseAreaClass=\XeTeXcharclass130
+\RejangClass=\XeTeXcharclass131
+\RunicClass=\XeTeXcharclass132
+\SaurashtraClass=\XeTeXcharclass133
+\ShavianClass=\XeTeXcharclass134
+\SinhalaClass=\XeTeXcharclass135
+\SmallFormVariantsClass=\XeTeXcharclass136
+\SpacingModifierLettersClass=\XeTeXcharclass137
+\SundaneseClass=\XeTeXcharclass138
+\SuperscriptsAndSubscriptsClass=\XeTeXcharclass139
+\SupplementalArrowsAClass=\XeTeXcharclass140
+\SupplementalArrowsBClass=\XeTeXcharclass141
+\SupplementalMathematicalOperatorsClass=\XeTeXcharclass142
+\SupplementalPunctuationClass=\XeTeXcharclass143
+\SylotiNagriClass=\XeTeXcharclass144
+\SyriacClass=\XeTeXcharclass145
+\TagalogClass=\XeTeXcharclass146
+\TagbanwaClass=\XeTeXcharclass147
+\TagsClass=\XeTeXcharclass148
+\TaiLeClass=\XeTeXcharclass149
+\TaiXuanJingSymbolsClass=\XeTeXcharclass150
+\TamilClass=\XeTeXcharclass151
+\TeluguClass=\XeTeXcharclass152
+\ThaanaClass=\XeTeXcharclass153
+\ThaiClass=\XeTeXcharclass154
+\TibetanClass=\XeTeXcharclass155
+\TifinaghClass=\XeTeXcharclass156
+\UgariticClass=\XeTeXcharclass157
+\UnifiedCanadianAboriginalSyllabicsClass=\XeTeXcharclass158
+\VaiClass=\XeTeXcharclass159
+\VerticalFormsClass=\XeTeXcharclass160
+\YiRadicalsClass=\XeTeXcharclass161
+\YiSyllablesClass=\XeTeXcharclass162
+\YijingHexagramSymbolsClass=\XeTeXcharclass163
+\AvestanClass=\XeTeXcharclass164
+\BamumClass=\XeTeXcharclass165
+\CJKUnifiedIdeographsExtensionCClass=\XeTeXcharclass166
+\CommonIndicNumberFormsClass=\XeTeXcharclass167
+\DevanagariExtendedClass=\XeTeXcharclass168
+\EgyptianHieroglyphsClass=\XeTeXcharclass169
+\EnclosedAlphanumericSupplementClass=\XeTeXcharclass170
+\EnclosedIdeographicSupplementClass=\XeTeXcharclass171
+\HangulJamoExtendedAClass=\XeTeXcharclass172
+\HangulJamoExtendedBClass=\XeTeXcharclass173
+\ImperialAramaicClass=\XeTeXcharclass174
+\InscriptionalPahlaviClass=\XeTeXcharclass175
+\InscriptionalParthianClass=\XeTeXcharclass176
+\JavaneseClass=\XeTeXcharclass177
+\KaithiClass=\XeTeXcharclass178
+\LisuClass=\XeTeXcharclass179
+\MeeteiMayekClass=\XeTeXcharclass180
+\MyanmarExtendedAClass=\XeTeXcharclass181
+\RumiNumeralSymbolsClass=\XeTeXcharclass182
+\SamaritanClass=\XeTeXcharclass183
+\TaiThamClass=\XeTeXcharclass184
+\TaiVietClass=\XeTeXcharclass185
+\UnifiedCanadianAboriginalSyllabicsExtendedClass=\XeTeXcharclass186
+\VedicExtensionsClass=\XeTeXcharclass187
+\AlchemicalSymbolsClass=\XeTeXcharclass188
+\BamumSupplementClass=\XeTeXcharclass189
+\BatakClass=\XeTeXcharclass190
+\BrahmiClass=\XeTeXcharclass191
+\CJKUnifiedIdeographsExtensionDClass=\XeTeXcharclass192
+\EmoticonsClass=\XeTeXcharclass193
+\EthiopicExtendedAClass=\XeTeXcharclass194
+\KanaSupplementClass=\XeTeXcharclass195
+\MandaicClass=\XeTeXcharclass196
+\MiscellaneousSymbolsAndPictographsClass=\XeTeXcharclass197
+\PlayingCardsClass=\XeTeXcharclass198
+\TransportAndMapSymbolsClass=\XeTeXcharclass199
+\ArabicExtendedAClass=\XeTeXcharclass200
+\ArabicMathematicalAlphabeticSymbolsClass=\XeTeXcharclass201
+\ChakmaClass=\XeTeXcharclass202
+\MeeteiMayekExtensionsClass=\XeTeXcharclass203
+\MeroiticCursiveClass=\XeTeXcharclass204
+\MeroiticHieroglyphsClass=\XeTeXcharclass205
+\MiaoClass=\XeTeXcharclass206
+\SharadaClass=\XeTeXcharclass207
+\SoraSompengClass=\XeTeXcharclass208
+\SundaneseSupplementClass=\XeTeXcharclass209
+\TakriClass=\XeTeXcharclass210
+\BassaVahClass=\XeTeXcharclass211
+\CaucasianAlbanianClass=\XeTeXcharclass212
+\CombiningDiacriticalMarksExtendedClass=\XeTeXcharclass213
+\CopticEpactNumbersClass=\XeTeXcharclass214
+\ElbasanClass=\XeTeXcharclass215
+\GeometricShapesExtendedClass=\XeTeXcharclass216
+\GranthaClass=\XeTeXcharclass217
+\KhojkiClass=\XeTeXcharclass218
+\KhudawadiClass=\XeTeXcharclass219
+\LatinExtendedEClass=\XeTeXcharclass220
+\LinearAClass=\XeTeXcharclass221
+\MahajaniClass=\XeTeXcharclass222
+\MendeKikakuiClass=\XeTeXcharclass223
+\ModiClass=\XeTeXcharclass224
+\MroClass=\XeTeXcharclass225
+\MyanmarExtendedBClass=\XeTeXcharclass226
+\OrnamentalDingbatsClass=\XeTeXcharclass227
+\PahawhHmongClass=\XeTeXcharclass228
+\PauCinHauClass=\XeTeXcharclass229
+\SiddhamClass=\XeTeXcharclass230
+\SinhalaArchaicNumbersClass=\XeTeXcharclass231
+\SupplementalArrowsCClass=\XeTeXcharclass232
+\TirhutaClass=\XeTeXcharclass233
+\WarangCitiClass=\XeTeXcharclass234
+\CherokeeSupplementClass=\XeTeXcharclass235
+\CJKUnifiedIdeographsExtensionEClass=\XeTeXcharclass236
+\SupplementalSymbolsAndPictographsClass=\XeTeXcharclass237
+\CyrillicExtendedCClass=\XeTeXcharclass238
+\GlagoliticSupplementClass=\XeTeXcharclass239
+\IdeographicSymbolsAndPunctuationClass=\XeTeXcharclass240
+\MongolianSupplementClass=\XeTeXcharclass241
+\CJKUnifiedIdeographsExtensionFClass=\XeTeXcharclass242
+\KanaExtendedAClass=\XeTeXcharclass243
+\SyriacSupplementClass=\XeTeXcharclass244
+\GeorgianExtendedClass=\XeTeXcharclass245
+\SmallKanaExtensionClass=\XeTeXcharclass246
+\SymbolsAndPictographsExtendedAClass=\XeTeXcharclass247
+\CJKUnifiedIdeographsExtensionGClass=\XeTeXcharclass248
+\ArabicExtendedBClass=\XeTeXcharclass249
+\EthiopicExtendedBClass=\XeTeXcharclass250
+\KanaExtendedBClass=\XeTeXcharclass251
+\LatinExtendedFClass=\XeTeXcharclass252
+\LatinExtendedGClass=\XeTeXcharclass253
+\UnifiedCanadianAboriginalSyllabicsExtendedAClass=\XeTeXcharclass254
+\ArabicExtendedCClass=\XeTeXcharclass255
+\CJKUnifiedIdeographsExtensionHClass=\XeTeXcharclass256
+\CyrillicExtendedDClass=\XeTeXcharclass257
+\DevanagariExtendedAClass=\XeTeXcharclass258
+\CarianClass=\XeTeXcharclass259
+\GothicClass=\XeTeXcharclass260
+\KharoshthiClass=\XeTeXcharclass261
+\LycianClass=\XeTeXcharclass262
+\LydianClass=\XeTeXcharclass263
+\OldItalicClass=\XeTeXcharclass264
+\PhaistosDiscClass=\XeTeXcharclass265
+\SupplementaryPrivateUseAreaAClass=\XeTeXcharclass266
+\SupplementaryPrivateUseAreaBClass=\XeTeXcharclass267
+\OldSouthArabianClass=\XeTeXcharclass268
+\OldTurkicClass=\XeTeXcharclass269
+\DuployanClass=\XeTeXcharclass270
+\ManichaeanClass=\XeTeXcharclass271
+\NabataeanClass=\XeTeXcharclass272
+\OldNorthArabianClass=\XeTeXcharclass273
+\OldPermicClass=\XeTeXcharclass274
+\PalmyreneClass=\XeTeXcharclass275
+\PsalterPahlaviClass=\XeTeXcharclass276
+\ShorthandFormatControlsClass=\XeTeXcharclass277
+\AhomClass=\XeTeXcharclass278
+\AnatolianHieroglyphsClass=\XeTeXcharclass279
+\EarlyDynasticCuneiformClass=\XeTeXcharclass280
+\HatranClass=\XeTeXcharclass281
+\MultaniClass=\XeTeXcharclass282
+\OldHungarianClass=\XeTeXcharclass283
+\SuttonSignWritingClass=\XeTeXcharclass284
+\AdlamClass=\XeTeXcharclass285
+\BhaiksukiClass=\XeTeXcharclass286
+\MarchenClass=\XeTeXcharclass287
+\NewaClass=\XeTeXcharclass288
+\OsageClass=\XeTeXcharclass289
+\TangutClass=\XeTeXcharclass290
+\TangutComponentsClass=\XeTeXcharclass291
+\MasaramGondiClass=\XeTeXcharclass292
+\NushuClass=\XeTeXcharclass293
+\SoyomboClass=\XeTeXcharclass294
+\ZanabazarSquareClass=\XeTeXcharclass295
+\ChessSymbolsClass=\XeTeXcharclass296
+\DograClass=\XeTeXcharclass297
+\GunjalaGondiClass=\XeTeXcharclass298
+\HanifiRohingyaClass=\XeTeXcharclass299
+\IndicSiyaqNumbersClass=\XeTeXcharclass300
+\MakasarClass=\XeTeXcharclass301
+\MayanNumeralsClass=\XeTeXcharclass302
+\MedefaidrinClass=\XeTeXcharclass303
+\OldSogdianClass=\XeTeXcharclass304
+\SogdianClass=\XeTeXcharclass305
+\EgyptianHieroglyphFormatControlsClass=\XeTeXcharclass306
+\ElymaicClass=\XeTeXcharclass307
+\NandinagariClass=\XeTeXcharclass308
+\NyiakengPuachueHmongClass=\XeTeXcharclass309
+\OttomanSiyaqNumbersClass=\XeTeXcharclass310
+\TamilSupplementClass=\XeTeXcharclass311
+\WanchoClass=\XeTeXcharclass312
+\ChorasmianClass=\XeTeXcharclass313
+\DivesAkuruClass=\XeTeXcharclass314
+\KhitanSmallScriptClass=\XeTeXcharclass315
+\LisuSupplementClass=\XeTeXcharclass316
+\SymbolsForLegacyComputingClass=\XeTeXcharclass317
+\TangutSupplementClass=\XeTeXcharclass318
+\YezidiClass=\XeTeXcharclass319
+\CyproMinoanClass=\XeTeXcharclass320
+\OldUighurClass=\XeTeXcharclass321
+\TangsaClass=\XeTeXcharclass322
+\TotoClass=\XeTeXcharclass323
+\VithkuqiClass=\XeTeXcharclass324
+\ZnamennyMusicalNotationClass=\XeTeXcharclass325
+\KaktovikNumeralsClass=\XeTeXcharclass326
+\KawiClass=\XeTeXcharclass327
+\NagMundariClass=\XeTeXcharclass328
+)
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2026-01-19 L3 programming layer (loader) 
+
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2025-10-09 L3 backend support: XeTeX
+\g__graphics_track_int=\count318
+\g__pdfannot_backend_int=\count319
+\g__pdfannot_backend_link_int=\count320
+))
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)
+Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count321
+\l__fontspec_language_int=\count322
+\l__fontspec_strnum_int=\count323
+\l__fontspec_tmp_int=\count324
+\l__fontspec_tmpa_int=\count325
+\l__fontspec_tmpb_int=\count326
+\l__fontspec_tmpc_int=\count327
+\l__fontspec_em_int=\count328
+\l__fontspec_emdef_int=\count329
+\l__fontspec_strong_int=\count330
+\l__fontspec_strongdef_int=\count331
+\l__fontspec_tmpa_dim=\dimen176
+\l__fontspec_tmpb_dim=\dimen177
+\l__fontspec_tmpc_dim=\dimen178
+
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+)
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+
+Package fontspec Info: 
+(fontspec)             Font family 'FreeSerif(0)' created for font 'FreeSerif'
+(fontspec)             with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FreeSerif/OT:script=latn;language=dflt;mapping=tex-t
+ext;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"FreeSerif/OT:script=latn;language=dflt;+smcp;mapping
+=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"FreeSerif/B/OT:script=latn;language=dflt;mapping=tex
+-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"FreeSerif/B/OT:script=latn;language=dflt;+smcp;mappi
+ng=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"FreeSerif/I/OT:script=latn;language=dflt;mapping=tex
+-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"FreeSerif/BI/OT:script=latn;language=dflt;mapping=te
+x-text;"
+
+) (./haiola.tex)
+
+LaTeX Warning: Unused global option(s):
+    [paper].
+
+(./main.aux
+Package babel Info: 'brazil' activates 'portuges' shorthands.
+(babel)             Reported on input line 8.
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Info: Redefining \microtypecontext on input line 17.
+Package microtype Info: Applying patch `item' on input line 17.
+Package microtype Info: Applying patch `toc' on input line 17.
+Package microtype Info: Applying patch `eqnum' on input line 17.
+
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 17.
+
+Package microtype Info: Applying patch `verbatim' on input line 17.
+LaTeX Info: Redefining \microtypesetup on input line 17.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `FreeSerif' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+(/usr/share/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
+
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: xetex.def on input line 149.
+
+(/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+Package hyperref Info: Link coloring ON on input line 17.
+ (./main.out)
+(./main.out)
+\@outlinefile=\write3
+\openout3 = `main.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead twoside 
+* h-part:(L,W,R)=(72.26999pt, 487.82251pt, 54.2025pt)
+* v-part:(T,H,B)=(54.2025pt, 686.56499pt, 54.2025pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=487.82251pt
+* \textheight=662.56499pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=-18.06749pt
+* \topmargin=-18.06749pt
+* \headheight=12.0pt
+* \headsep=12.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=11.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Package fontspec Info: 
+(fontspec)             Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 17.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 17.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 17.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 17.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 17.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 17.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 17.
+LaTeX Font Info:    Redeclaring math accent \check on input line 17.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 17.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 17.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 17.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 17.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 17.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/FreeSerif(0)/m/n on input line 17.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 17.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/FreeSerif(0)/m/n on input line 17.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/FreeSerif(0)/m/n --> TU/FreeSerif(0)/m/n on input li
+ne 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/FreeSerif(0)/m/it on input line 17.
+
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/FreeSerif(0)/b/n on input line 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 17.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/FreeSerif(0)/m/n --> TU/FreeSerif(0)/b/n on input li
+ne 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/FreeSerif(0)/b/it on input line 17
+.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 17.
+File: cover.png Graphic file (type bmp)
+<cover.png>
+[1
+
+
+] (./FA.tex
+Package babel Info: 'brazil' activates 'portuges' shorthands.
+(babel)             Reported on input line 25.
+ [2
+
+]) (./PFC.tex [3
+
+]) (./main.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+
+(/usr/share/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+))
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [4] (./livros.tex
+(./AT/01 - GEN_src.tex
+Underfull \hbox (badness 1038) in paragraph at lines 35--60
+\ZZZ e da terra quando foram criados, no
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 35--60
+\ZZZ ramificaçõ\ZZZ es. [] \ZZZ O nome de um era
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 35--60
+\ZZZ sobre Adã\ZZZ o, \ZZZ e ele adormeceu: entã\ZZZ o
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+
+
+
+]
+Underfull \hbox (badness 1975) in paragraph at lines 61--91
+\ZZZ respondeu à serpente: Do fruto das
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 61--91
+\ZZZ que nã\ZZZ o \ZZZ comesses?\ZZZ ” [] \ZZZ E o homem
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 61--91
+\ZZZ dela\ZZZ ’\ZZZ , maldita será a terra por causa
+ []
+
+
+Overfull \vbox (6.45775pt too high) has occurred while \output is active []
+
+
+[2]
+Overfull \vbox (4.015pt too high) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 92--118
+\ZZZ que qualquer um que me achar, me
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 92--118
+\ZZZ Certo que qualquer um que matar a
+ []
+
+[3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+Underfull \hbox (badness 1189) in paragraph at lines 152--177
+\ZZZ o SENHOR: Nã\ZZZ o \ZZZ brigará meu espí\ZZZ rito
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 178--202
+\ZZZ naquele dia foram rompidas todas as
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 178--202
+\ZZZ e Sem, e Cam e Jafé\ZZZ , \ZZZ filhos de Noé\ZZZ ,
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 178--202
+\ZZZ sua espé\ZZZ cie, \ZZZ e toda ave segundo sua
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 178--202
+\ZZZ de espí\ZZZ rito \ZZZ de vida em suas narinas,
+ []
+
+
+Overfull \vbox (4.77777pt too high) has occurred while \output is active []
+
+
+[5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 203--225
+[][] \ZZZ E lembrou-se Deus de Noé\ZZZ , \ZZZ e de
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 203--225
+\ZZZ que estavam com ele na arca; e fez
+ []
+
+[6]
+Underfull \hbox (badness 1028) in paragraph at lines 226--255
+[] \ZZZ E com toda alma vivente que está
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 226--255
+\ZZZ convosco, de aves, de animais, e de
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+Underfull \hbox (badness 1412) in paragraph at lines 256--288
+\ZZZ foram repartidas as ilhas das naçõ\ZZZ es
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 256--288
+[] \ZZZ E foi o termo dos cananeus desde
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 289--321
+[][] \ZZZ Era, entã\ZZZ o, \ZZZ toda a terra de uma
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 289--321
+\ZZZ dilú\ZZZ vio. [] \ZZZ E viveu Sem, depois que
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 289--321
+\ZZZ gerou a Arfaxade quinhentos anos, e
+ []
+
+[8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (3.69774pt too high) has occurred while \output is active []
+
+
+[9]
+Underfull \hbox (badness 1199) in paragraph at lines 346--364
+[] \ZZZ Entã\ZZZ o \ZZZ Abrã\ZZZ o \ZZZ disse a Ló\ZZZ : \ZZZ Nã\ZZZ o \ZZZ haj
+a
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 346--364
+\ZZZ e foi pondo suas tendas até Sodoma.
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 365--389
+[][] \ZZZ E aconteceu nos dias de Anrafel,
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 365--389
+\ZZZ rei de Sinear, Arioque, rei de Elasar,
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 365--389
+\ZZZ prisioneiro, e armou seus criados, os
+ []
+
+[10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 390--417
+[][] \ZZZ Depois destas coisas a palavra do
+ []
+
+[11]
+Underfull \hbox (badness 3000) in paragraph at lines 438--465
+[][] \ZZZ Quando Abrã\ZZZ o \ZZZ tinha a idade de
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 438--465
+\ZZZ noventa e nove anos, o SENHOR lhe
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 438--465
+\ZZZ mais teu nome Abrã\ZZZ o, \ZZZ mas sim que
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 438--465
+\ZZZ mim e ti, e tua descendê\ZZZ ncia \ZZZ depois
+ []
+
+
+Underfull \hbox (badness 1867) in paragraph at lines 438--465
+\ZZZ de ti em suas geraçõ\ZZZ es, \ZZZ por alianç\ZZZ a
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 438--465
+\ZZZ Será circuncidado todo macho dentre
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 438--465
+\ZZZ entre mim e vó\ZZZ s. [] \ZZZ E de idade de
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 438--465
+\ZZZ chamará\ZZZ s \ZZZ seu nome Isaque; e confir-
+ []
+
+
+Overfull \vbox (5.88176pt too high) has occurred while \output is active []
+
+
+[12]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 466--499
+\ZZZ se até a terra, [] E disse: Senhor, se
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 466--499
+\ZZZ mulheres. [] Riu, pois, Sara consigo
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 466--499
+\ZZZ sua obra segundo o clamor que veio
+ []
+
+[13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 500--538
+\ZZZ doma ao cair da tarde; e Ló estava
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 500--538
+\ZZZ para habitar como um estrangeiro, e
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 500--538
+\ZZZ grande violê\ZZZ ncia \ZZZ ao homem, a Ló\ZZZ , \ZZZ e
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 500--538
+\ZZZ clamor deles subiu demais diante do
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 500--538
+\ZZZ a Ló\ZZZ , \ZZZ dizendo: Levanta-te, toma tua
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 500--538
+\ZZZ e engrandeceste tua misericó\ZZZ rdia \ZZZ que
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 500--538
+\ZZZ daquelas cidades, e o fruto da terra.
+ []
+
+[14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+Underfull \hbox (badness 1048) in paragraph at lines 539--557
+\ZZZ como peregrino em Gerar. [] E disse
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 539--557
+\ZZZ Abimeleque se levantou de manhã\ZZZ , \ZZZ e
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 539--557
+\ZZZ e lhe disse: Que nos fizeste? e em
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 558--592
+\ZZZ chamou Abraã\ZZZ o \ZZZ o nome de seu filho
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 558--592
+\ZZZ bondade que eu fiz contigo, fará\ZZZ s \ZZZ tu
+ []
+
+[16]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 593--617
+\ZZZ dito, edificou ali Abraã\ZZZ o \ZZZ um altar, e
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 593--617
+\ZZZ do mar; e tua descendê\ZZZ ncia \ZZZ possuirá
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 593--617
+\ZZZ à minha voz. [] E voltou Abraã\ZZZ o \ZZZ a
+ []
+
+[17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 618--638
+\ZZZ dou a ti; sepulta tua falecida. [] E
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 618--638
+\ZZZ e em todo o seu termo ao derredor,
+ []
+
+[18]
+Underfull \hbox (badness 1122) in paragraph at lines 639--706
+[] \ZZZ Em vez disso irá\ZZZ s \ZZZ à minha terra e
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 639--706
+\ZZZ e me falou e me jurou, dizendo: À
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 639--706
+\ZZZ e verdade com meu senhor, declarai-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 707--744
+\ZZZ Todos estes foram filhos de Quetura.
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 707--744
+[] \ZZZ Heranç\ZZZ a \ZZZ que comprou Abraã\ZZZ o \ZZZ dos
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 707--744
+\ZZZ a Isaque seu filho: e habitou Isaque
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 707--744
+\ZZZ até Sur, que está em frente do Egito
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 707--744
+\ZZZ a Rebeca, filha de Betuel arameu de
+ []
+
+
+Overfull \vbox (4.07776pt too high) has occurred while \output is active []
+
+
+[21]
+Underfull \hbox (badness 1270) in paragraph at lines 745--780
+\ZZZ e foi-se Isaque a Abimeleque rei dos
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 745--780
+\ZZZ filisteus, em Gerar. [] E apareceu-lhe
+ []
+
+
+Underfull \hbox (badness 1701) in paragraph at lines 745--780
+[] \ZZZ Habita nesta terra, e serei contigo,
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 745--780
+\ZZZ descendê\ZZZ ncia \ZZZ darei todas estas terras,
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 745--780
+\ZZZ e darei à tua descendê\ZZZ ncia \ZZZ todas es-
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 745--780
+\ZZZ se engrandeceu, e foi engrandecendo-
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 745--780
+\ZZZ se cada vez mais, até fazer-se muito
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 745--780
+\ZZZ ele: e chamou seu nome Reobote, e
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 745--780
+\ZZZ e estendeu ali sua tenda: e abriram
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 745--780
+[] \ZZZ E eles responderam: Vimos que o
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 745--780
+\ZZZ tocamos, y como somente te fizemos
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+Underfull \hbox (badness 5519) in paragraph at lines 829--851
+\ZZZ tomes mulher das filhas de Canaã\ZZZ .
+ []
+
+[25]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 888--934
+[] \ZZZ E Jacó se irritava contra Raquel, e
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 888--934
+\ZZZ madre. [] E concebeu, e deu à luz
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 888--934
+\ZZZ vinda, e cresceu em grande nú\ZZZ mero;
+ []
+
+[26]
+Overfull \vbox (9.57298pt too high) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+Underfull \hbox (badness 1796) in paragraph at lines 935--990
+\ZZZ disse: Este amontoado é testemunha
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 935--990
+\ZZZ minhas filhas, ningué\ZZZ m \ZZZ está conosco;
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 991--1023
+\ZZZ lhe \ZZZ ao encontro anjos de Deus. [] E
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 991--1023
+\ZZZ disse Jacó quando os viu: Este é o
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 991--1023
+\ZZZ daquele lugar Maanaim. [] E enviou
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 991--1023
+\ZZZ dizendo De quem é\ZZZ s? \ZZZ E: Para onde
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 991--1023
+\ZZZ atrá\ZZZ s \ZZZ de nó\ZZZ s. [] \ZZZ E mandou també\ZZZ m
+ []
+
+[29]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 1048--1079
+[] \ZZZ Mas sua alma se apegou a Diná a
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 1048--1079
+\ZZZ até que eles viessem. [] E dirigiu-se
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 1048--1079
+\ZZZ do campo quando o souberam; e se
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 1048--1079
+\ZZZ povo. [] Mas se nã\ZZZ o \ZZZ nos prestardes
+ []
+
+
+Overfull \vbox (6.45775pt too high) has occurred while \output is active []
+
+
+[31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 1080--1109
+\ZZZ em suas orelhas; e Jacó os escondeu
+ []
+
+[32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 1154--1193
+\ZZZ disseram um ao outro: Eis que vem
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 1154--1193
+\ZZZ José foi despedaç\ZZZ ado. [] \ZZZ Entã\ZZZ o \ZZZ Jacó
+ []
+
+[34]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 1194--1224
+\ZZZ daquele lugar, dizendo: Onde está a
+ []
+
+
+Overfull \vbox (7.48975pt too high) has occurred while \output is active []
+
+
+[35]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 1225--1248
+[][] \ZZZ E levado José ao Egito, comprou-
+ []
+
+[36]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+Underfull \hbox (badness 1117) in paragraph at lines 1273--1330
+\ZZZ as sete espigas espessas e cheias. E
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39]
+Underfull \hbox (badness 1221) in paragraph at lines 1331--1372
+[][] \ZZZ E vendo Jacó que no Egito havia
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 1331--1372
+\ZZZ era o senhor da terra, que vendia a
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 1331--1372
+\ZZZ e lhes disse: De onde viestes? Eles
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 1331--1372
+\ZZZ entã\ZZZ o, \ZZZ o coraçã\ZZZ o \ZZZ deles e, espantados,
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 1331--1372
+\ZZZ está hoje com nosso pai na terra de
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 1331--1372
+\ZZZ no saco de cada um estava o pacote
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+Underfull \hbox (badness 1292) in paragraph at lines 1373--1407
+\ZZZ mer o trigo que trouxeram do Egito,
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 1373--1407
+\ZZZ nossa parentela, dizendo: Vive ainda
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 1373--1407
+\ZZZ vosso pai? Tendes outro irmã\ZZZ o? \ZZZ E
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 1373--1407
+\ZZZ Poderoso vos dê misericó\ZZZ rdias \ZZZ diante
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 1373--1407
+\ZZZ aproximaram-se do mordomo da casa
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 1373--1407
+\ZZZ de José\ZZZ , \ZZZ e lhe falaram à entrada da
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 1373--1407
+\ZZZ sua idade menor; e estavam aqueles
+ []
+
+
+Overfull \vbox (2.57777pt too high) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 1408--1445
+\ZZZ achamos na boca de nossos sacos, o
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 1408--1445
+\ZZZ vossas palavras; aquele em quem se
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 1408--1445
+\ZZZ e um jovem que lhe nasceu em sua
+ []
+
+[42]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 1446--1474
+\ZZZ eles se achegaram. E ele disse: Eu
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 1446--1474
+\ZZZ os seus irmã\ZZZ os, \ZZZ e chorou sobre eles:
+ []
+
+
+Overfull \vbox (5.80977pt too high) has occurred while \output is active []
+
+
+[43]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 1475--1509
+\ZZZ seus gados, e sua riqueza que havia
+ []
+
+[44]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 1510--1541
+\ZZZ para Faraó o quinto; exceto somente
+ []
+
+[45]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 1542--1564
+\ZZZ enfermo. E ele tomou consigo seus
+ []
+
+[46]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 1565--1598
+\ZZZ mulher; ali sepultaram a Isaque e a
+ []
+
+[47]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 1599--1624
+\ZZZ de seu pai, e chorou sobre ele, e o
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 1599--1624
+\ZZZ disseram: Pranto grande é este dos
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 1599--1624
+\ZZZ a José\ZZZ : \ZZZ Rogo-te que perdoes agora a
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 1599--1624
+\ZZZ estou eu em lugar de Deus? [] Vó\ZZZ s
+ []
+
+[48])) [49
+
+] (./main.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D4390B3E16B81905074249B43863F143;83.
+ ) 
+Here is how much of TeX's memory you used:
+ 15929 strings out of 470175
+ 306677 string characters out of 5479201
+ 1552330 words of memory out of 5000000
+ 44306 multiletter control sequences out of 15000+600000
+ 631511 words of font info for 94 fonts, out of 8000000 for 9000
+ 16 hyphenation exceptions out of 8191
+ 78i,5n,96p,1142b,397s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on main.pdf (53 pages).
