@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.4.7)  28 APR 2026 23:44
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.4.7)  29 APR 2026 23:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -799,7 +799,31 @@ ng=tex-text;"
 (fontspec)             <->"FreeSerif/BI/OT:script=latn;language=dflt;mapping=te
 x-text;"
 
-) (./haiola.tex)
+
+(/usr/share/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+\csq@reset=\count332
+\csq@gtype=\count333
+\csq@glevel=\count334
+\csq@qlevel=\count335
+\csq@maxlvl=\count336
+\csq@tshold=\count337
+\csq@ltx@everypar=\toks22
+
+(/usr/share/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/share/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))) (./haiola.tex)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'brazil'.
+
 
 LaTeX Warning: Unused global option(s):
     [paper].
@@ -990,6 +1014,11 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 
  [4] (./livros.tex
 (./AT/01 - GEN_src.tex
+Underfull \hbox (badness 1092) in paragraph at lines 3--34
+[] \ZZZ E disse Deus: \ZZZ Produzam as á\ZZZ guas
+ []
+
+
 Underfull \hbox (badness 1038) in paragraph at lines 35--60
 \ZZZ e da terra quando foram criados, no
  []
@@ -1028,7 +1057,7 @@ Underfull \hbox (badness 1097) in paragraph at lines 61--91
  []
 
 
-Overfull \vbox (6.45775pt too high) has occurred while \output is active []
+Overfull \vbox (6.83496pt too high) has occurred while \output is active []
 
 
 [2]
@@ -1073,14 +1102,14 @@ Underfull \hbox (badness 1194) in paragraph at lines 178--202
  []
 
 
-Overfull \vbox (4.77777pt too high) has occurred while \output is active []
+Overfull \vbox (5.15498pt too high) has occurred while \output is active []
 
 
 [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 203--225
+Underfull \hbox (badness 1173) in paragraph at lines 203--225
 [][] \ZZZ E lembrou-se Deus de Noé\ZZZ , \ZZZ e de
  []
 
@@ -1113,7 +1142,7 @@ Underfull \hbox (badness 1152) in paragraph at lines 256--288
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 289--321
+Underfull \hbox (badness 1248) in paragraph at lines 289--321
 [][] \ZZZ Era, entã\ZZZ o, \ZZZ toda a terra de uma
  []
 
@@ -1131,7 +1160,7 @@ Underfull \hbox (badness 1248) in paragraph at lines 289--321
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \vbox (3.69774pt too high) has occurred while \output is active []
+Overfull \vbox (4.07495pt too high) has occurred while \output is active []
 
 
 [9]
@@ -1146,7 +1175,7 @@ Underfull \hbox (badness 1158) in paragraph at lines 346--364
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 365--389
+Underfull \hbox (badness 1354) in paragraph at lines 365--389
 [][] \ZZZ E aconteceu nos dias de Anrafel,
  []
 
@@ -1163,13 +1192,8 @@ Underfull \hbox (badness 1142) in paragraph at lines 365--389
 [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 1024) in paragraph at lines 390--417
-[][] \ZZZ Depois destas coisas a palavra do
- []
-
-[11]
-Underfull \hbox (badness 3000) in paragraph at lines 438--465
+ [11]
+Underfull \hbox (badness 2409) in paragraph at lines 438--465
 [][] \ZZZ Quando Abrã\ZZZ o \ZZZ tinha a idade de
  []
 
@@ -1209,7 +1233,7 @@ Underfull \hbox (badness 1009) in paragraph at lines 438--465
  []
 
 
-Overfull \vbox (5.88176pt too high) has occurred while \output is active []
+Overfull \vbox (6.25897pt too high) has occurred while \output is active []
 
 
 [12]
@@ -1234,8 +1258,8 @@ Underfull \hbox (badness 1205) in paragraph at lines 466--499
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 500--538
-\ZZZ doma ao cair da tarde; e Ló estava
+Underfull \hbox (badness 2310) in paragraph at lines 500--538
+[][] \ZZZ Chegaram, pois, os dois anjos a
  []
 
 
@@ -1383,7 +1407,7 @@ Underfull \hbox (badness 1365) in paragraph at lines 707--744
  []
 
 
-Overfull \vbox (4.07776pt too high) has occurred while \output is active []
+Overfull \vbox (4.45497pt too high) has occurred while \output is active []
 
 
 [21]
@@ -1454,8 +1478,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
-Underfull \hbox (badness 5519) in paragraph at lines 829--851
-\ZZZ tomes mulher das filhas de Canaã\ZZZ .
+Underfull \hbox (badness 3189) in paragraph at lines 829--851
+[][] \ZZZ Entã\ZZZ o \ZZZ Isaque chamou a Jacó\ZZZ , \ZZZ e
+ []
+
+
+Underfull \hbox (badness 4505) in paragraph at lines 829--851
+\ZZZ o abenç\ZZZ oou, \ZZZ e mandou-lhe dizendo:
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 852--887
+[][] \ZZZ E Jacó seguiu o seu caminho, e
  []
 
 [25]
@@ -1477,7 +1511,7 @@ Underfull \hbox (badness 1184) in paragraph at lines 888--934
  []
 
 [26]
-Overfull \vbox (9.57298pt too high) has occurred while \output is active []
+Overfull \vbox (6.81297pt too high) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1550,7 +1584,7 @@ Underfull \hbox (badness 1205) in paragraph at lines 1048--1079
  []
 
 
-Overfull \vbox (6.45775pt too high) has occurred while \output is active []
+Overfull \vbox (6.83496pt too high) has occurred while \output is active []
 
 
 [31]
@@ -1586,14 +1620,14 @@ Underfull \hbox (badness 1466) in paragraph at lines 1194--1224
  []
 
 
-Overfull \vbox (7.48975pt too high) has occurred while \output is active []
+Overfull \vbox (7.86696pt too high) has occurred while \output is active []
 
 
 [35]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 1225--1248
+Underfull \hbox (badness 1043) in paragraph at lines 1225--1248
 [][] \ZZZ E levado José ao Egito, comprou-
  []
 
@@ -1615,11 +1649,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39]
-Underfull \hbox (badness 1221) in paragraph at lines 1331--1372
-[][] \ZZZ E vendo Jacó que no Egito havia
- []
-
-
 Underfull \hbox (badness 1152) in paragraph at lines 1331--1372
 \ZZZ era o senhor da terra, que vendia a
  []
@@ -1683,7 +1712,7 @@ Underfull \hbox (badness 1515) in paragraph at lines 1373--1407
  []
 
 
-Overfull \vbox (2.57777pt too high) has occurred while \output is active []
+Overfull \vbox (2.95499pt too high) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1720,7 +1749,7 @@ Underfull \hbox (badness 1152) in paragraph at lines 1446--1474
  []
 
 
-Overfull \vbox (5.80977pt too high) has occurred while \output is active []
+Overfull \vbox (6.18698pt too high) has occurred while \output is active []
 
 
 [43]
@@ -1789,12 +1818,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D4390B3E16B81905074249B43863F143;83.
  ) 
 Here is how much of TeX's memory you used:
- 15929 strings out of 470175
- 306677 string characters out of 5479201
- 1552330 words of memory out of 5000000
- 44306 multiletter control sequences out of 15000+600000
+ 16514 strings out of 470175
+ 316522 string characters out of 5479201
+ 1573648 words of memory out of 5000000
+ 44883 multiletter control sequences out of 15000+600000
  631511 words of font info for 94 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 78i,5n,96p,1142b,397s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 78i,5n,96p,1142b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on main.pdf (53 pages).

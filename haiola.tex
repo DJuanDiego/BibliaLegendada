@@ -50,24 +50,8 @@
 \newcommand{\LightBlue}{\renewcommand{\FontColor}{\BlueColor}\SetFont}
 \newcommand{\Green}{\renewcommand{\FontColor}{\GreenColor}\SetFont}
 \newcommand{\Yellow}{\renewcommand{\FontColor}{\YellowColor}\SetFont}
-% Legenda
-\newcommand{\blue}[1]{%
-  {\renewcommand{\FontColor}{\azulcolor}%
-    \SetFont{#1}%
-}
-%\newcommand{\blue}[1]{%
-%  {\renewcommand{\FontColor}{\azulcolor}%
-%    \SetFont#1}% Funcional
-}
-%\newcommand{\blue[1]}{\renewcommand{\FontColor}{\azulcolor}\SetFont#1}
-\newcommand{\red[1]}{\renewcommand{\FontColor}{\vermcolor}\SetFont#1}
-\newcommand{\green[1]}{\renewcommand{\FontColor}{\verdecolor}\SetFont#1}
-\newcommand{\purple}{\renewcommand{\FontColor}{\roxcolor}\SetFont}
-\newcommand{\magenta}{\renewcommand{\FontColor}{\magcolor}\SetFont}
-\newcommand{\brown}{\renewcommand{\FontColor}{\marcolor}\SetFont}
-\newcommand{\orange}{\renewcommand{\FontColor}{\larcolor}\SetFont}
-
-\newcommand{\NormalFont}{\renewcommand{\ThisFont}{\ScriptureFontFace}\renewcommand{\Bold}{}\renewcommand{\Italicize}{}\renewcommand{\FontSize}{\TextSize}\Black}
+\newcommand{\NormalFont}{\renewcommand{\ThisFont}{\ScriptureFontFace}\renewcommand{\Bold}{}\renewcommand{\Italicize}{}\renewcommand{\FontSize}{\TextSize}%\Black
+} % Black removido para colorir +1 linha de texto
 \NormalFont
 \newcommand{\rnghdrfnt}{\renewcommand{\ThisFont}{\HeaderFontFace}\renewcommand{\Bold}{}\renewcommand{\Italicize}{}\renewcommand{\FontSize}{\TinyFontSize}\Blue}
 \renewcommand{\cfttoctitlefont}{\font\ZZA="\ScriptureFontFace:color="000000" at \MTBSize \ZZA }
@@ -82,6 +66,35 @@
 \newcommand{\Chap}[1]{{\vspace{1.5ex plus 3ex}\centering\renewcommand{\FontSize}{\MTSize}\BDB\parindent=0mm #1\nopagebreak\par}\def\webchap{#1:}\nopagebreak}
 \newcommand{\OneChap}{\vspace{1.5ex plus 3ex}\def\webchap{}}
 \newcommand{\ChapOne}[1]{\vspace{1.5ex plus 3ex}\def\webchap{#1:}}
+
+% Legenda
+
+\newcommand{\blue}[1]{{\renewcommand{\FontColor}{\azulcolor}\SetFont#1}}
+%\newcommand{\blue}[1]{\renewcommand{\FontColor}{\azulcolor}\SetFont{#1}} % Em uso
+%\newcommand{\blue}[1]{\renewcommand{\FontColor}{\azulcolor}\SetFont#1}% Funcional
+\newcommand{\red}[1]{{\renewcommand{\FontColor}{\vermcolor}\SetFont#1}}
+\newcommand{\green}[1]{{\renewcommand{\FontColor}{\verdecolor}\SetFont#1}}
+\newcommand{\purple}[1]{{\renewcommand{\FontColor}{\roxcolor}\SetFont}}
+\newcommand{\magenta}[1]{{\renewcommand{\FontColor}{\magcolor}\SetFont}}
+\newcommand{\brown}[1]{{\renewcommand{\FontColor}{\marcolor}\SetFont}}
+\newcommand{\orange}[1]{{\renewcommand{\FontColor}{\larcolor}\SetFont}}
+
+%\newcommand{\VS}[1]{%
+%  {%
+%    % Salva a cor atual antes de mudar
+%    \let\previousFontColor\FontColor
+%    % Define a cor do número como a original (azulcolor ou outra)
+%    \renewcommand{\FontColor}{\azulcolor}%
+%    \SetFont
+%    \raisebox{\RaiseVerse}{#1}~%
+%    % Restaura a cor anterior para o texto que segue
+%    \let\FontColor\previousFontColor
+%    \SetFont
+%  }%
+%  \markboth{\webbook\ \webchap #1}{\webbook\ \webchap #1}%
+%  \NormalFont
+%}
+
 \newcommand{\VS}[1]{{\renewcommand{\FontSize}{\VerseFontSize}\Blue{\raisebox{\RaiseVerse}{#1}~}}\markboth{\webbook\ \webchap #1}{\webbook\ \webchap #1}\NormalFont}	% Verse number
 \newcommand{\VP}[1]{{\renewcommand{\FontSize}{\VerseFontSize}\Blue{\raisebox{\RaiseVerse}{(#1)}~}}\NormalFont}	% Verse number published
 \newcommand{\VA}[1]{{\renewcommand{\FontSize}{\VerseFontSize}\Blue{\raisebox{\RaiseVerse}{[#1]}~}}\NormalFont}	% Alternate verse number
@@ -323,3 +336,8 @@
 \setTransitionsFor{Bhaiksuki}{\renewcommand{\ThisFont}{Noto Sans Bhaiksuki}\SetFont}{\NormalFace}
 \setTransitionsFor{LetterlikeSymbols}{\renewcommand{\ThisFont}{Noto Serif}\SetFont}{\NormalFace}
 \setTransitionsFor{Arrows}{\renewcommand{\ThisFont}{Noto Sans Symbols}\SetFont}{\NormalFace}
+
+
+
+
+
