@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.4.7)  29 APR 2026 23:27
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.4.7)  30 APR 2026 23:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,7 +6,7 @@ entering extended mode
 (./main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
-(./12pt.tex (/usr/share/texmf-dist/tex/latex/base/book.cls
+(./FMT/12pt.tex (/usr/share/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
@@ -134,17 +134,13 @@ on input line 2111.
 \bbl@readstream=\read2
 \bbl@dirlevel=\count292
 
-(/usr/share/texmf-dist/tex/generic/babel/locale/invalid/babel-brazil.tex)
-
-Package babel Warning: Name 'brazil' is deprecated.
-(babel)                Use 'brazilian' instead.
-(babel)                Reported on input line 4330.
-
-Package babel Info: Importing font and identification data for brazil
+(/usr/share/texmf-dist/tex/generic/babel/locale/pt/babel-brazilian.tex)
+Package babel Info: Importing font and identification data for brazilian
 (babel)             from babel-pt-BR.ini. Reported on input line 4330.
+
 (/usr/share/texmf-dist/tex/generic/babel-portuges/brazilian.ldf
 Language: portuges 2026/01/24 v1.2u Portuguese support from the babel system
-Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
+Package babel Info: Hyphen rules for 'brazilian' set to \l@portuguese
 (babel)             (\language3). Reported on input line 100.
 Package babel Info: Making " an active character on input line 132.
 ))
@@ -340,11 +336,14 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen172
 \Gm@layoutvoffset=\dimen173
 \Gm@dimlist=\toks20
-) (./footkmpj.sty
+) (./FMT/footkmpj.sty
+
+LaTeX Warning: You have requested package `FMT/footkmpj',
+               but the package provides `footkmpj'.
+
 Package: footkmpj 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks21
 \footnotemargin=\dimen174
-
 
 LaTeX Warning: Command \@makecol  has changed.
                Check if current package is valid.
@@ -818,52 +817,52 @@ Package csquotes Info: ... configuration file loaded successfully.
 
 (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
-))) (./haiola.tex)
+))) (./FMT/haiola.tex)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
-Package csquotes Info: Redefining alias 'default' -> 'brazil'.
+Package csquotes Info: Redefining alias 'default' -> 'brazilian'.
 
 
 LaTeX Warning: Unused global option(s):
     [paper].
 
 (./main.aux
-Package babel Info: 'brazil' activates 'portuges' shorthands.
+Package babel Info: 'brazilian' activates 'portuges' shorthands.
 (babel)             Reported on input line 8.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Info: Redefining \microtypecontext on input line 17.
-Package microtype Info: Applying patch `item' on input line 17.
-Package microtype Info: Applying patch `toc' on input line 17.
-Package microtype Info: Applying patch `eqnum' on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Info: Redefining \microtypecontext on input line 18.
+Package microtype Info: Applying patch `item' on input line 18.
+Package microtype Info: Applying patch `toc' on input line 18.
+Package microtype Info: Applying patch `eqnum' on input line 18.
 
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 17.
+Package microtype Warning: Unable to apply patch `footnote' on input line 18.
 
-Package microtype Info: Applying patch `verbatim' on input line 17.
-LaTeX Info: Redefining \microtypesetup on input line 17.
+Package microtype Info: Applying patch `verbatim' on input line 18.
+LaTeX Info: Redefining \microtypesetup on input line 18.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -882,7 +881,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: xetex.def on input line 149.
 
 (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 17.
+Package hyperref Info: Link coloring ON on input line 18.
  (./main.out)
 (./main.out)
 \@outlinefile=\write3
@@ -930,68 +929,68 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 17.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 17.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 17.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 17.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 17.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 17.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 17.
-LaTeX Font Info:    Redeclaring math accent \check on input line 17.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 17.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 17.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 17.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 17.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 17.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 18.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 18.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 18.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 18.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 18.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 18.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 18.
+LaTeX Font Info:    Redeclaring math accent \check on input line 18.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 18.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 18.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 18.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 18.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 17.
+(Font)              `operators' in the math version `normal' on input line 18.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/FreeSerif(0)/m/n on input line 17.
+(Font)                  OT1/cmr/m/n --> TU/FreeSerif(0)/m/n on input line 18.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 17.
+(Font)              `operators' in the math version `bold' on input line 18.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/FreeSerif(0)/m/n on input line 17.
+(Font)                  OT1/cmr/bx/n --> TU/FreeSerif(0)/m/n on input line 18.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/FreeSerif(0)/m/n --> TU/FreeSerif(0)/m/n on input li
-ne 17.
+ne 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/FreeSerif(0)/m/it on input line 17.
+(Font)                  OT1/cmr/m/it --> TU/FreeSerif(0)/m/it on input line 18.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/FreeSerif(0)/b/n on input line 17.
+(Font)                  OT1/cmr/bx/n --> TU/FreeSerif(0)/b/n on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 17.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 17.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 18.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/FreeSerif(0)/m/n --> TU/FreeSerif(0)/b/n on input li
-ne 17.
+ne 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/FreeSerif(0)/b/it on input line 17
+(Font)                  OT1/cmr/bx/it --> TU/FreeSerif(0)/b/it on input line 18
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 17.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 17.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 18.
 File: cover.png Graphic file (type bmp)
 <cover.png>
 [1
 
 
 ] (./FA.tex
-Package babel Info: 'brazil' activates 'portuges' shorthands.
+Package babel Info: 'brazilian' activates 'portuges' shorthands.
 (babel)             Reported on input line 25.
  [2
 
@@ -1014,456 +1013,117 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 
  [4] (./livros.tex
 (./AT/01 - GEN_src.tex
-Underfull \hbox (badness 1092) in paragraph at lines 3--34
-[] \ZZZ E disse Deus: \ZZZ Produzam as á\ZZZ guas
+Underfull \hbox (badness 1742) in paragraph at lines 3--34
+\ZZZ as águas répteis de alma vivente, e aves que
  []
 
-
-Underfull \hbox (badness 1038) in paragraph at lines 35--60
-\ZZZ e da terra quando foram criados, no
- []
-
-
-Underfull \hbox (badness 1038) in paragraph at lines 35--60
-\ZZZ ramificaçõ\ZZZ es. [] \ZZZ O nome de um era
- []
-
-
-Underfull \hbox (badness 1210) in paragraph at lines 35--60
-\ZZZ sobre Adã\ZZZ o, \ZZZ e ele adormeceu: entã\ZZZ o
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1
+[1
 
 
 
 
 ]
-Underfull \hbox (badness 1975) in paragraph at lines 61--91
-\ZZZ respondeu à serpente: Do fruto das
- []
+Overfull \vbox (5.451pt too high) has occurred while \output is active []
 
-
-Underfull \hbox (badness 1515) in paragraph at lines 61--91
-\ZZZ que nã\ZZZ o \ZZZ comesses?\ZZZ ” [] \ZZZ E o homem
- []
-
-
-Underfull \hbox (badness 1097) in paragraph at lines 61--91
-\ZZZ dela\ZZZ ’\ZZZ , maldita será a terra por causa
- []
-
-
-Overfull \vbox (6.83496pt too high) has occurred while \output is active []
-
-
-[2]
-Overfull \vbox (4.015pt too high) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1472) in paragraph at lines 92--118
-\ZZZ que qualquer um que me achar, me
- []
-
-
-Underfull \hbox (badness 1286) in paragraph at lines 92--118
-\ZZZ Certo que qualquer um que matar a
- []
-
+ [2]
 [3]
+Overfull \vbox (3.95497pt too high) has occurred while \output is active []
+
+
+[4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4]
-Underfull \hbox (badness 1189) in paragraph at lines 152--177
-\ZZZ o SENHOR: Nã\ZZZ o \ZZZ brigará meu espí\ZZZ rito
- []
-
-
-Underfull \hbox (badness 1009) in paragraph at lines 178--202
-\ZZZ naquele dia foram rompidas todas as
- []
-
-
-Underfull \hbox (badness 1102) in paragraph at lines 178--202
-\ZZZ e Sem, e Cam e Jafé\ZZZ , \ZZZ filhos de Noé\ZZZ ,
- []
-
-
-Underfull \hbox (badness 1132) in paragraph at lines 178--202
-\ZZZ sua espé\ZZZ cie, \ZZZ e toda ave segundo sua
- []
-
-
-Underfull \hbox (badness 1194) in paragraph at lines 178--202
-\ZZZ de espí\ZZZ rito \ZZZ de vida em suas narinas,
- []
-
-
-Overfull \vbox (5.15498pt too high) has occurred while \output is active []
-
-
-[5]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1173) in paragraph at lines 203--225
-[][] \ZZZ E lembrou-se Deus de Noé\ZZZ , \ZZZ e de
- []
-
-
-Underfull \hbox (badness 1226) in paragraph at lines 203--225
-\ZZZ que estavam com ele na arca; e fez
- []
-
+ [5]
 [6]
-Underfull \hbox (badness 1028) in paragraph at lines 226--255
-[] \ZZZ E com toda alma vivente que está
- []
-
-
-Underfull \hbox (badness 1609) in paragraph at lines 226--255
-\ZZZ convosco, de aves, de animais, e de
+Underfull \hbox (badness 1038) in paragraph at lines 289--321
+\ZZZ Sem, depois que gerou a Arfaxade quinhentos
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-Underfull \hbox (badness 1412) in paragraph at lines 256--288
-\ZZZ foram repartidas as ilhas das naçõ\ZZZ es
- []
+Overfull \vbox (0.77498pt too high) has occurred while \output is active []
 
-
-Underfull \hbox (badness 1152) in paragraph at lines 256--288
-[] \ZZZ E foi o termo dos cananeus desde
- []
-
-
-Underfull \hbox (badness 1248) in paragraph at lines 289--321
-[][] \ZZZ Era, entã\ZZZ o, \ZZZ toda a terra de uma
- []
-
-
-Underfull \hbox (badness 1062) in paragraph at lines 289--321
-\ZZZ dilú\ZZZ vio. [] \ZZZ E viveu Sem, depois que
- []
-
-
-Underfull \hbox (badness 1248) in paragraph at lines 289--321
-\ZZZ gerou a Arfaxade quinhentos anos, e
- []
 
 [8]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (4.07495pt too high) has occurred while \output is active []
-
+Underfull \hbox (badness 1158) in paragraph at lines 390--417
+\ZZZ veio a Abrão em visão, dizendo: Não temas,
+ []
 
 [9]
-Underfull \hbox (badness 1199) in paragraph at lines 346--364
-[] \ZZZ Entã\ZZZ o \ZZZ Abrã\ZZZ o \ZZZ disse a Ló\ZZZ : \ZZZ Nã\ZZZ o \ZZZ haj
-a
+Underfull \hbox (badness 1917) in paragraph at lines 438--465
+\ZZZ estrangeiro, que não for de tua descendência.
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 346--364
-\ZZZ e foi pondo suas tendas até Sodoma.
- []
+Overfull \vbox (4.17097pt too high) has occurred while \output is active []
 
-
-Underfull \hbox (badness 1354) in paragraph at lines 365--389
-[][] \ZZZ E aconteceu nos dias de Anrafel,
- []
-
-
-Underfull \hbox (badness 1270) in paragraph at lines 365--389
-\ZZZ rei de Sinear, Arioque, rei de Elasar,
- []
-
-
-Underfull \hbox (badness 1142) in paragraph at lines 365--389
-\ZZZ prisioneiro, e armou seus criados, os
- []
 
 [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
-Underfull \hbox (badness 2409) in paragraph at lines 438--465
-[][] \ZZZ Quando Abrã\ZZZ o \ZZZ tinha a idade de
- []
-
-
-Underfull \hbox (badness 1297) in paragraph at lines 438--465
-\ZZZ noventa e nove anos, o SENHOR lhe
- []
-
-
-Underfull \hbox (badness 1688) in paragraph at lines 438--465
-\ZZZ mais teu nome Abrã\ZZZ o, \ZZZ mas sim que
- []
-
-
-Underfull \hbox (badness 1342) in paragraph at lines 438--465
-\ZZZ mim e ti, e tua descendê\ZZZ ncia \ZZZ depois
- []
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 438--465
-\ZZZ de ti em suas geraçõ\ZZZ es, \ZZZ por alianç\ZZZ a
- []
-
-
-Underfull \hbox (badness 1558) in paragraph at lines 438--465
-\ZZZ Será circuncidado todo macho dentre
- []
-
-
-Underfull \hbox (badness 1082) in paragraph at lines 438--465
-\ZZZ entre mim e vó\ZZZ s. [] \ZZZ E de idade de
- []
-
-
-Underfull \hbox (badness 1009) in paragraph at lines 438--465
-\ZZZ chamará\ZZZ s \ZZZ seu nome Isaque; e confir-
- []
-
-
-Overfull \vbox (6.25897pt too high) has occurred while \output is active []
-
-
-[12]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 1097) in paragraph at lines 466--499
-\ZZZ se até a terra, [] E disse: Senhor, se
- []
-
-
-Underfull \hbox (badness 1226) in paragraph at lines 466--499
-\ZZZ mulheres. [] Riu, pois, Sara consigo
- []
-
-
-Underfull \hbox (badness 1205) in paragraph at lines 466--499
-\ZZZ sua obra segundo o clamor que veio
- []
-
+ [12]
 [13]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 2310) in paragraph at lines 500--538
-[][] \ZZZ Chegaram, pois, os dois anjos a
- []
-
-
-Underfull \hbox (badness 1337) in paragraph at lines 500--538
-\ZZZ para habitar como um estrangeiro, e
- []
-
-
-Underfull \hbox (badness 1152) in paragraph at lines 500--538
-\ZZZ grande violê\ZZZ ncia \ZZZ ao homem, a Ló\ZZZ , \ZZZ e
- []
-
-
-Underfull \hbox (badness 1540) in paragraph at lines 500--538
-\ZZZ clamor deles subiu demais diante do
- []
-
-
-Underfull \hbox (badness 1418) in paragraph at lines 500--538
-\ZZZ a Ló\ZZZ , \ZZZ dizendo: Levanta-te, toma tua
- []
-
-
-Underfull \hbox (badness 1303) in paragraph at lines 500--538
-\ZZZ e engrandeceste tua misericó\ZZZ rdia \ZZZ que
- []
-
-
-Underfull \hbox (badness 1281) in paragraph at lines 500--538
-\ZZZ daquelas cidades, e o fruto da terra.
+Underfull \hbox (badness 2012) in paragraph at lines 593--617
+\ZZZ provou Abraão, e disse-lhe: Abraão. E ele
  []
 
 [14]
+Underfull \hbox (badness 1009) in paragraph at lines 618--638
+[] \ZZZ E ficou a propriedade de Efrom que estava
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 639--706
+\ZZZ teus camelos tirarei água, até que acabem de
+ []
+
+[15]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15]
-Underfull \hbox (badness 1048) in paragraph at lines 539--557
-\ZZZ como peregrino em Gerar. [] E disse
- []
-
-
-Underfull \hbox (badness 1005) in paragraph at lines 539--557
-\ZZZ Abimeleque se levantou de manhã\ZZZ , \ZZZ e
- []
-
-
-Underfull \hbox (badness 1014) in paragraph at lines 539--557
-\ZZZ e lhe disse: Que nos fizeste? e em
- []
-
-
-Underfull \hbox (badness 1205) in paragraph at lines 558--592
-\ZZZ chamou Abraã\ZZZ o \ZZZ o nome de seu filho
- []
-
-
-Underfull \hbox (badness 1205) in paragraph at lines 558--592
-\ZZZ bondade que eu fiz contigo, fará\ZZZ s \ZZZ tu
- []
-
-[16]
+ [16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 593--617
-\ZZZ dito, edificou ali Abraã\ZZZ o \ZZZ um altar, e
- []
+Overfull \vbox (1.67099pt too high) has occurred while \output is active []
 
-
-Underfull \hbox (badness 1092) in paragraph at lines 593--617
-\ZZZ do mar; e tua descendê\ZZZ ncia \ZZZ possuirá
- []
-
-
-Underfull \hbox (badness 1308) in paragraph at lines 593--617
-\ZZZ à minha voz. [] E voltou Abraã\ZZZ o \ZZZ a
- []
 
 [17]
+Underfull \hbox (badness 1418) in paragraph at lines 745--780
+\ZZZ a todo o povo, dizendo: O que tocar a este
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 1448) in paragraph at lines 618--638
-\ZZZ dou a ti; sepulta tua falecida. [] E
- []
-
-
-Underfull \hbox (badness 1406) in paragraph at lines 618--638
-\ZZZ e em todo o seu termo ao derredor,
- []
-
-[18]
-Underfull \hbox (badness 1122) in paragraph at lines 639--706
-[] \ZZZ Em vez disso irá\ZZZ s \ZZZ à minha terra e
- []
-
-
-Underfull \hbox (badness 1430) in paragraph at lines 639--706
-\ZZZ e me falou e me jurou, dizendo: À
- []
-
-
-Underfull \hbox (badness 1210) in paragraph at lines 639--706
-\ZZZ e verdade com meu senhor, declarai-
- []
-
-
+ [18]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [20]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1910) in paragraph at lines 707--744
-\ZZZ Todos estes foram filhos de Quetura.
+Underfull \hbox (badness 1496) in paragraph at lines 829--851
+\ZZZ descendência contigo, para que herdes a terra
  []
 
-
-Underfull \hbox (badness 1895) in paragraph at lines 707--744
-[] \ZZZ Heranç\ZZZ a \ZZZ que comprou Abraã\ZZZ o \ZZZ dos
+[20]
+Underfull \hbox (badness 1173) in paragraph at lines 888--934
+\ZZZ Ache eu agora favor em teus olhos, e fica-te;
  []
-
-
-Underfull \hbox (badness 1057) in paragraph at lines 707--744
-\ZZZ a Isaque seu filho: e habitou Isaque
- []
-
-
-Underfull \hbox (badness 1087) in paragraph at lines 707--744
-\ZZZ até Sur, que está em frente do Egito
- []
-
-
-Underfull \hbox (badness 1365) in paragraph at lines 707--744
-\ZZZ a Rebeca, filha de Betuel arameu de
- []
-
-
-Overfull \vbox (4.45497pt too high) has occurred while \output is active []
-
 
 [21]
-Underfull \hbox (badness 1270) in paragraph at lines 745--780
-\ZZZ e foi-se Isaque a Abimeleque rei dos
- []
-
-
-Underfull \hbox (badness 1152) in paragraph at lines 745--780
-\ZZZ filisteus, em Gerar. [] E apareceu-lhe
- []
-
-
-Underfull \hbox (badness 1701) in paragraph at lines 745--780
-[] \ZZZ Habita nesta terra, e serei contigo,
- []
-
-
-Underfull \hbox (badness 1009) in paragraph at lines 745--780
-\ZZZ descendê\ZZZ ncia \ZZZ darei todas estas terras,
- []
-
-
-Underfull \hbox (badness 1259) in paragraph at lines 745--780
-\ZZZ e darei à tua descendê\ZZZ ncia \ZZZ todas es-
- []
-
-
-Underfull \hbox (badness 1048) in paragraph at lines 745--780
-\ZZZ se engrandeceu, e foi engrandecendo-
- []
-
-
-Underfull \hbox (badness 1354) in paragraph at lines 745--780
-\ZZZ se cada vez mais, até fazer-se muito
- []
-
-
-Underfull \hbox (badness 1226) in paragraph at lines 745--780
-\ZZZ ele: e chamou seu nome Reobote, e
- []
-
-
-Underfull \hbox (badness 1163) in paragraph at lines 745--780
-\ZZZ e estendeu ali sua tenda: e abriram
- []
-
-
-Underfull \hbox (badness 1163) in paragraph at lines 745--780
-[] \ZZZ E eles responderam: Vimos que o
- []
-
-
-Underfull \hbox (badness 1616) in paragraph at lines 745--780
-\ZZZ tocamos, y como somente te fizemos
- []
+Overfull \vbox (4.539pt too high) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1472,342 +1132,83 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 1107) in paragraph at lines 991--1023
+\ZZZ mensageiros diante de si a Esaú seu irmão, à
+ []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
-Underfull \hbox (badness 3189) in paragraph at lines 829--851
-[][] \ZZZ Entã\ZZZ o \ZZZ Isaque chamou a Jacó\ZZZ , \ZZZ e
- []
+Overfull \vbox (3.24698pt too high) has occurred while \output is active []
 
-
-Underfull \hbox (badness 4505) in paragraph at lines 829--851
-\ZZZ o abenç\ZZZ oou, \ZZZ e mandou-lhe dizendo:
- []
-
-
-Underfull \hbox (badness 2005) in paragraph at lines 852--887
-[][] \ZZZ E Jacó seguiu o seu caminho, e
- []
 
 [25]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 1418) in paragraph at lines 888--934
-[] \ZZZ E Jacó se irritava contra Raquel, e
- []
-
-
-Underfull \hbox (badness 1424) in paragraph at lines 888--934
-\ZZZ madre. [] E concebeu, e deu à luz
- []
-
-
-Underfull \hbox (badness 1184) in paragraph at lines 888--934
-\ZZZ vinda, e cresceu em grande nú\ZZZ mero;
- []
-
-[26]
-Overfull \vbox (6.81297pt too high) has occurred while \output is active []
-
-
+ [26]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
-Underfull \hbox (badness 1796) in paragraph at lines 935--990
-\ZZZ disse: Este amontoado é testemunha
- []
-
-
-Underfull \hbox (badness 1609) in paragraph at lines 935--990
-\ZZZ minhas filhas, ningué\ZZZ m \ZZZ está conosco;
+Underfull \hbox (badness 1092) in paragraph at lines 1154--1193
+\ZZZ eu? [] Então eles tomaram a roupa de José,
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
+Overfull \vbox (3.25897pt too high) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+[30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 991--1023
-\ZZZ lhe \ZZZ ao encontro anjos de Deus. [] E
+Underfull \hbox (badness 1460) in paragraph at lines 1373--1407
+\ZZZ respondeu Judá, dizendo: Aquele homem nos
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 991--1023
-\ZZZ disse Jacó quando os viu: Este é o
- []
+Overfull \vbox (1.67099pt too high) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 991--1023
-\ZZZ daquele lugar Maanaim. [] E enviou
- []
-
-
-Underfull \hbox (badness 1072) in paragraph at lines 991--1023
-\ZZZ dizendo De quem é\ZZZ s? \ZZZ E: Para onde
- []
-
-
-Underfull \hbox (badness 1048) in paragraph at lines 991--1023
-\ZZZ atrá\ZZZ s \ZZZ de nó\ZZZ s. [] \ZZZ E mandou també\ZZZ m
- []
-
-[29]
+[33]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [34]
+Overfull \vbox (5.463pt too high) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 1048--1079
-[] \ZZZ Mas sua alma se apegou a Diná a
+Underfull \hbox (badness 1248) in paragraph at lines 1446--1474
+[] \ZZZ Então se deu a chorar por voz em grito; e
  []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 1048--1079
-\ZZZ até que eles viessem. [] E dirigiu-se
- []
-
-
-Underfull \hbox (badness 1558) in paragraph at lines 1048--1079
-\ZZZ do campo quando o souberam; e se
- []
-
-
-Underfull \hbox (badness 1205) in paragraph at lines 1048--1079
-\ZZZ povo. [] Mas se nã\ZZZ o \ZZZ nos prestardes
- []
-
-
-Overfull \vbox (6.83496pt too high) has occurred while \output is active []
-
-
-[31]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1132) in paragraph at lines 1080--1109
-\ZZZ em suas orelhas; e Jacó os escondeu
- []
-
-[32]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1097) in paragraph at lines 1154--1193
-\ZZZ disseram um ao outro: Eis que vem
- []
-
-
-Underfull \hbox (badness 1596) in paragraph at lines 1154--1193
-\ZZZ José foi despedaç\ZZZ ado. [] \ZZZ Entã\ZZZ o \ZZZ Jacó
- []
-
-[34]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1466) in paragraph at lines 1194--1224
-\ZZZ daquele lugar, dizendo: Onde está a
- []
-
-
-Overfull \vbox (7.86696pt too high) has occurred while \output is active []
-
 
 [35]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 1043) in paragraph at lines 1225--1248
-[][] \ZZZ E levado José ao Egito, comprou-
- []
-
-[36]
+ [36]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [37]
-Underfull \hbox (badness 1117) in paragraph at lines 1273--1330
-\ZZZ as sete espigas espessas e cheias. E
+Underfull \hbox (badness 1082) in paragraph at lines 1565--1598
+[] \ZZZ Em seu secreto não entre minha alma, nem
  []
 
-
+[38]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [39]
-Underfull \hbox (badness 1152) in paragraph at lines 1331--1372
-\ZZZ era o senhor da terra, que vendia a
- []
-
-
-Underfull \hbox (badness 1097) in paragraph at lines 1331--1372
-\ZZZ e lhes disse: De onde viestes? Eles
- []
-
-
-Underfull \hbox (badness 1038) in paragraph at lines 1331--1372
-\ZZZ entã\ZZZ o, \ZZZ o coraçã\ZZZ o \ZZZ deles e, espantados,
- []
-
-
-Underfull \hbox (badness 1215) in paragraph at lines 1331--1372
-\ZZZ está hoje com nosso pai na terra de
- []
-
-
-Underfull \hbox (badness 1038) in paragraph at lines 1331--1372
-\ZZZ no saco de cada um estava o pacote
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [40]
-Underfull \hbox (badness 1292) in paragraph at lines 1373--1407
-\ZZZ mer o trigo que trouxeram do Egito,
- []
-
-
-Underfull \hbox (badness 1097) in paragraph at lines 1373--1407
-\ZZZ nossa parentela, dizendo: Vive ainda
- []
-
-
-Underfull \hbox (badness 1173) in paragraph at lines 1373--1407
-\ZZZ vosso pai? Tendes outro irmã\ZZZ o? \ZZZ E
- []
-
-
-Underfull \hbox (badness 1454) in paragraph at lines 1373--1407
-\ZZZ Poderoso vos dê misericó\ZZZ rdias \ZZZ diante
- []
-
-
-Underfull \hbox (badness 1005) in paragraph at lines 1373--1407
-\ZZZ aproximaram-se do mordomo da casa
- []
-
-
-Underfull \hbox (badness 1460) in paragraph at lines 1373--1407
-\ZZZ de José\ZZZ , \ZZZ e lhe falaram à entrada da
- []
-
-
-Underfull \hbox (badness 1515) in paragraph at lines 1373--1407
-\ZZZ sua idade menor; e estavam aqueles
- []
-
-
-Overfull \vbox (2.95499pt too high) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [41]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1448) in paragraph at lines 1408--1445
-\ZZZ achamos na boca de nossos sacos, o
- []
-
-
-Underfull \hbox (badness 1688) in paragraph at lines 1408--1445
-\ZZZ vossas palavras; aquele em quem se
- []
-
-
-Underfull \hbox (badness 1400) in paragraph at lines 1408--1445
-\ZZZ e um jovem que lhe nasceu em sua
- []
-
-[42]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1210) in paragraph at lines 1446--1474
-\ZZZ eles se achegaram. E ele disse: Eu
- []
-
-
-Underfull \hbox (badness 1152) in paragraph at lines 1446--1474
-\ZZZ os seus irmã\ZZZ os, \ZZZ e chorou sobre eles:
- []
-
-
-Overfull \vbox (6.18698pt too high) has occurred while \output is active []
-
-
-[43]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1448) in paragraph at lines 1475--1509
-\ZZZ seus gados, e sua riqueza que havia
- []
-
-[44]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1331) in paragraph at lines 1510--1541
-\ZZZ para Faraó o quinto; exceto somente
- []
-
-[45]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1748) in paragraph at lines 1542--1564
-\ZZZ enfermo. E ele tomou consigo seus
- []
-
-[46]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1436) in paragraph at lines 1565--1598
-\ZZZ mulher; ali sepultaram a Isaque e a
- []
-
-[47]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1454) in paragraph at lines 1599--1624
-\ZZZ de seu pai, e chorou sobre ele, e o
- []
-
-
-Underfull \hbox (badness 2460) in paragraph at lines 1599--1624
-\ZZZ disseram: Pranto grande é este dos
- []
-
-
-Underfull \hbox (badness 1077) in paragraph at lines 1599--1624
-\ZZZ a José\ZZZ : \ZZZ Rogo-te que perdoes agora a
- []
-
-
-Underfull \hbox (badness 1205) in paragraph at lines 1599--1624
-\ZZZ estou eu em lugar de Deus? [] Vó\ZZZ s
- []
-
-[48])) [49
+ [39]))
+[40
 
 ] (./main.aux)
  ***********
@@ -1818,12 +1219,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D4390B3E16B81905074249B43863F143;83.
  ) 
 Here is how much of TeX's memory you used:
- 16514 strings out of 470175
- 316522 string characters out of 5479201
- 1573648 words of memory out of 5000000
+ 16496 strings out of 470175
+ 316123 string characters out of 5479201
+ 1579282 words of memory out of 5000000
  44883 multiletter control sequences out of 15000+600000
- 631511 words of font info for 94 fonts, out of 8000000 for 9000
+ 631081 words of font info for 83 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 78i,5n,96p,1142b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 78i,5n,96p,1146b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (53 pages).
+Output written on main.pdf (44 pages).
