@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.4.7)  30 APR 2026 23:10
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.4.7)  30 APR 2026 23:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1023,7 +1023,7 @@ Underfull \hbox (badness 1742) in paragraph at lines 3--34
 
 
 ]
-Overfull \vbox (5.451pt too high) has occurred while \output is active []
+Overfull \vbox (3.015pt too high) has occurred while \output is active []
 
  [2]
 [3]
@@ -1043,7 +1043,7 @@ Underfull \hbox (badness 1038) in paragraph at lines 289--321
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-Overfull \vbox (0.77498pt too high) has occurred while \output is active []
+Overfull \vbox (3.25897pt too high) has occurred while \output is active []
 
 
 [8]
@@ -1122,8 +1122,11 @@ Underfull \hbox (badness 1173) in paragraph at lines 888--934
 \ZZZ Ache eu agora favor em teus olhos, e fica-te;
  []
 
-[21]
-Overfull \vbox (4.539pt too high) has occurred while \output is active []
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+Overfull \vbox (4.923pt too high) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1219,11 +1222,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D4390B3E16B81905074249B43863F143;83.
  ) 
 Here is how much of TeX's memory you used:
- 16496 strings out of 470175
- 316123 string characters out of 5479201
- 1579282 words of memory out of 5000000
+ 16502 strings out of 470175
+ 316285 string characters out of 5479201
+ 1580286 words of memory out of 5000000
  44883 multiletter control sequences out of 15000+600000
- 631081 words of font info for 83 fonts, out of 8000000 for 9000
+ 631105 words of font info for 86 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  78i,5n,96p,1146b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
