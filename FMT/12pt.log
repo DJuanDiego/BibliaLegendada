@@ -1,12 +1,12 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.4.7)  2 MAY 2026 11:06
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.4.7)  1 MAY 2026 15:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
+**12pt.tex
+(./12pt.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
-(./FMT/12pt.tex (/usr/share/texmf-dist/tex/latex/base/book.cls
+(/usr/share/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
@@ -360,24 +360,21 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen172
 \Gm@layoutvoffset=\dimen173
 \Gm@dimlist=\toks22
-) (./FMT/footkmpj.sty
-
-LaTeX Warning: You have requested package `FMT/footkmpj',
-               but the package provides `footkmpj'.
-
+) (./footkmpj.sty
 Package: footkmpj 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks23
 \footnotemargin=\dimen174
 \c@pp@next@reset=\count315
-Package footkmpj Info: Declaring symbol style bringhurst on input line 856.
-Package footkmpj Info: Declaring symbol style chicago on input line 864.
-Package footkmpj Info: Declaring symbol style wiley on input line 873.
-Package footkmpj Info: Declaring symbol style lamport-robust on input line 884.
+Package footkmpj Info: Declaring symbol style bringhurst on input line 853.
+Package footkmpj Info: Declaring symbol style chicago on input line 861.
+Package footkmpj Info: Declaring symbol style wiley on input line 870.
+Package footkmpj Info: Declaring symbol style lamport-robust on input line 881.
 
-Package footkmpj Info: Declaring symbol style lamport* on input line 904.
-Package footkmpj Info: Declaring symbol style lamport*-robust on input line 925
+Package footkmpj Info: Declaring symbol style lamport* on input line 901.
+Package footkmpj Info: Declaring symbol style lamport*-robust on input line 922
 .
-) (/usr/share/texmf-dist/tex/latex/tocloft/tocloft.sty
+)
+(/usr/share/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
 \cftparskip=\skip72
@@ -833,274 +830,19 @@ Package csquotes Info: ... configuration file loaded successfully.
 
 (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
-))) (./FMT/haiola.tex)
-Package csquotes Info: Checking for multilingual support...
-Package csquotes Info: ... found 'babel' package.
-Package csquotes Info: Adjusting default style.
-Package csquotes Info: Redefining alias 'default' -> 'brazilian'.
+)))
+! Emergency stop.
+<*> 12pt.tex
+            
+*** (job aborted, no legal \end found)
 
-
-LaTeX Warning: Unused global option(s):
-    [paper].
-
-(./main.aux
-Package babel Info: 'brazilian' activates 'portuges' shorthands.
-(babel)             Reported on input line 8.
-)
-\openout1 = `main.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Info: Redefining \microtypecontext on input line 18.
-Package microtype Info: Applying patch `item' on input line 18.
-Package microtype Info: Applying patch `toc' on input line 18.
-Package microtype Info: Applying patch `eqnum' on input line 18.
-
-
-Package microtype Warning: Unable to apply patch `footnote' on input line 18.
-
-Package microtype Info: Applying patch `verbatim' on input line 18.
-LaTeX Info: Redefining \microtypesetup on input line 18.
-Package microtype Info: Character protrusion enabled (level 2).
-Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of spacing.
-Package microtype Info: No adjustment of kerning.
-Package microtype Info: Redefining babel's language switching commands.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `FreeSerif' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-(/usr/share/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
-
-(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: xetex.def on input line 149.
-
-(/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 18.
- (./main.out)
-(./main.out)
-\@outlinefile=\write3
-\openout3 = `main.out'.
-
-
-*geometry* driver: auto-detecting
-*geometry* detected driver: xetex
-*geometry* verbose mode - [ preamble ] result:
-* driver: xetex
-* paper: <default>
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: includehead twoside 
-* h-part:(L,W,R)=(72.26999pt, 487.82251pt, 54.2025pt)
-* v-part:(T,H,B)=(54.2025pt, 686.56499pt, 54.2025pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=487.82251pt
-* \textheight=662.56499pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=-18.06749pt
-* \topmargin=-18.06749pt
-* \headheight=12.0pt
-* \headsep=12.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=98.0pt
-* \marginparsep=7.0pt
-* \columnsep=11.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-
-Package fontspec Info: 
-(fontspec)             Adjusting the maths setup (use [no-math] to avoid
-(fontspec)             this).
-
-\symlegacymaths=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 18.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 18.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 18.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 18.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 18.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 18.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 18.
-LaTeX Font Info:    Redeclaring math accent \check on input line 18.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 18.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 18.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 18.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 18.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 18.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/FreeSerif(0)/m/n on input line 18.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 18.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/FreeSerif(0)/m/n on input line 18.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/FreeSerif(0)/m/n --> TU/FreeSerif(0)/m/n on input li
-ne 18.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/FreeSerif(0)/m/it on input line 18.
-
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/FreeSerif(0)/b/n on input line 18.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 18.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 18.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/FreeSerif(0)/m/n --> TU/FreeSerif(0)/b/n on input li
-ne 18.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/FreeSerif(0)/b/it on input line 18
-.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 18.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 18.
-File: cover.png Graphic file (type bmp)
-<cover.png>
-[1
-
-
-] (./FA.tex
-Package babel Info: 'brazilian' activates 'portuges' shorthands.
-(babel)             Reported on input line 25.
- [2
-
-]) (./PFC.tex [3
-
-]) (./main.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 2.
-
-(/usr/share/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-))
-\tf@toc=\write4
-\openout4 = `main.toc'.
-
- [4] (./livros.tex
-(./AT/01 - GEN_src.tex
-Underfull \hbox (badness 1742) in paragraph at lines 3--34
-\ZZZ as águas répteis de alma vivente, e aves que
- []
-
-[1
-
-
-
-
-] [2] [3]
-Underfull \hbox (badness 2547) in paragraph at lines 153--178
-[][] \ZZZ E aconteceu que, quando começaram os
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4]
-[5]
-Underfull \hbox (badness 2277) in paragraph at lines 233--262
-\ZZZ estabeleço meu pacto convosco, e com vossa
- []
-
-[6]
-Underfull \hbox (badness 1038) in paragraph at lines 300--332
-\ZZZ Sem, depois que gerou a Arfaxade quinhentos
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-[8]
-Underfull \hbox (badness 2753) in paragraph at lines 409--409
-[][]\ZZZ 15:1 \ZZZ Ou: eu sou o teu escudo, e tua muito grande
- []
-
-
-Underfull \hbox (badness 1158) in paragraph at lines 409--430
-\ZZZ veio a Abrão em visão, dizendo: \ZZZ Não temas,
- []
-
-
-Underfull \hbox (badness 2726) in paragraph at lines 409--430
-[] \ZZZ Disse mais Abrão: \ZZZ Eis que não me deste
- []
-
-[9]
-Underfull \hbox (badness 1917) in paragraph at lines 451--478
-\ZZZ estrangeiro, que não for de tua descendência.
- []
-
-[10]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11]
-[12])) [13] (./main.aux)
- ***********
-LaTeX2e <2025-11-01>
-L3 programming layer <2026-01-19>
- ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D4390B3E16B81905074249B43863F143;83.
- ) 
+ 
 Here is how much of TeX's memory you used:
- 16865 strings out of 470175
- 323020 string characters out of 5479201
- 1564395 words of memory out of 5000000
- 45229 multiletter control sequences out of 15000+600000
- 631161 words of font info for 93 fonts, out of 8000000 for 9000
+ 16101 strings out of 470175
+ 310674 string characters out of 5479201
+ 814117 words of memory out of 5000000
+ 44567 multiletter control sequences out of 15000+600000
+ 628185 words of font info for 54 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 78i,6n,96p,1146b,482s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-Output written on main.pdf (17 pages).
+ 73i,0n,93p,267b,244s stack positions out of 10000i,1000n,20000p,200000b,200000s
+No pages of output.

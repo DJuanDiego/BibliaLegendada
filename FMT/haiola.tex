@@ -8,6 +8,7 @@
 \newcommand{\HDRF}{\protect\renewcommand{\ThisFont}{\OtherFontFace}\protect\renewcommand{\Italicize}{}\protect\renewcommand{\Bold}{}\protect\renewcommand{\SMCP}{-smcp}\protect\renewcommand{\FontColor}{\BlueColor}\protect\renewcommand{\FontSize}{\TinyFontSize}}
 \newcommand{\HeaderFont}{\font\ZZZZ="\OtherFontFace\BlueColor" at \TinyFontSize \ZZZZ}
 \HeaderFont
+%\pagestyle{fancy}
 \pagestyle{myheadings}
 \makeatletter
 \def\@evenhead{}%
@@ -15,7 +16,7 @@
 \renewcommand\tableofcontents{\@starttoc{toc}}
 \makeatother
 \linespread{0.75}
-\sloppy\hyphenpenalty=2000
+\sloppy\hyphenpenalty=20000
 \renewcommand{\thepage}{\arabic{page}}
 \renewcommand\thesection{}
 \makeatletter
@@ -97,8 +98,8 @@
 
 \newcommand{\VS}[1]{{\renewcommand{\FontSize}{\VerseFontSize}\Blue{\raisebox{\RaiseVerse}{#1}~}}\markboth{\webbook\ \webchap #1}{\webbook\ \webchap #1}\NormalFont}	% Verse number
 \newcommand{\VP}[1]{{\renewcommand{\FontSize}{\VerseFontSize}\Blue{\raisebox{\RaiseVerse}{(#1)}~}}\NormalFont}	% Verse number published
-\newcommand{\VA}[1]{{\renewcommand{\FontSize}{\VerseFontSize}\Blue{\raisebox{\RaiseVerse}{[#1]}~}}\NormalFont}	% Alternate verse number
-\newcommand{\FV}[1]{{\renewcommand{\FontSize}{\VerseFontSize}\Blue{\raisebox{\RaiseVerse}{#1}~}}\NormalFont}	% Verse number in footnote
+\newcommand{\VA}[1]{{\renewcommand{\FontSize}{\VerseFontSize}\Blue{\raisebox{\RaiseVerse}{[#1]}}}\NormalFont}	% Alternate verse number
+\newcommand{\FV}[1]{{\renewcommand{\FontSize}{\VerseFontSize}\Blue{\raisebox{\RaiseVerse}{#1}}}\NormalFont}	% Verse number in footnote
 \newcommand{\FM}{\renewcommand{\FontSize}{\VerseFontSize}\Blue\raisebox{\RaiseVerse}}	% Extra footnote marker
 \newcommand{\VerseOne}[1]{\VS{#1}}
 \newcommand{\PPE}{\par\parindent=\ParIndent}
@@ -138,10 +139,11 @@
 \newcommand{\PHB}{\LIB}
 \newcommand{\PHC}{\LIC}
 \newcommand{\LBR}{\\}
-\newcommand{\FTST}{}
+%\newcommand{\FTST}{} % Comando sem utilidade?
 \newcommand{\FNSymbol}{*}
-\newcommand{\FTNT}[2]{\renewcommand{\FNSymbol}{{#1}}\footnote{\renewcommand{\ThisFont}{\OtherFontFace}\renewcommand{\FontSize}{\FnSize}\renewcommand{\Bold}{}\renewcommand{\Italicize}{}\Blue #2}}
-\newcommand{\XREF}[2]{\renewcommand{\FNSymbol}{{#1}}\footnote{\renewcommand{\ThisFont}{\OtherFontFace}\renewcommand{\FontSize}{\FnSize}\renewcommand{\Bold}{}\renewcommand{\Italicize}{}\Blue #2}}
+%\newcommand{\FTNT}[2]{{\renewcommand{\thefootnote}{#1}\footnote{\renewcommand{\FontSize}{\FNSize}#2\LBR}}}
+\newcommand{\FTNT}[2]{\renewcommand{\FNSymbol}{{#1}}\footnote{\renewcommand{\ThisFont}{\OtherFontFace}\renewcommand{\FontSize}{\FnSize}\renewcommand{\Bold}{}\renewcommand{\Italicize}{}#2}}
+%\newcommand{\XREF}[2]{\renewcommand{\FNSymbol}{{#1}}\footnote{\renewcommand{\ThisFont}{\OtherFontFace}\renewcommand{\FontSize}{\FnSize}\renewcommand{\Bold}{}\renewcommand{\Italicize}{}\Blue\noindent#2\hfill\break}}
 \newcommand{\FT}{\renewcommand{\ThisFont}{\OtherFontFace}\renewcommand{\FontSize}{\FnSize}\renewcommand{\Bold}{}\renewcommand{\Italicize}{}\Blue}
 \renewcommand{\thefootnote}{\FNSymbol}
 \newcommand{\FR}{\BDB}

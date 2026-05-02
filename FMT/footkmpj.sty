@@ -5,21 +5,23 @@
 %% Copyright (c) 2008 Robin Fairbairns
 %% Modified to use the full width of the page for footnotes in multicolumn
 %% mode by Michael Paul Johnson Oct, 2015.
-%% 
+%%
 %% This work may be distributed and/or modified under the conditions of the
 %% LaTeX Project Public License, either version 1.3c of this license or (at
 %% your option) any later version. The latest version of this license is in:
 %% http://www.latex-project.org/lppl.txt, and version 1.3c or later is part
 %% of all distributions of LaTeX version 2005/12/01 or later.
-%% 
+%%
 %% This work has the LPPL maintenance status `author-maintained'.
-%% 
+%%
 %% This work consists of the files footmisc.dtx, footmisc.ins, and README
 %% and the derived files footmisc.sty and footmisc.pdf.
 %% -----------------------------------------------------------------------
-%% 
+%%
 %% This is footmisc.dtx, and it's -*-LaTeX-*- text
 \NeedsTeXFormat{LaTeX2e}
+%\XeTeXlinebreakpenalty = 10000
+%\sloppy
 \ProvidesPackage{footkmpj}%
         [2011/06/06 v5.5b
      a miscellany of footnote facilities%
@@ -336,7 +338,7 @@
       \splittopskip\footnotesep
       \splitmaxdepth \dp\strutbox
       \floatingpenalty\@MM
-      \hsize\textwidth
+      \hsize\columnwidth
       \@parboxrestore
       \protected@edef\@currentlabel{\csname p@footnote\endcsname\@thefnmark}%
       \color@begingroup
@@ -349,7 +351,7 @@
         \dp\FN@tempboxa=0pt
         \ifFN@etex
           \ht\FN@tempboxa=\dimexpr\wd\FN@tempboxa *
-                          \footnotebaselineskip / \textwidth\relax
+                          \footnotebaselineskip / \columnwidth\relax
         \else
           \ht\FN@tempboxa=\fudgefactor\wd\FN@tempboxa
         \fi
@@ -388,7 +390,7 @@
         \splittopskip\footnotesep
         \splitmaxdepth \dp\strutbox
         \floatingpenalty\@MM
-        \hsize\textwidth
+        \hsize\columnwidth
         \@parboxrestore
         \protected@edef\@currentlabel{%
           \csname p@footnote\endcsname\@thefnmark
@@ -418,7 +420,8 @@
   {%
     \footnotesize
     \global
-      \footnotebaselineskip=\normalbaselineskip
+%      \footnotebaselineskip=\normalbaselineskip
+      \footnotebaselineskip=9pt
   }
   \ifFN@etex
   \else
@@ -428,9 +431,10 @@
   \fi
   \long\def\makefootnoteparagraph{\unvbox\footins \makehboxofhboxes
     \setbox\FN@tempboxa=\hbox{\unhbox\FN@tempboxa \removehboxes}
-    \hsize\textwidth
+    \hsize\columnwidth
+%    \renewcommand{\hsize}{\columnwidth}
     \@parboxrestore
-    \baselineskip=\footnotebaselineskip
+    \baselineskip=9pt
     \noindent
     \rule{\z@}{\footnotesep}%
     \unhbox\FN@tempboxa\par
