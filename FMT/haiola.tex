@@ -68,33 +68,14 @@
 \newcommand{\OneChap}{\vspace{1.5ex plus 3ex}\def\webchap{}}
 \newcommand{\ChapOne}[1]{\vspace{1.5ex plus 3ex}\def\webchap{#1:}}
 
-% Legenda
-
-%\newcommand{\blue}[1]{\renewcommand{\FontColor}{\azulcolor}\SetFont{#1}} % Em uso
-%\newcommand{\blue}[1]{\renewcommand{\FontColor}{\azulcolor}\SetFont#1}% Funcional
-\newcommand{\blue}[1]{{\renewcommand{\FontColor}{\azulcolor}\SetFont#1}}
-\newcommand{\red}[1]{{\renewcommand{\FontColor}{\vermcolor}\SetFont#1}}
-\newcommand{\green}[1]{{\renewcommand{\FontColor}{\verdecolor}\SetFont#1}}
-\newcommand{\purple}[1]{{\renewcommand{\FontColor}{\roxcolor}\SetFont#1}}
-\newcommand{\magenta}[1]{{\renewcommand{\FontColor}{\magcolor}\SetFont#1}}
-\newcommand{\orange}[1]{{\renewcommand{\FontColor}{\larcolor}\SetFont#1}}
-\newcommand{\brown}[1]{{\renewcommand{\FontColor}{\marcolor}\SetFont#1}}
-
-%\newcommand{\VS}[1]{%
-%  {%
-%    % Salva a cor atual antes de mudar
-%    \let\previousFontColor\FontColor
-%    % Define a cor do número como a original (azulcolor ou outra)
-%    \renewcommand{\FontColor}{\azulcolor}%
-%    \SetFont
-%    \raisebox{\RaiseVerse}{#1}~%
-%    % Restaura a cor anterior para o texto que segue
-%    \let\FontColor\previousFontColor
-%    \SetFont
-%  }%
-%  \markboth{\webbook\ \webchap #1}{\webbook\ \webchap #1}%
-%  \NormalFont
-%}
+% Cores da legenda
+\newcommand{\blue}[1]{{\renewcommand{\FontColor}{\azulcolor}\SetFont#1}} % Pai
+\newcommand{\red}[1]{{\renewcommand{\FontColor}{\vermcolor}\SetFont#1}} % Filho e Espírito Santo
+\newcommand{\green}[1]{{\renewcommand{\FontColor}{\verdecolor}\SetFont#1}} % Homem
+\newcommand{\purple}[1]{{\renewcommand{\FontColor}{\roxcolor}\SetFont#1}} % Homens, dizeres, textos públicos (cartas, decretos etc).
+\newcommand{\magenta}[1]{{\renewcommand{\FontColor}{\magcolor}\SetFont#1}} % Mulher
+\newcommand{\orange}[1]{{\renewcommand{\FontColor}{\larcolor}\SetFont#1}} % Maligno, espíritos maus
+\newcommand{\brown}[1]{{\renewcommand{\FontColor}{\marcolor}\SetFont#1}} % Anjos
 
 \newcommand{\VS}[1]{{\renewcommand{\FontSize}{\VerseFontSize}\Blue{\raisebox{\RaiseVerse}{#1}~}}\markboth{\webbook\ \webchap #1}{\webbook\ \webchap #1}\NormalFont}	% Verse number
 \newcommand{\VP}[1]{{\renewcommand{\FontSize}{\VerseFontSize}\Blue{\raisebox{\RaiseVerse}{(#1)}~}}\NormalFont}	% Verse number published
@@ -141,9 +122,8 @@
 \newcommand{\LBR}{\\}
 %\newcommand{\FTST}{} % Comando sem utilidade?
 \newcommand{\FNSymbol}{*}
-%\newcommand{\FTNT}[2]{{\renewcommand{\thefootnote}{#1}\footnote{\renewcommand{\FontSize}{\FNSize}#2\LBR}}}
 \newcommand{\FTNT}[2]{\renewcommand{\FNSymbol}{{#1}}\footnote{\renewcommand{\ThisFont}{\OtherFontFace}\renewcommand{\FontSize}{\FnSize}\renewcommand{\Bold}{}\renewcommand{\Italicize}{}#2}}
-%\newcommand{\XREF}[2]{\renewcommand{\FNSymbol}{{#1}}\footnote{\renewcommand{\ThisFont}{\OtherFontFace}\renewcommand{\FontSize}{\FnSize}\renewcommand{\Bold}{}\renewcommand{\Italicize}{}\Blue\noindent#2\hfill\break}}
+\newcommand{\XREF}[2]{\renewcommand{\FNSymbol}{{#1}}\footnote{\renewcommand{\ThisFont}{\OtherFontFace}\renewcommand{\FontSize}{\FnSize}\renewcommand{\Bold}{}\renewcommand{\Italicize}{}\Blue#2}}
 \newcommand{\FT}{\renewcommand{\ThisFont}{\OtherFontFace}\renewcommand{\FontSize}{\FnSize}\renewcommand{\Bold}{}\renewcommand{\Italicize}{}\Blue}
 \renewcommand{\thefootnote}{\FNSymbol}
 \newcommand{\FR}{\BDB}
@@ -338,8 +318,3 @@
 \setTransitionsFor{Bhaiksuki}{\renewcommand{\ThisFont}{Noto Sans Bhaiksuki}\SetFont}{\NormalFace}
 \setTransitionsFor{LetterlikeSymbols}{\renewcommand{\ThisFont}{Noto Serif}\SetFont}{\NormalFace}
 \setTransitionsFor{Arrows}{\renewcommand{\ThisFont}{Noto Sans Symbols}\SetFont}{\NormalFace}
-
-
-
-
-
