@@ -1,6 +1,9 @@
 # BibliaLegendada
 ==================
 
+<!-- ![alt text](https://github.com/DJuanDiego/BibliaLegendada/blob/master/amostra.png?raw=true) -->
+<img src="amostra.png" width="90%"></img>
+
 Bíblia Livre com adição de 'legendas'. A legenda consiste no uso de cores para melhor ilustração do discurso de cada personagem. 
 
 ## Propósito

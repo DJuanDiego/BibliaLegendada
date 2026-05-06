@@ -13,25 +13,32 @@
 % \input{12pta4}%
 \input{FMT/haiola}%
 
+%\title{Bíblia Legendada}
+
+
 % Projeto iniciado aos 20/07/2023
 
 \begin{document}%
-\makeatletter\def\@evenhead{{\HDRF\HeaderFont\rightmark\hfil\thepage\hfil\leftmark}}\def\@oddhead{{\HDRF\HeaderFont\rightmark\hfil\thepage\hfil\leftmark}}\makeatother\frontmatter\pagenumbering{roman}%
-\thispagestyle{empty}\markboth{\HeaderFont }{\HeaderFont }%
-\resizebox{!}{\textwidth}{\includegraphics{cover.png}}
 
-\vfill\eject
-%\input{CPR}
+%\resizebox{!}{\textwidth}{\includegraphics{cover.png}}
+
+%\vfill\eject
+\input{CPR}
 \input{FA}
 \input{PFC}
 
+\makeatletter\def\@evenhead{{\HDRF\HeaderFont\rightmark\hfil\thepage\hfil\leftmark}}\def\@oddhead{{\HDRF\HeaderFont\rightmark\hfil\thepage\hfil\leftmark}}\makeatother\frontmatter
+%\pagenumbering{roman}%
+%\thispagestyle{empty}\markboth{\HeaderFont }{\HeaderFont }%
+
 \tableofcontents\clearpage
+\thispagestyle{empty}\markboth{\HeaderFont }{\HeaderFont }%
 \setlength{\columnsep}{.55cm}
+\setcounter{page}{1}\pagenumbering{arabic}\mainmatter%
 \twocolumn
 
 %\sloppy
 
-\setcounter{page}{1}\pagenumbering{arabic}\mainmatter%
 \large
 \input{livros}
 \clearpage
