@@ -15,32 +15,43 @@
 
 %\title{Bíblia Legendada}
 
-
 % Projeto iniciado aos 20/07/2023
 
 \begin{document}%
+  \large
+  \vfill\eject
+  \input{CPR}
+  \input{FA}
+  \input{PFC}
 
-%\resizebox{!}{\textwidth}{\includegraphics{cover.png}}
+  \pagestyle{empty}
+\begin{center}
+  \MTB Índice
+  \begin{multicols}{2}
+    \renewcommand{\contentsname}{}
+    \tableofcontents\thispagestyle{empty}
+    \clearpage
+  \end{multicols}
+\end{center}
 
-%\vfill\eject
-\input{CPR}
-\input{FA}
-\input{PFC}
+  %\sloppy
+%  \markboth{\HeaderFont }{\HeaderFont }%
 
-\makeatletter\def\@evenhead{{\HDRF\HeaderFont\rightmark\hfil\thepage\hfil\leftmark}}\def\@oddhead{{\HDRF\HeaderFont\rightmark\hfil\thepage\hfil\leftmark}}\makeatother\frontmatter
-%\pagenumbering{roman}%
-%\thispagestyle{empty}\markboth{\HeaderFont }{\HeaderFont }%
+\mainmatter % Inicia o conteúdo principal e numeração arábica [1]
+\setcounter{page}{1} % Garante o início na página 1 [1]
+\pagestyle{myheadings} % Ativa o estilo de cabeçalhos [1]
 
-\tableofcontents\clearpage
-\thispagestyle{empty}\markboth{\HeaderFont }{\HeaderFont }%
+\makeatletter
+% Define o cabeçalho para páginas pares e ímpares
+% \rightmark captura o primeiro verso da página (marcado pelo \VS no haiola.txt)
+% \leftmark captura o último verso da página [1, 2]
+\def\@evenhead{{\HDRF\HeaderFont\rightmark\hfil\thepage\hfil\leftmark}}
+\def\@oddhead{{\HDRF\HeaderFont\rightmark\hfil\thepage\hfil\leftmark}}
+\makeatother
 \setlength{\columnsep}{.55cm}
-\setcounter{page}{1}\pagenumbering{arabic}\mainmatter%
 \twocolumn
+\input{livros} % Inicia a inclusão dos textos bíblicos [1]
 
-%\sloppy
-
-\large
-\input{livros}
-\clearpage
+  \clearpage
 
 \end{document}
