@@ -20,7 +20,12 @@
 \renewcommand{\thepage}{\arabic{page}}
 \renewcommand\thesection{}
 \makeatletter
-\renewcommand{\@makefnmark}{\hbox{\raisebox{2pt}{\FnMarkFont{\@thefnmark}}}}
+\long\def\@makefntext#1{%
+  \leavevmode
+  \@makefnmark\nobreak
+  \hskip.1em\relax #1% <-- Alterado de .5em para .1em para aproximar o texto
+}
+\renewcommand{\@makefnmark}{\hbox{\raisebox{2pt}{\FnMarkFont{(\@thefnmark)}}}}
 \makeatother
 \newcommand{\ParIndent}{1em}
 \newcommand{\IndentA}{2em}
@@ -64,7 +69,7 @@
 \newcommand{\PeriphTitle}[1]{\vfill\eject\clearpage\par\def\webbook{#1}\setcounter{footnote}{0}\def\webchap{}\markboth{\webbook}{\webbook}\NormalFont}
 \newcommand{\PsalmChap}[1]{{\vspace{1.5ex plus 3ex}\centering\renewcommand{\FontSize}{\MTSize}\BDB\parindent=0mm #1\nopagebreak\par}\def\webchap{#1:}}
 \newcommand{\PoetryChap}[1]{{\vspace{1.5ex plus 3ex}\centering\renewcommand{\FontSize}{\MTSize}\BDB\parindent=0mm #1\nopagebreak\par}\def\webchap{#1:}}
-\newcommand{\Chap}[1]{{\vspace{1.5ex plus 3ex}\centering\renewcommand{\FontSize}{\MTSize}\BDB\parindent=0mm #1\nopagebreak\par}\def\webchap{#1:}\nopagebreak}
+\newcommand{\Chap}[1]{{\vspace{1.5ex plus 3ex}\centering\setcounterpageref{footnote}{0}\renewcommand{\FontSize}{\MTSize}\BDB\parindent=0mm #1\nopagebreak\par}\def\webchap{#1:}\nopagebreak}
 \newcommand{\OneChap}{\vspace{1.5ex plus 3ex}\def\webchap{}}
 \newcommand{\ChapOne}[1]{\vspace{1.5ex plus 3ex}\def\webchap{#1:}}
 
@@ -121,11 +126,26 @@
 \newcommand{\PHC}{\LIC}
 \newcommand{\LBR}{\\}
 %\newcommand{\FTST}{} % Comando sem utilidade?
+\renewcommand{\thefootnote}{\alph{footnote}}
 \newcommand{\FNSymbol}{*}
-\newcommand{\FTNT}[2]{\renewcommand{\FNSymbol}{{#1}}\footnote{\renewcommand{\ThisFont}{\OtherFontFace}\renewcommand{\FontSize}{\FnSize}\renewcommand{\Bold}{}\renewcommand{\Italicize}{}#2}}
-\newcommand{\XREF}[2]{\renewcommand{\FNSymbol}{{#1}}\footnote{\renewcommand{\ThisFont}{\OtherFontFace}\renewcommand{\FontSize}{\FnSize}\renewcommand{\Bold}{}\renewcommand{\Italicize}{}\Blue#2}}
+\newcommand{\FTNT}[2]{
+%  \renewcommand{
+%    \FNSymbol}{{#1}}
+    \footnote{
+      \renewcommand{\ThisFont}{\OtherFontFace}
+      \renewcommand{\FontSize}{\FnSize}
+      \renewcommand{\Bold}{}
+      \renewcommand{\Italicize}{}
+      #2}}
+\newcommand{\XREF}[2]{
+%  \renewcommand{\FNSymbol}{{#1}}
+  \footnote{
+    \renewcommand{\ThisFont}{\OtherFontFace}
+    \renewcommand{\FontSize}{\FnSize}
+    \renewcommand{\Bold}{}
+    \renewcommand{\Italicize}{}\Blue#2}}
 \newcommand{\FT}{\renewcommand{\ThisFont}{\OtherFontFace}\renewcommand{\FontSize}{\FnSize}\renewcommand{\Bold}{}\renewcommand{\Italicize}{}\Blue}
-\renewcommand{\thefootnote}{\FNSymbol}
+%\renewcommand{\thefootnote}{\FNSymbol} % Anterior
 \newcommand{\FR}{\BDB}
 \newcommand{\XO}{\BDB}
 \newcommand{\ZCR}{\Red}
