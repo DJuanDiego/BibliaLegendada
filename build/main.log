@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.4.7)  7 MAY 2026 18:42
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.4.7)  7 MAY 2026 23:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,7 +6,7 @@ entering extended mode
 (./main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
-(./FMT/12pt.tex (/usr/share/texmf-dist/tex/latex/base/book.cls
+(./preamble/12pt.tex (/usr/share/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
@@ -359,9 +359,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen175
 \Gm@layoutvoffset=\dimen176
 \Gm@dimlist=\toks25
-) (./FMT/footkmpj.sty
+) (./preamble/footkmpj.sty
 
-LaTeX Warning: You have requested package `FMT/footkmpj',
+LaTeX Warning: You have requested package `preamble/footkmpj',
                but the package provides `footkmpj'.
 
 Package: footkmpj 2011/06/06 v5.5b a miscellany of footnote facilities
@@ -832,7 +832,8 @@ Package csquotes Info: ... configuration file loaded successfully.
 
 (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
-))) (./FMT/haiola.tex)
+)))
+(./preamble/haiola.tex)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -842,7 +843,7 @@ Package csquotes Info: Redefining alias 'default' -> 'brazilian'.
 LaTeX Warning: Unused global option(s):
     [paper].
 
-(./main.aux
+(./build/main.aux
 Package babel Info: 'brazilian' activates 'portuges' shorthands.
 (babel)             Reported on input line 8.
 )
@@ -898,8 +899,8 @@ Package color Info: Driver file: xetex.def on input line 149.
 
 (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 Package hyperref Info: Link coloring ON on input line 20.
- (./main.out)
-(./main.out)
+ (./build/main.out)
+(./build/main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -1000,10 +1001,10 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 20.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 20.
-(./CPR.tex
-File: Cross.png Graphic file (type bmp)
-<Cross.png>
-) (./FA.tex [1
+(./preamble/CPR.tex
+File: figures/Cross.png Graphic file (type bmp)
+<figures/Cross.png>
+) (./preamble/FA.tex [1
 
 
 ]
@@ -1014,9 +1015,9 @@ ttp://
 
 [2
 
-]) (./PFC.tex [3
+]) (./preamble/PFC.tex [3
 
-]) (./main.toc
+]) (./build/main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1031,8 +1032,8 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 
  [4
 
-] (./livros.tex
-(./AT/01 - GEN_src.tex
+]
+(./source/livros.tex (./source/AT/01 - GEN_src.tex
 
 LaTeX Warning: Reference `0' on page 1 undefined on input line 36.
 
@@ -2522,7 +2523,7 @@ Underfull \hbox (badness 1789) in paragraph at lines 1665--1690
 
 [46])) [47
 
-] (./main.aux)
+] (./build/main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -2539,12 +2540,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 ### simple group (level 1) entered at line 556 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16828 strings out of 470175
- 321671 string characters out of 5479201
- 1578064 words of memory out of 5000000
+ 16831 strings out of 470175
+ 322238 string characters out of 5479201
+ 1578089 words of memory out of 5000000
  45180 multiletter control sequences out of 15000+600000
  629402 words of font info for 95 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 78i,5n,96p,1148b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 78i,5n,96p,1157b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (51 pages).
+Output written on ./build/main.pdf (51 pages).

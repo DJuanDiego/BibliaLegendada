@@ -1,12 +1,18 @@
 \documentclass[paper=6in:9in,8pt]{book}
 \usepackage{multicol}
-\usepackage{graphics}
-\usepackage{calc}
+\usepackage{graphics, fancybox, graphicx}
+\usepackage[brazilian]{babel} % 28/04/2026 Idioma principal
+\usepackage[babel]{microtype}
+\usepackage{calc, parselines}
 \usepackage[colorlinks=true,linkcolor=black]{hyperref}
 \usepackage[paperheight=9in,paperwidth=6in,inner=0.85in,outer=0.5in,top=0.5in,bottom=0.5in,includehead=true,columnsep=11.0pt,headsep=6pt]{geometry}
-\usepackage[para]{footkmpj}
+%\usepackage[para]{footkmpj}
+\usepackage[marginal2]{../preamble/footkmpj}
 \usepackage{tocloft}
 \usepackage{ucharclasses}
+\usepackage{fontspec} %01/04/2025
+\setmainfont{FreeSerif} % 01/04/2025
+\usepackage{csquotes} %29/04/2026
 \newcommand{\TocFont}{\font\Y="\OtherFontFace:color=000000" at 8pt\Y }
 \newcommand{\TextColor}{:color=000000}
 \newcommand{\TinyFontSize}{6.8pt}
@@ -17,6 +23,15 @@
 \newcommand{\GreenColor}{:color=000000}
 \newcommand{\YellowColor}{:color=000000}
 \newcommand{\WJ}{\BDB}
+% Cores da legenda
+\newcommand{\azulcolor}{:color=0000cc}
+\newcommand{\vermcolor}{:color=ff0000}
+\newcommand{\verdecolor}{:color=007600}
+\newcommand{\roxcolor}{:color=a010a0}
+\newcommand{\magcolor}{:color=fa0d7f}
+\newcommand{\larcolor}{:color=ff7700}
+\newcommand{\marcolor}{:color=a4572e}
+
 \newcommand{\RaiseVerse}{2pt}
 \newcommand{\FnSize}{6pt}
 \newcommand{\TextSize}{8pt}

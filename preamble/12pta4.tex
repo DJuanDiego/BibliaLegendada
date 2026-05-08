@@ -1,4 +1,4 @@
-\documentclass[paper=8.5in:11in,12pt]{book}
+\documentclass[paper=210mm:297mm,12pt]{book}
 \usepackage{multicol}
 \usepackage{graphics}
 \usepackage[brazilian]{babel} % 28/04/2026 Idioma principal
@@ -6,12 +6,9 @@
 \usepackage{calc, parselines}
 \usepackage{fancybox, graphicx} % Caixas de texto e figuras/gráficos 03/05/2026
 \usepackage[colorlinks=true,linkcolor=blue]{hyperref}
-%\usepackage[paperheight=11in,paperwidth=8.5in,inner=1in,outer=0.75in,top=0.75in,bottom=0.75in,includehead=true,columnsep=11.0pt,headsep=12pt]{geometry}
-\usepackage{geometry}
-\geometry{inner=1in,outer=0.75in,top=0.75in,bottom=0.75in,includehead=true,columnsep=11.0pt,headsep=12pt}
-%\usepackage[para]{FMT/footkmpj}  % Notas em parágrafo
-%\usepackage[flushmargin]{FMT/footkmpj}  % Notas de símbolos
-\usepackage[marginal2]{FMT/footkmpj}  % Notas de letras
+\usepackage[paperheight=297mm,paperwidth=210mm,inner=30mm,outer=30mm,top=25mm,bottom=25mm,includehead=true,columnsep=11.0pt,headsep=12pt]{geometry}
+%\usepackage[para]{footkmpj}
+\usepackage[marginal2]{../preamble/footkmpj}  % Notas de letras
 \usepackage{tocloft}
 \usepackage{ucharclasses}
 \usepackage{fontspec} %01/04/2025
@@ -19,8 +16,8 @@
 \usepackage{csquotes} %29/04/2026
 \newcommand{\TocFont}{\font\Y="\OtherFontFace:color=000000" at 12pt\Y }
 \newcommand{\TextColor}{:color=000000}
-\newcommand{\TinyFontSize}{12pt}
-\newcommand{\FnMarkFont}{\font\Z="FreeSerif:color=a0a0a0" at 8pt \Z }
+\newcommand{\TinyFontSize}{8pt}
+\newcommand{\FnMarkFont}{\font\Z="FreeSerif:color=000080" at 9pt \Z }
 \newcommand{\IntroColor}{:color=000080}
 \newcommand{\WJColor}{:color=ff0000}
 \newcommand{\BlueColor}{:color=0000ff}
@@ -36,11 +33,11 @@
 \newcommand{\larcolor}{:color=ff7700}
 \newcommand{\marcolor}{:color=a4572e}
 
-\newcommand{\RaiseVerse}{2pt}
-\newcommand{\FnSize}{12pt}
-\newcommand{\TextSize}{14pt}
+\newcommand{\RaiseVerse}{3pt}
+\newcommand{\FnSize}{9pt}
+\newcommand{\TextSize}{12pt}
 \newcommand{\MTSize}{18pt}
 \newcommand{\MTBSize}{15.996pt}
 \newcommand{\MTCSize}{14.004pt}
 \newcommand{\MTDSize}{12.996pt}
-\newcommand{\VerseFontSize}{11pt}
+\newcommand{\VerseFontSize}{9pt}
