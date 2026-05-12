@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.4.7)  8 MAY 2026 22:46
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.4.7)  11 MAY 2026 23:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -843,7 +843,7 @@ Package csquotes Info: Redefining alias 'default' -> 'brazilian'.
 LaTeX Warning: Unused global option(s):
     [paper].
 
-(./build/main.aux
+(./build//main.aux
 Package babel Info: 'brazilian' activates 'portuges' shorthands.
 (babel)             Reported on input line 8.
 )
@@ -899,8 +899,8 @@ Package color Info: Driver file: xetex.def on input line 149.
 
 (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 Package hyperref Info: Link coloring ON on input line 20.
- (./build/main.out)
-(./build/main.out)
+ (./build//main.out)
+(./build//main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -2501,95 +2501,95 @@ Underfull \hbox (badness 1789) in paragraph at lines 1660--1685
 [46]) (./source/AT/02 - EXO_src.tex [47
 
 ]
-Underfull \hbox (badness 2229) in paragraph at lines 4--39
+Underfull \hbox (badness 2229) in paragraph at lines 4--26
 \ZZZ um entrou com sua família: [] Rúben,
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 4--39
+Underfull \hbox (badness 2875) in paragraph at lines 4--26
 \ZZZ e Benjamim; [] Dã e Naftali, Gade e
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 4--39
+Underfull \hbox (badness 2245) in paragraph at lines 4--26
 \ZZZ Aser. [] Assim, todas as pessoas que
  []
 
 
-Underfull \hbox (badness 2626) in paragraph at lines 4--39
+Underfull \hbox (badness 2626) in paragraph at lines 4--26
 \ZZZ setenta. Porém José estava no Egito.
  []
 
 
-Underfull \hbox (badness 2671) in paragraph at lines 4--39
+Underfull \hbox (badness 2671) in paragraph at lines 4--26
 \ZZZ aumentados e fortalecidos grandemente;
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 4--39
+Underfull \hbox (badness 2189) in paragraph at lines 4--26
 [] \ZZZ Levantou-se, entretanto, um novo rei
  []
 
 
-Underfull \hbox (badness 2452) in paragraph at lines 4--39
+Underfull \hbox (badness 2452) in paragraph at lines 4--26
 \ZZZ a Faraó as cidades de armazenamento,
  []
 
 
-Underfull \hbox (badness 2027) in paragraph at lines 4--39
+Underfull \hbox (badness 2027) in paragraph at lines 4--26
 \ZZZ Pitom e Ramessés. [] Porém, quanto
  []
 
 
-Underfull \hbox (badness 2837) in paragraph at lines 4--39
+Underfull \hbox (badness 2837) in paragraph at lines 4--26
 \ZZZ e cresciam. Por isso eles detestavam
  []
 
 
-Underfull \hbox (badness 3375) in paragraph at lines 4--39
+Underfull \hbox (badness 3375) in paragraph at lines 4--26
 [][][][][] \ZZZ os filhos de Israel. [] Assim os
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 4--39
+Underfull \hbox (badness 1546) in paragraph at lines 4--26
 \ZZZ com rigor. [] E o rei do Egito falou
  []
 
 
-Underfull \hbox (badness 3623) in paragraph at lines 4--39
-\ZZZ lhes: [] Quando fizerdes o parto das
+Underfull \hbox (badness 3623) in paragraph at lines 4--26
+\ZZZ lhes: [] \ZZZ Quando fizerdes o parto das
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 4--39
+Underfull \hbox (badness 1215) in paragraph at lines 4--26
 \ZZZ hebreias, e olhardes os assentos, se for
  []
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 4--39
+Underfull \hbox (badness 2181) in paragraph at lines 4--26
 \ZZZ não fizeram como o rei do Egito lhes
  []
 
 
-LaTeX Warning: Reference `0' on page 48 undefined on input line 42.
+LaTeX Warning: Reference `0' on page 48 undefined on input line 29.
 
 
-Underfull \hbox (badness 3343) in paragraph at lines 42--67
+Underfull \hbox (badness 3343) in paragraph at lines 29--54
 \ZZZ lhe mais tempo, tomou uma cesta de
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 42--67
+Underfull \hbox (badness 1097) in paragraph at lines 29--54
 \ZZZ juncos, e enviou uma criada sua a que
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 42--67
+Underfull \hbox (badness 1314) in paragraph at lines 29--54
 \ZZZ Moisés, saiu a seus irmãos, e viu suas
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 42--67
+Underfull \hbox (badness 1596) in paragraph at lines 29--54
 \ZZZ a sua filha Zípora: [] A qual lhe deu
  []
 
@@ -2597,15 +2597,15 @@ Underfull \hbox (badness 1596) in paragraph at lines 42--67
 
 ]
 
-LaTeX Warning: Reference `0' on page 49 undefined on input line 70.
+LaTeX Warning: Reference `0' on page 49 undefined on input line 57.
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 70--92
-\ZZZ sacrifiquemos ao SENHOR nosso Deus.
+Underfull \hbox (badness 1571) in paragraph at lines 57--79
+\ZZZ e dos amorreus, e dos perizeus, e dos
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 70--92
+Underfull \hbox (badness 1590) in paragraph at lines 57--79
 \ZZZ com todas minhas maravilhas que farei
  []
 
@@ -2614,53 +2614,45 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [49]
 
-LaTeX Warning: Reference `0' on page 50 undefined on input line 95.
+LaTeX Warning: Reference `0' on page 50 undefined on input line 82.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 1496) in paragraph at lines 82--113
+\ZZZ do rio, e as derramará em terra; e se
+ []
 
- [50]
+[50]
 
-LaTeX Warning: Reference `0' on page 51 undefined on input line 129.
+LaTeX Warning: Reference `0' on page 51 undefined on input line 116.
 
 
-Underfull \hbox (badness 2277) in paragraph at lines 129--152
+Underfull \hbox (badness 2277) in paragraph at lines 116--139
 [][] \ZZZ Depois entraram Moisés e Arão a
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 129--152
-\ZZZ Faraó, e lhe disseram: O SENHOR, o
+Underfull \hbox (badness 1028) in paragraph at lines 116--139
+\ZZZ Faraó, e lhe disseram: \ZZZ O SENHOR, o
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 129--152
+Underfull \hbox (badness 2875) in paragraph at lines 116--139
 \ZZZ pois, agora caminho de três dias pelo
  []
 
 
-Underfull \hbox (badness 4036) in paragraph at lines 129--152
+Underfull \hbox (badness 4036) in paragraph at lines 116--139
 \ZZZ deserto, e sacrificaremos ao SENHOR
  []
 
 
-Underfull \hbox (badness 1067) in paragraph at lines 129--152
-\ZZZ a voz dizendo: Vamos e sacrificaremos
+Underfull \hbox (badness 1052) in paragraph at lines 116--139
+\ZZZ falaram ao povo, dizendo: \ZZZ Assim disse
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 129--152
-\ZZZ a nosso Deus. [] Agrave-se a servidão
- []
-
-
-Underfull \hbox (badness 1052) in paragraph at lines 129--152
-\ZZZ falaram ao povo, dizendo: Assim disse
- []
-
-
-Underfull \hbox (badness 3029) in paragraph at lines 129--152
-\ZZZ os supervisores dos filhos de Israel se
+Underfull \hbox (badness 1168) in paragraph at lines 116--139
+\ZZZ e sacrifiquemos ao SENHOR\ZZZ ”. [] Ide,
  []
 
 
@@ -2668,45 +2660,55 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [51]
 
-LaTeX Warning: Reference `0' on page 52 undefined on input line 155.
+LaTeX Warning: Reference `0' on page 52 undefined on input line 142.
 
 
-Underfull \hbox (badness 4441) in paragraph at lines 155--185
+Underfull \hbox (badness 4441) in paragraph at lines 142--172
 [][] \ZZZ O SENHOR respondeu a Moisés:
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 155--185
+Underfull \hbox (badness 1009) in paragraph at lines 142--172
 \ZZZ Egito, e vos livrarei de sua servidão, e
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 155--185
+Underfull \hbox (badness 1303) in paragraph at lines 142--172
+\ZZZ e a Jacó: e eu vos darei por herança.
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 142--172
 \ZZZ falou Moisés aos filhos de Israel: mas
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 155--185
+Underfull \hbox (badness 1297) in paragraph at lines 142--172
 [] \ZZZ Então o SENHOR falou a Moisés e
  []
 
 
-LaTeX Warning: Reference `0' on page 52 undefined on input line 188.
+LaTeX Warning: Reference `0' on page 52 undefined on input line 175.
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 175--200
+\ZZZ o SENHOR o havia dito. [] E Faraó,
+ []
 
 [52]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 53 undefined on input line 216.
+LaTeX Warning: Reference `0' on page 53 undefined on input line 203.
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 216--249
+Underfull \hbox (badness 1635) in paragraph at lines 203--236
 [][] \ZZZ Então o SENHOR disse a Moisés:
  []
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 216--249
+Underfull \hbox (badness 2478) in paragraph at lines 203--236
 \ZZZ de moscas incômodas sobre a casa de
  []
 
@@ -2715,15 +2717,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 54 undefined on input line 252.
+LaTeX Warning: Reference `0' on page 54 undefined on input line 239.
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 252--287
+Underfull \hbox (badness 1635) in paragraph at lines 239--274
 [][] \ZZZ Então o SENHOR disse a Moisés:
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 252--287
+Underfull \hbox (badness 1354) in paragraph at lines 239--274
 \ZZZ daquela terra. [] Somente na terra de
  []
 
@@ -2731,53 +2733,53 @@ Underfull \hbox (badness 1354) in paragraph at lines 252--287
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `0' on page 55 undefined on input line 290.
+ [55]
+
+LaTeX Warning: Reference `0' on page 56 undefined on input line 277.
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 290--319
+Underfull \hbox (badness 1661) in paragraph at lines 277--306
 \ZZZ à presença de Faraó; porque agravei o
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 290--319
+Underfull \hbox (badness 1221) in paragraph at lines 277--306
 \ZZZ oriental sobre aquela terra durante todo
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 290--319
+Underfull \hbox (badness 1688) in paragraph at lines 277--306
 \ZZZ dela não houve gafanhotos semelhantes,
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 290--319
+Underfull \hbox (badness 1292) in paragraph at lines 277--306
 \ZZZ qualquer um as apalpe. [] E estendeu
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 290--319
+Underfull \hbox (badness 1199) in paragraph at lines 277--306
 \ZZZ três dias; mas todos os filhos de Israel
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 290--319
+Underfull \hbox (badness 1442) in paragraph at lines 277--306
 \ZZZ Tu também nos entregarás sacrifícios e
  []
 
 
-Underfull \hbox (badness 5403) in paragraph at lines 290--319
+Underfull \hbox (badness 5403) in paragraph at lines 277--306
 \ZZZ holocaustos para que sacrifiquemos ao
  []
 
 
-Underfull \hbox (badness 2970) in paragraph at lines 290--319
+Underfull \hbox (badness 2970) in paragraph at lines 277--306
 \ZZZ com que serviremos ao SENHOR, até
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [55]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [56]))
@@ -2800,8 +2802,8 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 ### simple group (level 1) entered at line 557 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16841 strings out of 470175
- 322529 string characters out of 5479201
+ 16842 strings out of 470175
+ 322545 string characters out of 5479201
  1578089 words of memory out of 5000000
  45185 multiletter control sequences out of 15000+600000
  629410 words of font info for 96 fonts, out of 8000000 for 9000
