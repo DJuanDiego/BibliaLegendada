@@ -1,0 +1,3 @@
+\babel@toc {brazilian}{}\relax 
+\contentsline {section}{\numberline {}Gênesis}{1}{section.0.1}%
+\contentsline {section}{\numberline {}Êxodo}{48}{section.0.2}%
