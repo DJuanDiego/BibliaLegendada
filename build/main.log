@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.4.7)  13 MAY 2026 23:45
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.4.7)  14 MAY 2026 18:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3783,7 +3783,7 @@ Underfull \hbox (badness 2088) in paragraph at lines 982--1000
 
 
 Underfull \hbox (badness 1112) in paragraph at lines 982--1000
-\ZZZ a Moisés, dizendo: [] E tu falarás aos
+\ZZZ a Moisés, dizendo: [] \ZZZ E tu falarás aos
  []
 
 
@@ -3802,8 +3802,8 @@ Underfull \hbox (badness 1163) in paragraph at lines 982--1000
  []
 
 
-Underfull \hbox (badness 3417) in paragraph at lines 982--1000
-\ZZZ no dia do sábado certamente morrerá.
+Underfull \hbox (badness 1769) in paragraph at lines 982--1000
+\ZZZ no dia do sábado certamente morrerá\ZZZ ”\ZZZ .
  []
 
 [76]
@@ -3811,18 +3811,28 @@ Underfull \hbox (badness 3417) in paragraph at lines 982--1000
 LaTeX Warning: Reference `0' on page 77 undefined on input line 1003.
 
 
-Underfull \hbox (badness 2735) in paragraph at lines 1003--1038
-\ZZZ Arão, e disse: Amanhã será festa ao
+Underfull \hbox (badness 2073) in paragraph at lines 1003--1038
+\ZZZ do caminho que eu lhes mandei, e se
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 1003--1038
-\ZZZ pacíficos: e sentou-se o povo a comer
+Underfull \hbox (badness 4084) in paragraph at lines 1003--1038
+\ZZZ fizeram um bezerro de fundição, e o
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 1003--1038
-\ZZZ e a beber, e levantaram-se a regozijar-
+Underfull \hbox (badness 1694) in paragraph at lines 1003--1038
+\ZZZ toda esta terra que disse, e a tomarão
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 1003--1038
+\ZZZ por herança para sempre\ZZZ ”\ZZZ . [] Então o
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 1003--1038
+[] \ZZZ E respondeu Arão: \ZZZ Não se ire meu
  []
 
 
@@ -3836,11 +3846,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [77]
 
 LaTeX Warning: Reference `0' on page 78 undefined on input line 1041.
-
-
-Underfull \hbox (badness 1527) in paragraph at lines 1041--1064
-\ZZZ aos filhos de Israel: Vós sois povo de
- []
 
 
 Underfull \hbox (badness 3049) in paragraph at lines 1041--1064
@@ -3873,13 +3878,8 @@ Underfull \hbox (badness 2828) in paragraph at lines 1041--1064
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 1041--1064
-\ZZZ a quem hás de enviar comigo: porém,
- []
-
-
-Underfull \hbox (badness 1062) in paragraph at lines 1041--1064
-\ZZZ tu dizes: Eu te conheci por teu nome,
+Underfull \hbox (badness 1242) in paragraph at lines 1041--1064
+\ZZZ achaste também graça em meus olhos\ZZZ ”.
  []
 
 
@@ -3921,7 +3921,7 @@ Underfull \hbox (badness 3302) in paragraph at lines 1067--1102
 
 
 Underfull \hbox (badness 1019) in paragraph at lines 1067--1102
-\ZZZ sobre os de terceira, e quarta gerações.
+\ZZZ sobre os de terceira, e quarta gerações\ZZZ .
  []
 
 
@@ -3970,13 +3970,13 @@ Underfull \hbox (badness 1221) in paragraph at lines 1105--1140
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 1105--1140
-\ZZZ finos, e madeira de acácia; [] E azeite
+Underfull \hbox (badness 1824) in paragraph at lines 1105--1140
+\ZZZ todo sábio de coração dentre vós, virá
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 1105--1140
-[] \ZZZ E todo sábio de coração dentre vós,
+Underfull \hbox (badness 1281) in paragraph at lines 1105--1140
+\ZZZ e fará todas as coisas que o SENHOR
  []
 
 
@@ -3996,7 +3996,7 @@ Underfull \hbox (badness 1062) in paragraph at lines 1105--1140
 
 
 Underfull \hbox (badness 3128) in paragraph at lines 1105--1140
-\ZZZ para servir no sacerdócio. [] E saiu
+\ZZZ para servir no sacerdócio\ZZZ . [] E saiu
  []
 
 
@@ -4078,17 +4078,22 @@ Underfull \hbox (badness 1852) in paragraph at lines 1143--1181
 
 
 Underfull \hbox (badness 3088) in paragraph at lines 1143--1181
-\ZZZ dizendo: O povo traz muito mais do
+\ZZZ dizendo: \ZZZ O povo traz muito mais do
  []
 
 
-Underfull \hbox (badness 1394) in paragraph at lines 1143--1181
-\ZZZ para o santuário. E assim foi o povo
+Underfull \hbox (badness 1648) in paragraph at lines 1143--1181
+\ZZZ fizeram de obra prima, com querubins.
  []
 
 
-Underfull \hbox (badness 5893) in paragraph at lines 1143--1181
-\ZZZ todas as cortinas tinham uma mesma
+Underfull \hbox (badness 1242) in paragraph at lines 1143--1181
+\ZZZ côvados: todas as cortinas tinham uma
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 1143--1181
+\ZZZ mesma medida. [] E juntou as cinco
  []
 
 
@@ -4114,18 +4119,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: Reference `0' on page 82 undefined on input line 1184.
 
 
-Underfull \hbox (badness 4378) in paragraph at lines 1184--1213
-\ZZZ querubim desta parte ao um extremo,
+Underfull \hbox (badness 2277) in paragraph at lines 1184--1213
+\ZZZ meio: [] E cobriu-a de ouro puro por
  []
 
 
-Underfull \hbox (badness 2165) in paragraph at lines 1184--1213
-\ZZZ e o outro querubim da outra parte ao
+Underfull \hbox (badness 1178) in paragraph at lines 1184--1213
+\ZZZ as de ouro. [] E meteu as varas pelos
  []
 
 
-Underfull \hbox (badness 1796) in paragraph at lines 1184--1213
-\ZZZ outro extremo do propiciatório: fez os
+Underfull \hbox (badness 1418) in paragraph at lines 1184--1213
+[] \ZZZ Fez também a coberta de ouro puro:
  []
 
 
@@ -4188,8 +4193,8 @@ Underfull \hbox (badness 1681) in paragraph at lines 1250--1293
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 1250--1293
-\ZZZ este a primeira ordem. [] A segunda
+Underfull \hbox (badness 1902) in paragraph at lines 1250--1293
+\ZZZ esta a primeira ordem. [] A segunda
  []
 
 
@@ -4219,7 +4224,7 @@ Underfull \hbox (badness 1158) in paragraph at lines 1250--1293
 
 
 Underfull \hbox (badness 2042) in paragraph at lines 1250--1293
-\ZZZ o rótulo, SANTIDADE AO SENHOR.
+\ZZZ o rótulo, \ZZZ SANTIDADE AO SENHOR\ZZZ .
  []
 
 
@@ -4322,8 +4327,644 @@ Underfull \hbox (badness 1810) in paragraph at lines 1296--1333
 [85]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)) [86]
-(./build/main.aux)
+)
+(./source/AT/03 - LEV_src.tex [86]
+Underfull \hbox (badness 1097) in paragraph at lines 6--23
+\ZZZ presença do SENHOR; e os sacerdotes,
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 6--23
+\ZZZ em suas peças. [] E os filhos de Arão
+ []
+
+
+LaTeX Warning: Reference `0' on page 87 undefined on input line 26.
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 26--44
+\ZZZ será boa farinha, sobre a qual lançará
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 26--44
+\ZZZ azeite, e porá sobre ela incenso; [] e a
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 26--44
+\ZZZ trará aos sacerdotes, filhos de Arão; e
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 26--44
+\ZZZ será de Arão e de seus filhos: é coisa
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 26--44
+\ZZZ com azeite. [] Mas se a tua oferta for
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 26--44
+\ZZZ feita de boa farinha com azeite. [] E
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 26--44
+\ZZZ o sacerdote daquela oferta de alimentos
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 26--44
+\ZZZ em sua memória, e a fará arder sobre
+ []
+
+
+Underfull \hbox (badness 3302) in paragraph at lines 26--44
+[] \ZZZ Nenhuma oferta que oferecerdes ao
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 26--44
+\ZZZ ao SENHOR: mas não subirão sobre o
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 26--44
+\ZZZ toda oferta de teu presente com sal; e
+ []
+
+[87
+
+]
+
+LaTeX Warning: Reference `0' on page 88 undefined on input line 47.
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 47--64
+\ZZZ diante do SENHOR: [] E porá sua mão
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 47--64
+\ZZZ o que está sobre os lombos, e com os
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 47--64
+\ZZZ em derredor. [] Depois oferecerá dela
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 47--64
+\ZZZ o que está sobre os lombos, e com os
+ []
+
+
+LaTeX Warning: Reference `0' on page 88 undefined on input line 67.
+
+
+Underfull \hbox (badness 4492) in paragraph at lines 67--102
+\ZZZ alguma pessoa pecar por acidente em
+ []
+
+
+Underfull \hbox (badness 3942) in paragraph at lines 67--102
+\ZZZ algum dos mandamentos do SENHOR
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 67--102
+\ZZZ agir contra algum deles; [] Se sacerdote
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 67--102
+\ZZZ oferecerá ao SENHOR, por seu pecado
+ []
+
+
+Underfull \hbox (badness 2197) in paragraph at lines 67--102
+\ZZZ que houver cometido, um bezerro sem
+ []
+
+
+Underfull \hbox (badness 3849) in paragraph at lines 67--102
+\ZZZ à porta do tabernáculo do testemunho
+ []
+
+
+Underfull \hbox (badness 4108) in paragraph at lines 67--102
+\ZZZ diante do SENHOR, e porá sua mão
+ []
+
+
+Underfull \hbox (badness 4713) in paragraph at lines 67--102
+\ZZZ diante do SENHOR. [] E o sacerdote
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 67--102
+\ZZZ SENHOR: e lançará todo o sangue do
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 67--102
+[] \ZZZ E tomará do bezerro para a expiação
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 67--102
+\ZZZ com sua cabeça, e suas pernas, e seus
+ []
+
+
+Underfull \hbox (badness 5302) in paragraph at lines 67--102
+\ZZZ sobre a cabeça do bezerro diante do
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 67--102
+\ZZZ SENHOR; e em presença do SENHOR
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 67--102
+\ZZZ até o véu. [] E daquele sangue porá
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 67--102
+\ZZZ do testemunho. [] E lhe tirará toda a
+ []
+
+
+Underfull \hbox (badness 2922) in paragraph at lines 67--102
+\ZZZ gordura, e a fará arder sobre o altar.
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 67--102
+\ZZZ o sangue ao pé do altar do holocausto:
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 67--102
+\ZZZ que lhe for conhecido seu pecado que
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 67--102
+\ZZZ sem defeito trará. [] E porá sua mão
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 67--102
+\ZZZ a oferta acesa ao SENHOR: e lhe fará
+ []
+
+[88]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [89]
+
+LaTeX Warning: Reference `0' on page 90 undefined on input line 105.
+
+
+Underfull \hbox (badness 3189) in paragraph at lines 105--124
+\ZZZ for testemunha que viu, ou soube, se
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 105--124
+[] \ZZZ Também a pessoa que houver tocado
+ []
+
+
+Underfull \hbox (badness 3250) in paragraph at lines 105--124
+\ZZZ em qualquer coisa imunda, seja corpo
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 105--124
+\ZZZ morto de animal selvagem impuro, ou
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 105--124
+\ZZZ transgredido: [] Ou se tocar a homem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--124
+\ZZZ a pessoa que jurar precipitadamente
+ []
+
+
+Underfull \hbox (badness 2351) in paragraph at lines 105--124
+\ZZZ quaisquer coisas que o homem profere
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 105--124
+\ZZZ uma fêmea dos rebanhos, uma cordeira
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 105--124
+\ZZZ e o sacerdote fará expiação por ele de
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 105--124
+\ZZZ pecado que cometeu, duas rolinhas ou
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 105--124
+\ZZZ dois pombinhos ao SENHOR; um para
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 105--124
+\ZZZ sua cabeça de seu pescoço, mas não a
+ []
+
+
+Underfull \hbox (badness 3557) in paragraph at lines 105--124
+\ZZZ se sua possibilidade não alcançar para
+ []
+
+
+Underfull \hbox (badness 2903) in paragraph at lines 105--124
+\ZZZ Não porá sobre ela azeite, nem sobre
+ []
+
+
+Underfull \hbox (badness 6808) in paragraph at lines 105--124
+\ZZZ ela porá incenso, porque é expiação.
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 105--124
+[] \ZZZ Ele a trará, pois, ao sacerdote, e o
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 105--124
+\ZZZ sacerdote tomará dela seu punho cheio,
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 105--124
+\ZZZ a Moisés, dizendo: [] Quando alguma
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 105--124
+\ZZZ santuário, em oferta pelo pecado; [] E
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 105--124
+\ZZZ pagará aquilo das coisas santas em que
+ []
+
+
+Underfull \hbox (badness 2626) in paragraph at lines 105--124
+\ZZZ houver pecado, e acrescentará a ele o
+ []
+
+
+Underfull \hbox (badness 7888) in paragraph at lines 105--124
+[] \ZZZ Finalmente, se uma pessoa pecar,
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 105--124
+\ZZZ que por mandamento do SENHOR não
+ []
+
+
+Underfull \hbox (badness 3302) in paragraph at lines 105--124
+\ZZZ se devem fazer, ainda sem fazê-lo de
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 105--124
+\ZZZ por ignorância, e será perdoado. [] É
+ []
+
+
+LaTeX Warning: Reference `0' on page 90 undefined on input line 127.
+
+
+Underfull \hbox (badness 6675) in paragraph at lines 127--157
+[] \ZZZ Quando uma pessoa pecar, e fizer
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 127--157
+\ZZZ que roubou, ou pelo dano da extorsão,
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 127--157
+\ZZZ quinta parte, que há de pagar a aquele
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 127--157
+\ZZZ um carneiro sem mácula dos rebanhos,
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 127--157
+\ZZZ de qualquer de todas as coisas em que
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 127--157
+\ZZZ o fogo houver consumido o holocausto,
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 127--157
+\ZZZ apartará ele as cinzas de sobre o altar,
+ []
+
+
+Underfull \hbox (badness 3019) in paragraph at lines 127--157
+\ZZZ mas o sacerdote porá nele lenha cada
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 127--157
+[] \ZZZ Não se cozerá com levedura: dei-o
+ []
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 127--157
+\ZZZ acendidas; é coisa santíssima, como a
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 127--157
+\ZZZ acendidas do SENHOR: toda coisa que
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 127--157
+\ZZZ forem ungidos: a décima parte de um
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 127--157
+\ZZZ inteiramente queimado; não se comerá.
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 127--157
+[] \ZZZ Todo homem dentre os sacerdotes a
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 127--157
+\ZZZ se meter no tabernáculo do testemunho
+ []
+
+[90]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 91 undefined on input line 160.
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 160--198
+[][] \ZZZ Assim esta é a lei da expiação da
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 160--198
+\ZZZ o sacrifício pela culpa; e espargirá seu
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 160--198
+[] \ZZZ Como a expiação pelo pecado, assim
+ []
+
+
+Underfull \hbox (badness 4013) in paragraph at lines 160--198
+\ZZZ em panela, ou em frigideira, será do
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 160--198
+\ZZZ um como ao outro. [] E esta é a lei
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 160--198
+\ZZZ graças, oferecerá por sacrifício de ação
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 160--198
+\ZZZ de toda a oferta apresentará uma parte
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 160--198
+\ZZZ se o sacrifício de sua oferta for voto,
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 160--198
+\ZZZ ou voluntário, no dia que oferecer seu
+ []
+
+
+Underfull \hbox (badness 2245) in paragraph at lines 160--198
+\ZZZ restar para o terceiro dia da carne do
+ []
+
+
+Underfull \hbox (badness 3977) in paragraph at lines 160--198
+\ZZZ ao fogo será queimada; mas qualquer
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 160--198
+\ZZZ coisa impura, em impureza de homem,
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 160--198
+\ZZZ ou em animal impuro, ou em qualquer
+ []
+
+
+Underfull \hbox (badness 3579) in paragraph at lines 160--198
+[] \ZZZ Falou ainda o SENHOR a Moisés,
+ []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 160--198
+\ZZZ dizendo: [] Fala aos filhos de Israel,
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 160--198
+\ZZZ das ofertas pacíficas, e a gordura, dele
+ []
+
+[91]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [92]
+
+LaTeX Warning: Reference `0' on page 93 undefined on input line 201.
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 201--237
+\ZZZ e o cesto dos pães ázimos; [] E reúne
+ []
+
+
+Underfull \hbox (badness 4060) in paragraph at lines 201--237
+\ZZZ do testemunho. [] Fez, pois, Moisés
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 201--237
+\ZZZ do testemunho. [] E disse Moisés à
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 201--237
+\ZZZ fez chegar os filhos de Arão, e vestiu-
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 201--237
+\ZZZ sobre o altar em derredor; [] E depois
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 201--237
+[] \ZZZ E tomou Moisés o peito, e moveu-
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 201--237
+\ZZZ de Moisés; como o SENHOR o havia
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [93]
+
+LaTeX Warning: Reference `0' on page 94 undefined on input line 240.
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 240--264
+\ZZZ a Arão e a seus filhos, e aos anciãos
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 240--264
+\ZZZ vacas um bezerro para expiação, e um
+ []
+
+
+Underfull \hbox (badness 3098) in paragraph at lines 240--264
+\ZZZ um bode macho para expiação, e um
+ []
+
+
+Underfull \hbox (badness 2903) in paragraph at lines 240--264
+\ZZZ para holocausto; [] Também um boi e
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 240--264
+\ZZZ tabernáculo do testemunho, e chegou-se
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 240--264
+\ZZZ reconciliação por eles; como mandou o
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 240--264
+\ZZZ e degolou seu bezerro da expiação que
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 240--264
+[] \ZZZ Degolou também o holocausto, e os
+ []
+
+
+Underfull \hbox (badness 2245) in paragraph at lines 240--264
+\ZZZ o sangue (o qual espargiu ele sobre o
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 240--264
+\ZZZ e ele queimou a gordura sobre o altar:
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [94]
+
+LaTeX Warning: Reference `0' on page 95 undefined on input line 267.
+
+
+Underfull \hbox (badness 6575) in paragraph at lines 267--287
+[][] \ZZZ E os filhos de Arão, Nadabe e
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 267--287
+\ZZZ a Eleazar e a Itamar, seus filhos: Não
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 267--287
+\ZZZ descubrais vossas cabeças, nem rasgueis
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 267--287
+\ZZZ dos sacrifícios das ofertas pacíficas dos
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 267--287
+\ZZZ gorduras que se hão de acender, trarão
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 267--287
+\ZZZ a coxa que se há de elevar, e o peito
+ []
+
+)) [95] (./build/main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -4333,19 +4974,19 @@ L3 programming layer <2026-01-19>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C5AC2060B2909E419154EA2DE25F65A6;156.
+(rerunfilecheck)             Checksum: 8A9B82FBA3DBF461BFC23E5C45B4B528;244.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 557 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16846 strings out of 470175
- 322657 string characters out of 5479201
+ 16854 strings out of 470175
+ 322895 string characters out of 5479201
  1578089 words of memory out of 5000000
- 45185 multiletter control sequences out of 15000+600000
+ 45190 multiletter control sequences out of 15000+600000
  629434 words of font info for 99 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  78i,5n,96p,1157b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ./build/main.pdf (90 pages).
+Output written on ./build/main.pdf (99 pages).
