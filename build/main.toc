@@ -2,3 +2,4 @@
 \contentsline {section}{\numberline {}Gênesis}{1}{section.0.1}%
 \contentsline {section}{\numberline {}Êxodo}{48}{section.0.2}%
 \contentsline {section}{\numberline {}Levítico}{87}{section.0.3}%
+\contentsline {section}{\numberline {}Números}{116}{section.0.4}%
