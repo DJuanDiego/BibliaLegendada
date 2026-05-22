@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.4.7)  21 MAY 2026 17:55
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.4.7)  21 MAY 2026 22:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6296,7 +6296,7 @@ Underfull \hbox (badness 1478) in paragraph at lines 63--97
 
 
 Underfull \hbox (badness 4391) in paragraph at lines 63--97
-\ZZZ Arão, dizendo: [] Os filhos de Israel
+\ZZZ Arão, dizendo: [] \ZZZ Os filhos de Israel
  []
 
 
@@ -6360,8 +6360,8 @@ Underfull \hbox (badness 1436) in paragraph at lines 63--97
  []
 
 
-Underfull \hbox (badness 4899) in paragraph at lines 63--97
-\ZZZ exército de Rúben, cento cinquenta e
+Underfull \hbox (badness 1043) in paragraph at lines 63--97
+\ZZZ exército de Rúben, cento e cinquenta e
  []
 
 
@@ -6464,11 +6464,6 @@ Underfull \hbox (badness 2057) in paragraph at lines 100--151
  []
 
 
-Underfull \hbox (badness 6016) in paragraph at lines 100--151
-\ZZZ morrerá. [] Todos os contados dos
- []
-
-
 Underfull \hbox (badness 1231) in paragraph at lines 100--151
 \ZZZ levitas, que Moisés e Arão conforme a
  []
@@ -6495,17 +6490,12 @@ Underfull \hbox (badness 2293) in paragraph at lines 100--151
 
 
 Underfull \hbox (badness 2393) in paragraph at lines 100--151
-\ZZZ filhos de Israel. [] E contou Moisés,
+\ZZZ filhos de Israel\ZZZ . [] E contou Moisés,
  []
 
 
 Underfull \hbox (badness 1189) in paragraph at lines 100--151
 \ZZZ a conta dos nomes, de um mês acima,
- []
-
-
-Underfull \hbox (badness 1946) in paragraph at lines 100--151
-\ZZZ duzentos setenta e três. [] E falou o
  []
 
 
@@ -6540,7 +6530,7 @@ Underfull \hbox (badness 1939) in paragraph at lines 154--203
 
 
 Underfull \hbox (badness 2809) in paragraph at lines 154--203
-\ZZZ dizendo: [] Não cortareis a tribo das
+\ZZZ dizendo: [] \ZZZ Não cortareis a tribo das
  []
 
 
@@ -6564,8 +6554,8 @@ Underfull \hbox (badness 1231) in paragraph at lines 154--203
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 154--203
-\ZZZ dos filhos de Gérson em todos os seus
+Underfull \hbox (badness 1478) in paragraph at lines 154--203
+\ZZZ dos filhos de Gérson em todas as suas
  []
 
 
@@ -6611,9 +6601,6 @@ Underfull \hbox (badness 1033) in paragraph at lines 154--203
 [119]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [120]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -6632,8 +6619,13 @@ Underfull \hbox (badness 3514) in paragraph at lines 206--237
  []
 
 
-Underfull \hbox (badness 2221) in paragraph at lines 206--237
-\ZZZ contra quem pecaram. [] E se aquele
+Underfull \hbox (badness 1454) in paragraph at lines 206--237
+\ZZZ seu quinto sobre ele, e o darão àquele
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 206--237
+\ZZZ contra quem pecaram\ZZZ ”. [] E se aquele
  []
 
 
@@ -6674,11 +6666,6 @@ Underfull \hbox (badness 1286) in paragraph at lines 206--237
 
 Underfull \hbox (badness 1490) in paragraph at lines 206--237
 \ZZZ ela incenso; porque é oferta de ciúme,
- []
-
-
-Underfull \hbox (badness 1297) in paragraph at lines 206--237
-\ZZZ em memória. [] E o sacerdote a fará
  []
 
 [121]
@@ -6749,8 +6736,8 @@ Underfull \hbox (badness 1960) in paragraph at lines 240--267
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 240--267
-\ZZZ lhes: [] O SENHOR te abençoe, e te
+Underfull \hbox (badness 1127) in paragraph at lines 240--267
+\ZZZ lhes: [] ‘  \ZZZ O SENHOR te abençoe, e te
  []
 
 [122]
@@ -6771,18 +6758,43 @@ Underfull \hbox (badness 2735) in paragraph at lines 270--359
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 270--359
-\ZZZ ofereceram; [] E trouxeram suas ofertas
+Underfull \hbox (badness 1859) in paragraph at lines 270--359
+\ZZZ os seus utensílios; e também ungido e
  []
 
 
-Underfull \hbox (badness 1325) in paragraph at lines 270--359
-\ZZZ sob a mão de Itamar, filho de Arão o
+Underfull \hbox (badness 2790) in paragraph at lines 270--359
+\ZZZ santificado o altar, com todos os seus
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 270--359
-\ZZZ os príncipes à dedicação do altar o dia
+Underfull \hbox (badness 4084) in paragraph at lines 270--359
+\ZZZ cobertos, e doze bois; por cada dois
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 270--359
+\ZZZ ofereceram os príncipes à dedicação do
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 270--359
+\ZZZ tribo de Judá. [] E foi sua oferta um
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 270--359
+\ZZZ siclos, e uma bacia de prata de setenta
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 270--359
+\ZZZ de dez siclos, cheia de incenso; [] Um
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 270--359
+\ZZZ bois, cinco carneiros, cinco machos de
  []
 
 
@@ -6899,13 +6911,38 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: Reference `0' on page 125 undefined on input line 362.
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 362--388
-\ZZZ de frente à frente do candelabro. [] E
+Underfull \hbox (badness 10000) in paragraph at lines 362--388
+[][] \ZZZ E falou o SENHOR a Moisés,
  []
 
 
-Underfull \hbox (badness 3343) in paragraph at lines 362--388
-\ZZZ do candelabro suas lâmpadas, como o
+Underfull \hbox (badness 5924) in paragraph at lines 362--388
+\ZZZ dizendo: [] \ZZZ Fala a Arão, e dize-lhe:
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 362--388
+\ZZZ lâmpadas iluminarão de frente à frente
+ []
+
+
+Underfull \hbox (badness 3460) in paragraph at lines 362--388
+\ZZZ o modelo que o SENHOR mostrou a
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 362--388
+\ZZZ aos levitas dentre os filhos de Israel, e
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 362--388
+[] \ZZZ Logo tomarão um novilho, com sua
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 362--388
+[] \ZZZ E quando houveres [][][][][] feito chegar
  []
 
 
@@ -6919,6 +6956,11 @@ Underfull \hbox (badness 1565) in paragraph at lines 362--388
  []
 
 
+Underfull \hbox (badness 1062) in paragraph at lines 362--388
+\ZZZ e diante de seus filhos, e os oferecerás
+ []
+
+
 Underfull \hbox (badness 1694) in paragraph at lines 362--388
 \ZZZ em oferta de movimento ao SENHOR.
  []
@@ -6926,6 +6968,11 @@ Underfull \hbox (badness 1694) in paragraph at lines 362--388
 
 Underfull \hbox (badness 1590) in paragraph at lines 362--388
 [] \ZZZ Assim separarás os levitas dentre os
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 362--388
+\ZZZ tabernáculo do testemunho: os expiarás
  []
 
 
@@ -6954,35 +7001,42 @@ Underfull \hbox (badness 2050) in paragraph at lines 362--388
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 362--388
-\ZZZ servir em seu ministério no tabernáculo
+Underfull \hbox (badness 2762) in paragraph at lines 362--388
+\ZZZ se purificaram, e lavaram suas roupas;
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 362--388
-\ZZZ assim fizeram com eles. [] E falou o
+Underfull \hbox (badness 1009) in paragraph at lines 362--388
+\ZZZ os levitas para servir em seu ministério
+ []
+
+
+Underfull \hbox (badness 4832) in paragraph at lines 362--388
+\ZZZ falou o SENHOR a Moisés, dizendo:
+ []
+
+
+Underfull \hbox (badness 4608) in paragraph at lines 362--388
+\ZZZ serviço do tabernáculo do testemunho:
+ []
+
+
+Underfull \hbox (badness 3354) in paragraph at lines 362--388
+\ZZZ servirão: [] Porém servirão com seus
  []
 
 [125]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 LaTeX Warning: Reference `0' on page 126 undefined on input line 391.
 
 
 Underfull \hbox (badness 1688) in paragraph at lines 391--414
-\ZZZ entre os filhos de Israel? [] E Moisés
+\ZZZ entre os filhos de Israel? [] \ZZZ E Moisés
  []
 
 
 Underfull \hbox (badness 1622) in paragraph at lines 391--414
-\ZZZ lhes respondeu: Esperai, e ouvirei que
- []
-
-
-Underfull \hbox (badness 1314) in paragraph at lines 391--414
-\ZZZ aos filhos de Israel, dizendo: Qualquer
+\ZZZ lhes respondeu: \ZZZ Esperai, e ouvirei que
  []
 
 
@@ -7118,11 +7172,6 @@ Underfull \hbox (badness 1490) in paragraph at lines 417--453
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 417--453
-\ZZZ bem: porque o SENHOR falou bem a
- []
-
-
 Underfull \hbox (badness 2096) in paragraph at lines 417--453
 \ZZZ lugar de descanso. [] E a nuvem do
  []
@@ -7130,8 +7179,661 @@ Underfull \hbox (badness 2096) in paragraph at lines 417--453
 [127]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)) [128]
-(./build/main.aux)
+
+
+LaTeX Warning: Reference `0' on page 128 undefined on input line 456.
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 456--497
+\ZZZ aos ouvidos do SENHOR: e ouviu-o o
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 456--497
+\ZZZ extremidade do acampamento. [] Então
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 456--497
+\ZZZ lembramos do peixe que comíamos no
+ []
+
+
+Underfull \hbox (badness 2197) in paragraph at lines 456--497
+\ZZZ mal a Moisés. [] E Moisés disse ao
+ []
+
+
+Underfull \hbox (badness 2717) in paragraph at lines 456--497
+\ZZZ Santificai-vos para amanhã, e comereis
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 456--497
+\ZZZ carne; porque chorastes em ouvidos do
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 456--497
+\ZZZ carne! Certamente estávamos bem no
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 456--497
+\ZZZ dois homens, um chamado Eldade e o
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 456--497
+\ZZZ de Num, assistente de Moisés desde a
+ []
+
+
+Underfull \hbox (badness 3333) in paragraph at lines 456--497
+\ZZZ profetas, que o SENHOR pusesse seu
+ []
+
+[128]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [129]
+
+LaTeX Warning: Reference `0' on page 130 undefined on input line 500.
+
+
+Underfull \hbox (badness 3029) in paragraph at lines 500--516
+\ZZZ por causa da mulher cuxita que havia
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 500--516
+\ZZZ tomado; porque ele havia tomado uma
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 500--516
+\ZZZ o SENHOR falou somente por Moisés?
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 500--516
+\ZZZ eles três. [] Então o SENHOR desceu
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 500--516
+\ZZZ durante sete dias, e depois seja trazida
+ []
+
+
+LaTeX Warning: Reference `0' on page 130 undefined on input line 519.
+
+[130]
+
+LaTeX Warning: Reference `0' on page 131 undefined on input line 555.
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 555--600
+\ZZZ aquela noite. [] E queixaram-se contra
+ []
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 555--600
+\ZZZ Moisés e contra Arão todos os filhos
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 555--600
+\ZZZ de Israel; e disse-lhes toda a multidão:
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 555--600
+\ZZZ disse a Moisés: Até quando me há de
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 555--600
+\ZZZ povo, que olho a olho aparecias tu, ó
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 555--600
+\ZZZ dos pais sobre os filhos até a terceira
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 555--600
+[] \ZZZ Porém meu servo Calebe, porquanto
+ []
+
+
+Underfull \hbox (badness 2913) in paragraph at lines 555--600
+[] \ZZZ E o SENHOR falou a Moisés e a
+ []
+
+
+Underfull \hbox (badness 4505) in paragraph at lines 555--600
+\ZZZ mim, as queixas dos filhos de Israel,
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 555--600
+\ZZZ Vivo eu, diz o SENHOR, que segundo
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 555--600
+\ZZZ falastes a meus ouvidos, assim farei eu
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 555--600
+\ZZZ a Josué filho de Num. [] Mas vossos
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 555--600
+\ZZZ número dos dias, dos quarenta dias em
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 555--600
+\ZZZ dia; e conhecereis meu castigo. [] Eu
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 555--600
+\ZZZ murmurar contra ele, trazendo um mau
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 555--600
+\ZZZ relato daquela terra, [] aqueles homens
+ []
+
+
+Underfull \hbox (badness 3049) in paragraph at lines 555--600
+\ZZZ de praga diante do SENHOR. [] Mas
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 555--600
+\ZZZ Josué filho de Num, e Calebe filho de
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 555--600
+\ZZZ homens que haviam ido a reconhecer a
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 555--600
+\ZZZ manhã, e subiram ao cume do monte,
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 555--600
+\ZZZ aliança do SENHOR, e Moisés, não se
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [131]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 132 undefined on input line 603.
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 603--646
+[] \ZZZ Fala aos filhos de Israel, e dize-lhes:
+ []
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 603--646
+\ZZZ Quando houverdes entrado na terra de
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 603--646
+\ZZZ vossas habitações, que eu vos dou, [] E
+ []
+
+
+Underfull \hbox (badness 3547) in paragraph at lines 603--646
+\ZZZ fizerdes oferta queimada ao SENHOR,
+ []
+
+
+Underfull \hbox (badness 5388) in paragraph at lines 603--646
+\ZZZ holocausto, ou sacrifício, por especial
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 603--646
+\ZZZ em vossas solenidades cheiro suave ao
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 603--646
+\ZZZ quarta parte de um him de azeite; [] E
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 603--646
+\ZZZ em oferta queimada de cheiro suave ao
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 603--646
+\ZZZ o número deles. [] Todo natural fará
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 603--646
+\ZZZ que será perpétuo por vossas gerações:
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 603--646
+\ZZZ a Moisés, dizendo: [] Fala aos filhos
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 603--646
+\ZZZ as coisas que o SENHOR vos mandou
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 603--646
+\ZZZ macho por expiação. [] E o sacerdote
+ []
+
+
+Underfull \hbox (badness 2735) in paragraph at lines 603--646
+\ZZZ filhos de Israel; e lhes será perdoado,
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 603--646
+\ZZZ porque foi erro por ignorância de todo
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 603--646
+\ZZZ ignorância, oferecerá uma cabra de um
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 603--646
+\ZZZ quando pecar por ignorância diante do
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 603--646
+\ZZZ SENHOR, e a reconciliará, e lhe será
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 603--646
+\ZZZ os filhos de Israel no deserto, acharam
+ []
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 603--646
+\ZZZ disse a Moisés: Invariavelmente morra
+ []
+
+
+Underfull \hbox (badness 2753) in paragraph at lines 603--646
+\ZZZ aquele homem; apedreje-o com pedras
+ []
+
+
+Underfull \hbox (badness 7814) in paragraph at lines 603--646
+[] \ZZZ Então o tirou a congregação fora
+ []
+
+
+Underfull \hbox (badness 4726) in paragraph at lines 603--646
+\ZZZ pedras, e morreu; como o SENHOR
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 603--646
+\ZZZ nos arremates de suas roupas, por suas
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 603--646
+\ZZZ vos lembreis de todos os mandamentos
+ []
+
+
+Underfull \hbox (badness 4752) in paragraph at lines 603--646
+\ZZZ do SENHOR, para praticá-los; e não
+ []
+
+
+Underfull \hbox (badness 2922) in paragraph at lines 603--646
+\ZZZ olheis segundo vosso coração e vossos
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 603--646
+\ZZZ que vos lembreis, e façais todos meus
+ []
+
+[132]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [133]
+
+LaTeX Warning: Reference `0' on page 134 undefined on input line 649.
+
+
+Underfull \hbox (badness 3815) in paragraph at lines 649--702
+\ZZZ tabernáculo do SENHOR, e estivésseis
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 649--702
+\ZZZ feito vir de uma terra que destila leite
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 649--702
+\ZZZ dos espíritos de toda carne, não é um
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 649--702
+\ZZZ homem o que pecou? E te irarás tu
+ []
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 649--702
+\ZZZ porque não pereçais em todos os seus
+ []
+
+
+Underfull \hbox (badness 3536) in paragraph at lines 649--702
+\ZZZ e seus filhos, e suas crianças. [] E
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 649--702
+\ZZZ sua boca, e tragou-os a eles, e a suas
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 649--702
+\ZZZ tudo o que tinham, desceram vivos ao
+ []
+
+
+Underfull \hbox (badness 3826) in paragraph at lines 649--702
+[] \ZZZ Então o SENHOR falou a Moisés,
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 649--702
+\ZZZ Eleazar tomou os incensários de bronze
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 649--702
+\ZZZ Israel murmurou contra Moisés e Arão,
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 649--702
+\ZZZ e eis que a nuvem o havia coberto, e
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 649--702
+\ZZZ testemunho. [] E o SENHOR falou a
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 649--702
+\ZZZ saiu de diante da face do SENHOR: a
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 649--702
+\ZZZ mortandade começou. [] Então tomou
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 649--702
+\ZZZ a mortandade havia começado no povo:
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 649--702
+\ZZZ e ele pôs incenso, e fez expiação pelo
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [134]
+
+LaTeX Warning: Reference `0' on page 135 undefined on input line 705.
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 705--718
+\ZZZ do testemunho. [] E aconteceu que no
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 705--718
+[] \ZZZ Então tirou Moisés todas as varas de
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 705--718
+\ZZZ para que se guarde por sinal aos filhos
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 705--718
+\ZZZ do SENHOR morrerá: Acabaremos de
+ []
+
+[135]
+
+LaTeX Warning: Reference `0' on page 136 undefined on input line 721.
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 721--753
+\ZZZ disso, que apresentarão ao SENHOR, a
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 721--753
+\ZZZ ti as dei. [] As primícias de todas as
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 721--753
+\ZZZ animais, será teu: mas farás resgatar o
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 721--753
+\ZZZ primogênito do homem: também farás
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 721--753
+\ZZZ o sangue deles espargirás sobre o altar,
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 721--753
+\ZZZ deles não terás herança, nem entre eles
+ []
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 721--753
+\ZZZ em meio dos filhos de Israel. [] E
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 721--753
+\ZZZ os dízimos em Israel por herança, por
+ []
+
+
+Underfull \hbox (badness 3260) in paragraph at lines 721--753
+\ZZZ Israel. [] Porque aos levitas dei por
+ []
+
+
+Underfull \hbox (badness 2970) in paragraph at lines 721--753
+\ZZZ também vós oferecereis uma oferta ao
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 721--753
+\ZZZ receberdes dos filhos de Israel; e deles
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 721--753
+\ZZZ Arão. [] De todas as vossas doações
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 721--753
+\ZZZ que será consagrada. [] E lhes dirás:
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [136]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 137 undefined on input line 756.
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 756--778
+[][] \ZZZ E o SENHOR falou a Moisés e a
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 756--778
+\ZZZ Dize aos filhos de Israel que te tragam
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 756--778
+\ZZZ também sua carne com água, e depois
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 756--778
+\ZZZ do acampamento em lugar limpo, e as
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 756--778
+\ZZZ e sobre as pessoas que ali estiverem, e
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 756--778
+\ZZZ não foi espargida sobre ele a água de
+ []
+
+[137]
+
+LaTeX Warning: Reference `0' on page 138 undefined on input line 781.
+
+
+Underfull \hbox (badness 2503) in paragraph at lines 781--810
+\ZZZ brigou o povo com Moisés, e falaram
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 781--810
+\ZZZ quando pereceram nossos irmãos diante
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 781--810
+\ZZZ para que morramos aqui nós e nossos
+ []
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 781--810
+\ZZZ de vinhas, nem romãs: nem ainda de
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 781--810
+\ZZZ a congregação, tu e Arão teu irmão, e
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 781--810
+\ZZZ de diante do SENHOR, como ele lhe
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 781--810
+[] \ZZZ E o SENHOR disse a Moisés e a
+ []
+
+
+Underfull \hbox (badness 3547) in paragraph at lines 781--810
+\ZZZ ao Egito, e estivemos no Egito longo
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 781--810
+\ZZZ o qual ouviu nossa voz, e enviou anjo,
+ []
+
+
+Underfull \hbox (badness 2662) in paragraph at lines 781--810
+\ZZZ em Cades, cidade ao extremo de teus
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 781--810
+\ZZZ pelo caminho real iremos, sem apartar-
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 781--810
+\ZZZ nos à direita nem à esquerda, até que
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 781--810
+[] \ZZZ E os filhos de Israel disseram: Pelo
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [138]))
+[139
+
+] (./build/main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -7156,4 +7858,4 @@ Here is how much of TeX's memory you used:
  16 hyphenation exceptions out of 8191
  78i,5n,96p,1157b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ./build/main.pdf (132 pages).
+Output written on ./build/main.pdf (143 pages).
