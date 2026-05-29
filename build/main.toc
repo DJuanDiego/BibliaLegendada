@@ -4,3 +4,4 @@
 \contentsline {section}{\numberline {}Levítico}{87}{section.0.3}%
 \contentsline {section}{\numberline {}Números}{116}{section.0.4}%
 \contentsline {section}{\numberline {}Deuteronômio}{156}{section.0.5}%
+\contentsline {section}{\numberline {}Josué}{190}{section.0.6}%
