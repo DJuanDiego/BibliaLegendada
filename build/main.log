@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.4.7)  27 MAY 2026 23:24
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.4.7)  28 MAY 2026 23:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -9912,18 +9912,8 @@ Underfull \hbox (badness 1033) in paragraph at lines 649--679
  []
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 649--679
-\ZZZ e cheguei a ela, e não a achei virgem;
- []
-
-
 Underfull \hbox (badness 1152) in paragraph at lines 649--679
 \ZZZ aos anciãos da cidade, na porta. [] E
- []
-
-
-Underfull \hbox (badness 1163) in paragraph at lines 649--679
-\ZZZ cidade. [] Então os anciãos da cidade
  []
 
 
@@ -10201,7 +10191,7 @@ Underfull \hbox (badness 3568) in paragraph at lines 779--805
 
 
 Underfull \hbox (badness 1571) in paragraph at lines 779--805
-\ZZZ ordeno hoje. [] E mandou Moisés ao
+\ZZZ ordeno hoje\ZZZ . [] E mandou Moisés ao
  []
 
 
@@ -10297,8 +10287,8 @@ Underfull \hbox (badness 1803) in paragraph at lines 808--876
  []
 
 
-Underfull \hbox (badness 2088) in paragraph at lines 808--876
-[] \ZZZ Tirarás muito semente ao campo, e
+Underfull \hbox (badness 2261) in paragraph at lines 808--876
+[] \ZZZ Tirarás muita semente ao campo, e
  []
 
 
@@ -10312,13 +10302,13 @@ Underfull \hbox (badness 2042) in paragraph at lines 808--876
  []
 
 
-Underfull \hbox (badness 2119) in paragraph at lines 808--876
-[] \ZZZ Nação feroz de rosto, que não terá
+Underfull \hbox (badness 2359) in paragraph at lines 808--876
+\ZZZ e com falta de todas as coisas; e ele
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 808--876
-\ZZZ TEU DEUS, [] O SENHOR aumentará
+Underfull \hbox (badness 1226) in paragraph at lines 808--876
+\ZZZ voe como águia, nação cuja língua não
  []
 
 
@@ -10347,11 +10337,6 @@ Underfull \hbox (badness 1675) in paragraph at lines 808--876
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 808--876
-\ZZZ caminho do qual te disse: Nunca mais
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [181]
@@ -10361,6 +10346,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [182]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 LaTeX Warning: Reference `0' on page 183 undefined on input line 879.
 
@@ -10414,10 +10402,7 @@ Underfull \hbox (badness 1496) in paragraph at lines 879--908
 \ZZZ Egito, [] E foram e serviram a deuses
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [183]
+[183]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -10435,23 +10420,13 @@ Underfull \hbox (badness 1178) in paragraph at lines 911--931
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 911--931
-\ZZZ quando te converteres ao SENHOR teu
+Underfull \hbox (badness 2781) in paragraph at lines 911--931
+\ZZZ livro da lei; quando te converteres ao
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 911--931
-\ZZZ tua alma. [] Porque este mandamento
- []
-
-
-Underfull \hbox (badness 1590) in paragraph at lines 911--931
-\ZZZ para que o cumpramos? [] Nem está
- []
-
-
-Underfull \hbox (badness 1024) in paragraph at lines 911--931
-\ZZZ da outra parte do mar, para que digas:
+Underfull \hbox (badness 1661) in paragraph at lines 911--931
+\ZZZ e com toda tua alma. [] Porque este
  []
 
 
@@ -10480,7 +10455,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  16872 strings out of 470175
  323424 string characters out of 5479201
- 1582089 words of memory out of 5000000
+ 1583379 words of memory out of 5000000
  45200 multiletter control sequences out of 15000+600000
  629442 words of font info for 100 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
