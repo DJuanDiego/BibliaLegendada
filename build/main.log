@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.6.1)  2 JUN 2026 23:11
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.6.1)  3 JUN 2026 09:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -11689,7 +11689,7 @@ Underfull \hbox (badness 1320) in paragraph at lines 597--642
 
 
 Underfull \hbox (badness 2065) in paragraph at lines 597--642
-\ZZZ campos para nossos animais. [] Então
+\ZZZ campos para nossos animais\ZZZ . [] Então
  []
 
 
@@ -11798,33 +11798,73 @@ Underfull \hbox (badness 1406) in paragraph at lines 645--679
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 645--679
-\ZZZ nem vos rebeleis contra nós, edificando
+Underfull \hbox (badness 4872) in paragraph at lines 645--679
+\ZZZ mas será que vós vos rebelareis hoje
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 645--679
-\ZZZ e veio ira sobre toda a congregação de
+Underfull \hbox (badness 2027) in paragraph at lines 645--679
+\ZZZ contra o SENHOR, e amanhã se irará
  []
 
 
-Underfull \hbox (badness 2096) in paragraph at lines 645--679
-\ZZZ Israel? E aquele homem não pereceu
+Underfull \hbox (badness 3354) in paragraph at lines 645--679
+[] \ZZZ Que se vos parece que a terra de
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 645--679
-\ZZZ e Israel saberá; se é por rebelião ou
+Underfull \hbox (badness 1460) in paragraph at lines 645--679
+\ZZZ vossa possessão é imunda, passai-vos à
  []
 
 
-Underfull \hbox (badness 3039) in paragraph at lines 645--679
-\ZZZ nos salves hoje, [] se edificamos para
+Underfull \hbox (badness 4608) in paragraph at lines 645--679
+\ZZZ no anátema, e veio ira sobre toda a
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 645--679
-\ZZZ SENHOR, ou para sacrificar holocausto
+Underfull \hbox (badness 1509) in paragraph at lines 645--679
+\ZZZ de Gade, e a meia tribo de Manassés,
+ []
+
+
+Underfull \hbox (badness 4132) in paragraph at lines 645--679
+\ZZZ responderam e disseram aos principais
+ []
+
+
+Underfull \hbox (badness 1721) in paragraph at lines 645--679
+\ZZZ da multidão de Israel: [] \ZZZ O Deus dos
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 645--679
+\ZZZ o SENHOR, ele sabe, e Israel saberá;
+ []
+
+
+Underfull \hbox (badness 4084) in paragraph at lines 645--679
+\ZZZ se é por rebelião ou por transgressão
+ []
+
+
+Underfull \hbox (badness 6001) in paragraph at lines 645--679
+\ZZZ ou para oferecer sobre ele sacrifícios
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 645--679
+\ZZZ pacíficos, que o próprio SENHOR nos
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 645--679
+\ZZZ castigue por isso. [] Porém o fizemos
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 645--679
+\ZZZ por temor disto, dizendo: “  Amanhã os
  []
 
 
@@ -11833,18 +11873,8 @@ Underfull \hbox (badness 1210) in paragraph at lines 645--679
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 645--679
-\ZZZ aos nossos: Vós não tendes parte com
- []
-
-
-Underfull \hbox (badness 2435) in paragraph at lines 645--679
-\ZZZ Olhai a réplica do altar do SENHOR,
- []
-
-
-Underfull \hbox (badness 2293) in paragraph at lines 645--679
-\ZZZ que fosse testemunho entre nós e vós.
+Underfull \hbox (badness 1824) in paragraph at lines 645--679
+\ZZZ ‘  Olhai a réplica do altar do SENHOR,
  []
 
 
@@ -11896,8 +11926,8 @@ Underfull \hbox (badness 1189) in paragraph at lines 701--734
  []
 
 
-Underfull \hbox (badness 3168) in paragraph at lines 701--734
-\ZZZ vós: os amorreus, perizeus, cananeus,
+Underfull \hbox (badness 1371) in paragraph at lines 701--734
+\ZZZ girgaseus, heveus, e jebuseus: e eu os
  []
 
 
@@ -11907,12 +11937,12 @@ Underfull \hbox (badness 1668) in paragraph at lines 701--734
 
 
 Underfull \hbox (badness 1033) in paragraph at lines 701--734
-\ZZZ respondeu, e disse: Nunca tal aconteça
+\ZZZ respondeu, e disse: \ZZZ Nunca tal aconteça
  []
 
 
 Underfull \hbox (badness 1092) in paragraph at lines 701--734
-\ZZZ o qual diante de nossos olhos fez estas
+\ZZZ o qual diante de nossos olhos fez estes
  []
 
 
@@ -11922,7 +11952,7 @@ Underfull \hbox (badness 1178) in paragraph at lines 701--734
 
 
 Underfull \hbox (badness 4531) in paragraph at lines 701--734
-\ZZZ para servir-lhe. E eles responderam:
+\ZZZ para servir-lhe\ZZZ . E eles responderam:
  []
 
 [211]
