@@ -6,3 +6,4 @@
 \contentsline {section}{\numberline {}Deuteronômio}{156}{section.0.5}%
 \contentsline {section}{\numberline {}Josué}{190}{section.0.6}%
 \contentsline {section}{\numberline {}Juízes}{214}{section.0.7}%
+\contentsline {section}{\numberline {}Rute}{238}{section.0.8}%
