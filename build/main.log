@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.6.1)  3 JUN 2026 15:23
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.6.1)  4 JUN 2026 08:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1041,9 +1041,14 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
  [4
 
 ]
-(./source/livros.tex (./source/AT/01 - GEN_src.tex
+(./source/livros.tex [1
 
-LaTeX Warning: Reference `0' on page 1 undefined on input line 37.
+
+
+
+] [2] (./source/AT/01 - GEN_src.tex
+
+LaTeX Warning: Reference `0' on page 3 undefined on input line 37.
 
 
 Underfull \hbox (badness 1215) in paragraph at lines 37--62
@@ -1062,8 +1067,7 @@ Underfull \hbox (badness 1132) in paragraph at lines 37--62
 
 Package babel Info: 'brazilian' activates 'portuges' shorthands.
 (babel)             Reported on input line 62.
-[1
-
+[3
 
 
 ]
@@ -1071,7 +1075,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 2 undefined on input line 64.
+LaTeX Warning: Reference `0' on page 4 undefined on input line 64.
 
 
 Underfull \hbox (badness 1028) in paragraph at lines 64--88
@@ -1108,9 +1112,9 @@ Underfull \hbox (badness 1107) in paragraph at lines 64--88
 \ZZZ para que não estenda sua mão, e tome
  []
 
-[2]
+[4]
 
-LaTeX Warning: Reference `0' on page 3 undefined on input line 90.
+LaTeX Warning: Reference `0' on page 5 undefined on input line 90.
 
 
 Underfull \hbox (badness 1107) in paragraph at lines 90--116
@@ -1122,9 +1126,9 @@ Underfull \hbox (badness 1484) in paragraph at lines 90--116
 \ZZZ Então o SENHOR pôs sinal em Caim,
  []
 
-[3]
+[5]
 
-LaTeX Warning: Reference `0' on page 4 undefined on input line 119.
+LaTeX Warning: Reference `0' on page 6 undefined on input line 119.
 
 
 Underfull \hbox (badness 1024) in paragraph at lines 119--151
@@ -1137,7 +1141,7 @@ Underfull \hbox (badness 1859) in paragraph at lines 119--151
  []
 
 
-LaTeX Warning: Reference `0' on page 4 undefined on input line 154.
+LaTeX Warning: Reference `0' on page 6 undefined on input line 154.
 
 
 Underfull \hbox (badness 6808) in paragraph at lines 154--179
@@ -1162,9 +1166,9 @@ Underfull \hbox (badness 2443) in paragraph at lines 154--179
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4]
+ [6]
 
-LaTeX Warning: Reference `0' on page 5 undefined on input line 182.
+LaTeX Warning: Reference `0' on page 7 undefined on input line 182.
 
 
 Underfull \hbox (badness 1112) in paragraph at lines 182--206
@@ -1191,9 +1195,9 @@ Underfull \hbox (badness 1748) in paragraph at lines 182--206
 \ZZZ de tudo o que havia na terra, morreu.
  []
 
-[5]
+[7]
 
-LaTeX Warning: Reference `0' on page 6 undefined on input line 209.
+LaTeX Warning: Reference `0' on page 8 undefined on input line 209.
 
 
 Underfull \hbox (badness 1502) in paragraph at lines 209--231
@@ -1203,23 +1207,23 @@ Underfull \hbox (badness 1502) in paragraph at lines 209--231
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6]
+ [8]
 
-LaTeX Warning: Reference `0' on page 7 undefined on input line 234.
+LaTeX Warning: Reference `0' on page 9 undefined on input line 234.
 
 
-LaTeX Warning: Reference `0' on page 7 undefined on input line 266.
+LaTeX Warning: Reference `0' on page 9 undefined on input line 266.
 
-[7]
+[9]
 
-LaTeX Warning: Reference `0' on page 8 undefined on input line 301.
+LaTeX Warning: Reference `0' on page 10 undefined on input line 301.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8]
+ [10]
 
-LaTeX Warning: Reference `0' on page 9 undefined on input line 336.
+LaTeX Warning: Reference `0' on page 11 undefined on input line 336.
 
 
 Underfull \hbox (badness 2119) in paragraph at lines 336--359
@@ -1227,7 +1231,7 @@ Underfull \hbox (badness 2119) in paragraph at lines 336--359
  []
 
 
-LaTeX Warning: Reference `0' on page 9 undefined on input line 362.
+LaTeX Warning: Reference `0' on page 11 undefined on input line 362.
 
 
 Underfull \hbox (badness 1067) in paragraph at lines 362--380
@@ -1244,9 +1248,9 @@ Underfull \hbox (badness 1057) in paragraph at lines 362--380
 \ZZZ da terra, também tua descendência será
  []
 
-[9]
+[11]
 
-LaTeX Warning: Reference `0' on page 10 undefined on input line 383.
+LaTeX Warning: Reference `0' on page 12 undefined on input line 383.
 
 
 Underfull \hbox (badness 3861) in paragraph at lines 383--407
@@ -1296,9 +1300,9 @@ Underfull \hbox (badness 1097) in paragraph at lines 383--407
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10]
+ [12]
 
-LaTeX Warning: Reference `0' on page 11 undefined on input line 410.
+LaTeX Warning: Reference `0' on page 13 undefined on input line 410.
 
 
 Underfull \hbox (badness 3118) in paragraph at lines 410--431
@@ -1341,7 +1345,7 @@ Underfull \hbox (badness 1077) in paragraph at lines 410--431
  []
 
 
-LaTeX Warning: Reference `0' on page 11 undefined on input line 434.
+LaTeX Warning: Reference `0' on page 13 undefined on input line 434.
 
 
 Underfull \hbox (badness 1226) in paragraph at lines 434--450
@@ -1368,9 +1372,9 @@ Underfull \hbox (badness 1348) in paragraph at lines 434--450
 \ZZZ Volta à tua senhora, e põe-te submissa
  []
 
-[11]
+[13]
 
-LaTeX Warning: Reference `0' on page 12 undefined on input line 452.
+LaTeX Warning: Reference `0' on page 14 undefined on input line 452.
 
 
 Underfull \hbox (badness 1365) in paragraph at lines 452--479
@@ -1415,9 +1419,9 @@ Underfull \hbox (badness 2035) in paragraph at lines 452--479
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]
+ [14]
 
-LaTeX Warning: Reference `0' on page 13 undefined on input line 481.
+LaTeX Warning: Reference `0' on page 15 undefined on input line 481.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 481--514
@@ -1452,9 +1456,9 @@ Underfull \hbox (badness 6608) in paragraph at lines 481--514
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
+ [15]
 
-LaTeX Warning: Reference `0' on page 14 undefined on input line 517.
+LaTeX Warning: Reference `0' on page 16 undefined on input line 517.
 
 
 Underfull \hbox (badness 5105) in paragraph at lines 517--555
@@ -1501,12 +1505,12 @@ Underfull \hbox (badness 1558) in paragraph at lines 517--555
 \ZZZ tenhas chegado\ZZZ . Por isto foi chamado
  []
 
-[14]
+[16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 15 undefined on input line 557.
+LaTeX Warning: Reference `0' on page 17 undefined on input line 557.
 
 
 Underfull \hbox (badness 1406) in paragraph at lines 557--575
@@ -1518,9 +1522,9 @@ Underfull \hbox (badness 1077) in paragraph at lines 557--575
 [] \ZZZ E disse Abimeleque: \ZZZ Eis que minha
  []
 
-[15]
+[17]
 
-LaTeX Warning: Reference `0' on page 16 undefined on input line 578.
+LaTeX Warning: Reference `0' on page 18 undefined on input line 578.
 
 
 Underfull \hbox (badness 1237) in paragraph at lines 578--614
@@ -1560,9 +1564,9 @@ Underfull \hbox (badness 1596) in paragraph at lines 578--614
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16]
+ [18]
 
-LaTeX Warning: Reference `0' on page 17 undefined on input line 616.
+LaTeX Warning: Reference `0' on page 19 undefined on input line 616.
 
 
 Underfull \hbox (badness 1199) in paragraph at lines 616--640
@@ -1590,14 +1594,14 @@ Underfull \hbox (badness 1460) in paragraph at lines 616--640
  []
 
 
-LaTeX Warning: Reference `0' on page 17 undefined on input line 643.
+LaTeX Warning: Reference `0' on page 19 undefined on input line 643.
 
-[17]
+[19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 18 undefined on input line 666.
+LaTeX Warning: Reference `0' on page 20 undefined on input line 666.
 
 
 Underfull \hbox (badness 1062) in paragraph at lines 666--733
@@ -1659,15 +1663,15 @@ Underfull \hbox (badness 1708) in paragraph at lines 666--733
 \ZZZ o servo havia respondido: \ZZZ Este é meu
  []
 
-[18]
+[20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
+ [21]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 20 undefined on input line 736.
+LaTeX Warning: Reference `0' on page 22 undefined on input line 736.
 
 
 Underfull \hbox (badness 1107) in paragraph at lines 736--770
@@ -1679,9 +1683,9 @@ Underfull \hbox (badness 1824) in paragraph at lines 736--770
 \ZZZ a Jacó: \ZZZ Rogo-te que me dês a comer
  []
 
-[20]
+[22]
 
-LaTeX Warning: Reference `0' on page 21 undefined on input line 773.
+LaTeX Warning: Reference `0' on page 23 undefined on input line 773.
 
 
 Underfull \hbox (badness 1189) in paragraph at lines 773--808
@@ -1738,9 +1742,9 @@ Underfull \hbox (badness 1067) in paragraph at lines 773--808
 \ZZZ de madrugada, e juraram um ao outro;
  []
 
-[21]
+[23]
 
-LaTeX Warning: Reference `0' on page 22 undefined on input line 811.
+LaTeX Warning: Reference `0' on page 24 undefined on input line 811.
 
 
 Underfull \hbox (badness 1596) in paragraph at lines 811--857
@@ -1772,15 +1776,15 @@ Underfull \hbox (badness 1314) in paragraph at lines 811--857
 \ZZZ a todos os seus irmãos: de trigo e de
  []
 
-[22]
+[24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
+ [25]
 
-LaTeX Warning: Reference `0' on page 24 undefined on input line 860.
+LaTeX Warning: Reference `0' on page 26 undefined on input line 860.
 
 
 Underfull \hbox (badness 7814) in paragraph at lines 860--882
@@ -1798,14 +1802,14 @@ Underfull \hbox (badness 2134) in paragraph at lines 860--882
  []
 
 
-LaTeX Warning: Reference `0' on page 24 undefined on input line 885.
+LaTeX Warning: Reference `0' on page 26 undefined on input line 885.
 
-[24]
+[26]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 25 undefined on input line 923.
+LaTeX Warning: Reference `0' on page 27 undefined on input line 923.
 
 
 Underfull \hbox (badness 1122) in paragraph at lines 923--966
@@ -1832,12 +1836,12 @@ Underfull \hbox (badness 1314) in paragraph at lines 923--966
 \ZZZ cresceu o homem muito, e teve muitas
  []
 
-[25]
+[27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
+ [28]
 
-LaTeX Warning: Reference `0' on page 27 undefined on input line 968.
+LaTeX Warning: Reference `0' on page 29 undefined on input line 968.
 
 
 Underfull \hbox (badness 1442) in paragraph at lines 968--1023
@@ -1882,28 +1886,28 @@ Underfull \hbox (badness 1033) in paragraph at lines 968--1023
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27]
+ [29]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 28 undefined on input line 1026.
+LaTeX Warning: Reference `0' on page 30 undefined on input line 1026.
 
 
 Underfull \hbox (badness 1789) in paragraph at lines 1026--1058
 \ZZZ Passai diante de mim, e ponde espaço
  []
 
-[28]
+[30]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 29 undefined on input line 1061.
+LaTeX Warning: Reference `0' on page 31 undefined on input line 1061.
 
-[29]
+[31]
 
-LaTeX Warning: Reference `0' on page 30 undefined on input line 1086.
+LaTeX Warning: Reference `0' on page 32 undefined on input line 1086.
 
 
 Underfull \hbox (badness 1189) in paragraph at lines 1086--1117
@@ -1968,9 +1972,9 @@ Underfull \hbox (badness 1092) in paragraph at lines 1086--1117
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30]
+ [32]
 
-LaTeX Warning: Reference `0' on page 31 undefined on input line 1120.
+LaTeX Warning: Reference `0' on page 33 undefined on input line 1120.
 
 
 Underfull \hbox (badness 1005) in paragraph at lines 1120--1149
@@ -2010,9 +2014,9 @@ Underfull \hbox (badness 1009) in paragraph at lines 1120--1149
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]
+ [33]
 
-LaTeX Warning: Reference `0' on page 32 undefined on input line 1152.
+LaTeX Warning: Reference `0' on page 34 undefined on input line 1152.
 
 
 Underfull \hbox (badness 1147) in paragraph at lines 1152--1195
@@ -2027,9 +2031,9 @@ Underfull \hbox (badness 1194) in paragraph at lines 1152--1195
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
+ [34]
 
-LaTeX Warning: Reference `0' on page 33 undefined on input line 1198.
+LaTeX Warning: Reference `0' on page 35 undefined on input line 1198.
 
 
 Underfull \hbox (badness 1052) in paragraph at lines 1198--1234
@@ -2064,16 +2068,16 @@ Underfull \hbox (badness 1077) in paragraph at lines 1198--1234
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33]
+ [35]
 
-LaTeX Warning: Reference `0' on page 34 undefined on input line 1237.
+LaTeX Warning: Reference `0' on page 36 undefined on input line 1237.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
+ [36]
 
-LaTeX Warning: Reference `0' on page 35 undefined on input line 1270.
+LaTeX Warning: Reference `0' on page 37 undefined on input line 1270.
 
 
 Underfull \hbox (badness 2158) in paragraph at lines 1270--1293
@@ -2088,9 +2092,9 @@ Underfull \hbox (badness 1490) in paragraph at lines 1270--1293
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35]
+ [37]
 
-LaTeX Warning: Reference `0' on page 36 undefined on input line 1296.
+LaTeX Warning: Reference `0' on page 38 undefined on input line 1296.
 
 
 Underfull \hbox (badness 1490) in paragraph at lines 1296--1319
@@ -2103,7 +2107,7 @@ Underfull \hbox (badness 1337) in paragraph at lines 1296--1319
  []
 
 
-LaTeX Warning: Reference `0' on page 36 undefined on input line 1322.
+LaTeX Warning: Reference `0' on page 38 undefined on input line 1322.
 
 
 Underfull \hbox (badness 1968) in paragraph at lines 1322--1379
@@ -2140,15 +2144,15 @@ Underfull \hbox (badness 1371) in paragraph at lines 1322--1379
 \ZZZ José o nome do primogênito \ZZZ Manassés\ZZZ ;
  []
 
-[36]
+[38]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37]
+ [39]
 
-LaTeX Warning: Reference `0' on page 38 undefined on input line 1382.
+LaTeX Warning: Reference `0' on page 40 undefined on input line 1382.
 
 
 Underfull \hbox (badness 2635) in paragraph at lines 1382--1420
@@ -2218,12 +2222,12 @@ Underfull \hbox (badness 1122) in paragraph at lines 1382--1420
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
+ [40]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 39 undefined on input line 1423.
+LaTeX Warning: Reference `0' on page 41 undefined on input line 1423.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1423--1457
@@ -2345,12 +2349,12 @@ Underfull \hbox (badness 2894) in paragraph at lines 1423--1457
 \ZZZ conforme sua primogenitura, e o mais
  []
 
-[39]
+[41]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 40 undefined on input line 1460.
+LaTeX Warning: Reference `0' on page 42 undefined on input line 1460.
 
 
 Underfull \hbox (badness 3375) in paragraph at lines 1460--1494
@@ -2377,28 +2381,28 @@ Underfull \hbox (badness 1997) in paragraph at lines 1460--1494
 \ZZZ “  \ZZZ Não podemos ir: se nosso irmão for
  []
 
-[40]
+[42]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 41 undefined on input line 1497.
+LaTeX Warning: Reference `0' on page 43 undefined on input line 1497.
 
 
 Underfull \hbox (badness 1275) in paragraph at lines 1497--1525
 \ZZZ puderam lhe responder, porque estavam
  []
 
-[41]
+[43]
 
-LaTeX Warning: Reference `0' on page 42 undefined on input line 1528.
+LaTeX Warning: Reference `0' on page 44 undefined on input line 1528.
 
-[42]
+[44]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 43 undefined on input line 1565.
+LaTeX Warning: Reference `0' on page 45 undefined on input line 1565.
 
 
 Underfull \hbox (badness 1024) in paragraph at lines 1565--1596
@@ -2415,12 +2419,12 @@ Underfull \hbox (badness 1406) in paragraph at lines 1565--1596
 \ZZZ apossaram-se nela, e se aumentaram, e
  []
 
-[43]
+[45]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 44 undefined on input line 1599.
+LaTeX Warning: Reference `0' on page 46 undefined on input line 1599.
 
 
 Underfull \hbox (badness 1137) in paragraph at lines 1599--1621
@@ -2432,12 +2436,12 @@ Underfull \hbox (badness 2368) in paragraph at lines 1599--1621
 \ZZZ foi dito a José: \ZZZ Eis que teu pai está
  []
 
-[44]
+[46]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 45 undefined on input line 1624.
+LaTeX Warning: Reference `0' on page 47 undefined on input line 1624.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1624--1657
@@ -2474,12 +2478,12 @@ Underfull \hbox (badness 1874) in paragraph at lines 1624--1657
 \ZZZ e a Sara sua mulher; ali sepultaram a
  []
 
-[45]
+[47]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 46 undefined on input line 1660.
+LaTeX Warning: Reference `0' on page 48 undefined on input line 1660.
 
 
 Underfull \hbox (badness 1184) in paragraph at lines 1660--1685
@@ -2506,7 +2510,7 @@ Underfull \hbox (badness 1789) in paragraph at lines 1660--1685
 \ZZZ medo; eu sustentarei a vós e a vossos
  []
 
-[46]) (./source/AT/02 - EXO_src.tex [47
+[48]) (./source/AT/02 - EXO_src.tex [49
 
 ]
 Underfull \hbox (badness 2229) in paragraph at lines 4--26
@@ -2579,7 +2583,7 @@ Underfull \hbox (badness 2181) in paragraph at lines 4--26
  []
 
 
-LaTeX Warning: Reference `0' on page 48 undefined on input line 29.
+LaTeX Warning: Reference `0' on page 50 undefined on input line 29.
 
 
 Underfull \hbox (badness 3343) in paragraph at lines 29--54
@@ -2601,11 +2605,11 @@ Underfull \hbox (badness 1596) in paragraph at lines 29--54
 \ZZZ a sua filha Zípora: [] A qual lhe deu
  []
 
-[48
+[50
 
 ]
 
-LaTeX Warning: Reference `0' on page 49 undefined on input line 57.
+LaTeX Warning: Reference `0' on page 51 undefined on input line 57.
 
 
 Underfull \hbox (badness 1571) in paragraph at lines 57--79
@@ -2620,18 +2624,18 @@ Underfull \hbox (badness 1590) in paragraph at lines 57--79
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49]
+ [51]
 
-LaTeX Warning: Reference `0' on page 50 undefined on input line 82.
+LaTeX Warning: Reference `0' on page 52 undefined on input line 82.
 
 
 Underfull \hbox (badness 1496) in paragraph at lines 82--113
 \ZZZ do rio, e as derramará em terra; e se
  []
 
-[50]
+[52]
 
-LaTeX Warning: Reference `0' on page 51 undefined on input line 116.
+LaTeX Warning: Reference `0' on page 53 undefined on input line 116.
 
 
 Underfull \hbox (badness 2277) in paragraph at lines 116--139
@@ -2666,9 +2670,9 @@ Underfull \hbox (badness 1168) in paragraph at lines 116--139
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51]
+ [53]
 
-LaTeX Warning: Reference `0' on page 52 undefined on input line 142.
+LaTeX Warning: Reference `0' on page 54 undefined on input line 142.
 
 
 Underfull \hbox (badness 4441) in paragraph at lines 142--172
@@ -2696,19 +2700,19 @@ Underfull \hbox (badness 1297) in paragraph at lines 142--172
  []
 
 
-LaTeX Warning: Reference `0' on page 52 undefined on input line 175.
+LaTeX Warning: Reference `0' on page 54 undefined on input line 175.
 
 
 Underfull \hbox (badness 1038) in paragraph at lines 175--200
 \ZZZ o SENHOR o havia dito. [] E Faraó,
  []
 
-[52]
+[54]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 53 undefined on input line 203.
+LaTeX Warning: Reference `0' on page 55 undefined on input line 203.
 
 
 Underfull \hbox (badness 1635) in paragraph at lines 203--235
@@ -2730,12 +2734,12 @@ Underfull \hbox (badness 2478) in paragraph at lines 203--235
 \ZZZ de moscas incômodas sobre a casa de
  []
 
-[53]
+[55]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 54 undefined on input line 238.
+LaTeX Warning: Reference `0' on page 56 undefined on input line 238.
 
 
 Underfull \hbox (badness 1635) in paragraph at lines 238--273
@@ -2752,15 +2756,15 @@ Underfull \hbox (badness 1354) in paragraph at lines 238--273
 \ZZZ daquela terra. [] Somente na terra de
  []
 
-[54]
+[56]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55]
+ [57]
 
-LaTeX Warning: Reference `0' on page 56 undefined on input line 276.
+LaTeX Warning: Reference `0' on page 58 undefined on input line 276.
 
 
 Underfull \hbox (badness 1661) in paragraph at lines 276--305
@@ -2815,9 +2819,9 @@ Underfull \hbox (badness 2970) in paragraph at lines 276--305
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56]
+ [58]
 
-LaTeX Warning: Reference `0' on page 57 undefined on input line 308.
+LaTeX Warning: Reference `0' on page 59 undefined on input line 308.
 
 
 Underfull \hbox (badness 2680) in paragraph at lines 308--318
@@ -2830,7 +2834,7 @@ Underfull \hbox (badness 1845) in paragraph at lines 308--318
  []
 
 
-LaTeX Warning: Reference `0' on page 57 undefined on input line 321.
+LaTeX Warning: Reference `0' on page 59 undefined on input line 321.
 
 
 Underfull \hbox (badness 1199) in paragraph at lines 321--372
@@ -2922,15 +2926,15 @@ Underfull \hbox (badness 1221) in paragraph at lines 321--372
 \ZZZ o fizeram. [] E naquele mesmo dia o
  []
 
-[57]
+[59]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [58]
+ [60]
 
-LaTeX Warning: Reference `0' on page 59 undefined on input line 375.
+LaTeX Warning: Reference `0' on page 61 undefined on input line 375.
 
 
 Underfull \hbox (badness 1881) in paragraph at lines 375--397
@@ -2975,9 +2979,9 @@ Underfull \hbox (badness 1616) in paragraph at lines 375--397
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [59]
+ [61]
 
-LaTeX Warning: Reference `0' on page 60 undefined on input line 400.
+LaTeX Warning: Reference `0' on page 62 undefined on input line 400.
 
 
 Underfull \hbox (badness 1057) in paragraph at lines 400--431
@@ -3007,9 +3011,9 @@ Underfull \hbox (badness 1558) in paragraph at lines 400--431
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [60]
+ [62]
 
-LaTeX Warning: Reference `0' on page 61 undefined on input line 434.
+LaTeX Warning: Reference `0' on page 63 undefined on input line 434.
 
 
 Underfull \hbox (badness 6445) in paragraph at lines 434--461
@@ -3091,9 +3095,9 @@ Underfull \hbox (badness 1127) in paragraph at lines 434--461
 \ZZZ os seus estatutos, nenhuma enfermidade
  []
 
-[61]
+[63]
 
-LaTeX Warning: Reference `0' on page 62 undefined on input line 464.
+LaTeX Warning: Reference `0' on page 64 undefined on input line 464.
 
 
 Underfull \hbox (badness 1028) in paragraph at lines 464--500
@@ -3150,9 +3154,9 @@ Underfull \hbox (badness 1895) in paragraph at lines 464--500
 \ZZZ do testemunho para guardá-lo, como o
  []
 
-[62]
+[64]
 
-LaTeX Warning: Reference `0' on page 63 undefined on input line 503.
+LaTeX Warning: Reference `0' on page 65 undefined on input line 503.
 
 
 Underfull \hbox (badness 2951) in paragraph at lines 503--519
@@ -3160,7 +3164,7 @@ Underfull \hbox (badness 2951) in paragraph at lines 503--519
  []
 
 
-LaTeX Warning: Reference `0' on page 63 undefined on input line 522.
+LaTeX Warning: Reference `0' on page 65 undefined on input line 522.
 
 
 Underfull \hbox (badness 1466) in paragraph at lines 522--549
@@ -3182,12 +3186,12 @@ Underfull \hbox (badness 1122) in paragraph at lines 522--549
 \ZZZ homens de virtude, temerosos de Deus,
  []
 
-[63]
+[65]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 64 undefined on input line 552.
+LaTeX Warning: Reference `0' on page 66 undefined on input line 552.
 
 
 Underfull \hbox (badness 1259) in paragraph at lines 552--577
@@ -3219,12 +3223,12 @@ Underfull \hbox (badness 1383) in paragraph at lines 552--577
 \ZZZ não faça neles dano\ZZZ . [] Então Moisés
  []
 
-[64]
+[66]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 65 undefined on input line 580.
+LaTeX Warning: Reference `0' on page 67 undefined on input line 580.
 
 
 Underfull \hbox (badness 2269) in paragraph at lines 580--606
@@ -3251,9 +3255,9 @@ Underfull \hbox (badness 2245) in paragraph at lines 580--606
 \ZZZ altar de pedras, não as faças lavradas;
  []
 
-[65]
+[67]
 
-LaTeX Warning: Reference `0' on page 66 undefined on input line 609.
+LaTeX Warning: Reference `0' on page 68 undefined on input line 609.
 
 
 Underfull \hbox (badness 1062) in paragraph at lines 609--645
@@ -3283,9 +3287,9 @@ Underfull \hbox (badness 1147) in paragraph at lines 609--645
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66]
+ [68]
 
-LaTeX Warning: Reference `0' on page 67 undefined on input line 648.
+LaTeX Warning: Reference `0' on page 69 undefined on input line 648.
 
 
 Underfull \hbox (badness 1642) in paragraph at lines 648--679
@@ -3345,9 +3349,9 @@ Underfull \hbox (badness 1748) in paragraph at lines 648--679
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67]
+ [69]
 
-LaTeX Warning: Reference `0' on page 68 undefined on input line 682.
+LaTeX Warning: Reference `0' on page 70 undefined on input line 682.
 
 
 Underfull \hbox (badness 3271) in paragraph at lines 682--715
@@ -3407,9 +3411,9 @@ Underfull \hbox (badness 1603) in paragraph at lines 682--715
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68]
+ [70]
 
-LaTeX Warning: Reference `0' on page 69 undefined on input line 718.
+LaTeX Warning: Reference `0' on page 71 undefined on input line 718.
 
 
 Underfull \hbox (badness 3735) in paragraph at lines 718--736
@@ -3437,7 +3441,7 @@ Underfull \hbox (badness 1067) in paragraph at lines 718--736
  []
 
 
-LaTeX Warning: Reference `0' on page 69 undefined on input line 739.
+LaTeX Warning: Reference `0' on page 71 undefined on input line 739.
 
 
 Underfull \hbox (badness 1983) in paragraph at lines 739--779
@@ -3509,12 +3513,12 @@ Underfull \hbox (badness 1303) in paragraph at lines 739--779
 \ZZZ e sua cana, seus copos, seus botões, e
  []
 
-[69]
+[71]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 70 undefined on input line 782.
+LaTeX Warning: Reference `0' on page 72 undefined on input line 782.
 
 
 Underfull \hbox (badness 2221) in paragraph at lines 782--819
@@ -3581,9 +3585,9 @@ Underfull \hbox (badness 1142) in paragraph at lines 782--819
 \ZZZ o véu debaixo dos colchetes, e meterás
  []
 
-[70]
+[72]
 
-LaTeX Warning: Reference `0' on page 71 undefined on input line 822.
+LaTeX Warning: Reference `0' on page 73 undefined on input line 822.
 
 
 Underfull \hbox (badness 1902) in paragraph at lines 822--843
@@ -3603,9 +3607,9 @@ Underfull \hbox (badness 2042) in paragraph at lines 822--843
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71]
+ [73]
 
-LaTeX Warning: Reference `0' on page 72 undefined on input line 846.
+LaTeX Warning: Reference `0' on page 74 undefined on input line 846.
 
 
 Underfull \hbox (badness 1895) in paragraph at lines 846--889
@@ -3642,15 +3646,15 @@ Underfull \hbox (badness 2096) in paragraph at lines 846--889
 \ZZZ sobre Arão e sobre seus filhos quando
  []
 
-[72]
+[74]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73]
+ [75]
 
-LaTeX Warning: Reference `0' on page 74 undefined on input line 892.
+LaTeX Warning: Reference `0' on page 76 undefined on input line 892.
 
 
 Underfull \hbox (badness 1067) in paragraph at lines 892--938
@@ -3695,12 +3699,12 @@ Underfull \hbox (badness 1097) in paragraph at lines 892--938
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [74]
+ [76]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 75 undefined on input line 941.
+LaTeX Warning: Reference `0' on page 77 undefined on input line 941.
 
 
 Underfull \hbox (badness 4132) in paragraph at lines 941--979
@@ -3757,12 +3761,12 @@ Underfull \hbox (badness 1377) in paragraph at lines 941--979
 \ZZZ outra segundo sua composição: te será
  []
 
-[75]
+[77]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 76 undefined on input line 982.
+LaTeX Warning: Reference `0' on page 78 undefined on input line 982.
 
 
 Underfull \hbox (badness 1117) in paragraph at lines 982--1000
@@ -3814,9 +3818,9 @@ Underfull \hbox (badness 1769) in paragraph at lines 982--1000
 \ZZZ no dia do sábado certamente morrerá\ZZZ ”\ZZZ .
  []
 
-[76]
+[78]
 
-LaTeX Warning: Reference `0' on page 77 undefined on input line 1003.
+LaTeX Warning: Reference `0' on page 79 undefined on input line 1003.
 
 
 Underfull \hbox (badness 2073) in paragraph at lines 1003--1038
@@ -3851,9 +3855,9 @@ Underfull \hbox (badness 1014) in paragraph at lines 1003--1038
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77]
+ [79]
 
-LaTeX Warning: Reference `0' on page 78 undefined on input line 1041.
+LaTeX Warning: Reference `0' on page 80 undefined on input line 1041.
 
 
 Underfull \hbox (badness 3049) in paragraph at lines 1041--1064
@@ -3908,9 +3912,9 @@ Underfull \hbox (badness 1281) in paragraph at lines 1041--1064
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [78]
+ [80]
 
-LaTeX Warning: Reference `0' on page 79 undefined on input line 1067.
+LaTeX Warning: Reference `0' on page 81 undefined on input line 1067.
 
 
 Underfull \hbox (badness 2142) in paragraph at lines 1067--1102
@@ -3965,12 +3969,12 @@ Underfull \hbox (badness 1735) in paragraph at lines 1067--1102
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [79]
+ [81]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 80 undefined on input line 1105.
+LaTeX Warning: Reference `0' on page 82 undefined on input line 1105.
 
 
 Underfull \hbox (badness 1221) in paragraph at lines 1105--1140
@@ -4037,12 +4041,12 @@ Underfull \hbox (badness 1902) in paragraph at lines 1105--1140
 \ZZZ da unção, e para o incenso aromático.
  []
 
-[80]
+[82]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 81 undefined on input line 1143.
+LaTeX Warning: Reference `0' on page 83 undefined on input line 1143.
 
 
 Underfull \hbox (badness 5908) in paragraph at lines 1143--1181
@@ -4119,12 +4123,12 @@ Underfull \hbox (badness 1199) in paragraph at lines 1143--1181
 \ZZZ de carneiros, e uma coberta encima de
  []
 
-[81]
+[83]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 82 undefined on input line 1184.
+LaTeX Warning: Reference `0' on page 84 undefined on input line 1184.
 
 
 Underfull \hbox (badness 2277) in paragraph at lines 1184--1213
@@ -4146,12 +4150,12 @@ Underfull \hbox (badness 1342) in paragraph at lines 1184--1213
 \ZZZ o propiciatório os rostos dos querubins.
  []
 
-[82]
+[84]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 83 undefined on input line 1216.
+LaTeX Warning: Reference `0' on page 85 undefined on input line 1216.
 
 
 Underfull \hbox (badness 1629) in paragraph at lines 1216--1247
@@ -4163,12 +4167,12 @@ Underfull \hbox (badness 1325) in paragraph at lines 1216--1247
 \ZZZ côvados, conforme as cortinas do átrio.
  []
 
-[83]
+[85]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 84 undefined on input line 1250.
+LaTeX Warning: Reference `0' on page 86 undefined on input line 1250.
 
 
 Underfull \hbox (badness 3271) in paragraph at lines 1250--1293
@@ -4255,12 +4259,12 @@ Underfull \hbox (badness 2503) in paragraph at lines 1250--1293
 \ZZZ serviço para ministrar no santuário, as
  []
 
-[84]
+[86]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 85 undefined on input line 1296.
+LaTeX Warning: Reference `0' on page 87 undefined on input line 1296.
 
 
 Underfull \hbox (badness 1762) in paragraph at lines 1296--1333
@@ -4332,11 +4336,11 @@ Underfull \hbox (badness 1810) in paragraph at lines 1296--1333
 \ZZZ do testemunho, porque a nuvem estava
  []
 
-[85]
+[87]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./source/AT/03 - LEV_src.tex [86]
+(./source/AT/03 - LEV_src.tex [88]
 Underfull \hbox (badness 1097) in paragraph at lines 6--23
 \ZZZ presença do SENHOR; e os sacerdotes,
  []
@@ -4347,7 +4351,7 @@ Underfull \hbox (badness 1019) in paragraph at lines 6--23
  []
 
 
-LaTeX Warning: Reference `0' on page 87 undefined on input line 26.
+LaTeX Warning: Reference `0' on page 89 undefined on input line 26.
 
 
 Underfull \hbox (badness 2573) in paragraph at lines 26--44
@@ -4404,11 +4408,11 @@ Underfull \hbox (badness 1418) in paragraph at lines 26--44
 \ZZZ toda oferta de teu presente com sal; e
  []
 
-[87
+[89
 
 ]
 
-LaTeX Warning: Reference `0' on page 88 undefined on input line 47.
+LaTeX Warning: Reference `0' on page 90 undefined on input line 47.
 
 
 Underfull \hbox (badness 1009) in paragraph at lines 47--64
@@ -4431,7 +4435,7 @@ Underfull \hbox (badness 1231) in paragraph at lines 47--64
  []
 
 
-LaTeX Warning: Reference `0' on page 88 undefined on input line 67.
+LaTeX Warning: Reference `0' on page 90 undefined on input line 67.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 67--102
@@ -4523,15 +4527,15 @@ Underfull \hbox (badness 1184) in paragraph at lines 67--102
 \ZZZ a oferta acesa ao SENHOR: e lhe fará
  []
 
-[88]
+[90]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [89]
+ [91]
 
-LaTeX Warning: Reference `0' on page 90 undefined on input line 105.
+LaTeX Warning: Reference `0' on page 92 undefined on input line 105.
 
 
 Underfull \hbox (badness 3189) in paragraph at lines 105--124
@@ -4659,7 +4663,7 @@ Underfull \hbox (badness 1303) in paragraph at lines 105--124
  []
 
 
-LaTeX Warning: Reference `0' on page 90 undefined on input line 127.
+LaTeX Warning: Reference `0' on page 92 undefined on input line 127.
 
 
 Underfull \hbox (badness 6675) in paragraph at lines 127--157
@@ -4736,12 +4740,12 @@ Underfull \hbox (badness 1448) in paragraph at lines 127--157
 \ZZZ se meter no tabernáculo do testemunho
  []
 
-[90]
+[92]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 91 undefined on input line 160.
+LaTeX Warning: Reference `0' on page 93 undefined on input line 160.
 
 
 Underfull \hbox (badness 1502) in paragraph at lines 160--198
@@ -4823,15 +4827,15 @@ Underfull \hbox (badness 1502) in paragraph at lines 160--198
 \ZZZ das ofertas pacíficas, e a gordura, dele
  []
 
-[91]
+[93]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [92]
+ [94]
 
-LaTeX Warning: Reference `0' on page 93 undefined on input line 201.
+LaTeX Warning: Reference `0' on page 95 undefined on input line 201.
 
 
 Underfull \hbox (badness 1831) in paragraph at lines 201--237
@@ -4871,9 +4875,9 @@ Underfull \hbox (badness 1960) in paragraph at lines 201--237
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [93]
+ [95]
 
-LaTeX Warning: Reference `0' on page 94 undefined on input line 240.
+LaTeX Warning: Reference `0' on page 96 undefined on input line 240.
 
 
 Underfull \hbox (badness 2269) in paragraph at lines 240--264
@@ -4928,9 +4932,9 @@ Underfull \hbox (badness 1342) in paragraph at lines 240--264
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [94]
+ [96]
 
-LaTeX Warning: Reference `0' on page 95 undefined on input line 267.
+LaTeX Warning: Reference `0' on page 97 undefined on input line 267.
 
 
 Underfull \hbox (badness 6575) in paragraph at lines 267--287
@@ -4963,7 +4967,7 @@ Underfull \hbox (badness 1454) in paragraph at lines 267--287
  []
 
 
-LaTeX Warning: Reference `0' on page 95 undefined on input line 290.
+LaTeX Warning: Reference `0' on page 97 undefined on input line 290.
 
 
 Underfull \hbox (badness 1478) in paragraph at lines 290--337
@@ -5005,15 +5009,15 @@ Underfull \hbox (badness 2521) in paragraph at lines 290--337
 \ZZZ vossas pessoas com nenhum réptil que
  []
 
-[95]
+[97]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [96]
+ [98]
 
-LaTeX Warning: Reference `0' on page 97 undefined on input line 340.
+LaTeX Warning: Reference `0' on page 99 undefined on input line 340.
 
 
 Underfull \hbox (badness 3049) in paragraph at lines 340--348
@@ -5031,7 +5035,7 @@ Underfull \hbox (badness 1789) in paragraph at lines 340--348
  []
 
 
-LaTeX Warning: Reference `0' on page 97 undefined on input line 351.
+LaTeX Warning: Reference `0' on page 99 undefined on input line 351.
 
 
 Underfull \hbox (badness 1478) in paragraph at lines 351--410
@@ -5068,18 +5072,18 @@ Underfull \hbox (badness 1895) in paragraph at lines 351--410
 \ZZZ o tempo que a chaga estiver nele será
  []
 
-[97]
+[99]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [98]
+ [100]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 99 undefined on input line 413.
+LaTeX Warning: Reference `0' on page 101 undefined on input line 413.
 
 
 Underfull \hbox (badness 1430) in paragraph at lines 413--472
@@ -5126,15 +5130,15 @@ Underfull \hbox (badness 1502) in paragraph at lines 413--472
 \ZZZ entrará e olhará; e se parecer haver-se
  []
 
-[99]
+[101]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [100]
+ [102]
 
-LaTeX Warning: Reference `0' on page 101 undefined on input line 475.
+LaTeX Warning: Reference `0' on page 103 undefined on input line 475.
 
 
 Underfull \hbox (badness 1137) in paragraph at lines 475--508
@@ -5169,9 +5173,9 @@ Underfull \hbox (badness 1286) in paragraph at lines 475--508
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [101]
+ [103]
 
-LaTeX Warning: Reference `0' on page 102 undefined on input line 511.
+LaTeX Warning: Reference `0' on page 104 undefined on input line 511.
 
 
 Underfull \hbox (badness 2790) in paragraph at lines 511--545
@@ -5251,12 +5255,12 @@ Underfull \hbox (badness 2119) in paragraph at lines 511--545
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [102]
+ [104]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 103 undefined on input line 548.
+LaTeX Warning: Reference `0' on page 105 undefined on input line 548.
 
 
 Underfull \hbox (badness 2635) in paragraph at lines 548--564
@@ -5293,9 +5297,9 @@ Underfull \hbox (badness 3088) in paragraph at lines 548--564
 [] \ZZZ Portanto, disse aos filhos de Israel:
  []
 
-[103]
+[105]
 
-LaTeX Warning: Reference `0' on page 104 undefined on input line 567.
+LaTeX Warning: Reference `0' on page 106 undefined on input line 567.
 
 
 Underfull \hbox (badness 1527) in paragraph at lines 567--597
@@ -5350,9 +5354,9 @@ Underfull \hbox (badness 1496) in paragraph at lines 567--597
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [104]
+ [106]
 
-LaTeX Warning: Reference `0' on page 105 undefined on input line 600.
+LaTeX Warning: Reference `0' on page 107 undefined on input line 600.
 
 
 Underfull \hbox (badness 1325) in paragraph at lines 600--637
@@ -5427,9 +5431,9 @@ Underfull \hbox (badness 1688) in paragraph at lines 600--637
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [105]
+ [107]
 
-LaTeX Warning: Reference `0' on page 106 undefined on input line 640.
+LaTeX Warning: Reference `0' on page 108 undefined on input line 640.
 
 
 Underfull \hbox (badness 6978) in paragraph at lines 640--668
@@ -5469,9 +5473,9 @@ Underfull \hbox (badness 1043) in paragraph at lines 640--668
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [106]
+ [108]
 
-LaTeX Warning: Reference `0' on page 107 undefined on input line 671.
+LaTeX Warning: Reference `0' on page 109 undefined on input line 671.
 
 
 Underfull \hbox (badness 1917) in paragraph at lines 685--685
@@ -5501,9 +5505,9 @@ Underfull \hbox (badness 1546) in paragraph at lines 671--695
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [107]
+ [109]
 
-LaTeX Warning: Reference `0' on page 108 undefined on input line 698.
+LaTeX Warning: Reference `0' on page 110 undefined on input line 698.
 
 
 Underfull \hbox (badness 1661) in paragraph at lines 698--731
@@ -5583,9 +5587,9 @@ Underfull \hbox (badness 1910) in paragraph at lines 698--731
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [108]
+ [110]
 
-LaTeX Warning: Reference `0' on page 109 undefined on input line 734.
+LaTeX Warning: Reference `0' on page 111 undefined on input line 734.
 
 
 Underfull \hbox (badness 1527) in paragraph at lines 734--778
@@ -5760,12 +5764,12 @@ Underfull \hbox (badness 3158) in paragraph at lines 734--778
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [109]
+ [111]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 110 undefined on input line 781.
+LaTeX Warning: Reference `0' on page 112 undefined on input line 781.
 
 
 Underfull \hbox (badness 6625) in paragraph at lines 781--804
@@ -5862,9 +5866,9 @@ Underfull \hbox (badness 2042) in paragraph at lines 781--804
 \ZZZ tanto o estrangeiro como o natural, se
  []
 
-[110]
+[112]
 
-LaTeX Warning: Reference `0' on page 111 undefined on input line 807.
+LaTeX Warning: Reference `0' on page 113 undefined on input line 807.
 
 
 Underfull \hbox (badness 1728) in paragraph at lines 807--862
@@ -5924,12 +5928,12 @@ Underfull \hbox (badness 1231) in paragraph at lines 807--862
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [111]
+ [113]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 112 undefined on input line 865.
+LaTeX Warning: Reference `0' on page 114 undefined on input line 865.
 
 
 Underfull \hbox (badness 5847) in paragraph at lines 865--911
@@ -6129,12 +6133,12 @@ Underfull \hbox (badness 2134) in paragraph at lines 865--911
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [112]
+ [114]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [113]
+ [115]
 
-LaTeX Warning: Reference `0' on page 114 undefined on input line 914.
+LaTeX Warning: Reference `0' on page 116 undefined on input line 914.
 
 
 Underfull \hbox (badness 1527) in paragraph at lines 914--947
@@ -6226,11 +6230,11 @@ Underfull \hbox (badness 2080) in paragraph at lines 914--947
 \ZZZ se alguém quiser resgatar algo de seus
  []
 
-[114]
+[116]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./source/AT/04 - NUM_src.tex [115]
+(./source/AT/04 - NUM_src.tex [117]
 Underfull \hbox (badness 1616) in paragraph at lines 6--60
 \ZZZ Issacar, Natanael filho de Zuar. [] De
  []
@@ -6288,14 +6292,14 @@ Underfull \hbox (badness 1038) in paragraph at lines 6--60
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [116
+ [118
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 117 undefined on input line 63.
+LaTeX Warning: Reference `0' on page 119 undefined on input line 63.
 
 
 Underfull \hbox (badness 1478) in paragraph at lines 63--97
@@ -6397,9 +6401,9 @@ Underfull \hbox (badness 1038) in paragraph at lines 63--97
 \ZZZ quatrocentos. [] Todos os contados no
  []
 
-[117]
+[119]
 
-LaTeX Warning: Reference `0' on page 118 undefined on input line 100.
+LaTeX Warning: Reference `0' on page 120 undefined on input line 100.
 
 
 Underfull \hbox (badness 3930) in paragraph at lines 100--151
@@ -6519,12 +6523,12 @@ Underfull \hbox (badness 1424) in paragraph at lines 100--151
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [118]
+ [120]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 119 undefined on input line 154.
+LaTeX Warning: Reference `0' on page 121 undefined on input line 154.
 
 
 Underfull \hbox (badness 1400) in paragraph at lines 154--203
@@ -6606,15 +6610,15 @@ Underfull \hbox (badness 1033) in paragraph at lines 154--203
 \ZZZ contaram Moisés e Arão por ordem do
  []
 
-[119]
+[121]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [120]
+ [122]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 121 undefined on input line 206.
+LaTeX Warning: Reference `0' on page 123 undefined on input line 206.
 
 
 Underfull \hbox (badness 4279) in paragraph at lines 206--237
@@ -6676,12 +6680,12 @@ Underfull \hbox (badness 1490) in paragraph at lines 206--237
 \ZZZ ela incenso; porque é oferta de ciúme,
  []
 
-[121]
+[123]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 122 undefined on input line 240.
+LaTeX Warning: Reference `0' on page 124 undefined on input line 240.
 
 
 Underfull \hbox (badness 1237) in paragraph at lines 240--267
@@ -6748,12 +6752,12 @@ Underfull \hbox (badness 1127) in paragraph at lines 240--267
 \ZZZ lhes: [] ‘  \ZZZ O SENHOR te abençoe, e te
  []
 
-[122]
+[124]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 123 undefined on input line 270.
+LaTeX Warning: Reference `0' on page 125 undefined on input line 270.
 
 
 Underfull \hbox (badness 5787) in paragraph at lines 270--359
@@ -6905,18 +6909,18 @@ Underfull \hbox (badness 1424) in paragraph at lines 270--359
 \ZZZ os bois para holocausto, doze bezerros;
  []
 
-[123]
+[125]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [124]
+ [126]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 125 undefined on input line 362.
+LaTeX Warning: Reference `0' on page 127 undefined on input line 362.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 362--388
@@ -7033,9 +7037,9 @@ Underfull \hbox (badness 3354) in paragraph at lines 362--388
 \ZZZ servirão: [] Porém servirão com seus
  []
 
-[125]
+[127]
 
-LaTeX Warning: Reference `0' on page 126 undefined on input line 391.
+LaTeX Warning: Reference `0' on page 128 undefined on input line 391.
 
 
 Underfull \hbox (badness 1688) in paragraph at lines 391--414
@@ -7062,12 +7066,12 @@ Underfull \hbox (badness 1152) in paragraph at lines 391--414
 \ZZZ ou se havia estado no dia, e à noite a
  []
 
-[126]
+[128]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 127 undefined on input line 417.
+LaTeX Warning: Reference `0' on page 129 undefined on input line 417.
 
 
 Underfull \hbox (badness 1014) in paragraph at lines 417--453
@@ -7184,12 +7188,12 @@ Underfull \hbox (badness 2096) in paragraph at lines 417--453
 \ZZZ lugar de descanso. [] E a nuvem do
  []
 
-[127]
+[129]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 128 undefined on input line 456.
+LaTeX Warning: Reference `0' on page 130 undefined on input line 456.
 
 
 Underfull \hbox (badness 1688) in paragraph at lines 456--491
@@ -7246,12 +7250,12 @@ Underfull \hbox (badness 3333) in paragraph at lines 456--491
 \ZZZ profetas, que o SENHOR pusesse seu
  []
 
-[128]
+[130]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [129]
+ [131]
 
-LaTeX Warning: Reference `0' on page 130 undefined on input line 494.
+LaTeX Warning: Reference `0' on page 132 undefined on input line 494.
 
 
 Underfull \hbox (badness 3029) in paragraph at lines 494--510
@@ -7279,11 +7283,11 @@ Underfull \hbox (badness 1472) in paragraph at lines 494--510
  []
 
 
-LaTeX Warning: Reference `0' on page 130 undefined on input line 513.
+LaTeX Warning: Reference `0' on page 132 undefined on input line 513.
 
-[130]
+[132]
 
-LaTeX Warning: Reference `0' on page 131 undefined on input line 549.
+LaTeX Warning: Reference `0' on page 133 undefined on input line 549.
 
 
 Underfull \hbox (badness 2158) in paragraph at lines 549--594
@@ -7403,9 +7407,9 @@ Underfull \hbox (badness 1077) in paragraph at lines 549--594
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [131]
+ [133]
 
-LaTeX Warning: Reference `0' on page 132 undefined on input line 597.
+LaTeX Warning: Reference `0' on page 134 undefined on input line 597.
 
 
 Underfull \hbox (badness 1527) in paragraph at lines 597--638
@@ -7547,15 +7551,15 @@ Underfull \hbox (badness 2293) in paragraph at lines 597--638
 \ZZZ que vos lembreis, e façais todos meus
  []
 
-[132]
+[134]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [133]
+ [135]
 
-LaTeX Warning: Reference `0' on page 134 undefined on input line 641.
+LaTeX Warning: Reference `0' on page 136 undefined on input line 641.
 
 
 Underfull \hbox (badness 3815) in paragraph at lines 641--691
@@ -7665,9 +7669,9 @@ Underfull \hbox (badness 1616) in paragraph at lines 641--691
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [134]
+ [136]
 
-LaTeX Warning: Reference `0' on page 135 undefined on input line 694.
+LaTeX Warning: Reference `0' on page 137 undefined on input line 694.
 
 
 Underfull \hbox (badness 1308) in paragraph at lines 694--707
@@ -7689,9 +7693,9 @@ Underfull \hbox (badness 1748) in paragraph at lines 694--707
 \ZZZ do SENHOR morrerá: Acabaremos de
  []
 
-[135]
+[137]
 
-LaTeX Warning: Reference `0' on page 136 undefined on input line 710.
+LaTeX Warning: Reference `0' on page 138 undefined on input line 710.
 
 
 Underfull \hbox (badness 1033) in paragraph at lines 710--742
@@ -7791,12 +7795,12 @@ Underfull \hbox (badness 2096) in paragraph at lines 710--742
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [136]
+ [138]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 137 undefined on input line 745.
+LaTeX Warning: Reference `0' on page 139 undefined on input line 745.
 
 
 Underfull \hbox (badness 1478) in paragraph at lines 745--767
@@ -7823,9 +7827,9 @@ Underfull \hbox (badness 2376) in paragraph at lines 745--767
 \ZZZ não foi espargida sobre ele a água de
  []
 
-[137]
+[139]
 
-LaTeX Warning: Reference `0' on page 138 undefined on input line 770.
+LaTeX Warning: Reference `0' on page 140 undefined on input line 770.
 
 
 Underfull \hbox (badness 2503) in paragraph at lines 770--799
@@ -7890,9 +7894,9 @@ Underfull \hbox (badness 1142) in paragraph at lines 770--799
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [138]
+ [140]
 
-LaTeX Warning: Reference `0' on page 139 undefined on input line 802.
+LaTeX Warning: Reference `0' on page 141 undefined on input line 802.
 
 
 Underfull \hbox (badness 5175) in paragraph at lines 802--837
@@ -7959,9 +7963,9 @@ Underfull \hbox (badness 1629) in paragraph at lines 802--837
 \ZZZ enviou Moisés a reconhecer a Jazer; e
  []
 
-[139]
+[141]
 
-LaTeX Warning: Reference `0' on page 140 undefined on input line 840.
+LaTeX Warning: Reference `0' on page 142 undefined on input line 840.
 
 
 Underfull \hbox (badness 2343) in paragraph at lines 840--881
@@ -8011,12 +8015,12 @@ Underfull \hbox (badness 2221) in paragraph at lines 840--881
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [140]
+ [142]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 141 undefined on input line 884.
+LaTeX Warning: Reference `0' on page 143 undefined on input line 884.
 
 
 Underfull \hbox (badness 1377) in paragraph at lines 884--914
@@ -8033,9 +8037,9 @@ Underfull \hbox (badness 1097) in paragraph at lines 884--914
 \ZZZ a Balaque: \ZZZ Edifica para mim aqui sete
  []
 
-[141]
+[143]
 
-LaTeX Warning: Reference `0' on page 142 undefined on input line 917.
+LaTeX Warning: Reference `0' on page 144 undefined on input line 917.
 
 
 Underfull \hbox (badness 1028) in paragraph at lines 917--942
@@ -8072,12 +8076,12 @@ Underfull \hbox (badness 1286) in paragraph at lines 917--942
 \ZZZ leoa; quem o despertará? Benditos os
  []
 
-[142]
+[144]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 143 undefined on input line 945.
+LaTeX Warning: Reference `0' on page 145 undefined on input line 945.
 
 
 Underfull \hbox (badness 2189) in paragraph at lines 945--963
@@ -8094,9 +8098,9 @@ Underfull \hbox (badness 1348) in paragraph at lines 945--963
 \ZZZ da tribo de Simeão. [] E o nome da
  []
 
-[143]
+[145]
 
-LaTeX Warning: Reference `0' on page 144 undefined on input line 966.
+LaTeX Warning: Reference `0' on page 146 undefined on input line 966.
 
 
 Underfull \hbox (badness 1629) in paragraph at lines 966--1031
@@ -8201,12 +8205,12 @@ Underfull \hbox (badness 1472) in paragraph at lines 966--1031
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [144]
+ [146]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 145 undefined on input line 1034.
+LaTeX Warning: Reference `0' on page 147 undefined on input line 1034.
 
 
 Underfull \hbox (badness 1303) in paragraph at lines 1034--1057
@@ -8233,12 +8237,12 @@ Underfull \hbox (badness 1077) in paragraph at lines 1034--1057
 \ZZZ a Josué, e lhe pôs diante de Eleazar o
  []
 
-[145]
+[147]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 146 undefined on input line 1060.
+LaTeX Warning: Reference `0' on page 148 undefined on input line 1060.
 
 
 Underfull \hbox (badness 2573) in paragraph at lines 1060--1091
@@ -8260,12 +8264,12 @@ Underfull \hbox (badness 2261) in paragraph at lines 1060--1091
 \ZZZ santa convocação; nenhuma obra servil
  []
 
-[146]
+[148]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 147 undefined on input line 1094.
+LaTeX Warning: Reference `0' on page 149 undefined on input line 1094.
 
 
 Underfull \hbox (badness 2213) in paragraph at lines 1094--1137
@@ -8372,12 +8376,12 @@ Underfull \hbox (badness 1609) in paragraph at lines 1094--1137
 \ZZZ libação. [] Estas coisas oferecereis ao
  []
 
-[147]
+[149]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 148 undefined on input line 1140.
+LaTeX Warning: Reference `0' on page 150 undefined on input line 1140.
 
 
 Underfull \hbox (badness 4024) in paragraph at lines 1140--1156
@@ -8389,9 +8393,9 @@ Underfull \hbox (badness 1325) in paragraph at lines 1140--1156
 \ZZZ a isso, os votos dela serão firmes, e a
  []
 
-[148]
+[150]
 
-LaTeX Warning: Reference `0' on page 149 undefined on input line 1159.
+LaTeX Warning: Reference `0' on page 151 undefined on input line 1159.
 
 
 Underfull \hbox (badness 1320) in paragraph at lines 1159--1213
@@ -8511,12 +8515,12 @@ Underfull \hbox (badness 1783) in paragraph at lines 1159--1213
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [149]
+ [151]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 150 undefined on input line 1216.
+LaTeX Warning: Reference `0' on page 152 undefined on input line 1216.
 
 
 Underfull \hbox (badness 1509) in paragraph at lines 1216--1258
@@ -8593,15 +8597,15 @@ Underfull \hbox (badness 2103) in paragraph at lines 1216--1258
 \ZZZ de vós, lhes dareis a terra de Gileade
  []
 
-[150]
+[152]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [151]
+ [153]
 
-LaTeX Warning: Reference `0' on page 152 undefined on input line 1261.
+LaTeX Warning: Reference `0' on page 154 undefined on input line 1261.
 
 
 Underfull \hbox (badness 1043) in paragraph at lines 1261--1317
@@ -8706,9 +8710,9 @@ Underfull \hbox (badness 1147) in paragraph at lines 1261--1317
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [152]
+ [154]
 
-LaTeX Warning: Reference `0' on page 153 undefined on input line 1320.
+LaTeX Warning: Reference `0' on page 155 undefined on input line 1320.
 
 
 Underfull \hbox (badness 1406) in paragraph at lines 1320--1349
@@ -8733,9 +8737,9 @@ Underfull \hbox (badness 1789) in paragraph at lines 1320--1349
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [153]
+ [155]
 
-LaTeX Warning: Reference `0' on page 154 undefined on input line 1352.
+LaTeX Warning: Reference `0' on page 156 undefined on input line 1352.
 
 
 Underfull \hbox (badness 1701) in paragraph at lines 1352--1386
@@ -8810,16 +8814,16 @@ Underfull \hbox (badness 2158) in paragraph at lines 1352--1386
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [154]
+ [156]
 
-LaTeX Warning: Reference `0' on page 155 undefined on input line 1389.
+LaTeX Warning: Reference `0' on page 157 undefined on input line 1389.
 
 
 Underfull \hbox (badness 1163) in paragraph at lines 1389--1402
 \ZZZ Zelofeade, dizendo: “  \ZZZ Casem-se como a
  []
 
-) (./source/AT/05 - DEU_src.tex [155]
+) (./source/AT/05 - DEU_src.tex [157]
 Underfull \hbox (badness 1466) in paragraph at lines 6--52
 \ZZZ caminho do monte de Seir, até Cades-
  []
@@ -8877,14 +8881,14 @@ Underfull \hbox (badness 1881) in paragraph at lines 6--52
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [156
+ [158
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 157 undefined on input line 55.
+LaTeX Warning: Reference `0' on page 159 undefined on input line 55.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 55--92
@@ -8956,9 +8960,9 @@ Underfull \hbox (badness 3547) in paragraph at lines 55--92
 \ZZZ e mulheres, e crianças; não deixamos
  []
 
-[157]
+[159]
 
-LaTeX Warning: Reference `0' on page 158 undefined on input line 95.
+LaTeX Warning: Reference `0' on page 160 undefined on input line 95.
 
 
 Underfull \hbox (badness 1082) in paragraph at lines 95--126
@@ -9010,12 +9014,12 @@ Underfull \hbox (badness 1881) in paragraph at lines 95--126
 \ZZZ vossos irmãos os filhos de Israel todos
  []
 
-[158]
+[160]
 Underfull \vbox (badness 2443) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 159 undefined on input line 129.
+LaTeX Warning: Reference `0' on page 161 undefined on input line 129.
 
 
 Underfull \hbox (badness 1460) in paragraph at lines 129--178
@@ -9077,18 +9081,18 @@ Underfull \hbox (badness 1052) in paragraph at lines 129--178
 \ZZZ a teus filhos depois de ti, e prolongues
  []
 
-[159]
+[161]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [160]
+ [162]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 161 undefined on input line 181.
+LaTeX Warning: Reference `0' on page 163 undefined on input line 181.
 
 
 Underfull \hbox (badness 1694) in paragraph at lines 181--214
@@ -9115,12 +9119,12 @@ Underfull \hbox (badness 1048) in paragraph at lines 181--214
 \ZZZ em duas tábuas de pedra, as quais deu
  []
 
-[161]
+[163]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 162 undefined on input line 217.
+LaTeX Warning: Reference `0' on page 164 undefined on input line 217.
 
 
 Underfull \hbox (badness 6332) in paragraph at lines 217--242
@@ -9162,9 +9166,9 @@ Underfull \hbox (badness 1546) in paragraph at lines 217--242
 \ZZZ para que nos vá bem todos os dias, e
  []
 
-[162]
+[164]
 
-LaTeX Warning: Reference `0' on page 163 undefined on input line 245.
+LaTeX Warning: Reference `0' on page 165 undefined on input line 245.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -9199,9 +9203,9 @@ Underfull \hbox (badness 1831) in paragraph at lines 245--271
 [] \ZZZ Guarda portanto os mandamentos, e
  []
 
-[163]
+[165]
 
-LaTeX Warning: Reference `0' on page 164 undefined on input line 274.
+LaTeX Warning: Reference `0' on page 166 undefined on input line 274.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 274--294
@@ -9231,9 +9235,9 @@ Underfull \hbox (badness 1237) in paragraph at lines 274--294
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [164]
+ [166]
 
-LaTeX Warning: Reference `0' on page 165 undefined on input line 297.
+LaTeX Warning: Reference `0' on page 167 undefined on input line 297.
 
 
 Underfull \hbox (badness 1655) in paragraph at lines 297--326
@@ -9283,9 +9287,9 @@ Underfull \hbox (badness 2626) in paragraph at lines 297--326
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [165]
+ [167]
 
-LaTeX Warning: Reference `0' on page 166 undefined on input line 329.
+LaTeX Warning: Reference `0' on page 168 undefined on input line 329.
 
 
 Underfull \hbox (badness 1178) in paragraph at lines 329--351
@@ -9312,9 +9316,9 @@ Underfull \hbox (badness 1308) in paragraph at lines 329--351
 \ZZZ e terríveis coisas que teus olhos viram.
  []
 
-[166]
+[168]
 
-LaTeX Warning: Reference `0' on page 167 undefined on input line 354.
+LaTeX Warning: Reference `0' on page 169 undefined on input line 354.
 
 
 Underfull \hbox (badness 1803) in paragraph at lines 354--386
@@ -9379,9 +9383,9 @@ Underfull \hbox (badness 1117) in paragraph at lines 354--386
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [167]
+ [169]
 
-LaTeX Warning: Reference `0' on page 168 undefined on input line 389.
+LaTeX Warning: Reference `0' on page 170 undefined on input line 389.
 
 
 Underfull \hbox (badness 4792) in paragraph at lines 389--421
@@ -9451,9 +9455,9 @@ Underfull \hbox (badness 1484) in paragraph at lines 389--421
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [168]
+ [170]
 
-LaTeX Warning: Reference `0' on page 169 undefined on input line 424.
+LaTeX Warning: Reference `0' on page 171 undefined on input line 424.
 
 
 Underfull \hbox (badness 1540) in paragraph at lines 424--442
@@ -9488,9 +9492,9 @@ Underfull \hbox (badness 1817) in paragraph at lines 424--442
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [169]
+ [171]
 
-LaTeX Warning: Reference `0' on page 170 undefined on input line 445.
+LaTeX Warning: Reference `0' on page 172 undefined on input line 445.
 
 
 Underfull \hbox (badness 2334) in paragraph at lines 445--474
@@ -9535,9 +9539,9 @@ Underfull \hbox (badness 1117) in paragraph at lines 445--474
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [170]
+ [172]
 
-LaTeX Warning: Reference `0' on page 171 undefined on input line 477.
+LaTeX Warning: Reference `0' on page 173 undefined on input line 477.
 
 
 Underfull \hbox (badness 3333) in paragraph at lines 477--500
@@ -9585,7 +9589,7 @@ Underfull \hbox (badness 1360) in paragraph at lines 477--500
  []
 
 
-LaTeX Warning: Reference `0' on page 171 undefined on input line 503.
+LaTeX Warning: Reference `0' on page 173 undefined on input line 503.
 
 
 Underfull \hbox (badness 1147) in paragraph at lines 503--525
@@ -9607,12 +9611,12 @@ Underfull \hbox (badness 1077) in paragraph at lines 503--525
 \ZZZ os teus frutos, e em toda obra de tuas
  []
 
-[171]
+[173]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 172 undefined on input line 528.
+LaTeX Warning: Reference `0' on page 174 undefined on input line 528.
 
 
 Underfull \hbox (badness 1314) in paragraph at lines 528--548
@@ -9674,9 +9678,9 @@ Underfull \hbox (badness 1215) in paragraph at lines 528--548
 \ZZZ sua vida, para que aprenda a temer ao
  []
 
-[172]
+[174]
 
-LaTeX Warning: Reference `0' on page 173 undefined on input line 551.
+LaTeX Warning: Reference `0' on page 175 undefined on input line 551.
 
 
 Underfull \hbox (badness 2435) in paragraph at lines 551--573
@@ -9756,9 +9760,9 @@ Underfull \hbox (badness 1237) in paragraph at lines 551--573
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [173]
+ [175]
 
-LaTeX Warning: Reference `0' on page 174 undefined on input line 576.
+LaTeX Warning: Reference `0' on page 176 undefined on input line 576.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 576--597
@@ -9816,7 +9820,7 @@ Underfull \hbox (badness 2057) in paragraph at lines 576--597
  []
 
 
-LaTeX Warning: Reference `0' on page 174 undefined on input line 600.
+LaTeX Warning: Reference `0' on page 176 undefined on input line 600.
 
 
 Underfull \hbox (badness 1365) in paragraph at lines 600--620
@@ -9838,12 +9842,12 @@ Underfull \hbox (badness 1635) in paragraph at lines 600--620
 \ZZZ e aos heveus, e aos jebuseus; como o
  []
 
-[174]
+[176]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 175 undefined on input line 623.
+LaTeX Warning: Reference `0' on page 177 undefined on input line 623.
 
 
 Underfull \hbox (badness 1527) in paragraph at lines 623--646
@@ -9890,9 +9894,9 @@ Underfull \hbox (badness 1062) in paragraph at lines 623--646
 \ZZZ os homens de sua cidade o apedrejarão
  []
 
-[175]
+[177]
 
-LaTeX Warning: Reference `0' on page 176 undefined on input line 649.
+LaTeX Warning: Reference `0' on page 178 undefined on input line 649.
 
 
 Underfull \hbox (badness 1430) in paragraph at lines 649--679
@@ -9942,9 +9946,9 @@ Underfull \hbox (badness 1810) in paragraph at lines 649--679
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [176]
+ [178]
 
-LaTeX Warning: Reference `0' on page 177 undefined on input line 682.
+LaTeX Warning: Reference `0' on page 179 undefined on input line 682.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 682--707
@@ -10074,9 +10078,9 @@ Underfull \hbox (badness 1910) in paragraph at lines 682--707
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [177]
+ [179]
 
-LaTeX Warning: Reference `0' on page 178 undefined on input line 710.
+LaTeX Warning: Reference `0' on page 180 undefined on input line 710.
 
 
 Underfull \hbox (badness 1515) in paragraph at lines 710--732
@@ -10131,9 +10135,9 @@ Underfull \hbox (badness 1033) in paragraph at lines 710--732
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [178]
+ [180]
 
-LaTeX Warning: Reference `0' on page 179 undefined on input line 735.
+LaTeX Warning: Reference `0' on page 181 undefined on input line 735.
 
 
 Underfull \hbox (badness 1102) in paragraph at lines 735--754
@@ -10141,7 +10145,7 @@ Underfull \hbox (badness 1102) in paragraph at lines 735--754
  []
 
 
-LaTeX Warning: Reference `0' on page 179 undefined on input line 757.
+LaTeX Warning: Reference `0' on page 181 undefined on input line 757.
 
 
 Underfull \hbox (badness 1590) in paragraph at lines 757--776
@@ -10178,9 +10182,9 @@ Underfull \hbox (badness 1596) in paragraph at lines 757--776
 \ZZZ e ao órfão, e à viúva, conforme todos
  []
 
-[179]
+[181]
 
-LaTeX Warning: Reference `0' on page 180 undefined on input line 779.
+LaTeX Warning: Reference `0' on page 182 undefined on input line 779.
 
 
 Underfull \hbox (badness 1292) in paragraph at lines 779--805
@@ -10210,9 +10214,9 @@ Underfull \hbox (badness 2393) in paragraph at lines 779--805
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [180]
+ [182]
 
-LaTeX Warning: Reference `0' on page 181 undefined on input line 808.
+LaTeX Warning: Reference `0' on page 183 undefined on input line 808.
 
 
 Underfull \hbox (badness 5417) in paragraph at lines 808--876
@@ -10347,18 +10351,18 @@ Underfull \hbox (badness 1675) in paragraph at lines 808--876
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [181]
+ [183]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [182]
+ [184]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 183 undefined on input line 879.
+LaTeX Warning: Reference `0' on page 185 undefined on input line 879.
 
 
 Underfull \hbox (badness 1117) in paragraph at lines 879--908
@@ -10410,12 +10414,12 @@ Underfull \hbox (badness 1496) in paragraph at lines 879--908
 \ZZZ Egito, [] E foram e serviram a deuses
  []
 
-[183]
+[185]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 184 undefined on input line 911.
+LaTeX Warning: Reference `0' on page 186 undefined on input line 911.
 
 
 Underfull \hbox (badness 1320) in paragraph at lines 911--931
@@ -10442,9 +10446,9 @@ Underfull \hbox (badness 1019) in paragraph at lines 911--931
 \ZZZ e o bem, a morte e o mal: [] Porque
  []
 
-[184]
+[186]
 
-LaTeX Warning: Reference `0' on page 185 undefined on input line 934.
+LaTeX Warning: Reference `0' on page 187 undefined on input line 934.
 
 
 Underfull \hbox (badness 1365) in paragraph at lines 934--964
@@ -10479,12 +10483,12 @@ Underfull \hbox (badness 3271) in paragraph at lines 934--964
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [185]
+ [187]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 186 undefined on input line 967.
+LaTeX Warning: Reference `0' on page 188 undefined on input line 967.
 
 
 Underfull \hbox (badness 1983) in paragraph at lines 967--1023
@@ -10561,9 +10565,9 @@ Underfull \hbox (badness 1337) in paragraph at lines 967--1023
 \ZZZ a todas as palavras que eu vos declaro
  []
 
-[186] [187]
+[188] [189]
 
-LaTeX Warning: Reference `0' on page 188 undefined on input line 1026.
+LaTeX Warning: Reference `0' on page 190 undefined on input line 1026.
 
 
 Underfull \hbox (badness 3039) in paragraph at lines 1026--1055
@@ -10645,11 +10649,11 @@ Underfull \hbox (badness 1490) in paragraph at lines 1026--1055
 \ZZZ de benevolência, e cheio da bênção do
  []
 
-[188]
+[190]
 
-LaTeX Warning: Reference `0' on page 189 undefined on input line 1058.
+LaTeX Warning: Reference `0' on page 191 undefined on input line 1058.
 
-) (./source/AT/06 - JOS_src.tex [189]
+) (./source/AT/06 - JOS_src.tex [191]
 Underfull \hbox (badness 1072) in paragraph at lines 6--24
 \ZZZ dizendo: [] \ZZZ Meu servo Moisés é morto:
  []
@@ -10720,7 +10724,7 @@ Underfull \hbox (badness 1320) in paragraph at lines 6--24
  []
 
 
-LaTeX Warning: Reference `0' on page 190 undefined on input line 27.
+LaTeX Warning: Reference `0' on page 192 undefined on input line 27.
 
 
 Underfull \hbox (badness 1721) in paragraph at lines 27--52
@@ -10737,11 +10741,11 @@ Underfull \hbox (badness 1132) in paragraph at lines 27--52
 \ZZZ jurar\ZZZ . [] E ela respondeu: \ZZZ Seja assim
  []
 
-[190
+[192
 
 ]
 
-LaTeX Warning: Reference `0' on page 191 undefined on input line 55.
+LaTeX Warning: Reference `0' on page 193 undefined on input line 55.
 
 
 Underfull \hbox (badness 3965) in paragraph at lines 55--72
@@ -10788,9 +10792,9 @@ Underfull \hbox (badness 1210) in paragraph at lines 55--72
 \ZZZ Adã, que está ao lado de Zaretã; e as
  []
 
-[191]
+[193]
 
-LaTeX Warning: Reference `0' on page 192 undefined on input line 75.
+LaTeX Warning: Reference `0' on page 194 undefined on input line 75.
 
 
 Underfull \hbox (badness 1735) in paragraph at lines 75--99
@@ -10860,9 +10864,9 @@ Underfull \hbox (badness 1442) in paragraph at lines 75--99
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [192]
+ [194]
 
-LaTeX Warning: Reference `0' on page 193 undefined on input line 102.
+LaTeX Warning: Reference `0' on page 195 undefined on input line 102.
 
 
 Underfull \hbox (badness 1292) in paragraph at lines 102--117
@@ -10890,7 +10894,7 @@ Underfull \hbox (badness 1521) in paragraph at lines 102--117
  []
 
 
-LaTeX Warning: Reference `0' on page 193 undefined on input line 120.
+LaTeX Warning: Reference `0' on page 195 undefined on input line 120.
 
 
 Underfull \hbox (badness 3128) in paragraph at lines 120--147
@@ -10990,12 +10994,12 @@ Underfull \hbox (badness 1675) in paragraph at lines 120--147
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [193]
+ [195]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [194]
+ [196]
 
-LaTeX Warning: Reference `0' on page 195 undefined on input line 150.
+LaTeX Warning: Reference `0' on page 197 undefined on input line 150.
 
 
 Underfull \hbox (badness 2142) in paragraph at lines 150--176
@@ -11050,9 +11054,9 @@ Underfull \hbox (badness 2781) in paragraph at lines 150--176
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [195]
+ [197]
 
-LaTeX Warning: Reference `0' on page 196 undefined on input line 179.
+LaTeX Warning: Reference `0' on page 198 undefined on input line 179.
 
 
 Underfull \hbox (badness 1132) in paragraph at lines 179--214
@@ -11132,12 +11136,12 @@ Underfull \hbox (badness 1226) in paragraph at lines 179--214
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [196]
+ [198]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 197 undefined on input line 217.
+LaTeX Warning: Reference `0' on page 199 undefined on input line 217.
 
 
 Underfull \hbox (badness 1043) in paragraph at lines 217--244
@@ -11184,12 +11188,12 @@ Underfull \hbox (badness 1635) in paragraph at lines 217--244
 [] \ZZZ E constituiu-os Josué aquele dia por
  []
 
-[197]
+[199]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 198 undefined on input line 247.
+LaTeX Warning: Reference `0' on page 200 undefined on input line 247.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 247--290
@@ -11321,15 +11325,15 @@ Underfull \hbox (badness 1270) in paragraph at lines 247--290
 \ZZZ na: [] E a tomaram no mesmo dia, e
  []
 
-[198]
+[200]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [199]
+ [201]
 
-LaTeX Warning: Reference `0' on page 200 undefined on input line 293.
+LaTeX Warning: Reference `0' on page 202 undefined on input line 293.
 
 
 Underfull \hbox (badness 3118) in paragraph at lines 293--316
@@ -11369,9 +11373,9 @@ Underfull \hbox (badness 1033) in paragraph at lines 293--316
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [200]
+ [202]
 
-LaTeX Warning: Reference `0' on page 201 undefined on input line 319.
+LaTeX Warning: Reference `0' on page 203 undefined on input line 319.
 
 
 Underfull \hbox (badness 1742) in paragraph at lines 319--343
@@ -11384,7 +11388,7 @@ Underfull \hbox (badness 1281) in paragraph at lines 319--343
  []
 
 
-LaTeX Warning: Reference `0' on page 201 undefined on input line 346.
+LaTeX Warning: Reference `0' on page 203 undefined on input line 346.
 
 
 Underfull \hbox (badness 1348) in paragraph at lines 346--379
@@ -11436,12 +11440,12 @@ Underfull \hbox (badness 1052) in paragraph at lines 346--379
 \ZZZ Arã, e Bete-Ninra, e Sucote, e Zafom,
  []
 
-[201]
+[203]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 202 undefined on input line 382.
+LaTeX Warning: Reference `0' on page 204 undefined on input line 382.
 
 
 Underfull \hbox (badness 1168) in paragraph at lines 393--393
@@ -11478,9 +11482,9 @@ Underfull \hbox (badness 3735) in paragraph at lines 382--397
 \ZZZ Deus de Israel. [] Mas Hebrom foi
  []
 
-[202]
+[204]
 
-LaTeX Warning: Reference `0' on page 203 undefined on input line 400.
+LaTeX Warning: Reference `0' on page 205 undefined on input line 400.
 
 
 Underfull \hbox (badness 2564) in paragraph at lines 400--463
@@ -11500,21 +11504,21 @@ Underfull \hbox (badness 1147) in paragraph at lines 400--463
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [203]
+ [205]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 204 undefined on input line 466.
+LaTeX Warning: Reference `0' on page 206 undefined on input line 466.
 
 
 Underfull \hbox (badness 1117) in paragraph at lines 466--476
 [][] \ZZZ E a porção dos filhos de José saiu
  []
 
-[204]
+[206]
 
-LaTeX Warning: Reference `0' on page 205 undefined on input line 479.
+LaTeX Warning: Reference `0' on page 207 undefined on input line 479.
 
 
 Underfull \hbox (badness 2426) in paragraph at lines 479--497
@@ -11557,7 +11561,7 @@ Underfull \hbox (badness 1533) in paragraph at lines 479--497
  []
 
 
-LaTeX Warning: Reference `0' on page 205 undefined on input line 500.
+LaTeX Warning: Reference `0' on page 207 undefined on input line 500.
 
 
 Underfull \hbox (badness 1286) in paragraph at lines 500--528
@@ -11599,12 +11603,12 @@ Underfull \hbox (badness 1184) in paragraph at lines 500--528
 \ZZZ dos filhos de Benjamim, conforme suas
  []
 
-[205]
+[207]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 206 undefined on input line 531.
+LaTeX Warning: Reference `0' on page 208 undefined on input line 531.
 
 
 Underfull \hbox (badness 3058) in paragraph at lines 531--582
@@ -11651,12 +11655,12 @@ Underfull \hbox (badness 1092) in paragraph at lines 531--582
 \ZZZ a cidade, e habitou nela. [] Estas são
  []
 
-[206]
+[208]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 207 undefined on input line 585.
+LaTeX Warning: Reference `0' on page 209 undefined on input line 585.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 585--594
@@ -11678,9 +11682,9 @@ Underfull \hbox (badness 2285) in paragraph at lines 585--594
 \ZZZ acidente, e não morresse por meio do
  []
 
-[207]
+[209]
 
-LaTeX Warning: Reference `0' on page 208 undefined on input line 597.
+LaTeX Warning: Reference `0' on page 210 undefined on input line 597.
 
 
 Underfull \hbox (badness 1320) in paragraph at lines 597--642
@@ -11730,12 +11734,12 @@ Underfull \hbox (badness 1454) in paragraph at lines 597--642
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [208]
+ [210]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 209 undefined on input line 645.
+LaTeX Warning: Reference `0' on page 211 undefined on input line 645.
 
 
 Underfull \hbox (badness 1448) in paragraph at lines 645--679
@@ -11887,15 +11891,15 @@ Underfull \hbox (badness 1320) in paragraph at lines 645--679
 \ZZZ filhos de Rúben e os filhos de Gade e
  []
 
-[209]
+[211]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [210]
+ [212]
 
-LaTeX Warning: Reference `0' on page 211 undefined on input line 682.
+LaTeX Warning: Reference `0' on page 213 undefined on input line 682.
 
 
 Underfull \hbox (badness 2564) in paragraph at lines 682--698
@@ -11918,7 +11922,7 @@ Underfull \hbox (badness 1412) in paragraph at lines 682--698
  []
 
 
-LaTeX Warning: Reference `0' on page 211 undefined on input line 701.
+LaTeX Warning: Reference `0' on page 213 undefined on input line 701.
 
 
 Underfull \hbox (badness 1189) in paragraph at lines 701--734
@@ -11955,14 +11959,14 @@ Underfull \hbox (badness 4531) in paragraph at lines 701--734
 \ZZZ para servir-lhe\ZZZ . E eles responderam:
  []
 
-[211]
+[213]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [212])
-(./source/AT/07 - JDG_src.tex [213
+ [214])
+(./source/AT/07 - JDG_src.tex [215
 
 ]
 Underfull \hbox (badness 2653) in paragraph at lines 6--45
@@ -12027,11 +12031,11 @@ Underfull \hbox (badness 2469) in paragraph at lines 6--45
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [214
+ [216
 
 ]
 
-LaTeX Warning: Reference `0' on page 215 undefined on input line 48.
+LaTeX Warning: Reference `0' on page 217 undefined on input line 48.
 
 
 Underfull \hbox (badness 1496) in paragraph at lines 48--71
@@ -12091,9 +12095,9 @@ Underfull \hbox (badness 2662) in paragraph at lines 48--71
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [215]
+ [217]
 
-LaTeX Warning: Reference `0' on page 216 undefined on input line 74.
+LaTeX Warning: Reference `0' on page 218 undefined on input line 74.
 
 
 Underfull \hbox (badness 3471) in paragraph at lines 74--105
@@ -12188,9 +12192,9 @@ Underfull \hbox (badness 1286) in paragraph at lines 74--105
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [216]
+ [218]
 
-LaTeX Warning: Reference `0' on page 217 undefined on input line 108.
+LaTeX Warning: Reference `0' on page 219 undefined on input line 108.
 
 
 Underfull \hbox (badness 1642) in paragraph at lines 108--132
@@ -12255,9 +12259,9 @@ Underfull \hbox (badness 1158) in paragraph at lines 108--132
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [217]
+ [219]
 
-LaTeX Warning: Reference `0' on page 218 undefined on input line 135.
+LaTeX Warning: Reference `0' on page 220 undefined on input line 135.
 
 
 Underfull \hbox (badness 2653) in paragraph at lines 135--166
@@ -12427,9 +12431,9 @@ Underfull \hbox (badness 1072) in paragraph at lines 135--166
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [218]
+ [220]
 
-LaTeX Warning: Reference `0' on page 219 undefined on input line 169.
+LaTeX Warning: Reference `0' on page 221 undefined on input line 169.
 
 
 Underfull \hbox (badness 1590) in paragraph at lines 169--209
@@ -12524,12 +12528,12 @@ Underfull \hbox (badness 1048) in paragraph at lines 169--209
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [219]
+ [221]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 220 undefined on input line 212.
+LaTeX Warning: Reference `0' on page 222 undefined on input line 212.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 212--237
@@ -12651,12 +12655,12 @@ Underfull \hbox (badness 3482) in paragraph at lines 212--237
 \ZZZ e depois que seguiram aos midianitas,
  []
 
-[220]
+[222]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 221 undefined on input line 240.
+LaTeX Warning: Reference `0' on page 223 undefined on input line 240.
 
 
 Underfull \hbox (badness 1406) in paragraph at lines 240--275
@@ -12723,15 +12727,15 @@ Underfull \hbox (badness 2680) in paragraph at lines 240--275
 \ZZZ e teu filho, e teu neto; pois que nos
  []
 
-[221]
+[223]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [222]
+ [224]
 
-LaTeX Warning: Reference `0' on page 223 undefined on input line 278.
+LaTeX Warning: Reference `0' on page 225 undefined on input line 278.
 
 
 Underfull \hbox (badness 2088) in paragraph at lines 278--335
@@ -12871,15 +12875,15 @@ Underfull \hbox (badness 2035) in paragraph at lines 278--335
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [223]
+ [225]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [224]
+ [226]
 
-LaTeX Warning: Reference `0' on page 225 undefined on input line 338.
+LaTeX Warning: Reference `0' on page 227 undefined on input line 338.
 
 
 Underfull \hbox (badness 1184) in paragraph at lines 338--356
@@ -12927,7 +12931,7 @@ Underfull \hbox (badness 2644) in paragraph at lines 338--356
  []
 
 
-LaTeX Warning: Reference `0' on page 225 undefined on input line 359.
+LaTeX Warning: Reference `0' on page 227 undefined on input line 359.
 
 
 Underfull \hbox (badness 3209) in paragraph at lines 359--399
@@ -12984,15 +12988,15 @@ Underfull \hbox (badness 1102) in paragraph at lines 359--399
 \ZZZ e até a Abel-Queramim. Assim foram
  []
 
-[225]
+[227]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [226]
+ [228]
 
-LaTeX Warning: Reference `0' on page 227 undefined on input line 402.
+LaTeX Warning: Reference `0' on page 229 undefined on input line 402.
 
 
 Underfull \hbox (badness 1661) in paragraph at lines 402--417
@@ -13030,7 +13034,7 @@ Underfull \hbox (badness 1527) in paragraph at lines 402--417
  []
 
 
-LaTeX Warning: Reference `0' on page 227 undefined on input line 420.
+LaTeX Warning: Reference `0' on page 229 undefined on input line 420.
 
 
 Underfull \hbox (badness 2237) in paragraph at lines 420--445
@@ -13072,12 +13076,12 @@ Underfull \hbox (badness 1122) in paragraph at lines 420--445
 \ZZZ sacrifica-o ao SENHOR\ZZZ ”\ZZZ . E não sabia
  []
 
-[227]
+[229]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 228 undefined on input line 448.
+LaTeX Warning: Reference `0' on page 230 undefined on input line 448.
 
 
 Underfull \hbox (badness 1314) in paragraph at lines 448--468
@@ -13119,12 +13123,12 @@ Underfull \hbox (badness 1371) in paragraph at lines 448--468
 \ZZZ não puderam declarar-lhe o enigma em
  []
 
-[228]
+[230]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 229 undefined on input line 471.
+LaTeX Warning: Reference `0' on page 231 undefined on input line 471.
 
 
 Underfull \hbox (badness 2478) in paragraph at lines 471--491
@@ -13161,9 +13165,9 @@ Underfull \hbox (badness 1270) in paragraph at lines 471--491
 \ZZZ quebrou Deus uma cavidade em Leí, e
  []
 
-[229]
+[231]
 
-LaTeX Warning: Reference `0' on page 230 undefined on input line 494.
+LaTeX Warning: Reference `0' on page 232 undefined on input line 494.
 
 
 Underfull \hbox (badness 2134) in paragraph at lines 494--525
@@ -13188,12 +13192,12 @@ Underfull \hbox (badness 1019) in paragraph at lines 494--525
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [230]
+ [232]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 231 undefined on input line 528.
+LaTeX Warning: Reference `0' on page 233 undefined on input line 528.
 
 
 Underfull \hbox (badness 1127) in paragraph at lines 528--541
@@ -13215,9 +13219,9 @@ Underfull \hbox (badness 3260) in paragraph at lines 528--541
 \ZZZ Então a mãe disse: \ZZZ Bendito sejas do
  []
 
-[231]
+[233]
 
-LaTeX Warning: Reference `0' on page 232 undefined on input line 544.
+LaTeX Warning: Reference `0' on page 234 undefined on input line 544.
 
 
 Underfull \hbox (badness 1895) in paragraph at lines 544--575
@@ -13262,9 +13266,9 @@ Underfull \hbox (badness 1112) in paragraph at lines 544--575
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [232]
+ [234]
 
-LaTeX Warning: Reference `0' on page 233 undefined on input line 578.
+LaTeX Warning: Reference `0' on page 235 undefined on input line 578.
 
 
 Underfull \hbox (badness 1122) in paragraph at lines 578--608
@@ -13284,12 +13288,12 @@ Underfull \hbox (badness 1975) in paragraph at lines 578--608
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [233]
+ [235]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 234 undefined on input line 611.
+LaTeX Warning: Reference `0' on page 236 undefined on input line 611.
 
 
 Underfull \hbox (badness 1102) in paragraph at lines 611--659
@@ -13476,18 +13480,18 @@ Underfull \hbox (badness 1642) in paragraph at lines 611--659
 \ZZZ Benjamim, e passaram-nos à espada, a
  []
 
-[234]
+[236]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [235]
+ [237]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 236 undefined on input line 662.
+LaTeX Warning: Reference `0' on page 238 undefined on input line 662.
 
 
 Underfull \hbox (badness 1226) in paragraph at lines 662--687
@@ -13544,7 +13548,7 @@ Underfull \hbox (badness 1769) in paragraph at lines 662--687
 \ZZZ vierem os pais delas ou seus irmãos a
  []
 
-[236]) (./source/AT/08 - RUT_src.tex [237
+[238]) (./source/AT/08 - RUT_src.tex [239
 
 ]
 Underfull \hbox (badness 1460) in paragraph at lines 6--28
@@ -13567,7 +13571,7 @@ Underfull \hbox (badness 2744) in paragraph at lines 6--28
  []
 
 
-LaTeX Warning: Reference `0' on page 238 undefined on input line 31.
+LaTeX Warning: Reference `0' on page 240 undefined on input line 31.
 
 
 Underfull \hbox (badness 1496) in paragraph at lines 31--54
@@ -13599,14 +13603,14 @@ Underfull \hbox (badness 1509) in paragraph at lines 31--54
 \ZZZ à cidade; e sua sogra viu o que havia
  []
 
-[238
+[240
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 239 undefined on input line 57.
+LaTeX Warning: Reference `0' on page 241 undefined on input line 57.
 
 
 Underfull \hbox (badness 1509) in paragraph at lines 57--75
@@ -13623,9 +13627,9 @@ Underfull \hbox (badness 1112) in paragraph at lines 57--75
 \ZZZ como a coisa se sucede; porque aquele
  []
 
-[239]
+[241]
 
-LaTeX Warning: Reference `0' on page 240 undefined on input line 78.
+LaTeX Warning: Reference `0' on page 242 undefined on input line 78.
 
 
 Underfull \hbox (badness 2096) in paragraph at lines 78--100
@@ -13645,8 +13649,8 @@ Underfull \hbox (badness 1173) in paragraph at lines 78--100
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [240])
-(./source/AT/09 - 1SA_src.tex [241
+ [242])
+(./source/AT/09 - 1SA_src.tex [243
 
 ]
 Underfull \hbox (badness 1596) in paragraph at lines 6--37
@@ -13659,332 +13663,218 @@ Underfull \hbox (badness 1783) in paragraph at lines 6--37
  []
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 6--37
-\ZZZ se olhares a aflição da tua serva, e te
+Underfull \hbox (badness 1783) in paragraph at lines 6--37
+\ZZZ Não, meu senhor; eu sou uma mulher
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 6--37
-\ZZZ lembrares de mim, e não te esqueceres
- []
-
-
-Underfull \hbox (badness 2409) in paragraph at lines 6--37
-[] \ZZZ Mas Ana falava em seu coração, e
+Underfull \hbox (badness 1565) in paragraph at lines 6--37
+\ZZZ sofredora de espírito. Não bebi vinho
  []
 
 
 Underfull \hbox (badness 1342) in paragraph at lines 6--37
-\ZZZ ela disse: Oh, senhor meu! Vive tua
+\ZZZ ela disse: \ZZZ Oh, senhor meu! Vive tua
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [242
+ [244
 
 ]
 
-LaTeX Warning: Reference `0' on page 243 undefined on input line 40.
+LaTeX Warning: Reference `0' on page 245 undefined on input line 40.
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 40--83
-[][] \ZZZ E Ana orou e disse: Meu coração
+Underfull \hbox (badness 1112) in paragraph at lines 40--76
+[][] \ZZZ E Ana orou e disse: \ZZZ Meu coração
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 40--83
+Underfull \hbox (badness 1337) in paragraph at lines 40--76
 \ZZZ se regozija no SENHOR, Meu poder é
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 40--83
+Underfull \hbox (badness 1248) in paragraph at lines 40--76
 \ZZZ Cessem as palavras arrogantes de vossa
  []
 
 
-Underfull \hbox (badness 1769) in paragraph at lines 40--83
+Underfull \hbox (badness 1769) in paragraph at lines 40--76
 \ZZZ de honra; porque do SENHOR são os
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 40--83
+Underfull \hbox (badness 1571) in paragraph at lines 40--76
 \ZZZ alicerces da terra, e assentou o mundo
  []
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 40--83
+Underfull \hbox (badness 1721) in paragraph at lines 40--76
 \ZZZ seus adversários, E sobre eles trovejará
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 40--83
+Underfull \hbox (badness 1558) in paragraph at lines 40--76
 \ZZZ desde os céus: o SENHOR julgará os
  []
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 40--83
+Underfull \hbox (badness 1360) in paragraph at lines 40--76
 \ZZZ do sacerdote Eli. [] Mas os filhos de
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 40--83
+Underfull \hbox (badness 1024) in paragraph at lines 40--76
 \ZZZ Eli eram homens ímpios, e não tinham
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 40--83
+Underfull \hbox (badness 1221) in paragraph at lines 40--76
 \ZZZ do sacerdote enquanto a carne estava a
  []
 
 
-Underfull \hbox (badness 2096) in paragraph at lines 40--83
+Underfull \hbox (badness 2096) in paragraph at lines 40--76
 \ZZZ três ganchos; [] E enfiava com ele na
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 40--83
+Underfull \hbox (badness 2245) in paragraph at lines 40--76
 \ZZZ grande diante do SENHOR; porque os
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 40--83
+Underfull \hbox (badness 1292) in paragraph at lines 40--76
+\ZZZ SENHOR: “  \ZZZ Acaso não me manifestei à
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 40--76
 \ZZZ na casa de Faraó? [] E eu o escolhi
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 40--83
+Underfull \hbox (badness 1331) in paragraph at lines 40--76
 \ZZZ que vestisse o éfode diante de mim; e
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 40--83
+Underfull \hbox (badness 1292) in paragraph at lines 40--76
 \ZZZ filhos de Israel. [] Por que pisaste os
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 40--83
-\ZZZ eu mandei oferecer no tabernáculo? E
+Underfull \hbox (badness 1533) in paragraph at lines 40--76
+\ZZZ honram, e os que me desprezam serão
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 40--83
-\ZZZ que cortarei o teu braço, e o braço da
+Underfull \hbox (badness 1009) in paragraph at lines 40--76
+\ZZZ um sacerdote fiel, que faça conforme o
  []
 
-[243]
+[245]
 
-LaTeX Warning: Reference `0' on page 244 undefined on input line 86.
+LaTeX Warning: Reference `0' on page 246 undefined on input line 79.
 
 
-Underfull \hbox (badness 4391) in paragraph at lines 86--107
+Underfull \hbox (badness 4391) in paragraph at lines 79--100
 [][] \ZZZ E o jovem Samuel ministrava ao
  []
 
 
-Underfull \hbox (badness 3098) in paragraph at lines 86--107
+Underfull \hbox (badness 3098) in paragraph at lines 79--100
 \ZZZ dormindo no templo do SENHOR, de
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 86--107
+Underfull \hbox (badness 2875) in paragraph at lines 79--100
 \ZZZ onde a arca de Deus estava: e antes
  []
 
 
-Underfull \hbox (badness 1478) in paragraph at lines 86--107
+Underfull \hbox (badness 1478) in paragraph at lines 79--100
 \ZZZ que a lâmpada de Deus fosse apagada,
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 86--107
+Underfull \hbox (badness 1173) in paragraph at lines 79--100
 [] \ZZZ o SENHOR chamou a Samuel; e ele
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 86--107
+Underfull \hbox (badness 1158) in paragraph at lines 79--100
 \ZZZ e deitou-se. [] E o SENHOR voltou a
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 86--107
-\ZZZ se Samuel veio a Eli, e disse: Eis-me
+Underfull \hbox (badness 1308) in paragraph at lines 79--100
+\ZZZ se Samuel veio a Eli, e disse: \ZZZ Eis-me
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 86--107
-\ZZZ jovem. [] E disse Eli a Samuel: Vai,
+Underfull \hbox (badness 1354) in paragraph at lines 79--100
+\ZZZ SENHOR, e ficou ali, e chamou como
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 86--107
+Underfull \hbox (badness 1635) in paragraph at lines 79--100
 [] \ZZZ Aquele dia eu despertarei contra Eli
  []
 
 
-Underfull \hbox (badness 2521) in paragraph at lines 86--107
+Underfull \hbox (badness 2521) in paragraph at lines 79--100
 \ZZZ lhe mostrarei que eu julgarei sua casa
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 86--107
+Underfull \hbox (badness 1509) in paragraph at lines 79--100
 \ZZZ da casa do SENHOR. E Samuel temia
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 86--107
+Underfull \hbox (badness 1642) in paragraph at lines 79--100
 \ZZZ encobrires palavra de tudo o que falou
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [244]
+ [246]
 
-LaTeX Warning: Reference `0' on page 245 undefined on input line 110.
+LaTeX Warning: Reference `0' on page 247 undefined on input line 103.
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 110--132
+Underfull \hbox (badness 1502) in paragraph at lines 103--125
 \ZZZ aos filisteus, e assentou campo junto a
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 110--132
+Underfull \hbox (badness 2111) in paragraph at lines 103--125
 \ZZZ do SENHOR dos exércitos, que estava
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 110--132
+Underfull \hbox (badness 1014) in paragraph at lines 103--125
 \ZZZ assentado entre os querubins; e os dois
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 110--132
-\ZZZ disseram: Que voz de grande júbilo é
+Underfull \hbox (badness 1577) in paragraph at lines 103--125
+\ZZZ disseram: \ZZZ Que voz de grande júbilo é
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 110--132
+Underfull \hbox (badness 1173) in paragraph at lines 103--125
 \ZZZ campo. [] E os filisteus tiveram medo,
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 110--132
+Underfull \hbox (badness 1127) in paragraph at lines 103--125
 \ZZZ a Israel quarenta anos. [] E sua nora,
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [245]
-
-LaTeX Warning: Reference `0' on page 246 undefined on input line 135.
-
-
-LaTeX Warning: Reference `0' on page 246 undefined on input line 150.
-
-
-Underfull \hbox (badness 3746) in paragraph at lines 150--171
-[][] \ZZZ E esteve a arca do SENHOR na
- []
-
-
-Underfull \hbox (badness 1394) in paragraph at lines 150--171
-\ZZZ terra dos filisteus sete meses. [] Então
- []
-
-
-Underfull \hbox (badness 3547) in paragraph at lines 150--171
-\ZZZ os filisteus, chamando os sacerdotes e
- []
-
-
-Underfull \hbox (badness 1281) in paragraph at lines 150--171
-\ZZZ de Israel, não a envieis vazia; mas lhe
- []
-
-
-Underfull \hbox (badness 1430) in paragraph at lines 150--171
-\ZZZ eles responderam: Conforme o número
- []
-
-
-Underfull \hbox (badness 1377) in paragraph at lines 150--171
-\ZZZ Semes, e iam por um mesmo caminho
- []
-
-[246]
-
-LaTeX Warning: Reference `0' on page 247 undefined on input line 174.
-
-
-Underfull \hbox (badness 2698) in paragraph at lines 174--191
-[][] \ZZZ E vieram os de Quriate-Jearim, e
- []
-
-
-Underfull \hbox (badness 1210) in paragraph at lines 174--191
-\ZZZ e santificaram a Eleazar seu filho, para
- []
-
-
-Underfull \hbox (badness 1748) in paragraph at lines 174--191
-\ZZZ vinte anos; e toda a casa de Israel se
- []
-
-
-Underfull \hbox (badness 1675) in paragraph at lines 174--191
-\ZZZ coração ao SENHOR, e a somente ele
- []
-
-
-Underfull \hbox (badness 1881) in paragraph at lines 174--191
-[] \ZZZ Então os filhos de Israel tiraram aos
- []
-
-
-Underfull \hbox (badness 1675) in paragraph at lines 174--191
-\ZZZ o SENHOR. [] E Samuel disse: Juntai
- []
-
-
-Underfull \hbox (badness 2556) in paragraph at lines 174--191
-\ZZZ vós ao SENHOR. [] E juntando-se em
- []
-
-
-Underfull \hbox (badness 2818) in paragraph at lines 174--191
-\ZZZ Mispá, tiraram água, e derramaram-na
- []
-
-
-Underfull \hbox (badness 1371) in paragraph at lines 174--191
-\ZZZ contra Israel: o qual quando houveram
- []
-
-
-Underfull \hbox (badness 1028) in paragraph at lines 174--191
-\ZZZ Israel a Samuel: Não cesses de clamar
- []
-
-
-Underfull \hbox (badness 2970) in paragraph at lines 174--191
-\ZZZ e sacrificou-o inteiro ao SENHOR em
- []
-
-
-Underfull \hbox (badness 2027) in paragraph at lines 174--191
-\ZZZ lutar com os filhos de Israel. Mas o
- []
-
-
-Underfull \hbox (badness 2689) in paragraph at lines 174--191
-\ZZZ os, e foram vencidos diante de Israel.
- []
-
-
-Underfull \hbox (badness 1009) in paragraph at lines 174--191
-\ZZZ seus termos: e Israel as livrou da mão
  []
 
 
@@ -13992,92 +13882,708 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [247]
 
-LaTeX Warning: Reference `0' on page 248 undefined on input line 194.
+LaTeX Warning: Reference `0' on page 248 undefined on input line 128.
 
 
-Underfull \hbox (badness 4954) in paragraph at lines 194--216
+LaTeX Warning: Reference `0' on page 248 undefined on input line 143.
+
+
+Underfull \hbox (badness 3746) in paragraph at lines 143--164
+[][] \ZZZ E esteve a arca do SENHOR na
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 143--164
+\ZZZ terra dos filisteus sete meses. [] Então
+ []
+
+
+Underfull \hbox (badness 3547) in paragraph at lines 143--164
+\ZZZ os filisteus, chamando os sacerdotes e
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 143--164
+\ZZZ de Israel, não a envieis vazia; mas lhe
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 143--164
+\ZZZ eles responderam: \ZZZ Conforme o número
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 143--164
+\ZZZ Semes, e iam por um mesmo caminho
+ []
+
+[248]
+
+LaTeX Warning: Reference `0' on page 249 undefined on input line 167.
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 167--184
+[][] \ZZZ E vieram os de Quriate-Jearim, e
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 167--184
+\ZZZ e santificaram a Eleazar seu filho, para
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 167--184
+\ZZZ vinte anos; e toda a casa de Israel se
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 167--184
+\ZZZ coração ao SENHOR, e a somente ele
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 167--184
+[] \ZZZ Então os filhos de Israel tiraram aos
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 167--184
+\ZZZ o SENHOR. [] E Samuel disse: \ZZZ Juntai
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 167--184
+\ZZZ Mispá, tiraram água, e derramaram-na
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 167--184
+\ZZZ contra Israel: o qual quando houveram
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 167--184
+\ZZZ Israel a Samuel: \ZZZ Não cesses de clamar
+ []
+
+
+Underfull \hbox (badness 2970) in paragraph at lines 167--184
+\ZZZ e sacrificou-o inteiro ao SENHOR em
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 167--184
+\ZZZ lutar com os filhos de Israel. Mas o
+ []
+
+
+Underfull \hbox (badness 2689) in paragraph at lines 167--184
+\ZZZ os, e foram vencidos diante de Israel.
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 167--184
+\ZZZ seus termos: e Israel as livrou da mão
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [249]
+
+LaTeX Warning: Reference `0' on page 250 undefined on input line 187.
+
+
+Underfull \hbox (badness 4954) in paragraph at lines 187--209
 [][] \ZZZ E aconteceu que havendo Samuel
  []
 
 
-Underfull \hbox (badness 2922) in paragraph at lines 194--216
+Underfull \hbox (badness 2922) in paragraph at lines 187--209
 \ZZZ não vão por teus caminhos: portanto,
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 194--216
+Underfull \hbox (badness 1014) in paragraph at lines 187--209
 \ZZZ sim a mim me rejeitaram, para que eu
  []
 
 
-LaTeX Warning: Reference `0' on page 248 undefined on input line 219.
+LaTeX Warning: Reference `0' on page 250 undefined on input line 212.
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 219--246
+Underfull \hbox (badness 1735) in paragraph at lines 212--239
 [][] \ZZZ E havia um homem de Benjamim,
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 219--246
+Underfull \hbox (badness 1348) in paragraph at lines 212--239
 \ZZZ filho de Abiel, filho de Zeror, filho de
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 219--246
+Underfull \hbox (badness 1314) in paragraph at lines 212--239
 \ZZZ ao monte de Efraim, e dali à terra de
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 219--246
+Underfull \hbox (badness 1642) in paragraph at lines 212--239
 \ZZZ meu pai, deixado o cuidado das asnas,
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 219--246
+Underfull \hbox (badness 1117) in paragraph at lines 212--239
 \ZZZ reservado: põe-o diante de ti, e come;
  []
 
-[248]
+[250]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `0' on page 249 undefined on input line 249.
+LaTeX Warning: Reference `0' on page 251 undefined on input line 242.
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 249--276
+Underfull \hbox (badness 1603) in paragraph at lines 242--269
 \ZZZ azeite, derramou-o sobre sua cabeça, e
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 249--276
+Underfull \hbox (badness 1596) in paragraph at lines 242--269
 \ZZZ apartado de mim, acharás dois homens
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 249--276
-\ZZZ Por esta causa se tornou em provérbio:
+Underfull \hbox (badness 1603) in paragraph at lines 242--269
+\ZZZ encontrarás uma companhia de profetas
  []
 
 
-Underfull \hbox (badness 1389) in paragraph at lines 249--276
-\ZZZ Também Saul entre os profetas? [] E
+Underfull \hbox (badness 1122) in paragraph at lines 242--269
+\ZZZ aconteceram naquele dia. [] E quando
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 249--276
-\ZZZ cessou de profetizar, e chegou ao alto.
+Underfull \hbox (badness 1052) in paragraph at lines 242--269
+\ZZZ fostes? \ZZZ E ele respondeu: \ZZZ A buscar as
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 249--276
-\ZZZ o Deus de Israel: Eu tirei a Israel do
+Underfull \hbox (badness 1509) in paragraph at lines 242--269
+\ZZZ fomos a Samuel\ZZZ . [] E disse o tio de
  []
 
-[249]
+
+Underfull \hbox (badness 1087) in paragraph at lines 242--269
+\ZZZ haviam aparecido\ZZZ . Mas do negócio do
+ []
+
+[251]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)) [250]
+
+
+LaTeX Warning: Reference `0' on page 252 undefined on input line 272.
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 272--287
+[][] \ZZZ E subiu Naás amonita, e assentou
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 272--287
+\ZZZ aliança conosco, e te serviremos. [] E
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 272--287
+\ZZZ esta afronta sobre todo Israel. [] Então
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 272--287
+\ZZZ houver que nos defenda, sairemos a ti.
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 272--287
+\ZZZ grito. [] E eis que Saul que vinha do
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 272--287
+\ZZZ o sol, tereis salvamento. E vieram os
+ []
+
+[252]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 253 undefined on input line 290.
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 290--315
+\ZZZ Eu sou já velho e grisalho: mas meus
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 290--315
+\ZZZ de vós desde minha juventude até este
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 290--315
+\ZZZ dia. [] Aqui estou; testemunhai contra
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 290--315
+\ZZZ nem oprimi, nem tomaste algo da mão
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 290--315
+\ZZZ seu ungido também é testemunha neste
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 290--315
+\ZZZ nenhuma. E eles responderam: Assim
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 290--315
+\ZZZ é. [] Então Samuel disse ao povo: o
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 290--315
+\ZZZ do SENHOR, que fez convosco e com
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 290--315
+\ZZZ pôs sobre vós rei. [] Se temerdes ao
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 290--315
+\ZZZ sobre vós, seguireis ao SENHOR vosso
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 290--315
+\ZZZ Deus. [] Mas se não ouvirdes a voz
+ []
+
+
+Underfull \hbox (badness 3557) in paragraph at lines 290--315
+\ZZZ do SENHOR, e se fordes rebeldes às
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 290--315
+\ZZZ olhos. [] Não é agora a colheita dos
+ []
+
+
+Underfull \hbox (badness 2680) in paragraph at lines 290--315
+\ZZZ dia; e todo o povo temeu em grande
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 290--315
+\ZZZ de seguir ao SENHOR, mas sim servi
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 290--315
+[] \ZZZ Não vos desvieis a fim de seguir as
+ []
+
+[253]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 254 undefined on input line 318.
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 318--341
+[][] \ZZZ Havia já Saul reinado um ano; e
+ []
+
+
+Underfull \hbox (badness 3701) in paragraph at lines 318--341
+\ZZZ e sacrifícios pacíficos. E ofereceu o
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 318--341
+\ZZZ fazer o holocausto, eis que Samuel que
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 318--341
+\ZZZ o mandamento do SENHOR teu Deus,
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 318--341
+\ZZZ se Samuel, subiu de Gilgal a Gibeá de
+ []
+
+[254]
+
+LaTeX Warning: Reference `0' on page 255 undefined on input line 344.
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 344--396
+\ZZZ armas, e disseram: Subi a nós, e vos
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 344--396
+\ZZZ estava perturbada, e ia de uma parte à
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 344--396
+\ZZZ que estando ainda falando Saul com o
+ []
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 344--396
+\ZZZ Saul todo o povo que com ele estava,
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 344--396
+\ZZZ israelitas que estavam com Saul e com
+ []
+
+
+Underfull \hbox (badness 7595) in paragraph at lines 344--396
+\ZZZ ouvindo que os filisteus fugiam, eles
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 344--396
+\ZZZ conjurado ao povo, dizendo: Qualquer
+ []
+
+
+Underfull \hbox (badness 1783) in paragraph at lines 344--396
+\ZZZ em sua mão, e molhou-a em um favo
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 344--396
+\ZZZ de mel, e chegou sua mão a sua boca;
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 344--396
+\ZZZ e seus olhos se iluminaram. [] Então
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 344--396
+\ZZZ falou um do povo, dizendo: Teu pai
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 344--396
+\ZZZ Maldito seja o homem que comer hoje
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 344--396
+\ZZZ que achou? não se haveria feito agora
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 344--396
+\ZZZ em todo o povo quem lhe respondesse.
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 344--396
+\ZZZ Faze o que bem te parecer. [] Então
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [255]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [256]
+
+LaTeX Warning: Reference `0' on page 257 undefined on input line 399.
+
+
+Underfull \hbox (badness 2644) in paragraph at lines 399--434
+\ZZZ dos exércitos: Lembro-me do que fez
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 399--434
+\ZZZ Amaleque a Israel; que se lhe opôs no
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 399--434
+\ZZZ porque se desviou de me seguir, e não
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 399--434
+\ZZZ a Saul, e Saul lhe disse: Bendito sejas
+ []
+
+
+Underfull \hbox (badness 2961) in paragraph at lines 399--434
+\ZZZ porque o povo poupou ao melhor das
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 399--434
+\ZZZ SENHOR teu Deus; mas destruímos o
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 399--434
+\ZZZ a rebelião, e como ídolos e idolatria o
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 399--434
+\ZZZ cortou em pedaços a Agague diante do
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [257]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 258 undefined on input line 437.
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 437--460
+\ZZZ seus filhos me provi de rei. [] E disse
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 437--460
+\ZZZ apascenta as ovelhas. E disse Samuel
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 437--460
+\ZZZ Levanta-te e unge-o, que este é. [] E
+ []
+
+[258]
+
+LaTeX Warning: Reference `0' on page 259 undefined on input line 463.
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 463--521
+\ZZZ que é de Judá, e assentaram o campo
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 463--521
+\ZZZ também Saul e os homens de Israel se
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 463--521
+\ZZZ homem no tempo de Saul, velho, e de
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 463--521
+\ZZZ três filhos mais velhos de Jessé haviam
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 463--521
+\ZZZ com os filisteus. [] Levantou-se, pois,
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 463--521
+\ZZZ cuidado de um guarda, foi-se com sua
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 463--521
+\ZZZ em ordem de batalha, esquadrão contra
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 463--521
+\ZZZ esquadrão. [] E Davi deixou de sobre
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 463--521
+\ZZZ si a carga em mão do que guardava a
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 463--521
+\ZZZ sua juventude. [] E Davi respondeu a
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 463--521
+\ZZZ o matava; pois este filisteu incircunciso
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 463--521
+\ZZZ metendo Davi sua mão no saco, tomou
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 463--521
+\ZZZ seu acampamento. [] E Davi tomou a
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 463--521
+\ZZZ Pergunta, pois, de quem é filho aquele
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [259]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [260]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 261 undefined on input line 524.
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 524--554
+\ZZZ deixou voltar à casa de seu pai. [] E
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 524--554
+\ZZZ aos olhos de todo o povo, e nos olhos
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 524--554
+\ZZZ e adufes, a receber ao rei Saul. [] E
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 524--554
+\ZZZ cantavam as mulheres que dançavam, e
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 524--554
+\ZZZ a resposta dizendo: Tais palavras disse
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 524--554
+\ZZZ homens dos filisteus; e trouxe Davi os
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 524--554
+[] \ZZZ E saíam os príncipes dos filisteus; e
+ []
+
+[261]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 262 undefined on input line 557.
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 557--581
+\ZZZ morrerá. [] Chamando então Jônatas a
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 557--581
+\ZZZ em Ramá, e disse-lhe tudo o que Saul
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 557--581
+\ZZZ havia feito com ele. E foram-se ele e
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 557--581
+\ZZZ os mensageiros de Saul, e eles também
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 557--581
+\ZZZ Saul, ele enviou outros mensageiros, os
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 557--581
+\ZZZ a enviar pela terceira vez mensageiros,
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 557--581
+\ZZZ e eles também profetizaram. [] Então
+ []
+
+[262]
+
+LaTeX Warning: Reference `0' on page 263 undefined on input line 584.
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 584--626
+\ZZZ o SENHOR exterminar um por um os
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 584--626
+\ZZZ estará purificado. [] O dia seguinte, o
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 584--626
+\ZZZ ir, porque temos sacrifício os de nossa
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [263]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)) [264]
 (./build/main.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -14095,12 +14601,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 ### simple group (level 1) entered at line 557 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16939 strings out of 470175
- 325263 string characters out of 5479201
- 1583473 words of memory out of 5000000
- 45249 multiletter control sequences out of 15000+600000
- 632441 words of font info for 101 fonts, out of 8000000 for 9000
+ 16947 strings out of 470175
+ 325551 string characters out of 5479201
+ 1583477 words of memory out of 5000000
+ 45253 multiletter control sequences out of 15000+600000
+ 632465 words of font info for 104 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  78i,5n,96p,1157b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ./build/main.pdf (254 pages).
+Output written on ./build/main.pdf (268 pages).

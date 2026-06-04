@@ -1,10 +1,10 @@
 \babel@toc {brazilian}{}\relax 
-\contentsline {section}{\numberline {}Gênesis}{1}{section.0.1}%
-\contentsline {section}{\numberline {}Êxodo}{48}{section.0.2}%
-\contentsline {section}{\numberline {}Levítico}{87}{section.0.3}%
-\contentsline {section}{\numberline {}Números}{116}{section.0.4}%
-\contentsline {section}{\numberline {}Deuteronômio}{156}{section.0.5}%
-\contentsline {section}{\numberline {}Josué}{190}{section.0.6}%
-\contentsline {section}{\numberline {}Juízes}{214}{section.0.7}%
-\contentsline {section}{\numberline {}Rute}{238}{section.0.8}%
-\contentsline {section}{\numberline {}1 Samuel}{242}{section.0.9}%
+\contentsline {section}{\numberline {}Gênesis}{3}{section.0.1}%
+\contentsline {section}{\numberline {}Êxodo}{50}{section.0.2}%
+\contentsline {section}{\numberline {}Levítico}{89}{section.0.3}%
+\contentsline {section}{\numberline {}Números}{118}{section.0.4}%
+\contentsline {section}{\numberline {}Deuteronômio}{158}{section.0.5}%
+\contentsline {section}{\numberline {}Josué}{192}{section.0.6}%
+\contentsline {section}{\numberline {}Juízes}{216}{section.0.7}%
+\contentsline {section}{\numberline {}Rute}{240}{section.0.8}%
+\contentsline {section}{\numberline {}1 Samuel}{244}{section.0.9}%
