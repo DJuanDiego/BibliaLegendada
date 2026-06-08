@@ -8,3 +8,4 @@
 \contentsline {section}{\numberline {}Juízes}{216}{section.0.7}%
 \contentsline {section}{\numberline {}Rute}{240}{section.0.8}%
 \contentsline {section}{\numberline {}1 Samuel}{244}{section.0.9}%
+\contentsline {section}{\numberline {}2 Samuel}{275}{section.0.10}%

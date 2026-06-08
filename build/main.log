@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.6.1)  5 JUN 2026 22:56
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.6.1)  8 JUN 2026 17:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -786,6 +786,24 @@ X
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 )
 (/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 274.
+
+(/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
 (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
@@ -897,18 +915,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FreeSerif' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-(/usr/share/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
-
-(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: xetex.def on input line 149.
-
-(/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 Package hyperref Info: Link coloring ON on input line 20.
- (./build//main.out)
-(./build//main.out)
+(./build//main.out) (./build//main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -14616,7 +14624,7 @@ Underfull \hbox (badness 2343) in paragraph at lines 629--644
 
 
 Underfull \hbox (badness 1152) in paragraph at lines 629--644
-\ZZZ de seu encontro, e disse-lhe: Como tu
+\ZZZ de seu encontro, e disse-lhe: \ZZZ Como tu
  []
 
 
@@ -14657,8 +14665,8 @@ Underfull \hbox (badness 3260) in paragraph at lines 647--670
  []
 
 
-Underfull \hbox (badness 2334) in paragraph at lines 647--670
-\ZZZ filhos de Benjamim: O filho de Jessé
+Underfull \hbox (badness 2772) in paragraph at lines 647--670
+\ZZZ lhe deu a espada de Golias o filisteu\ZZZ .
  []
 
 
@@ -14687,9 +14695,6 @@ Underfull \hbox (badness 1565) in paragraph at lines 647--670
  []
 
 [265]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 LaTeX Warning: Reference `0' on page 266 undefined on input line 673.
 
@@ -14712,7 +14717,7 @@ Underfull \hbox (badness 1742) in paragraph at lines 705--727
 
 
 Underfull \hbox (badness 1082) in paragraph at lines 705--727
-\ZZZ deram-lhe aviso dizendo: Eis que Davi
+\ZZZ deram-lhe aviso dizendo: \ZZZ Eis que Davi
  []
 
 
@@ -14726,8 +14731,13 @@ Underfull \hbox (badness 2103) in paragraph at lines 705--727
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 705--727
-\ZZZ mão contra ele; porque é o ungido do
+Underfull \hbox (badness 1248) in paragraph at lines 705--727
+\ZZZ o ungido do SENHOR, que eu estenda
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 705--727
+\ZZZ vida para tirá-la de mim. [] Julgue o
  []
 
 [267]
@@ -14735,23 +14745,13 @@ Underfull \hbox (badness 1400) in paragraph at lines 705--727
 LaTeX Warning: Reference `0' on page 268 undefined on input line 730.
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 730--774
-\ZZZ a seu marido Nabal. [] E sentando-se
+Underfull \hbox (badness 2119) in paragraph at lines 730--774
+\ZZZ dos que vivem com o SENHOR Deus
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 730--774
-\ZZZ Abigail viu a Davi, desceu prontamente
- []
-
-
-Underfull \hbox (badness 1502) in paragraph at lines 730--774
-\ZZZ sobre mim seja o pecado; mas rogo-te
- []
-
-
-Underfull \hbox (badness 1259) in paragraph at lines 730--774
-\ZZZ o SENHOR de certo fará casa firme a
+Underfull \hbox (badness 1596) in paragraph at lines 730--774
+\ZZZ como de uma funda. [] E acontecerá
  []
 
 
@@ -14784,7 +14784,7 @@ LaTeX Warning: Reference `0' on page 270 undefined on input line 777.
 
 
 Underfull \hbox (badness 1881) in paragraph at lines 777--802
-\ZZZ de Haquilá diante do deserto? [] Saul
+\ZZZ de Haquilá diante do deserto? [] \ZZZ Saul
  []
 
 
@@ -14808,23 +14808,13 @@ Underfull \hbox (badness 1005) in paragraph at lines 777--802
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 777--802
-\ZZZ Então Abner respondeu e disse: Quem
+Underfull \hbox (badness 2065) in paragraph at lines 777--802
+\ZZZ que me expulsaram hoje para que não
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 777--802
-\ZZZ Davi a Abner: Não és tu homem? E
- []
-
-
-Underfull \hbox (badness 1072) in paragraph at lines 777--802
-\ZZZ água que estava à sua cabeceira. [] E
- []
-
-
-Underfull \hbox (badness 1655) in paragraph at lines 777--802
-\ZZZ como quem persegue uma perdiz pelos
+Underfull \hbox (badness 1515) in paragraph at lines 777--802
+\ZZZ me junte na propriedade do SENHOR,
  []
 
 
@@ -14878,8 +14868,8 @@ Underfull \hbox (badness 1442) in paragraph at lines 820--845
  []
 
 
-Underfull \hbox (badness 2359) in paragraph at lines 820--845
-\ZZZ filisteus. [] Naquele mesmo momento
+Underfull \hbox (badness 1242) in paragraph at lines 820--845
+\ZZZ filisteus\ZZZ ”\ZZZ . [] Naquele mesmo momento
  []
 
 
@@ -14889,13 +14879,10 @@ Underfull \hbox (badness 1057) in paragraph at lines 820--845
 
 
 Underfull \hbox (badness 1472) in paragraph at lines 820--845
-\ZZZ disse-lhe: Eis que tua criada obedeceu
+\ZZZ disse-lhe: \ZZZ Eis que tua criada obedeceu
  []
 
 [271]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 LaTeX Warning: Reference `0' on page 272 undefined on input line 848.
 
@@ -14945,7 +14932,7 @@ Underfull \hbox (badness 2635) in paragraph at lines 862--893
 
 
 Underfull \hbox (badness 1028) in paragraph at lines 862--893
-\ZZZ alcançarás, e sem falta livrarás a presa.
+\ZZZ alcançarás, e sem falta livrarás a presa\ZZZ .
  []
 
 
@@ -14996,11 +14983,6 @@ Underfull \hbox (badness 2418) in paragraph at lines 896--909
  []
 
 
-Underfull \hbox (badness 1286) in paragraph at lines 896--909
-\ZZZ aconteceu o dia seguinte, que vindo os
- []
-
-
 Underfull \hbox (badness 1033) in paragraph at lines 896--909
 \ZZZ no templo de seus ídolos, e pelo povo.
  []
@@ -15010,7 +14992,302 @@ Underfull \hbox (badness 1472) in paragraph at lines 896--909
 \ZZZ de Gileade isto que os filisteus fizeram
  []
 
-)) [274] (./build/main.aux)
+) (./source/AT/10 - 2SA_src.tex [274]
+Underfull \hbox (badness 1127) in paragraph at lines 6--33
+\ZZZ que quando Davi voltou da derrota dos
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 6--33
+\ZZZ um do acampamento de Saul, rasgadas
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 6--33
+[] \ZZZ E disse-lhe Davi: Como não tiveste
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 6--33
+\ZZZ ungido do SENHOR? [] Então chamou
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 6--33
+[] \ZZZ E lamentou Davi a Saul e a Jônatas
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 6--33
+\ZZZ de Judá. Eis que está escrito no livro
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 6--33
+\ZZZ sobre Saul, Que vos vestia de escarlata
+ []
+
+
+LaTeX Warning: Reference `0' on page 275 undefined on input line 36.
+
+
+Underfull \hbox (badness 6575) in paragraph at lines 36--68
+[][] \ZZZ Depois disto aconteceu que Davi
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 36--68
+\ZZZ misericórdia com vosso senhor Saul em
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 36--68
+\ZZZ vossas mãos, e sede valentes; pois que
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 36--68
+\ZZZ Benjamim, e sobre todo Israel. [] De
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 36--68
+\ZZZ Gibeão. [] E juntaram-se os filhos de
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 36--68
+\ZZZ a seus irmãos? [] E Joabe respondeu:
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 36--68
+\ZZZ o Jordão cruzaram por todo Bitrom, e
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 36--68
+\ZZZ e sepultaram-no no sepulcro de seu pai
+ []
+
+[275
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 276 undefined on input line 71.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [276]
+Underfull \hbox (badness 3601) in paragraph at lines 71--110
+\ZZZ seu primogênito foi Amom, de Ainoã
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 71--110
+\ZZZ jezreelita; [] Seu segundo Quileabe, de
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 71--110
+\ZZZ Saul teu pai, com seus irmãos, e com
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 71--110
+\ZZZ Berseba. [] E ele não pode responder
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 71--110
+\ZZZ reino, pelo SENHOR, para sempre, do
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 71--110
+\ZZZ aquele dia, que não havia vindo do rei
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [277]
+
+LaTeX Warning: Reference `0' on page 278 undefined on input line 113.
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 113--125
+\ZZZ e seu irmão Baaná escaparam. [] Pois,
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 113--125
+\ZZZ caminho da planície. [] E trouxeram a
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 113--125
+\ZZZ Recabe e a seu irmão Baaná, filhos de
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 113--125
+\ZZZ Rimom beerotita, e disse-lhes: Vive o
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 113--125
+\ZZZ angústia, [] que, quando um me deu a
+ []
+
+
+LaTeX Warning: Reference `0' on page 278 undefined on input line 128.
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 128--153
+\ZZZ E o SENHOR respondeu a Davi: Vai,
+ []
+
+[278]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 279 undefined on input line 156.
+
+
+Underfull \hbox (badness 4752) in paragraph at lines 156--179
+[][] \ZZZ E Davi voltou a juntar todos os
+ []
+
+
+Underfull \hbox (badness 3492) in paragraph at lines 156--179
+\ZZZ escolhidos de Israel, trinta mil. [] E
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 156--179
+\ZZZ de faia; com harpas, saltérios, adufes,
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 156--179
+\ZZZ hoje. [] E temendo Davi ao SENHOR
+ []
+
+
+Underfull \hbox (badness 2689) in paragraph at lines 156--179
+\ZZZ que saltava com toda sua força diante
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 156--179
+\ZZZ coração. [] Meteram, pois, a arca do
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 156--179
+\ZZZ Quão honrado foi hoje o rei de Israel,
+ []
+
+[279]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 280 undefined on input line 182.
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 182--211
+[][] \ZZZ E aconteceu que, estando já o rei
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 182--211
+\ZZZ assentado em sua casa, depois que o
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 182--211
+\ZZZ está entre cortinas. [] E Natã disse ao
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 182--211
+\ZZZ disse o SENHOR dos exércitos: Eu te
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 182--211
+\ZZZ palavras serão firmes, já que disseste a
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 182--211
+\ZZZ de abençoar a casa de teu servo, para
+ []
+
+[280]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 281 undefined on input line 214.
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 214--232
+\ZZZ inteiro para vida; e foram os moabitas
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 214--232
+\ZZZ mil e setecentos cavaleiros, e vinte mil
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 214--232
+\ZZZ de todos os carros, exceto cem carros
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 214--232
+\ZZZ rei de Zobá. [] E ganhou Davi fama
+ []
+
+[281]
+
+LaTeX Warning: Reference `0' on page 282 undefined on input line 235.
+
+
+LaTeX Warning: Reference `0' on page 282 undefined on input line 251.
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 251--270
+\ZZZ e inspecionar a cidade, para destruí-la?
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 251--270
+\ZZZ e despachou-os. [] O qual quando foi
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 251--270
+\ZZZ feito saber a Davi, enviou a encontrar-
+ []
+
+
+Underfull \hbox (badness 3049) in paragraph at lines 251--270
+\ZZZ lhes, porque eles estavam em extremo
+ []
+
+[282])) [283
+
+] (./build/main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -15019,20 +15296,26 @@ L3 programming layer <2026-01-19>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 64312F776C42A30A01192CB9C222FC1E;739.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 64312F776C42A30A01192CB9C222FC1E;739
+(rerunfilecheck)             After:  924652D1B7E7AB502995E6A820231F97;829.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 557 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16947 strings out of 470175
- 325551 string characters out of 5479201
- 1583477 words of memory out of 5000000
- 45253 multiletter control sequences out of 15000+600000
+ 17348 strings out of 470175
+ 330986 string characters out of 5479201
+ 1596015 words of memory out of 5000000
+ 45649 multiletter control sequences out of 15000+600000
  632465 words of font info for 104 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 78i,5n,96p,1157b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 78i,6n,96p,1157b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ./build/main.pdf (278 pages).
+Output written on ./build/main.pdf (287 pages).
