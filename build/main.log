@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.6.1)  9 JUN 2026 16:24
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.6.1)  11 JUN 2026 00:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -15295,13 +15295,8 @@ Underfull \hbox (badness 1102) in paragraph at lines 273--300
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 273--300
-\ZZZ da guerra, [] Se o rei começar a irar-
- []
-
-
-Underfull \hbox (badness 1158) in paragraph at lines 273--300
-\ZZZ de uma roda de moinho, e morreu em
+Underfull \hbox (badness 1117) in paragraph at lines 273--300
+\ZZZ e te disser: “  Por que vos aproximastes
  []
 
 
@@ -15323,12 +15318,12 @@ Underfull \hbox (badness 1072) in paragraph at lines 303--334
 
 
 Underfull \hbox (badness 1199) in paragraph at lines 303--334
-\ZZZ ele não voltará a mim. [] E consolou
+\ZZZ ele não voltará a mim\ZZZ . [] E consolou
  []
 
 
 Underfull \hbox (badness 1117) in paragraph at lines 303--334
-\ZZZ filho, e chamou seu nome Salomão, ao
+\ZZZ filho, e chamou seu nome \ZZZ Salomão\ZZZ , ao
  []
 
 
@@ -15353,17 +15348,27 @@ Underfull \hbox (badness 1442) in paragraph at lines 337--376
 
 
 Underfull \hbox (badness 1394) in paragraph at lines 337--376
-\ZZZ dizendo-lhe: Vem, irmã minha deita-te
+\ZZZ dizendo-lhe: \ZZZ Vem, irmã minha deita-te
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 337--376
-\ZZZ filhos do rei, e subiram todos em seus
+Underfull \hbox (badness 1325) in paragraph at lines 337--376
+\ZZZ de Absalão fizeram com Amnom como
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 337--376
-\ZZZ que somente Amnom é morto: porque
+Underfull \hbox (badness 1490) in paragraph at lines 337--376
+\ZZZ meu senhor o rei em seu coração essa
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 337--376
+\ZZZ voz que disse: “  \ZZZ Todos os filhos do rei
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 337--376
+\ZZZ com muito grandes lamentos. [] Mas
  []
 
 [285]
@@ -15377,8 +15382,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: Reference `0' on page 287 undefined on input line 379.
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 379--412
-\ZZZ façamos morrer pela vida de seu irmão
+Underfull \hbox (badness 1168) in paragraph at lines 379--412
+\ZZZ morrer pela vida de seu irmão a quem
  []
 
 
@@ -15399,28 +15404,23 @@ Underfull \hbox (badness 1147) in paragraph at lines 415--452
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 415--452
-\ZZZ disse ao rei: Eu te rogo me permitas
+Underfull \hbox (badness 1648) in paragraph at lines 415--452
+\ZZZ dizendo: “   Se o SENHOR me voltar a
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 415--452
-\ZZZ servo fez voto quando estava em Gesur
+Underfull \hbox (badness 3189) in paragraph at lines 415--452
+\ZZZ “  \ZZZ Quando ouvirdes o som da trombeta,
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 415--452
-\ZZZ em Síria, dizendo: Se o SENHOR me
+Underfull \hbox (badness 1845) in paragraph at lines 415--452
+\ZZZ Jerusalém por ele convidados, os quais
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 415--452
-\ZZZ de Israel, dizendo: Quando ouvirdes o
- []
-
-
-Underfull \hbox (badness 1571) in paragraph at lines 415--452
-\ZZZ os quais iam em sua ingenuidade, sem
+Underfull \hbox (badness 1776) in paragraph at lines 415--452
+[] \ZZZ Também enviou Absalão por Aitofel
  []
 
 
@@ -15474,18 +15474,13 @@ Underfull \hbox (badness 1152) in paragraph at lines 455--478
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 455--478
-\ZZZ agora um filho de Benjamim? Deixai-
- []
-
-
 Underfull \hbox (badness 1014) in paragraph at lines 455--478
 [] \ZZZ E aconteceu logo, que quando Husai
  []
 
 
 Underfull \hbox (badness 1194) in paragraph at lines 455--478
-\ZZZ a Absalão: Entra às concubinas de teu
+\ZZZ a Absalão: \ZZZ Entra às concubinas de teu
  []
 
 
@@ -15498,8 +15493,11 @@ Underfull \hbox (badness 1226) in paragraph at lines 455--478
 LaTeX Warning: Reference `0' on page 290 undefined on input line 481.
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 1320) in paragraph at lines 481--510
-[][] \ZZZ Então Aitofel disse a Absalão: Eu
+[][] \ZZZ Então Aitofel disse a Absalão: \ZZZ Eu
  []
 
 
@@ -15509,7 +15507,7 @@ Underfull \hbox (badness 1418) in paragraph at lines 481--510
 
 
 Underfull \hbox (badness 3281) in paragraph at lines 481--510
-\ZZZ sacerdotes: Assim e assim aconselhou
+\ZZZ sacerdotes: \ZZZ Assim e assim aconselhou
  []
 
 
@@ -15518,54 +15516,51 @@ Underfull \hbox (badness 2057) in paragraph at lines 481--510
  []
 
 
-Underfull \hbox (badness 1484) in paragraph at lines 481--510
-\ZZZ Absalão à casa à mulher, disseram-lhe:
+Underfull \hbox (badness 1609) in paragraph at lines 481--510
+\ZZZ ela o grão trilhado; e não se penetrou
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 481--510
-\ZZZ e Absalão passou o Jordão com toda a
+Underfull \hbox (badness 1371) in paragraph at lines 481--510
+\ZZZ de Absalão à casa à mulher, disseram-
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 481--510
-\ZZZ de Zeruia, mãe de Joabe. [] E Israel
+Underfull \hbox (badness 1661) in paragraph at lines 481--510
+[] \ZZZ E depois que eles se houveram ido,
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 481--510
-\ZZZ assentou acampamento com Absalão na
+Underfull \hbox (badness 1661) in paragraph at lines 481--510
+\ZZZ aqueles saíram do poço, e foram-se, e
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 481--510
-\ZZZ terra de Gileade. [] E logo que Davi
+Underfull \hbox (badness 2990) in paragraph at lines 481--510
+\ZZZ deram aviso ao rei Davi; e disseram-
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 481--510
-\ZZZ chegou a Maanaim, Sobi filho de Naás
+Underfull \hbox (badness 1033) in paragraph at lines 481--510
+\ZZZ em sua cidade; e depois de dar ordens
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 481--510
-\ZZZ filho de Amiel de Lo-Debar, e Barzilai
+Underfull \hbox (badness 1122) in paragraph at lines 481--510
+\ZZZ e foi sepultado no sepulcro de seu pai.
  []
 
 
-Underfull \hbox (badness 4647) in paragraph at lines 481--510
-\ZZZ gileadita de Rogelim, [] Trouxeram a
+Underfull \hbox (badness 1147) in paragraph at lines 481--510
+\ZZZ filha de Naás, irmã de Zeruia, mãe de
  []
 
 
-Underfull \hbox (badness 4569) in paragraph at lines 481--510
-\ZZZ Davi e ao povo que estava com ele,
+Underfull \hbox (badness 1460) in paragraph at lines 481--510
+\ZZZ a Davi e ao povo que estava com ele,
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [290]
+[290]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -15578,18 +15573,13 @@ Underfull \hbox (badness 1281) in paragraph at lines 513--546
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 513--546
-\ZZZ mão contra o filho do rei; porque nós
+Underfull \hbox (badness 1107) in paragraph at lines 513--546
+\ZZZ a Abisai e a Itai, dizendo: “  Olhai que
  []
 
 
 Underfull \hbox (badness 1173) in paragraph at lines 513--546
-\ZZZ conserve a memória de meu nome. E
- []
-
-
-Underfull \hbox (badness 1221) in paragraph at lines 513--546
-\ZZZ Então lhe disse: Corre. Correu, pois,
+\ZZZ conserve a memória de meu nome\ZZZ . E
  []
 
 [291]
@@ -15659,14 +15649,217 @@ Underfull \hbox (badness 1292) in paragraph at lines 595--621
 
 
 Underfull \hbox (badness 1067) in paragraph at lines 595--621
-\ZZZ meu? E tomou Joabe com a direita a
+\ZZZ meu? \ZZZ E tomou Joabe com a direita a
  []
 
 [294]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)) [295]
-(./build/main.aux)
+
+
+LaTeX Warning: Reference `0' on page 295 undefined on input line 624.
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 624--646
+\ZZZ e eles os enforcaram no monte diante
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 624--646
+\ZZZ lança pesava trezentos siclos de bronze,
+ []
+
+
+Underfull \hbox (badness 2359) in paragraph at lines 624--646
+\ZZZ de Zeruia, o socorreu, feriu o filisteu,
+ []
+
+[295]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 296 undefined on input line 649.
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 649--705
+\ZZZ deste cântico, o dia que o SENHOR o
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 649--705
+[] \ZZZ Invocarei ao SENHOR, digno de ser
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 649--705
+\ZZZ se acenderam carvões. [] E abaixo os
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 649--705
+\ZZZ e voou: Apareceu-se sobre as asas do
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 649--705
+\ZZZ redor de si; nuvens negras e espessas,
+ []
+
+
+Underfull \hbox (badness 3291) in paragraph at lines 649--705
+\ZZZ me de copiosas águas. [] Livrou-me
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 649--705
+\ZZZ de fortes inimigos, De aqueles que me
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 649--705
+\ZZZ eu. [] Atacaram-me no dia de minha
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 649--705
+\ZZZ calamidade; Mas o SENHOR foi meu
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 649--705
+\ZZZ Livrou-me, porque se agradou de mim.
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 649--705
+\ZZZ ele, E guardei-me de minha iniquidade.
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 649--705
+\ZZZ alargaste meus desfiladeiros debaixo de
+ []
+
+
+Underfull \hbox (badness 4205) in paragraph at lines 649--705
+\ZZZ mim, Para que não titubeassem meus
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 649--705
+\ZZZ Ao SENHOR, mas não lhes respondeu.
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 649--705
+\ZZZ os pisarei como à lama das ruas, e os
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 649--705
+\ZZZ se sujeitaram a mim; ao ouvirem, me
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 649--705
+\ZZZ Seja exaltado o Deus, a rocha de meu
+ []
+
+[296]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 297 undefined on input line 708.
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 708--747
+\ZZZ Disse Davi filho de Jessé, Disse aquele
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 708--747
+\ZZZ por mim, E sua palavra foi em minha
+ []
+
+
+Underfull \hbox (badness 3646) in paragraph at lines 708--747
+\ZZZ desafiaram aos filisteus que se haviam
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 708--747
+[] \ZZZ E três dos trinta principais desceram
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 708--747
+\ZZZ teve nome entre os três. [] Ele era o
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 708--747
+[] \ZZZ Samá de Harar, Aião filho de Sarar
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 708--747
+\ZZZ de Harar. [] Elifelete filho de Aasbai
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 708--747
+\ZZZ gilonita; [] Hezrai do Carmelo, Paarai
+ []
+
+[297]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [298]
+
+LaTeX Warning: Reference `0' on page 299 undefined on input line 750.
+
+
+Underfull \hbox (badness 3907) in paragraph at lines 750--775
+[][] \ZZZ E voltou o furor do SENHOR a
+ []
+
+
+Underfull \hbox (badness 3884) in paragraph at lines 750--775
+\ZZZ general do exército que tinha consigo:
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 750--775
+\ZZZ são, e que o veja meu senhor ao rei;
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 750--775
+\ZZZ em Aroer, à direita da cidade que está
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 750--775
+\ZZZ de Judá quinhentos mil homens. [] E
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 750--775
+\ZZZ eu em mãos de homens. [] E enviou
+ []
+
+))
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [299]
+[300
+
+] (./build/main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -15691,4 +15884,4 @@ Here is how much of TeX's memory you used:
  16 hyphenation exceptions out of 8191
  78i,6n,96p,1157b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ./build/main.pdf (299 pages).
+Output written on ./build/main.pdf (304 pages).
