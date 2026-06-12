@@ -1,0 +1,61 @@
+\usepackage{tocloft, geometry, multicol} % Títulos (sessões, sumários etc), dimensões, colunas
+\usepackage{calc, parselines}
+\usepackage{fancybox, graphicx} % Caixas de texto e figuras/gráficos 03/05/2026
+\usepackage{fontspec} % Fontes variadas - 01/04/2025
+\usepackage{csquotes} % Aspas - 29/04/2026
+\usepackage[brazilian]{babel} % 28/04/2026 Idioma principal
+%\babelprovide[import, onchar=ids names]{greek}
+%\babelfont[greek]{rm}{Gentium}
+%\babelprovide[import, onchar=ids fonts]{hebrew}
+%\babelfont[hebrew]{rm}{NotoRashinHebrew}
+\usepackage[babel]{microtype} % Justificação
+\usepackage[none]{hyphenat} % Remover hifenizações
+\usepackage[cmyk]{xcolor} % Cores cmyk (impressão)
+\usepackage[T1]{fontenc} % Acentuação?
+\usepackage[useregional]{datetime2} % Data no formato do idioma do documento
+\usepackage[marginal2]{./preamble/footkmpj}  % Notas de letras
+% \usepackage{ucharclasses} % Somente Xetex
+\setmainfont{FreeSerif} % 01/04/2025
+
+%TODO
+% Criar a cor Cinza e as demais
+\definecolor{Black}{cmyk}{0, 0, 0, 1}
+\definecolor{Cinza}{cmyk}{0, 0, 0, 0.85}
+\definecolor{AzulMarinho}{cmyk}{1, 1, 0, 0.5}
+\definecolor{Azul}{cmyk}{1, 1, 0, 0.2}
+\definecolor{VermelhoVivo}{cmyk}{0, 1, 1, 0.2}
+%\definecolor{Verse}{cmyk}{0, 1, 0.65, 0.25} % Cor do versículo - Púrpura
+\definecolor{Verse}{cmyk}{0.5, 0.5, 0.5, 0.7} % Cor do versículo - Cinza
+% \definecolor{Verde}{cmyk}{1, 0, 1, 0.4} % Original
+\definecolor{Verde}{cmyk}{1, 0, 1, 0.45} % Opção 1
+\definecolor{Magenta}{cmyk}{0, 0.95, 0.49, 0.05}
+\definecolor{Roxo}{cmyk}{0, 0.9, 0, 0.37}
+% \definecolor{Laranja}{cmyk}{0, 0.6, 1, 0} % Em uso
+\definecolor{Laranja}{cmyk}{0, 0.6, 1, 0.15}
+% \definecolor{Marrom}{cmyk}{0, 0.477, 0.748, 0.392} % Original
+% \definecolor{Marrom}{cmyk}{0, 0.7, 0.9, 0.5} % Em uso
+\definecolor{Marrom}{cmyk}{0, 0.65, 0.9, 0.61} % Opção 1
+\definecolor{Amarelo}{cmyk}{0, 0.2, 1, 0.1}
+\definecolor{Oliva}{cmyk}{0, 0, 1, 0.5}
+
+\newcommand{\Black}{\color{Black}}
+\newcommand{\TextColor}{\color{Black}}
+\newcommand{\IntroColor}{\color{AzulMarinho}}
+\newcommand{\WJColor}{\color{VermelhoVivo}}
+\newcommand{\BlueColor}{\color{Azul}}
+\newcommand{\GreenColor}{\color{Verde}}
+\newcommand{\YellowColor}{\color{Amarelo}}
+\newcommand{\OliveColor}{\color{Oliva}}
+\newcommand{\VerseColor}{\color{Verse}}
+\newcommand{\WJ}{\Red}
+% Cores da legenda
+%\definecolor{father}{cmyk}{1, 1, 0, 0.2}
+\newcommand{\azulcolor}{\color{Azul}}
+\newcommand{\vermcolor}{\WJColor}
+\newcommand{\verdecolor}{\GreenColor}
+\newcommand{\roxcolor}{\color{Roxo}}
+\newcommand{\magcolor}{\color{Magenta}}
+\newcommand{\larcolor}{\color{Laranja}}
+\newcommand{\marcolor}{\color{Marrom}}
+
+\usepackage[colorlinks=true,linkcolor=Azul]{hyperref} % Links internos e externos

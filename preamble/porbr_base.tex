@@ -1,0 +1,42 @@
+% --- Configurações de quebra de linha do XeTeX ---
+% Alterar para LuaTeX
+% \XeTeXlinebreaklocale "pt"
+% \XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
+% \XeTeXlinebreakpenalty = 10
+
+% --- Inclusão da lógica de macros central ---
+\input{preamble/haiola}
+
+\newcommand\ScriptureFontFace{DejaVu Serif}
+\newcommand\OtherFontFace{DejaVuSans}
+\newcommand\HeaderFontFace{DejaVuSans}
+
+\begin{document}
+
+% --- Configuração de Cabeçalhos (Dinâmicos) ---
+\makeatletter
+\def\@evenhead{{\HDRF\HeaderFont\rightmark\hfil\thepage\hfil\leftmark}}
+\def\@oddhead{{\HDRF\HeaderFont\rightmark\hfil\thepage\hfil\leftmark}}
+\makeatother
+
+% --- Pré-Textual ---
+\frontmatter
+\pagenumbering{roman}
+\thispagestyle{empty}
+\markboth{\HeaderFont }{\HeaderFont }
+
+\vfill\eject
+\input{preamble/CPR.tex}
+
+\tableofcontents
+\clearpage
+
+% --- Conteúdo Principal ---
+\setcounter{page}{1}
+\pagenumbering{arabic}
+\mainmatter
+
+\input{source/livros}
+\clearpage
+
+\end{document}
