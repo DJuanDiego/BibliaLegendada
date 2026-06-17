@@ -4,10 +4,17 @@
 \newcommand\ScriptureFontFace{DejaVu Serif}%
 \newcommand\OtherFontFace{DejaVuSans}%
 \newcommand\HeaderFontFace{DejaVuSans}%
+
 \input{preamble/12pta4}%
 \input{preamble/haiola}%
+
 \begin{document}%
-\makeatletter\def\@evenhead{{\HDRF\HeaderFont\rightmark\hfil\thepage\hfil\leftmark}}\def\@oddhead{{\HDRF\HeaderFont\rightmark\hfil\thepage\hfil\leftmark}}\makeatother\frontmatter\pagenumbering{roman}%
+
+\makeatletter\def\@evenhead{{
+    \HDRF\HeaderFont\rightmark\hfil\thepage\hfil\leftmark}}\def\@oddhead{{
+    \HDRF\HeaderFont\rightmark\hfil\thepage\hfil\leftmark}}
+  \makeatother\frontmatter\pagenumbering{roman}%
+
 \thispagestyle{empty}\markboth{\HeaderFont }{\HeaderFont }%
 %\resizebox{!}{\textwidth}{\includegraphics{cover.png}}
 \vfill\eject

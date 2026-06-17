@@ -1,57 +1,46 @@
-\XeTeXlinebreaklocale "pt"
-\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
-%\XeTeXlinebreakpenalty = 10000
-\newcommand\ScriptureFontFace{FreeSerif}%
-%\newcommand\ScriptureFontFace{DejaVu Serif}%
-%\newcommand\OtherFontFace{DejaVuSans}%
-%\newcommand\HeaderFontFace{DejaVuSans}%
+% ========== Importação da classe que define as medidas do papel, linha, espaçamento etc ==========
+%\input{preamble/12pta4.tex}
+\input{preamble/12pt.tex}
+\usepackage[colorlinks=true,linkcolor=Azul]{hyperref} % Links internos e externos
 
-\newcommand\OtherFontFace{FreeSerif}%
-\newcommand\HeaderFontFace{FreeSerif}%
+% ========== Corpo do documento (código original sem alteração) ==========
+\setmainfont{FreeSerif}
 
-\input{preamble/12pt}%
-% \input{12pta4}%
-\input{preamble/haiola}%
 
-%\title{Bíblia Legendada}
+\begin{document}
+\sloppy
+\large
+\frenchspacing
+ \vfill\eject
+ \input{preamble/CPR}
+ \input{preamble/FA}
+ \input{preamble/PFC}
+\clearpage
 
-% Projeto iniciado aos 20/07/2023
-
-\begin{document}%
-  \large
-  \vfill\eject
-  \input{preamble/CPR}
-  \input{preamble/FA}
-  \input{preamble/PFC}
-
-  \pagestyle{empty}
+\pagestyle{empty}
 \begin{center}
-  \MTB Índice
-  \begin{multicols}{2}
-    \renewcommand{\contentsname}{}
-    \tableofcontents\thispagestyle{empty}
-    \clearpage
-  \end{multicols}
+	{\MT Índice}
+	\begin{multicols}{2}
+		\renewcommand{\contentsname}{}
+		\tableofcontents\thispagestyle{empty}
+%		\clearpage
+	\end{multicols}
 \end{center}
 
-  %\sloppy
-%  \markboth{\HeaderFont }{\HeaderFont }%
-
-\mainmatter % Inicia o conteúdo principal e numeração arábica [1]
-\setcounter{page}{1} % Garante o início na página 1 [1]
-\pagestyle{myheadings} % Ativa o estilo de cabeçalhos [1]
+\mainmatter
+\pagestyle{myheadings}
 
 \makeatletter
 % Define o cabeçalho para páginas pares e ímpares
 % \rightmark captura o primeiro verso da página (marcado pelo \VS no haiola.txt)
 % \leftmark captura o último verso da página [1, 2]
-\def\@evenhead{{\HDRF\HeaderFont\rightmark\hfil\thepage\hfil\leftmark}}
-\def\@oddhead{{\HDRF\HeaderFont\rightmark\hfil\thepage\hfil\leftmark}}
+\def\@evenhead{{\bfseries\rightmark\hfil\thepage\hfil\leftmark}}
+\def\@oddhead{{\bfseries\rightmark\hfil\thepage\hfil\leftmark}}
 \makeatother
-\setlength{\columnsep}{.55cm}
-\twocolumn
-\input{source/livros} % Inicia a inclusão dos textos bíblicos [1]
 
-  \clearpage
+\setlength\columnsep{0.55cm}
+\twocolumn
+
+\input{source/livros.tex}
 
 \end{document}

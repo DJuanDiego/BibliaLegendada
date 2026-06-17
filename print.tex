@@ -1,41 +1,6 @@
-\documentclass[paper=135mm:202mm,9pt]{book}
-\usepackage{graphics, fancybox, graphicx, multicol}
-\usepackage[brazilian]{babel} % 28/04/2026 Idioma principal
-\usepackage[babel]{microtype}
-\usepackage{calc, parselines}
-\usepackage[colorlinks=true,linkcolor=blue]{hyperref}
-\usepackage[paperheight=202mm,paperwidth=135mm,inner=12mm,outer=11mm,top=10mm,bottom=10mm,includehead=true,columnsep=11.0pt,headsep=8pt]{geometry}
-%\usepackage[para]{footkmpj}
-\usepackage[marginal2]{../preamble/footkmpj}
-\usepackage{tocloft}
-\usepackage{ucharclasses}
-\usepackage{fontspec} %01/04/2025
-\setmainfont{FreeSerif} % 01/04/2025
-\usepackage{csquotes} %29/04/2026
-\newcommand{\TocFont}{\font\Y="\OtherFontFace:color=000000" at 9pt\Y }
-\newcommand{\TextColor}{:color=000000}
-\newcommand{\TinyFontSize}{6.8pt}
-\newcommand{\FnMarkFont}{\font\Z="FreeSerif:color=000080" at 6.75pt \Z }
-\newcommand{\IntroColor}{:color=000080}
-\newcommand{\WJColor}{:color=ff0000}
-\newcommand{\BlueColor}{:color=0000ff}
-\newcommand{\GreenColor}{:color=00ff00}
-\newcommand{\YellowColor}{:color=808000}
-\newcommand{\WJ}{\Red}
-% Cores da legenda
-\newcommand{\azulcolor}{:color=0000cc}
-\newcommand{\vermcolor}{:color=ff0000}
-\newcommand{\verdecolor}{:color=007600}
-\newcommand{\roxcolor}{:color=a010a0}
-\newcommand{\magcolor}{:color=fa0d7f}
-\newcommand{\larcolor}{:color=ff7700}
-\newcommand{\marcolor}{:color=a4572e}
+\documentclass[9pt]{octavo}
 
-\newcommand{\RaiseVerse}{2.25pt}
-\newcommand{\FnSize}{6.75pt}
-\newcommand{\TextSize}{9pt}
-\newcommand{\MTSize}{13.5pt}
-\newcommand{\MTBSize}{11.997pt}
-\newcommand{\MTCSize}{10.503pt}
-\newcommand{\MTDSize}{9.747pt}
-\newcommand{\VerseFontSize}{6.75pt}
+\input{preamble/base_format.tex}
+\geometry{paperheight=202mm,paperwidth=135mm,inner=12mm,outer=11mm,top=10mm,bottom=10mm,includehead=true,columnsep=11.0pt,headsep=8pt}
+
+\setstretch{0.8} % Espaçamento entre linhas
