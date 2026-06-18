@@ -1,1 +1,13 @@
 \babel@toc {brazilian}{}\relax 
+\contentsline {section}{Gênesis}{3}{section*.2}%
+\contentsline {section}{Êxodo}{51}{section*.3}%
+\contentsline {section}{Levítico}{91}{section*.4}%
+\contentsline {section}{Números}{121}{section*.5}%
+\contentsline {section}{Deuteronômio}{162}{section*.6}%
+\contentsline {section}{Josué}{197}{section*.7}%
+\contentsline {section}{Juízes}{221}{section*.8}%
+\contentsline {section}{Rute}{245}{section*.9}%
+\contentsline {section}{1 Samuel}{249}{section*.10}%
+\contentsline {section}{2 Samuel}{281}{section*.11}%
+\contentsline {section}{1 Reis}{307}{section*.12}%
+\contentsline {section}{2 Reis}{338}{section*.13}%

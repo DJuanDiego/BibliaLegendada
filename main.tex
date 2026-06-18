@@ -6,11 +6,11 @@
 % ========== Corpo do documento (código original sem alteração) ==========
 \setmainfont{FreeSerif}
 
-
 \begin{document}
-\sloppy
-\large
-\frenchspacing
+\sloppy % Sem hifenização
+\large % Letra Grande
+\TextColor % Cor preta
+\frenchspacing % Espaço menor após pontuação
  \vfill\eject
  \input{preamble/CPR}
  \input{preamble/FA}
@@ -19,10 +19,11 @@
 
 \pagestyle{empty}
 \begin{center}
-	{\MT Índice}
+	\MT Índice
 	\begin{multicols}{2}
 		\renewcommand{\contentsname}{}
-		\tableofcontents\thispagestyle{empty}
+		\tableofcontents
+% 		\thispagestyle{empty}
 %		\clearpage
 	\end{multicols}
 \end{center}

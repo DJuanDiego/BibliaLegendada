@@ -1,8 +1,6 @@
 \RequirePackage{fontspec}
 %\setmainfont{Latin Modern Roman}
 \usepackage[brazilian]{babel} % 28/04/2026 Idioma principal
-%\usepackage[portuguese]{babel}
-%\usepackage[babel]{microtype} % Justificação
 \usepackage[babel]{microtype} % Justificação
 \usepackage[cmyk]{xcolor} % Cores cmyk (impressão)
 \usepackage[default]{fontsetup}
@@ -20,24 +18,22 @@
 \usepackage{hologo} % TeX logos
 %\usepackage[utf8]{inputenc}
 
-%TODO
-% Criar a cor Cinza e as demais
+% Cores
 \definecolor{Black}{cmyk}{0, 0, 0, 1}
 \definecolor{Cinza}{cmyk}{0, 0, 0, 0.85}
 \definecolor{AzulMarinho}{cmyk}{1, 1, 0, 0.5}
 \definecolor{Azul}{cmyk}{1, 1, 0, 0.1}
 \definecolor{VermelhoVivo}{cmyk}{0, 1, 1, 0.2}
-\definecolor{Verse}{cmyk}{0, 1, 0.65, 0.25} % Cor do versículo - Púrpura
-%\definecolor{Verse}{cmyk}{0.5, 0.5, 0.5, 0.7} % Cor do versículo - Cinza
-% \definecolor{Verde}{cmyk}{1, 0, 1, 0.4} % Original
-\definecolor{Verde}{cmyk}{1, 0, 1, 0.3} % Opção 1
+\definecolor{Verde}{cmyk}{1, 0, 1, 0.45} % Original
+%\definecolor{Verde}{cmyk}{1, 0, 1, 0.3} % Opção 1
 \definecolor{Magenta}{cmyk}{0, 0.95, 0.49, 0.05}
 \definecolor{Roxo}{cmyk}{0, 0.9, 0, 0.37}
 % \definecolor{Laranja}{cmyk}{0, 0.6, 1, 0} % Em uso
 \definecolor{Laranja}{cmyk}{0, 0.6, 1, 0.15}
-% \definecolor{Marrom}{cmyk}{0, 0.477, 0.748, 0.392} % Original
 % \definecolor{Marrom}{cmyk}{0, 0.7, 0.9, 0.5} % Em uso
 \definecolor{Marrom}{cmyk}{0, 0.65, 0.9, 0.61} % Opção 1
+\definecolor{Verse}{cmyk}{0, 1, 0.65, 0.25} % Cor do versículo - Púrpura
+%\definecolor{Verse}{cmyk}{0.5, 0.5, 0.5, 0.7} % Cor do versículo - Cinza
 \definecolor{Amarelo}{cmyk}{0, 0.2, 1, 0.1}
 \definecolor{Oliva}{cmyk}{0, 0, 1, 0.5}
 
@@ -51,27 +47,29 @@
 \newcommand{\LightBlue}{\color{Azul}}
 \newcommand{\Green}{\color{Verde}}
 \newcommand{\YellowColor}{\color{Amarelo}}
+\newcommand{\VerseColor}{\color{Verse}}
 
 % Cores da legenda
-%\definecolor{father}{cmyk}{1, 1, 0, 0.2}
 \newcommand{\blue}[1]{{\color{Azul}#1}}
 \newcommand{\red}[1]{{\color{VermelhoVivo}#1}}
 \newcommand{\green}[1]{{\color{Verde}#1}}
-\newcommand{\purple}[1]{{\color{Roxo}#1}}
 \newcommand{\magenta}[1]{{\color{Magenta}#1}}
+\newcommand{\purple}[1]{{\color{Roxo}#1}}
 \newcommand{\orange}[1]{{\color{Laranja}#1}}
 \newcommand{\brown}[1]{{\color{Marrom}#1}}
-\newcommand{\VerseColor}{\color{Verse}}
 
-\newcommand{\ShortTitle}[1]{\clearpage\gdef\theshorttitle{#1}\gdef\webbook{#1}}
+\newcommand{\ShortTitle}[1]{\clearpage\gdef\theshorttitle{#1}\gdef\webbook{#1}\section*{}\addcontentsline{toc}{section}{#1}}
 \newcommand{\theshorttitle}{} % inicializa
-\newcommand{\PeriphTitle}[1]{\ShortTitle{#1}\NormalFont}
 
+\newcommand{\PeriphTitle}[1]{%
+  \clearpage
+  \gdef\theshorttitle{#1}%
+  \gdef\webbook{#1}%
+  \NormalFont
+}
 
 % Título principal
-%\newcommand{\MT}{\centering\Large\bfseries\nopagebreak[3]}
 \newcommand{\MT}{\centering\Large\bfseries\TextColor\parindent=0mm\nopagebreak[3]}
-
 
 % Capítulo comum
 \newcommand{\Chap}[1]{{\Large\bfseries\vspace{1.5ex plus 3ex}\centering\setcounterpageref{footnote}{0}\parindent=0mm #1\nopagebreak\par}\def\webchap{#1:}\nopagebreak}
@@ -90,35 +88,40 @@
 \newcommand{\FV}[1]{\VS{#1}}
 
 % Versículo padrão
-% \newcommand{\VS}[1]{\textsuperscript{#1}\hspace{1mm}}
-\newcommand{\VS}[1]{{\bfseries\IntroColor\small\raisebox{0.5ex}{#1}\hspace{1mm}\markboth{\webbook\ \webchap #1}{\webbook\ \webchap #1}}} % Verse number
+\newcommand{\VS}[1]{{\TextColor\small\raisebox{0.5ex}{#1}\hspace{1mm}\markboth{\webbook\ \webchap #1}{\webbook\ \webchap #1}}} % Verse number
 
+\makeatletter
 % Nota de rodapé com símbolo personalizado
 \renewcommand{\thefootnote}{\small\alph{footnote}} % letras
+\renewcommand{\@makefnmark}{%
+  \hbox{\raisebox{0.5ex}{\textcolor{footcolor}{\@thefnmark}}}%
+}
 \newcommand{\FTNT}[2]{%
-  \if\relax\detokenize{#1}\relax
-  \footnote{\hspace{0.5mm}#2}%
-  \else
-  %  \footnote[#1]{#2}%
-  \footnote{\hspace{0.5mm}#2}%
-  \fi
+  \colorlet{footcolor}{.}%                % define uma cor 'footcolor' com a cor atual
+  \footnote{\fontsize{10pt}{10pt}\textcolor{footcolor}{\hspace{0.5mm}#2}}%
 }
 
 \newcommand{\XREF}[2]{
     \footnote{
     \fontsize{10pt}{10pt}\bfseries\itshape\Blue#2}
   }
+\makeatother
 
-% Referência para rodapé (formatação em small caps)
+% Referência para rodapé (Negrito)
 \newcommand{\FR}[1]{\bfseries#1}
 
 % Adição de texto (ex.: {\\ADD{...}})
 \newcommand{\ADD}[1]{\textit{#1}}
 
+% Fontes de sumário
+\renewcommand{\cfttoctitlefont}{\MTBSize}
+\renewcommand{\cftchapfont}{\TextSize}
+\renewcommand{\cftsecfont}{\TextSize}
+\renewcommand{\cftchappagefont}{\TextSize}
+\renewcommand{\cftsecpagefont}{\TextSize}
+
 % Fonte normal
 \newcommand{\NormalFont}{\normalfont}
 \NormalFont
 \newcommand{\SmallFont}{\small}
-
-
 
