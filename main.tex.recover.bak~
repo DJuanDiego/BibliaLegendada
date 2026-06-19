@@ -42,13 +42,9 @@
 \makeatother
 
 \setlength\columnsep{0.55cm}
-%\twocolumn % Duas colunas
-%\twocolumn\flushcolsend % Duas colunas balanceadas
-\twocolumn\flushcolumns %Duas colunas
+\twocolumn
 
-\input{source/livros.tex}
-%\input{source/AT/01 - GEN_src.tex}
-%\input{source/NT/42 - LUK_src.tex}
-%\input{source/AT/08 - RUT_src.tex}
+%\input{source/livros.tex}
+\input{source/}
 
 \end{document}

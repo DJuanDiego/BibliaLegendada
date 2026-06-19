@@ -1,7 +1,7 @@
 \RequirePackage{fontspec}
 %\setmainfont{Latin Modern Roman}
 \usepackage[brazilian]{babel} % 28/04/2026 Idioma principal
-\usepackage[babel]{microtype} % Justificação
+\usepackage[babel,final]{microtype} % Justificação (compilação final)
 \usepackage[cmyk]{xcolor} % Cores cmyk (impressão)
 \usepackage[default]{fontsetup}
 \usepackage[none]{hyphenat} % Remover hifenizações
@@ -16,22 +16,29 @@
 \usepackage{tocloft, geometry, multicol} % Títulos (sessões, sumários etc), dimensões, colunas
 %\usepackage{textcase}
 \usepackage{hologo} % TeX logos
+\usepackage{url} % urls
+\usepackage{flushend, etoolbox} % colunas balanceadas e final dos livros
 %\usepackage[utf8]{inputenc}
 
 % Cores
 \definecolor{Black}{cmyk}{0, 0, 0, 1}
 \definecolor{Cinza}{cmyk}{0, 0, 0, 0.85}
 \definecolor{AzulMarinho}{cmyk}{1, 1, 0, 0.5}
-\definecolor{Azul}{cmyk}{1, 1, 0, 0.1}
-\definecolor{VermelhoVivo}{cmyk}{0, 1, 1, 0.2}
-\definecolor{Verde}{cmyk}{1, 0, 1, 0.45} % Original
+\definecolor{Azul}{cmyk}{1, 1, 0, 0.3}
+%\definecolor{VermelhoVivo}{cmyk}{0, 1, 1, 0.2} % Original
+%\definecolor{VermelhoVivo}{cmyk}{0, 1, 1, 0.25} % Opção 1
+\definecolor{VermelhoVivo}{cmyk}{0, 1, 1, 0.3} % Em uso
+\definecolor{Verde}{cmyk}{1, 0, 1, 0.55} % Original
 %\definecolor{Verde}{cmyk}{1, 0, 1, 0.3} % Opção 1
-\definecolor{Magenta}{cmyk}{0, 0.95, 0.49, 0.05}
-\definecolor{Roxo}{cmyk}{0, 0.9, 0, 0.37}
+%\definecolor{Magenta}{cmyk}{0, 0.95, 0.49, 0.05} % Original
+\definecolor{Magenta}{cmyk}{0, 1, 0.5, 0.05} % Original
+%\definecolor{Roxo}{cmyk}{0, 0.9, 0, 0.37} % Original
+\definecolor{Roxo}{cmyk}{0, 0.9, 0, 0.5} % Original
 % \definecolor{Laranja}{cmyk}{0, 0.6, 1, 0} % Em uso
-\definecolor{Laranja}{cmyk}{0, 0.6, 1, 0.15}
-% \definecolor{Marrom}{cmyk}{0, 0.7, 0.9, 0.5} % Em uso
-\definecolor{Marrom}{cmyk}{0, 0.65, 0.9, 0.61} % Opção 1
+\definecolor{Laranja}{cmyk}{0, 0.65, 1, 0.2}
+% \definecolor{Marrom}{cmyk}{0, 0.7, 0.9, 0.5} % Original
+%\definecolor{Marrom}{cmyk}{0, 0.65, 0.9, 0.61} % Em uso
+\definecolor{Marrom}{cmyk}{0, 0.65, 0.95, 0.7} % Opção 1
 \definecolor{Verse}{cmyk}{0, 1, 0.65, 0.25} % Cor do versículo - Púrpura
 %\definecolor{Verse}{cmyk}{0.5, 0.5, 0.5, 0.7} % Cor do versículo - Cinza
 \definecolor{Amarelo}{cmyk}{0, 0.2, 1, 0.1}
@@ -69,7 +76,7 @@
 }
 
 % Título principal
-\newcommand{\MT}{\centering\Large\bfseries\TextColor\parindent=0mm\nopagebreak[3]}
+\newcommand{\MT}{\centering\Large\bfseries\TextColor\parindent=0mm\nopagebreak[3]} % Funcional
 
 % Capítulo comum
 \newcommand{\Chap}[1]{{\Large\bfseries\vspace{1.5ex plus 3ex}\centering\setcounterpageref{footnote}{0}\parindent=0mm #1\nopagebreak\par}\def\webchap{#1:}\nopagebreak}
@@ -88,7 +95,7 @@
 \newcommand{\FV}[1]{\VS{#1}}
 
 % Versículo padrão
-\newcommand{\VS}[1]{{\TextColor\small\raisebox{0.5ex}{#1}\hspace{1mm}\markboth{\webbook\ \webchap #1}{\webbook\ \webchap #1}}} % Verse number
+\newcommand{\VS}[1]{{\TextColor\raisebox{\RV}{{\footnotesize#1}}\hspace{1mm}\markboth{\webbook\ \webchap #1}{\webbook\ \webchap #1}}} % Verse number
 
 \makeatletter
 % Nota de rodapé com símbolo personalizado
@@ -103,8 +110,9 @@
 
 \newcommand{\XREF}[2]{
     \footnote{
-    \fontsize{10pt}{10pt}\bfseries\itshape\Blue#2}
+    \textcolor{Black}{\fontsize{10pt}{10pt}\bfseries\itshape#2}}
   }
+
 \makeatother
 
 % Referência para rodapé (Negrito)
@@ -119,6 +127,19 @@
 \renewcommand{\cftsecfont}{\TextSize}
 \renewcommand{\cftchappagefont}{\TextSize}
 \renewcommand{\cftsecpagefont}{\TextSize}
+
+% Ajustes tocloft para sumário em duas colunas
+\setlength{\cftbeforetoctitleskip}{-1ex}
+\setlength{\cftaftertoctitleskip}{0pt}
+\setlength{\cftbeforechapskip}{0pt}
+\setlength{\cftbeforesecskip}{0pt}
+\setlength{\cftparskip}{0pt}
+\setlength{\cftchapindent}{0pt}
+\setlength{\cftsecindent}{1.5em}  % pequeno recuo para seções
+
+% Opcional: remover pontos dos líderes
+%\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+%\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
 
 % Fonte normal
 \newcommand{\NormalFont}{\normalfont}
