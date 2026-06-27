@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.6.12)  22 JUN 2026 23:37
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.6.12)  27 JUN 2026 00:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -17509,6 +17509,11 @@ Underfull \hbox (badness 1264) in paragraph at lines 356--377
  []
 
 
+Underfull \hbox (badness 2744) in paragraph at lines 356--377
+\ZZZ o dinheiro suficiente em mão dos que
+ []
+
+
 Underfull \hbox (badness 1102) in paragraph at lines 356--377
 \ZZZ em pagar os carpinteiros e mestres que
  []
@@ -17598,8 +17603,18 @@ Underfull \hbox (badness 1454) in paragraph at lines 408--437
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 408--437
-\ZZZ Jerusalém com seus pais, na cidade de
+Underfull \hbox (badness 1147) in paragraph at lines 408--437
+\ZZZ a face\ZZZ ”\ZZZ . [] E Joás rei de Israel enviou
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 408--437
+\ZZZ o muro de Jerusalém desde a porta de
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 408--437
+\ZZZ côvados. [] E tomou todo o ouro e a
  []
 
 
@@ -17632,6 +17647,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: Reference `0' on page 348 undefined on input line 481.
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 1325) in paragraph at lines 481--501
 [][] \ZZZ No ano dezessete de Peca filho de
  []
@@ -17642,29 +17660,16 @@ Underfull \hbox (badness 1371) in paragraph at lines 481--501
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 481--501
-[] \ZZZ E atendeu-lhe o rei da Assíria; pois
+Underfull \hbox (badness 1168) in paragraph at lines 481--501
+\ZZZ e espalhou o sangue de seus sacrifícios
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 481--501
-\ZZZ subiu o rei da Assíria contra Damasco,
+Underfull \hbox (badness 1688) in paragraph at lines 481--501
+\ZZZ libações; e espargirás sobre ele todo o
  []
 
-
-Underfull \hbox (badness 1024) in paragraph at lines 481--501
-\ZZZ e derramou suas libações, e espalhou o
- []
-
-
-Underfull \hbox (badness 2111) in paragraph at lines 481--501
-\ZZZ consultar. [] E o sacerdote Urias fez
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [348]
+[348]
 
 LaTeX Warning: Reference `0' on page 349 undefined on input line 504.
 
@@ -17804,13 +17809,48 @@ Underfull \hbox (badness 1057) in paragraph at lines 548--585
  []
 
 
-Underfull \hbox (badness 2443) in paragraph at lines 548--585
-\ZZZ senhor a ti e a teu senhor para dizer
+Underfull \hbox (badness 2245) in paragraph at lines 548--585
+\ZZZ a Tartã e a Rabe-Saris e a Rabsaqué,
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 548--585
+\ZZZ com um grande exército: e subiram, e
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 548--585
+\ZZZ filho de Asafe, chanceler. [] E disse-
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 548--585
+\ZZZ (por certo palavras de lábios): “  Tenho
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 548--585
+\ZZZ em que confias, que te rebelaste contra
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 548--585
+\ZZZ bordão de cana quebrada, no Egito, no
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 548--585
+[] \ZZZ E se me dizeis: “  \ZZZ Nós confiamos no
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 548--585
+\ZZZ nós o entendemos, e não fales conosco
  []
 
 
 Underfull \hbox (badness 1303) in paragraph at lines 548--585
-\ZZZ o qual havia dito: Não lhe respondais.
+\ZZZ o qual havia dito: \ZZZ Não lhe respondais\ZZZ .
  []
 
 [350]
@@ -17824,8 +17864,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: Reference `0' on page 352 undefined on input line 588.
 
 
-Underfull \hbox (badness 3386) in paragraph at lines 588--625
-[] \ZZZ Talvez ouvirá o SENHOR tua Deus
+Underfull \hbox (badness 3439) in paragraph at lines 588--625
+[] \ZZZ Talvez ouvirá o SENHOR teu Deus
  []
 
 
@@ -17839,18 +17879,13 @@ Underfull \hbox (badness 1448) in paragraph at lines 588--625
  []
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 588--625
-\ZZZ das nações, que meus pais destruíram,
+Underfull \hbox (badness 1571) in paragraph at lines 588--625
+\ZZZ ele, e enviou embaixadores a Ezequias,
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 588--625
-\ZZZ a saber, Gozã, e Harã, e Rezefe, e os
- []
-
-
-Underfull \hbox (badness 1546) in paragraph at lines 588--625
-\ZZZ Menosprezou-te, escarneceu-te a virgem
+Underfull \hbox (badness 3128) in paragraph at lines 588--625
+\ZZZ destruíram, a saber, Gozã, e Harã, e
  []
 
 
@@ -17880,12 +17915,12 @@ LaTeX Warning: Reference `0' on page 353 undefined on input line 628.
 
 
 Underfull \hbox (badness 1616) in paragraph at lines 628--649
-\ZZZ e por causa de Davi meu servo. [] E
+\ZZZ e por causa de Davi meu servo\ZZZ . [] E
  []
 
 
 Underfull \hbox (badness 1127) in paragraph at lines 628--649
-\ZZZ respondeu: Fácil coisa é que a sombra
+\ZZZ respondeu: \ZZZ Fácil coisa é que a sombra
  []
 
 
@@ -17893,14 +17928,280 @@ Underfull \hbox (badness 1874) in paragraph at lines 628--649
 \ZZZ no relógio de Acaz, dez degraus atrás.
  []
 
+[353]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \hbox (badness 1975) in paragraph at lines 628--649
-\ZZZ até hoje, será levado a Babilônia, sem
+
+
+LaTeX Warning: Reference `0' on page 354 undefined on input line 652.
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 652--678
+\ZZZ mãe foi Hefzibá. [] E fez o que era
  []
 
-[353])) [354
 
-] (./build/main.aux)
+Underfull \hbox (badness 2261) in paragraph at lines 652--678
+[] \ZZZ Porque ele voltou a edificar os altos
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 652--678
+\ZZZ em tempos, e foi agoureiro, e instituiu
+ []
+
+
+Underfull \hbox (badness 3579) in paragraph at lines 652--678
+\ZZZ necromantes e adivinhos, multiplicando
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 652--678
+\ZZZ de Israel: [] E não voltarei a fazer que
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 652--678
+\ZZZ de Israel. [] E falou o SENHOR por
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 652--678
+\ZZZ o Deus de Israel: Eis que eu trago tal
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 652--678
+\ZZZ no sobre sua face. [] E desampararei
+ []
+
+[354]
+
+LaTeX Warning: Reference `0' on page 355 undefined on input line 681.
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 681--701
+\ZZZ povo os guardiões da porta, [] E que o
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 681--701
+\ZZZ da casa do SENHOR. [] Também Safã
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 681--701
+\ZZZ as palavras do livro da lei, rasgou suas
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 681--701
+\ZZZ de suas mãos; e meu furor se acendeu
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 681--701
+\ZZZ te recolherei com teus pais, e tu serás
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [355]
+
+LaTeX Warning: Reference `0' on page 356 undefined on input line 704.
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 704--741
+\ZZZ que queimavam incenso a Baal, ao sol
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 704--741
+\ZZZ e à lua, e às constelações, e a todo o
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 704--741
+\ZZZ bosque fora da casa do SENHOR, fora
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 704--741
+\ZZZ de Jerusalém, ao ribeiro de Cedrom, e
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 704--741
+\ZZZ o em pó, e lançou o pó dele sobre os
+ []
+
+
+Underfull \hbox (badness 1721) in paragraph at lines 704--741
+\ZZZ sepulcros dos filhos do povo. [] Além
+ []
+
+
+Underfull \hbox (badness 2564) in paragraph at lines 704--741
+\ZZZ de Judá, e profanou os altos de onde
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 704--741
+\ZZZ profanou a Tofete, que está no vale do
+ []
+
+
+Underfull \hbox (badness 1701) in paragraph at lines 704--741
+\ZZZ de Natã-Meleque eunuco, a qual ficava
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 704--741
+\ZZZ do sol. [] Derrubou também o rei os
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 704--741
+\ZZZ altares que estavam sobre o terraço da
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 704--741
+\ZZZ Salomão rei de Israel havia edificado a
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 704--741
+\ZZZ Astarote, abominação dos sidônios, e a
+ []
+
+
+Underfull \hbox (badness 3108) in paragraph at lines 704--741
+\ZZZ o altar para contaminá-lo, conforme à
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 704--741
+\ZZZ monumento é este que vejo? E os da
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 704--741
+\ZZZ o; ninguém mova seus ossos: e assim
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 704--741
+\ZZZ mandou o rei a todo o povo, dizendo:
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 704--741
+\ZZZ Judá e em Jerusalém, para cumprir as
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 704--741
+\ZZZ e puseram-no por rei em lugar de seu
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 704--741
+\ZZZ seus pais haviam feito. [] E lançou-o
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [356]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 357 undefined on input line 744.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [357]
+Underfull \hbox (badness 1603) in paragraph at lines 744--764
+\ZZZ se rebelou contra ele. [] O SENHOR,
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 744--764
+\ZZZ Judá para que a destruíssem, conforme
+ []
+
+
+Underfull \hbox (badness 2088) in paragraph at lines 744--764
+\ZZZ por meio dos seus servos, os profetas.
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 744--764
+\ZZZ do SENHOR, conforme todas as coisas
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 744--764
+\ZZZ homens valentes, até dez mil cativos, e
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 744--764
+\ZZZ ninguém, exceto os pobres do povo da
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 744--764
+\ZZZ à Babilônia, assim como a mãe do rei,
+ []
+
+
+Underfull \hbox (badness 6016) in paragraph at lines 744--764
+\ZZZ contra Jerusalém e Judá, até que os
+ []
+
+
+LaTeX Warning: Reference `0' on page 358 undefined on input line 767.
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 767--797
+[][] \ZZZ E aconteceu aos nove anos de seu
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 767--797
+[] \ZZZ E degolaram aos filhos de Zedequias
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 767--797
+\ZZZ os olhos, e acorrentado com correntes
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 767--797
+\ZZZ se haviam juntado ao rei da Babilônia,
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 767--797
+\ZZZ casa do SENHOR, e levaram o bronze
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 767--797
+\ZZZ prisão. [] E falou-lhe bem, e pôs seu
+ []
+
+[358]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)) [359]
+(./build/main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -17925,4 +18226,4 @@ Here is how much of TeX's memory you used:
  16 hyphenation exceptions out of 8191
  78i,6n,96p,1157b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ./build/main.pdf (358 pages).
+Output written on ./build/main.pdf (363 pages).
