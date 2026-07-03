@@ -1,2 +1,4 @@
 \babel@toc {brazilian}{}\relax 
 \contentsline {section}{Gênesis}{3}{section*.2}%
+\contentsline {section}{Êxodo}{59}{section*.3}%
+\contentsline {section}{Levítico}{106}{section*.4}%

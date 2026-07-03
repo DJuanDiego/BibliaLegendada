@@ -6,13 +6,12 @@
 \usepackage[default]{fontsetup}
 \usepackage[none]{hyphenat} % Remover hifenizações
 \usepackage[useregional]{datetime2} % Data no formato do idioma do documento
-\usepackage[marginal2]{./preamble/footkmpj}  % Notas de letras Opções (flushmargin, 2 e 3; marginal, 2 e 3)
-\usepackage{calc, parselines}
+\usepackage[marginal3]{./preamble/footkmpj}  % Notas de letras Opções (flushmargin, 2 e 3; marginal, 2 e 3)
+\usepackage{calc, parselines} % Símbolos matemáticos simples e processamento do texto 13/06/2026
 \usepackage{csquotes, unicode-math}
 \usepackage{etoolbox} % for \ifstrempty
 \usepackage{setspace} % Espaçamento entre linhas
 \usepackage{fancybox, graphicx} % Caixas de texto e figuras/gráficos 03/05/2026
-\usepackage{xparse, calc} % Sabe Deus (Rsrsrsrs) 13/06/2026
 \usepackage{tocloft, geometry, multicol} % Títulos (sessões, sumários etc), dimensões, colunas
 %\usepackage{textcase}
 \usepackage{hologo} % TeX logos
@@ -21,7 +20,7 @@
 %\usepackage[utf8]{inputenc}
 
 % Cores
-\definecolor{Black}{cmyk}{0, 0, 0, 1}
+\definecolor{Black}{cmyk}{1, 1, 1, 1} % Preto puro
 \definecolor{Cinza}{cmyk}{0, 0, 0, 0.85}
 \definecolor{AzulMarinho}{cmyk}{1, 1, 0, 0.5}
 \definecolor{Azul}{cmyk}{1, 1, 0, 0.3}
@@ -44,12 +43,12 @@
 \definecolor{Amarelo}{cmyk}{0, 0.2, 1, 0.1}
 \definecolor{Oliva}{cmyk}{0, 0, 1, 0.5}
 
-\newcommand{\TextColor}{\color{Black}}
+\newcommand{\Black}{\color{Black}}
+\newcommand{\TextColor}{\Black}
 \newcommand{\IntroColor}{\color{AzulMarinho}}
 \newcommand{\OliveColor}{\color{Oliva}}
 \newcommand{\WJ}{\color{VermelhoVivo}}
 \newcommand{\Red}{\WJ}
-\newcommand{\Black}{\color{Black}}
 \newcommand{\Blue}{\IntroColor}
 \newcommand{\LightBlue}{\color{Azul}}
 \newcommand{\Green}{\color{Verde}}
@@ -66,10 +65,23 @@
 \newcommand{\brown}[1]{{\color{Marrom}#1}}
 
 \newcommand{\ShortTitle}[1]{\clearpage\gdef\theshorttitle{#1}\gdef\webbook{#1}\section*{}\addcontentsline{toc}{section}{#1}}
+% \newcommand{\ShortTitle}[1]{%
+% %  \clearpage
+%  \gdef\theshorttitle{#1}%
+%  \gdef\webbook{#1}%
+%  \section*{}%
+%  \addcontentsline{toc}{section}{#1}%
+%  \twocolumn[%
+%  %  \vspace*{1cm}%  <-- adiciona espaço no topo
+%  \begin{center}
+%    {\Large\centering\bfseries #1 \par}
+% %    \vspace{1ex}
+%  \end{center}
+%  ]}
 \newcommand{\theshorttitle}{} % inicializa
 
 \newcommand{\PeriphTitle}[1]{%
-  \clearpage
+%   \clearpage
   \gdef\theshorttitle{#1}%
   \gdef\webbook{#1}%
   \NormalFont
@@ -101,17 +113,13 @@
 % Nota de rodapé com símbolo personalizado
 \renewcommand{\thefootnote}{\small\alph{footnote}} % letras
 \renewcommand{\@makefnmark}{%
-  \hbox{\raisebox{0.5ex}{\textcolor{footcolor}{\@thefnmark}}}%
-}
-\newcommand{\FTNT}[2]{%
-  \colorlet{footcolor}{.}%                % define uma cor 'footcolor' com a cor atual
-  \footnote{\fontsize{10pt}{10pt}\textcolor{footcolor}{\hspace{0.5mm}#2}}%
+  \hbox{\raisebox{0.5ex}{\textcolor{footcolor}{\@thefnmark)}}}%
 }
 
-\newcommand{\XREF}[2]{
-    \footnote{
-    \textcolor{Black}{\fontsize{10pt}{10pt}\bfseries\itshape#2}}
-  }
+% Define FTNT, uma cor 'footcolor' com a cor atual etc.
+\newcommand{\FTNT}[2]{\colorlet{footcolor}{.}\footnote{\fontsize{10pt}{10pt}\textcolor{footcolor}{\hspace{0.5mm}#2}}}
+
+\newcommand{\XREF}[2]{\footnote{\textcolor{Black}{\fontsize{10pt}{10pt}\bfseries\itshape#2}}}
 
 \makeatother
 
@@ -145,4 +153,3 @@
 \newcommand{\NormalFont}{\normalfont}
 \NormalFont
 \newcommand{\SmallFont}{\small}
-

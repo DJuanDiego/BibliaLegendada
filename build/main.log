@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.6.1)  19 JUN 2026 17:42
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.6.1)  3 JUL 2026 12:54
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1846,36 +1846,37 @@ r/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
 
 Package fontspec Info: 
 (fontspec)             Font family 'FreeSerif(0)' created for font 'FreeSerif'
-(fontspec)             with options [Ligatures=TeX].
+(fontspec)             with options [Ligatures=TeX,Ligatures={NoCommon,
+(fontspec)             NoContextual, NoRequired}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
 (fontspec)             <->"name:FreeSerif:mode=node;script=latn;language=dflt;+
-tlig;"
+tlig;-liga;-clig;-rlig;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
 (fontspec)             <->"name:FreeSerif:mode=node;script=latn;language=dflt;+
-tlig;+smcp;"
+tlig;-liga;-clig;-rlig;+smcp;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
 (fontspec)             <->"name:FreeSerif/B:mode=node;script=latn;language=dflt
-;+tlig;"
+;+tlig;-liga;-clig;-rlig;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
 (fontspec)             <->"name:FreeSerif/B:mode=node;script=latn;language=dflt
-;+tlig;+smcp;"
+;+tlig;-liga;-clig;-rlig;+smcp;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
 (fontspec)             <->"name:FreeSerif/I:mode=node;script=latn;language=dflt
-;+tlig;"
+;+tlig;-liga;-clig;-rlig;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
 (fontspec)             <->"name:FreeSerif/BI:mode=node;script=latn;language=dfl
-t;+tlig;"
+t;+tlig;-liga;-clig;-rlig;"
 
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'brazilian'.
 
-(./build//main.aux
+(./build/main.aux
 Package babel Info: 'brazilian' activates 'portuges' shorthands.
 (babel)             Reported on input line 8.
 )
@@ -1980,17 +1981,18 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 9.
-(./build//main.out) (./build//main.out)
+(./build/main.out) (./build/main.out)
 \@outlinefile=\write4
 
 \openout4 = main.out
  (./preamble/CPR.tex
-<figures/Cross.png, id=8, 491.87567pt x 797.9927pt>
+<figures/Cross.png, id=16, 491.87567pt x 797.9927pt>
 File: figures/Cross.png Graphic file (type png)
 <use figures/Cross.png>
 Package luatex.def Info: figures/Cross.png  used on input line 34.
 (luatex.def)             Requested size: 147.56383pt x 239.39966pt.
-) (./preamble/FA.tex [1
+) (./preamble/FA.tex
+[1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./figures/Cross.png>]
@@ -2003,15 +2005,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-[2
-
-]) (./preamble/PFC.tex [3
-
-])
+[2]) (./preamble/PFC.tex [3])
 ! Undefined control sequence.
 \cfttoctitlefont ->\MTBSize 
                             
-l.27 		\tableofcontents
+l.29 		\tableofcontents
                        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2019,7 +2017,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-(./build//main.toc
+(./build/main.toc
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
@@ -2096,6 +2094,174 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    \protect 
 l.2 ...entsline {section}{Gênesis}{3}{section*.2}
+                                                  %
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.3 ...tentsline {section}{Êxodo}{58}{section*.3}
+                                                  %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.3 ...tentsline {section}{Êxodo}{58}{section*.3}
+                                                  %
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.3 ...tentsline {section}{Êxodo}{58}{section*.3}
+                                                  %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.3 ...tentsline {section}{Êxodo}{58}{section*.3}
+                                                  %
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.3 ...tentsline {section}{Êxodo}{58}{section*.3}
+                                                  %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.3 ...tentsline {section}{Êxodo}{58}{section*.3}
+                                                  %
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.3 ...tentsline {section}{Êxodo}{58}{section*.3}
+                                                  %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.3 ...tentsline {section}{Êxodo}{58}{section*.3}
+                                                  %
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.4 ...sline {section}{Levítico}{104}{section*.4}
+                                                  %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.4 ...sline {section}{Levítico}{104}{section*.4}
+                                                  %
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.4 ...sline {section}{Levítico}{104}{section*.4}
+                                                  %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.4 ...sline {section}{Levítico}{104}{section*.4}
+                                                  %
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.4 ...sline {section}{Levítico}{104}{section*.4}
+                                                  %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.4 ...sline {section}{Levítico}{104}{section*.4}
+                                                  %
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.4 ...sline {section}{Levítico}{104}{section*.4}
+                                                  %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \protect 
+l.4 ...sline {section}{Levítico}{104}{section*.4}
                                                   %
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2110,17 +2276,12 @@ two letters. (See Chapter 27 of The TeXbook.)
 \openout5 = main.toc
  [4
 
-
-] (./source/livros.tex
-warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
-[1
+] (./source/livros.tex [1
 
 
 
 
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
-[2] ("./source/AT/01 - GEN_src.tex"
+] [2] ("./source/AT/01 - GEN_src.tex"
 Underfull \hbox (badness 1097) in paragraph at lines 4--35
 \TU/FreeSerif(0)/m/n/14.4 e na noite, e para se-pa-rar a luz e as
  []
@@ -2130,9 +2291,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: 'brazilian' activates 'portuges' shorthands.
 (babel)             Reported on input line 35.
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.3'
-[3
+ [3
 
 
 ]
@@ -2142,13 +2301,8 @@ LaTeX Warning: Reference `0' on page 4 undefined on input line 37.
 
 LaTeX Warning: Reference `0' on page 4 undefined on input line 64.
 
-
-Underfull \vbox (badness 7433) has occurred while \output is active []
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.4'
 [4]
-Underfull \vbox (badness 1609) has occurred while \output is active []
+Underfull \vbox (badness 1173) has occurred while \output is active []
 
 
 
@@ -2177,7 +2331,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: Reference `0' on page 7 undefined on input line 154.
 
 
-Underfull \hbox (badness 3547) in paragraph at lines 154--179
+Underfull \hbox (badness 2799) in paragraph at lines 154--179
 \TU/FreeSerif(0)/m/n/14.4 os fi-lhos de Deus que as fi-lhas dos
  []
 
@@ -2205,6 +2359,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: Reference `0' on page 10 undefined on input line 234.
 
 
+Underfull \hbox (badness 1102) in paragraph at lines 234--263
+[][] []\TU/FreeSerif(0)/m/n/14.4 E Deus aben-çoou Noé e seus fi-lhos,
+ []
+
+
 Underfull \hbox (badness 1259) in paragraph at lines 234--263
 \TU/FreeSerif(0)/m/n/14.4 com sua vida, que é seu san-gue, não
  []
@@ -2219,8 +2378,11 @@ LaTeX Warning: Reference `0' on page 11 undefined on input line 266.
 
 LaTeX Warning: Reference `0' on page 11 undefined on input line 301.
 
-[11]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+Underfull \vbox (badness 1694) has occurred while \output is active []
 
 
 
@@ -2280,7 +2442,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: Reference `0' on page 15 undefined on input line 410.
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 410--410
+Underfull \hbox (badness 1242) in paragraph at lines 410--410
 [][][][] \TU/FreeSerif(0)/b/n/10 15:1 \TU/FreeSerif(0)/m/n/10 Ou: eu sou o teu 
 es-cudo, e tua muito grande
  []
@@ -2291,15 +2453,10 @@ Underfull \hbox (badness 7468) in paragraph at lines 410--431
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 410--431
-\TU/FreeSerif(0)/m/n/14.4 a tua re-com-pensa será muito grande.[][][][][][]
- []
-
-
 LaTeX Warning: Reference `0' on page 15 undefined on input line 434.
 
 [15]
-Underfull \vbox (badness 3148) has occurred while \output is active []
+Underfull \vbox (badness 2302) has occurred while \output is active []
 
 
 
@@ -2355,13 +2512,13 @@ Underfull \hbox (badness 1320) in paragraph at lines 517--555
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 517--555
-\TU/FreeSerif(0)/m/n/14.4 lu-gar, por-quanto o cla-mor de-les su-biu
+Underfull \hbox (badness 1242) in paragraph at lines 517--555
+\TU/FreeSerif(0)/m/n/14.4 al-guém mais? Gen-ros, e teus fi-lhos e
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 517--555
-\TU/FreeSerif(0)/m/n/14.4 mão de sua mu-lher, e pe-las mãos de
+Underfull \hbox (badness 1107) in paragraph at lines 517--555
+\TU/FreeSerif(0)/m/n/14.4 duas fi-lhas se-gundo a mi-se-ri-cór-dia do
  []
 
 
@@ -2373,7 +2530,7 @@ Underfull \hbox (badness 1584) in paragraph at lines 517--555
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \vbox (badness 3148) has occurred while \output is active []
+Underfull \vbox (badness 2326) has occurred while \output is active []
 
  [19]
 
@@ -2392,13 +2549,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: Reference `0' on page 21 undefined on input line 578.
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 578--614
+Underfull \hbox (badness 1616) in paragraph at lines 578--614
 \TU/FreeSerif(0)/m/n/14.4 Abraão o nome de seu fi-lho que lhe
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 578--614
+\TU/FreeSerif(0)/m/n/14.4 Isa-que[]. [][] []Este dito pa-re-ceu grave em
  []
 
 
 Underfull \hbox (badness 1028) in paragraph at lines 578--614
 \TU/FreeSerif(0)/m/n/14.4 muito cedo, e to-mou pão, e um odre
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 578--614
+\TU/FreeSerif(0)/m/n/14.4 es-tas sete cor-dei-ras to-ma-rás de mi-nha
  []
 
 
@@ -2409,18 +2576,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: Reference `0' on page 22 undefined on input line 616.
 
 
-Underfull \hbox (badness 2197) in paragraph at lines 616--640
-\TU/FreeSerif(0)/m/n/14.4 diz hoje: []No monte do SE-NHOR se
+Underfull \hbox (badness 1024) in paragraph at lines 616--640
+\TU/FreeSerif(0)/m/n/14.4 Abraão seus olhos, e olhou, e eis um
  []
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 616--640
-\TU/FreeSerif(0)/m/n/14.4 tua des-cen-dên-cia como as es-tre-las do
- []
-
-
-Underfull \hbox (badness 3525) in paragraph at lines 616--640
-\TU/FreeSerif(0)/m/n/14.4 do mar; e tua des-cen-dên-cia pos-su-irá
+Underfull \hbox (badness 4084) in paragraph at lines 616--640
+\TU/FreeSerif(0)/m/n/14.4 em lu-gar de seu fi-lho. [][] []E cha-mou
  []
 
 
@@ -2480,17 +2642,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
-Underfull \vbox (badness 3138) has occurred while \output is active []
+Underfull \vbox (badness 2293) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 LaTeX Warning: Reference `0' on page 26 undefined on input line 736.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 1127) in paragraph at lines 736--770
@@ -2509,8 +2671,28 @@ Underfull \hbox (badness 2503) in paragraph at lines 773--808
 \TU/FreeSerif(0)/m/n/14.4 meus man-da-men-tos, meus es-ta-tu-tos e
  []
 
+
+Underfull \hbox (badness 2384) in paragraph at lines 773--808
+\TU/FreeSerif(0)/m/n/14.4 Abraão[]. [][] []E edi-fi-cou ali um al-tar, e
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 773--808
+\TU/FreeSerif(0)/m/n/14.4 ti, e fa-re-mos ali-ança con-tigo”: [][] []Que
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 773--808
+\TU/FreeSerif(0)/m/n/14.4 não nos fa-ças mal, como nós não te
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 773--808
+\TU/FreeSerif(0)/m/n/14.4 to-ca-mos, e como so-mente te fi-ze-mos
+ []
+
 [27]
-Underfull \vbox (badness 3138) has occurred while \output is active []
+Underfull \vbox (badness 1838) has occurred while \output is active []
 
 
 
@@ -2540,7 +2722,7 @@ Underfull \hbox (badness 5504) in paragraph at lines 860--882
  []
 
 
-Underfull \hbox (badness 2469) in paragraph at lines 860--882
+Underfull \hbox (badness 2111) in paragraph at lines 860--882
 \TU/FreeSerif(0)/m/n/14.4 to-mes mu-lher das fi-lhas de Ca-naã. [][]
  []
 
@@ -2556,6 +2738,9 @@ LaTeX Warning: Reference `0' on page 31 undefined on input line 885.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+Underfull \vbox (badness 1694) has occurred while \output is active []
+
  [31]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2564,7 +2749,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: Reference `0' on page 32 undefined on input line 923.
 
 [32]
-Underfull \vbox (badness 3148) has occurred while \output is active []
+Underfull \vbox (badness 2302) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2574,8 +2759,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: Reference `0' on page 34 undefined on input line 968.
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 968--1023
-\TU/FreeSerif(0)/m/n/14.4 Deus de vosso pai me fa-lou de noite
+Underfull \hbox (badness 1259) in paragraph at lines 968--1023
+\TU/FreeSerif(0)/m/n/14.4 fi-lhas como pri-si-o-nei-ras de guerra? [][]
  []
 
 
@@ -2620,7 +2805,7 @@ Underfull \hbox (badness 1102) in paragraph at lines 1086--1117
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 1086--1117
+Underfull \hbox (badness 1400) in paragraph at lines 1086--1117
 \TU/FreeSerif(0)/m/n/14.4 a Ha-mor e a Si-quém seu fi-lho to-dos
  []
 
@@ -2699,8 +2884,8 @@ Underfull \hbox (badness 3058) in paragraph at lines 1270--1293
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 1270--1293
-\TU/FreeSerif(0)/m/n/14.4 guarda, ho-mem egíp-cio, da mão dos
+Underfull \hbox (badness 2818) in paragraph at lines 1270--1293
+\TU/FreeSerif(0)/m/n/14.4 Po-ti-far, ofi-cial de Fa-raó, ca-pi-tão dos
  []
 
 
@@ -2884,6 +3069,9 @@ Underfull \hbox (badness 1881) in paragraph at lines 1660--1685
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+Underfull \vbox (badness 1694) has occurred while \output is active []
+
  [57]
 ! Undefined control sequence.
 l.1686 \FinishBook
@@ -2894,32 +3082,1803 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-))
-[leftcolumn badness]: 1000000 on 13.06068pt
-[rightcolumn badness]: 1000000 on 13.06068pt
-[leftcolumn badness]: 1000000 on 13.06068pt
-[rightcolumn badness]: 1000000 on 13.06068pt
-[leftcolumn badness]: 1000000 on 13.06068pt
-[rightcolumn badness]: 1000000 on 13.06068pt
-[leftcolumn badness]: 1000000 on 13.06068pt
-[rightcolumn badness]: 1000000 on 13.06068pt
-[leftcolumn badness]: 1000000 on 13.06068pt
-[rightcolumn badness]: 1000000 on 13.06068pt
-[leftcolumn badness]: 1000000 on 13.06068pt
-[rightcolumn badness]: 1000000 on 13.06068pt
+) ("./source/AT/02 - EXO_src.tex"
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58
+
+]
+Underfull \hbox (badness 2894) in paragraph at lines 4--26
+\TU/FreeSerif(0)/m/n/14.4 um en-trou com sua fa-mí-lia: [][] []Rúben,
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 4--26
+\TU/FreeSerif(0)/m/n/14.4 e Ben-ja-mim; [][] []Dã e Naf-tali, Gade e
+ []
+
+
+Underfull \hbox (badness 4886) in paragraph at lines 4--26
+\TU/FreeSerif(0)/m/n/14.4 Aser. [][] []Assim, to-das as pes-soas que
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 4--26
+[][] []\TU/FreeSerif(0)/m/n/14.4 Levantou-se, en-tre-tanto, um novo rei
+ []
+
+
+Underfull \hbox (badness 2689) in paragraph at lines 4--26
+\TU/FreeSerif(0)/m/n/14.4 para com ele, a fim de que não se
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 4--26
+\TU/FreeSerif(0)/m/n/14.4 lute con-tra nós, e saia desta terra[]. [][]
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 4--26
+\TU/FreeSerif(0)/m/n/14.4 o rei do Egito lhes man-dara; em vez
+ []
+
+
+Underfull \hbox (badness 3838) in paragraph at lines 4--26
+[][] []\TU/FreeSerif(0)/m/n/14.4 E o rei do Egito man-dou cha-mar
+ []
+
+
+LaTeX Warning: Reference `0' on page 59 undefined on input line 29.
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 29--54
+\TU/FreeSerif(0)/m/n/14.4 to-mou por mu-lher uma fi-lha de Levi:
+ []
+
+
+Underfull \hbox (badness 3557) in paragraph at lines 29--54
+[][] []\TU/FreeSerif(0)/m/n/14.4 A qual con-ce-beu, e deu à luz um
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--54
+\TU/FreeSerif(0)/m/n/14.4 es-con-dido três me-ses. [][] []Porém não
+ []
+
+
+Underfull \hbox (badness 2359) in paragraph at lines 29--54
+\TU/FreeSerif(0)/m/n/14.4 os pas-to-res vi-e-ram, e expulsaram-nas:
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 29--54
+\TU/FreeSerif(0)/m/n/14.4 e deu de be-ber às suas ove-lhas. [][] []E
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 29--54
+\TU/FreeSerif(0)/m/n/14.4 nome []Gér-son[]: por-que disse: []Pe-re-grino
+ []
+
+[59
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 60 undefined on input line 57.
+
+[60]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 61 undefined on input line 82.
+
+[61]
+Underfull \vbox (badness 2302) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 62 undefined on input line 116.
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 116--139
+\TU/FreeSerif(0)/m/n/14.4 res-pon-deu: []Quem é o SE-NHOR, para
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 116--139
+\TU/FreeSerif(0)/m/n/14.4 pois, agora ca-mi-nho de três dias pelo
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 116--139
+\TU/FreeSerif(0)/m/n/14.4 a nosso Deus[]”. [][] []Agrave-se a ser-vi-dão
+ []
+
+[62]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 63 undefined on input line 142.
+
+[63]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 64 undefined on input line 175.
+
+[64]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 65 undefined on input line 203.
+
+
+Underfull \hbox (badness 3302) in paragraph at lines 203--235
+\TU/FreeSerif(0)/m/n/14.4 à pre-sença de Fa-raó, e dize-lhe: “  []O
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 203--235
+\TU/FreeSerif(0)/m/n/14.4 ir, para que me sir-vam. [][] []E se não o
+ []
+
+[65]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66]
+
+LaTeX Warning: Reference `0' on page 67 undefined on input line 238.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 68 undefined on input line 276.
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 276--305
+[][] []\TU/FreeSerif(0)/m/n/14.4 E o SE-NHOR disse a Moi-sés: []Vai
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 276--305
+\TU/FreeSerif(0)/m/n/14.4 ao SE-NHOR. [][] []E o SE-NHOR vol-tou
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 276--305
+\TU/FreeSerif(0)/m/n/14.4 nem um ga-fa-nhoto res-tou ao todo o
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 276--305
+\TU/FreeSerif(0)/m/n/14.4 en-du-re-ceu o co-ra-ção de Fa-raó; e não
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 276--305
+\TU/FreeSerif(0)/m/n/14.4 nin-guém se le-van-tou de seu lu-gar em
+ []
+
+[68]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 69 undefined on input line 308.
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 308--318
+\TU/FreeSerif(0)/m/n/14.4 e se-gu-ra-mente vos ex-pul-sará da-qui de
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 308--318
+\TU/FreeSerif(0)/m/n/14.4 do Egito, qual nunca foi, nem ja-mais
+ []
+
+[69]
+
+LaTeX Warning: Reference `0' on page 70 undefined on input line 321.
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 321--372
+\TU/FreeSerif(0)/m/n/14.4 o co-me-rão. [][] []Nenhuma coisa co-me-reis
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 321--372
+\TU/FreeSerif(0)/m/n/14.4 uma ba-cia, e un-tai a verga e os dois
+ []
+
+
+Underfull \hbox (badness 3623) in paragraph at lines 321--372
+\TU/FreeSerif(0)/m/n/14.4 apres-sa-vam ao povo, dando pressa a
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 321--372
+\TU/FreeSerif(0)/m/n/14.4 o fi-ze-ram. [][] []E na-quele mesmo dia o
+ []
+
+
+Underfull \vbox (badness 4634) has occurred while \output is active []
+
+ [70]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [71]
+
+LaTeX Warning: Reference `0' on page 72 undefined on input line 375.
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 375--397
+\TU/FreeSerif(0)/m/n/14.4 teu fi-lho, di-zendo: “  []Que é isto?[]” Tu
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 1694) has occurred while \output is active []
+
+ [72]
+
+LaTeX Warning: Reference `0' on page 73 undefined on input line 400.
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 400--431
+\TU/FreeSerif(0)/m/n/14.4 de Pi-Hairote, en-tre Mig-dol e o mar
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 400--431
+\TU/FreeSerif(0)/m/n/14.4 de Is-rael le-van-ta-ram seus olhos, e eis
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 400--431
+\TU/FreeSerif(0)/m/n/14.4 e tor-nou o mar em seco, e as águas
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 74 undefined on input line 434.
+
+
+Underfull \hbox (badness 3019) in paragraph at lines 434--461
+[]\TU/FreeSerif(0)/m/n/14.4 Can-ta-rei eu ao SE-NHOR, por-que se
+ []
+
+
+Underfull \hbox (badness 2671) in paragraph at lines 434--461
+\TU/FreeSerif(0)/m/n/14.4 por sal-va-ção: Este é meu Deus, e a
+ []
+
+
+Underfull \hbox (badness 2229) in paragraph at lines 434--461
+[]\TU/FreeSerif(0)/m/n/14.4 Os car-ros de Fa-raó e a seu exér-cito
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 434--461
+\TU/FreeSerif(0)/m/n/14.4 fo-ram afun-da-dos no mar Ver-me-lho. [][]
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 434--461
+\TU/FreeSerif(0)/m/n/14.4 cobriu-os o mar: Afundaram-se como
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 434--461
+\TU/FreeSerif(0)/m/n/14.4 como tu, SE-NHOR, en-tre os deu-ses?
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 434--461
+\TU/FreeSerif(0)/m/n/14.4 ó SE-NHOR; No san-tu-á-rio do Se-nhor,
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 434--461
+[][] []\TU/FreeSerif(0)/m/n/14.4 E fez Moi-sés que par-tisse Is-rael do
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 434--461
+\TU/FreeSerif(0)/m/n/14.4 quando a me-teu den-tro das águas, as
+ []
+
+[74]
+
+LaTeX Warning: Reference `0' on page 75 undefined on input line 464.
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 464--500
+\TU/FreeSerif(0)/m/n/14.4 de-pois que sa-í-ram da terra do Egito.
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 464--500
+[][] []\TU/FreeSerif(0)/m/n/14.4 E toda a con-gre-ga-ção dos fi-lhos de
+ []
+
+
+Underfull \hbox (badness 3590) in paragraph at lines 464--500
+\TU/FreeSerif(0)/m/n/14.4 com que mur-mu-rais con-tra ele; pois
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 464--500
+\TU/FreeSerif(0)/m/n/14.4 do-bro, dois gô-me-res para cada um; e
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 464--500
+\TU/FreeSerif(0)/m/n/14.4 lhes disse: []Isto é o que o SE-NHOR
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 464--500
+\TU/FreeSerif(0)/m/n/14.4 disse: “  []Ama-nhã é o re-pouso, o santo
+ []
+
+[75]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [76]
+
+LaTeX Warning: Reference `0' on page 77 undefined on input line 503.
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 503--519
+[][] []\TU/FreeSerif(0)/m/n/14.4 E toda a con-gre-ga-ção dos fi-lhos de
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 503--519
+\TU/FreeSerif(0)/m/n/14.4 con-tigo dos an-ci-ãos de Is-rael; e toma
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [77]
+
+LaTeX Warning: Reference `0' on page 78 undefined on input line 522.
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 522--549
+\TU/FreeSerif(0)/m/n/14.4 mu-lher, e seus dois fi-lhos com ela[]. [][]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78]
+
+LaTeX Warning: Reference `0' on page 79 undefined on input line 552.
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 552--577
+\TU/FreeSerif(0)/m/n/14.4 termo ao povo em der-re-dor, di-zendo:
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 552--577
+\TU/FreeSerif(0)/m/n/14.4 faça ne-les dano[]. [][] []E Moi-sés disse ao
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [79]
+
+LaTeX Warning: Reference `0' on page 80 undefined on input line 580.
+
+
+Underfull \hbox (badness 6592) in paragraph at lines 580--606
+[][] []\TU/FreeSerif(0)/m/n/14.4 E fa-lou Deus to-das es-tas pa-la-vras,
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 580--606
+\TU/FreeSerif(0)/m/n/14.4 so-bre os ter-cei-ros e so-bre os quar-tos,
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 580--606
+\TU/FreeSerif(0)/m/n/14.4 aos que me abor-re-cem, [][] []E que faço
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 580--606
+\TU/FreeSerif(0)/m/n/14.4 mi-se-ri-cór-dia em mi-lha-res aos que me
+ []
+
+
+LaTeX Warning: Reference `0' on page 80 undefined on input line 609.
+
+
+Underfull \hbox (badness 2591) in paragraph at lines 609--645
+[][] [][]\TU/FreeSerif(0)/m/n/14.4 E es-tas são as or-de-nan-ças que lhes
+ []
+
+[80]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81]
+
+LaTeX Warning: Reference `0' on page 82 undefined on input line 648.
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 648--679
+\TU/FreeSerif(0)/m/n/14.4 ar-rom-bando uma casa, e for fe-rido e
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 648--679
+\TU/FreeSerif(0)/m/n/14.4 so-bre roupa, so-bre toda coisa per-dida,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [82]
+
+LaTeX Warning: Reference `0' on page 83 undefined on input line 682.
+
+
+Underfull \hbox (badness 1721) in paragraph at lines 682--715
+\TU/FreeSerif(0)/m/n/14.4 cúm-plice com o ím-pio para ser falsa
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 682--715
+\TU/FreeSerif(0)/m/n/14.4 tes-te-mu-nha. [][] []Não se-gui-rás aos mui-tos
+ []
+
+
+Underfull \hbox (badness 3138) in paragraph at lines 682--715
+\TU/FreeSerif(0)/m/n/14.4 para mal fa-zer; nem res-pon-de-rás em
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 682--715
+\TU/FreeSerif(0)/m/n/14.4 fru-tos de teus tra-ba-lhos que hou-ve-res
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 682--715
+\TU/FreeSerif(0)/m/n/14.4 e aos pe-ri-zeus, e aos ca-na-neus, e aos
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [83]
+
+LaTeX Warning: Reference `0' on page 84 undefined on input line 718.
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 718--736
+[]\TU/FreeSerif(0)/m/n/14.4 Exe-cu-ta-re-mos to-das as pa-la-vras que o
+ []
+
+
+LaTeX Warning: Reference `0' on page 84 undefined on input line 739.
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 739--779
+\TU/FreeSerif(0)/m/n/14.4 mi-nha oferta. [][] []E esta é a oferta que
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 739--779
+\TU/FreeSerif(0)/m/n/14.4 e na arca po-rás o tes-te-mu-nho que eu
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [84]
+Underfull \vbox (badness 1694) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [85]
+
+LaTeX Warning: Reference `0' on page 86 undefined on input line 782.
+
+
+Underfull \hbox (badness 2856) in paragraph at lines 782--819
+\TU/FreeSerif(0)/m/n/14.4 con-tra-pos-tas a uma à ou-tra.[][][][][] [][] []Far
+ás
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 782--819
+\TU/FreeSerif(0)/m/n/14.4 cor-tina di-ante da face do ta-ber-ná-culo.
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 782--819
+\TU/FreeSerif(0)/m/n/14.4 de ouro. [][] []E le-van-ta-rás o ta-ber-ná-culo
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 782--819
+\TU/FreeSerif(0)/m/n/14.4 será feito de pri-mo-roso tra-ba-lho, com
+ []
+
+
+Underfull \vbox (badness 2302) has occurred while \output is active []
+
+ [86]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 87 undefined on input line 822.
+
+[87]
+
+LaTeX Warning: Reference `0' on page 88 undefined on input line 846.
+
+
+Underfull \hbox (badness 2790) in paragraph at lines 846--889
+\TU/FreeSerif(0)/m/n/14.4 fi-lhos de Arão. [][] []E fa-rás ves-ti-men-tas
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [88]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [89]
+
+LaTeX Warning: Reference `0' on page 90 undefined on input line 892.
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 892--938
+\TU/FreeSerif(0)/m/n/14.4 ma-ta-rás o car-neiro, e to-ma-rás de seu
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 892--938
+\TU/FreeSerif(0)/m/n/14.4 suas ves-ti-du-ras, e so-bre seus fi-lhos, e
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 892--938
+\TU/FreeSerif(0)/m/n/14.4 oferta acesa ao SE-NHOR. [][] []Isto será
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 892--938
+\TU/FreeSerif(0)/m/n/14.4 do SE-NHOR, no qual me en-con-tra-rei
+ []
+
+
+Underfull \hbox (badness 4582) in paragraph at lines 892--938
+\TU/FreeSerif(0)/m/n/14.4 con-vosco, para falar-vos ali. [][] []E ali
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [90]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 91 undefined on input line 941.
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 941--979
+\TU/FreeSerif(0)/m/n/14.4 ao anoi-te-cer, quei-mará o in-censo: rito
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 941--979
+\TU/FreeSerif(0)/m/n/14.4 SE-NHOR. [][] []Qualquer um que pas-sar
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 941--979
+\TU/FreeSerif(0)/m/n/14.4 a oferta ao SE-NHOR. [][] []Nem o rico
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 941--979
+[][] []\TU/FreeSerif(0)/m/n/14.4 Quando en-tra-rem no ta-ber-ná-culo do
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 941--979
+[][] []\TU/FreeSerif(0)/m/n/14.4 E de cás-sia qui-nhen-tos, ao peso do
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 941--979
+\TU/FreeSerif(0)/m/n/14.4 meu azeite da santa un-ção por vos-sas
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 941--979
+\TU/FreeSerif(0)/m/n/14.4 ida-des. [][] []Sobre carne de ho-mem não
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 941--979
+\TU/FreeSerif(0)/m/n/14.4 al-guma dela pulverizando-a, e a po-rás
+ []
+
+[91]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [92]
+
+LaTeX Warning: Reference `0' on page 93 undefined on input line 982.
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 982--1000
+\TU/FreeSerif(0)/m/n/14.4 a Moi-sés, di-zendo: [][] [][]E tu fa-la-rás aos
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 982--1000
+\TU/FreeSerif(0)/m/n/14.4 sá-bado, por-que santo é a vós: o que
+ []
+
+
+LaTeX Warning: Reference `0' on page 93 undefined on input line 1003.
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 1003--1038
+\TU/FreeSerif(0)/m/n/14.4 do mal de teu povo. [][] []Lembra-te de
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 1003--1038
+\TU/FreeSerif(0)/m/n/14.4 por he-rança para sem-pre[]”[]. [][] []Então o
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 1003--1038
+\TU/FreeSerif(0)/m/n/14.4 adi-ante de nós, que a este Moi-sés, o
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 1003--1038
+\TU/FreeSerif(0)/m/n/14.4 per-does agora seu pe-cado, e se não,
+ []
+
+[93]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [94]
+
+LaTeX Warning: Reference `0' on page 95 undefined on input line 1041.
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 1041--1064
+\TU/FreeSerif(0)/m/n/14.4 ves-ti-ram luto, e nin-guém se pôs seus
+ []
+
+
+Underfull \hbox (badness 6927) in paragraph at lines 1041--1064
+\TU/FreeSerif(0)/m/n/14.4 de seus or-na-men-tos desde o monte
+ []
+
+
+Underfull \hbox (badness 5490) in paragraph at lines 1041--1064
+\TU/FreeSerif(0)/m/n/14.4 do Tes-te-mu-nho. E foi que qual-quer
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [95]
+
+LaTeX Warning: Reference `0' on page 96 undefined on input line 1067.
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 1067--1102
+\TU/FreeSerif(0)/m/n/14.4 que que-braste. [][] []Prepara-te, pois, para
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 1067--1102
+\TU/FreeSerif(0)/m/n/14.4 pas-sando o SE-NHOR por di-ante dele,
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 1067--1102
+\TU/FreeSerif(0)/m/n/14.4 lan-ça-rei as na-ções de tua pre-sença, e
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [96]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 97 undefined on input line 1105.
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 1105--1140
+\TU/FreeSerif(0)/m/n/14.4 para o éfode, e para o pei-to-ral[]”. [][] []E
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 1105--1140
+\TU/FreeSerif(0)/m/n/14.4 ves-ti-men-tas. [][] []E vi-e-ram tanto ho-mens
+ []
+
+[97]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [98]
+
+LaTeX Warning: Reference `0' on page 99 undefined on input line 1143.
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 1143--1181
+[][] []\TU/FreeSerif(0)/m/n/14.4 Fez, pois, Be-za-lel e Ao-li-abe, e todo
+ []
+
+
+Underfull \hbox (badness 2990) in paragraph at lines 1143--1181
+\TU/FreeSerif(0)/m/n/14.4 ho-mem sá-bio de co-ra-ção, a quem o
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 1143--1181
+\TU/FreeSerif(0)/m/n/14.4 SE-NHOR deu sa-be-do-ria e in-te-li-gên-cia
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 1143--1181
+\TU/FreeSerif(0)/m/n/14.4 obra que fa-zia. [][] []E fa-la-ram a Moi-sés,
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 1143--1181
+\TU/FreeSerif(0)/m/n/14.4 obra que o SE-NHOR man-dou que se
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 1143--1181
+\TU/FreeSerif(0)/m/n/14.4 to-das as cor-ti-nas ti-nham uma mesma
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 1143--1181
+\TU/FreeSerif(0)/m/n/14.4 com os quais jun-tou as cor-ti-nas, uma
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 1143--1181
+\TU/FreeSerif(0)/m/n/14.4 de uma cor-tina era de trinta cô-va-dos,
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 1143--1181
+\TU/FreeSerif(0)/m/n/14.4 e ou-tras cin-quenta la-ça-das na orla da
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 1143--1181
+\TU/FreeSerif(0)/m/n/14.4 fez to-das as tá-buas do ta-ber-ná-culo. [][]
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 1143--1181
+\TU/FreeSerif(0)/m/n/14.4 tá-bua para seus dois en-cai-xes, e duas
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [99]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 100 undefined on input line 1184.
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 1184--1213
+\TU/FreeSerif(0)/m/n/14.4 que-ru-bim desta parte ao um ex-tremo,
+ []
+
+[100]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 101 undefined on input line 1216.
+
+[101]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 102 undefined on input line 1250.
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 1250--1293
+\TU/FreeSerif(0)/m/n/14.4 e li-nho tor-cido; como o SE-NHOR o
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 1250--1293
+\TU/FreeSerif(0)/m/n/14.4 manter-se em or-dem, e to-dos os seus
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 1250--1293
+\TU/FreeSerif(0)/m/n/14.4 com sua gre-lha de bronze, suas va-ras,
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 1250--1293
+\TU/FreeSerif(0)/m/n/14.4 e to-dos os seus uten-sí-lios; e a pia, e
+ []
+
+[102]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [103]
+
+LaTeX Warning: Reference `0' on page 104 undefined on input line 1296.
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 1296--1333
+\TU/FreeSerif(0)/m/n/14.4 tes-te-mu-nho: [][] []E po-rás nele a arca do
+ []
+
+
+Underfull \hbox (badness 4254) in paragraph at lines 1296--1333
+\TU/FreeSerif(0)/m/n/14.4 suas lâm-pa-das: [][] []E po-rás o al-tar de
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 1296--1333
+\TU/FreeSerif(0)/m/n/14.4 e as-sen-tou suas ba-ses, e co-lo-cou suas
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 1296--1333
+\TU/FreeSerif(0)/m/n/14.4 di-ante do véu: [][] []E acen-deu so-bre ele
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 1296--1333
+\TU/FreeSerif(0)/m/n/14.4 fi-lhos la-va-vam nela suas mãos e seus
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 1296--1333
+\TU/FreeSerif(0)/m/n/14.4 o átrio em der-re-dor do ta-ber-ná-culo e
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 1296--1333
+\TU/FreeSerif(0)/m/n/14.4 do al-tar, e pôs a cor-tina da porta do
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [104]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+("./source/AT/03 - LEV_src.tex" [105]
+Underfull \hbox (badness 1997) in paragraph at lines 6--23
+[][] []\TU/FreeSerif(0)/m/n/14.4 E cha-mou o SE-NHOR a Moi-sés, e
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 6--23
+\TU/FreeSerif(0)/m/n/14.4 fa-lou com ele desde o ta-ber-ná-culo do
+ []
+
+
+LaTeX Warning: Reference `0' on page 106 undefined on input line 26.
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 26--44
+\TU/FreeSerif(0)/m/n/14.4 oferta de ali-men-tos ao SE-NHOR, sua
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 26--44
+\TU/FreeSerif(0)/m/n/14.4 ofer-tas que se quei-mam ao SE-NHOR.
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 26--44
+[][] []\TU/FreeSerif(0)/m/n/14.4 Nenhuma oferta que ofe-re-cer-des ao
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 26--44
+\TU/FreeSerif(0)/m/n/14.4 de ali-men-tos o sal da ali-ança de teu
+ []
+
+[106
+
+]
+
+LaTeX Warning: Reference `0' on page 107 undefined on input line 47.
+
+
+Underfull \hbox (badness 3690) in paragraph at lines 47--64
+\TU/FreeSerif(0)/m/n/14.4 sa-cri-fí-cio pa-cí-fico ao SE-NHOR, seja
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 47--64
+\TU/FreeSerif(0)/m/n/14.4 dela sua oferta acesa ao SE-NHOR; a
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [107]
+
+LaTeX Warning: Reference `0' on page 108 undefined on input line 67.
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 67--102
+\TU/FreeSerif(0)/m/n/14.4 al-guma pes-soa pe-car por aci-dente em
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 67--102
+\TU/FreeSerif(0)/m/n/14.4 à porta do ta-ber-ná-culo do tes-te-mu-nho
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 67--102
+\TU/FreeSerif(0)/m/n/14.4 di-ante do SE-NHOR, e porá sua mão
+ []
+
+
+Underfull \hbox (badness 2990) in paragraph at lines 67--102
+\TU/FreeSerif(0)/m/n/14.4 di-ante do SE-NHOR. [][] []E o sa-cer-dote
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 67--102
+\TU/FreeSerif(0)/m/n/14.4 so-bre a ca-beça do be-zerro di-ante do
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 67--102
+\TU/FreeSerif(0)/m/n/14.4 as pon-tas do al-tar que está di-ante do
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 67--102
+\TU/FreeSerif(0)/m/n/14.4 e der-ra-mará todo o san-gue ao pé do
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 67--102
+\TU/FreeSerif(0)/m/n/14.4 o al-tar, como a gor-dura do sa-cri-fí-cio
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [108]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 109 undefined on input line 105.
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 105--124
+[][] [][]\TU/FreeSerif(0)/m/n/14.4 E quando al-guma pes-soa pe-car, que
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 105--124
+\TU/FreeSerif(0)/m/n/14.4 hou-ver ou-vido a voz do que ju-rou, e
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 105--124
+\TU/FreeSerif(0)/m/n/14.4 em qual-quer coisa imunda, seja corpo
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 105--124
+\TU/FreeSerif(0)/m/n/14.4 trans-gre-dido: [][] []Ou se to-car a ho-mem
+ []
+
+
+Underfull \hbox (badness 6063) in paragraph at lines 105--124
+\TU/FreeSerif(0)/m/n/14.4 a pes-soa que ju-rar pre-ci-pi-ta-da-mente
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 105--124
+\TU/FreeSerif(0)/m/n/14.4 a pa-rede do al-tar; e o que so-brar do
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 105--124
+\TU/FreeSerif(0)/m/n/14.4 san-gue o es-pre-merá ao pé do al-tar; é
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 105--124
+\TU/FreeSerif(0)/m/n/14.4 coi-sas san-ti-fi-ca-das ao SE-NHOR, trará
+ []
+
+[109]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 110 undefined on input line 127.
+
+
+Underfull \hbox (badness 5008) in paragraph at lines 127--157
+[][] [][]\TU/FreeSerif(0)/m/n/14.4 Quando uma pes-soa pe-car, e fi-zer
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 127--157
+\TU/FreeSerif(0)/m/n/14.4 acen-di-das; é coisa san-tís-sima, como a
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 127--157
+\TU/FreeSerif(0)/m/n/14.4 so-bre que cair, no lu-gar santo. [][] []E a
+ []
+
+[110]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 111 undefined on input line 160.
+
+
+Underfull \hbox (badness 3179) in paragraph at lines 160--198
+[][] [][]\TU/FreeSerif(0)/m/n/14.4 As-sim esta é a lei da ex-pi-a-ção da
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 160--198
+\TU/FreeSerif(0)/m/n/14.4 culpa: é coisa muito santa. [][] []No lu-gar
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 160--198
+\TU/FreeSerif(0)/m/n/14.4 ofe-re-cerá sua oferta no seu sa-cri-fí-cio
+ []
+
+[111]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [112]
+
+LaTeX Warning: Reference `0' on page 113 undefined on input line 201.
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 201--237
+\TU/FreeSerif(0)/m/n/14.4 e o be-zerro da ex-pi-a-ção, e os dois
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 201--237
+\TU/FreeSerif(0)/m/n/14.4 e juntou-se a con-gre-ga-ção à porta do
+ []
+
+
+Underfull \hbox (badness 4229) in paragraph at lines 201--237
+\TU/FreeSerif(0)/m/n/14.4 ta-ber-ná-culo do tes-te-mu-nho. [][] []E disse
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 201--237
+\TU/FreeSerif(0)/m/n/14.4 Moi-sés todo o car-neiro so-bre o al-tar:
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [113]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 114 undefined on input line 240.
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 240--264
+\TU/FreeSerif(0)/m/n/14.4 um bode ma-cho para ex-pi-a-ção, e um
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 240--264
+\TU/FreeSerif(0)/m/n/14.4 para ho-lo-causto; [][] []Também um boi e
+ []
+
+[114]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 115 undefined on input line 267.
+
+
+Underfull \hbox (badness 5161) in paragraph at lines 267--287
+\TU/FreeSerif(0)/m/n/14.4 to-ma-ram cada um seu in-cen-sá-rio, e
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 267--287
+[][] []\TU/FreeSerif(0)/m/n/14.4 E saiu fogo de di-ante do SE-NHOR
+ []
+
+
+Underfull \hbox (badness 2680) in paragraph at lines 267--287
+\TU/FreeSerif(0)/m/n/14.4 E Arão ca-lou. [][] []E cha-mou Moi-sés a
+ []
+
+[115]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 116 undefined on input line 290.
+
+
+Underfull \hbox (badness 3138) in paragraph at lines 290--337
+[][] []\TU/FreeSerif(0)/m/n/14.4 E fa-lou o SE-NHOR a Moi-sés e a
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 290--337
+\TU/FreeSerif(0)/m/n/14.4 Is-rael, di-zendo: “  []Es-tes são os ani-mais
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 290--337
+[][] []\TU/FreeSerif(0)/m/n/14.4 Estes, po-rém, não co-me-reis dos que
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 290--337
+\TU/FreeSerif(0)/m/n/14.4 de todo rép-til de água como de toda
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 290--337
+\TU/FreeSerif(0)/m/n/14.4 sua es-pé-cie, e a poupa, e o mor-cego.
+ []
+
+[116]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [117]
+
+LaTeX Warning: Reference `0' on page 118 undefined on input line 340.
+
+
+Underfull \hbox (badness 5563) in paragraph at lines 340--348
+\TU/FreeSerif(0)/m/n/14.4 a carne de seu pre-pú-cio. [][] []Mas ela
+ []
+
+
+LaTeX Warning: Reference `0' on page 118 undefined on input line 351.
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 351--410
+\TU/FreeSerif(0)/m/n/14.4 de sua carne in-chaço, ou pús-tula, ou
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 351--410
+\TU/FreeSerif(0)/m/n/14.4 branca aver-me-lhada, será mos-trado ao
+ []
+
+[118]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [119]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 120 undefined on input line 413.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [120]
+Underfull \hbox (badness 1215) in paragraph at lines 413--472
+\TU/FreeSerif(0)/m/n/14.4 de sua im-pu-reza, e de-pois de-go-lará o
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [121]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [122]
+
+LaTeX Warning: Reference `0' on page 123 undefined on input line 475.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [123]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 124 undefined on input line 511.
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 511--545
+\TU/FreeSerif(0)/m/n/14.4 di-ante do pro-pi-ci-a-tó-rio que está so-bre
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 511--545
+\TU/FreeSerif(0)/m/n/14.4 por si e por sua casa, e de-go-lará em
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 511--545
+\TU/FreeSerif(0)/m/n/14.4 as ves-ti-men-tas de li-nho, as ves-ti-du-ras
+ []
+
+[124]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [125]
+
+LaTeX Warning: Reference `0' on page 126 undefined on input line 548.
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 548--564
+\TU/FreeSerif(0)/m/n/14.4 da casa de Is-rael, ou dos es-tran-gei-ros
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 548--564
+\TU/FreeSerif(0)/m/n/14.4 meu rosto con-tra a pes-soa que co-mer
+ []
+
+
+LaTeX Warning: Reference `0' on page 126 undefined on input line 567.
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 567--597
+\TU/FreeSerif(0)/m/n/14.4 re-gu-la-men-tos po-reis por obra, e meus
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 567--597
+\TU/FreeSerif(0)/m/n/14.4 do ir-mão de teu pai não des-co-bri-rás:
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 567--597
+\TU/FreeSerif(0)/m/n/14.4 ajuntar-se com ele: é con-fu-são. [][] []Em
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 567--597
+\TU/FreeSerif(0)/m/n/14.4 ne-nhuma de to-das es-tas abo-mi-na-ções:
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 567--597
+\TU/FreeSerif(0)/m/n/14.4 nem o na-tu-ral nem o es-tran-geiro que
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 567--597
+\TU/FreeSerif(0)/m/n/14.4 es-tas abo-mi-na-ções, as pes-soas que as
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 567--597
+\TU/FreeSerif(0)/m/n/14.4 fa-zendo das prá-ti-cas abo-mi-ná-veis que
+ []
+
+[126]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 127 undefined on input line 600.
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 600--637
+\TU/FreeSerif(0)/m/n/14.4 tua plan-ta-ção, nem es-pi-ga-rás tua terra
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 600--637
+\TU/FreeSerif(0)/m/n/14.4 o san-gue de teu pró-ximo: Eu sou o
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 600--637
+\TU/FreeSerif(0)/m/n/14.4 seu pe-cado que co-me-teu. [][] []E quando
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 600--637
+[][] []\TU/FreeSerif(0)/m/n/14.4 E o quarto ano todo seu fruto será
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 600--637
+\TU/FreeSerif(0)/m/n/14.4 coisa al-guma com san-gue. Não se-reis
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 600--637
+\TU/FreeSerif(0)/m/n/14.4 guar-da-reis, e meu san-tu-á-rio te-reis em
+ []
+
+[127]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [128]
+
+LaTeX Warning: Reference `0' on page 129 undefined on input line 640.
+
+
+Underfull \hbox (badness 5175) in paragraph at lines 640--668
+[][] [][]\TU/FreeSerif(0)/m/n/14.4 Dirás tam-bém aos fi-lhos de Is-rael:
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 640--668
+\TU/FreeSerif(0)/m/n/14.4 dado de sua des-cen-dên-cia a Mo-lo-que,
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 640--668
+\TU/FreeSerif(0)/m/n/14.4 pra-ti-cai. Eu sou o SE-NHOR que vos
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [129]
+
+LaTeX Warning: Reference `0' on page 130 undefined on input line 671.
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 671--695
+\TU/FreeSerif(0)/m/n/14.4 da un-ção de seu Deus está so-bre ele:
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 671--695
+\TU/FreeSerif(0)/m/n/14.4 Eu sou o SE-NHOR. [][] []E to-mará ele
+ []
+
+
+Underfull \vbox (badness 3039) has occurred while \output is active []
+
+ [130]
+
+LaTeX Warning: Reference `0' on page 131 undefined on input line 698.
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 698--731
+\TU/FreeSerif(0)/m/n/14.4 con-forme qual-quer imun-dí-cia sua; [][] []A
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 698--731
+\TU/FreeSerif(0)/m/n/14.4 do sa-cer-dote, nem o em-pre-gado, não
+ []
+
+
+Underfull \hbox (badness 4391) in paragraph at lines 698--731
+\TU/FreeSerif(0)/m/n/14.4 não será aceito por vós. [][] []Também,
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 698--731
+\TU/FreeSerif(0)/m/n/14.4 ao SE-NHOR, nem de-les po-reis oferta
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 698--731
+\TU/FreeSerif(0)/m/n/14.4 po-de-rás ofe-re-cer por oferta vo-lun-tá-ria;
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [131]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 132 undefined on input line 734.
+
+
+Underfull \hbox (badness 3209) in paragraph at lines 734--778
+\TU/FreeSerif(0)/m/n/14.4 san-tas, às quais con-vo-ca-reis em seus
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 734--778
+\TU/FreeSerif(0)/m/n/14.4 mês é a so-le-ni-dade dos pães ázi-mos
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 734--778
+\TU/FreeSerif(0)/m/n/14.4 ao SE-NHOR: sete dias co-me-reis pães
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 734--778
+\TU/FreeSerif(0)/m/n/14.4 ázi-mos. [][] []No pri-meiro dia te-reis santa
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 734--778
+\TU/FreeSerif(0)/m/n/14.4 oferta acesa: no sé-timo dia será santa
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 734--778
+\TU/FreeSerif(0)/m/n/14.4 um cor-deiro de ano, sem de-feito, em
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 734--778
+\TU/FreeSerif(0)/m/n/14.4 e dois cor-dei-ros de ano em sa-cri-fí-cio
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 734--778
+\TU/FreeSerif(0)/m/n/14.4 to-das as vos-sas ha-bi-ta-ções por vos-sas
+ []
+
+
+Underfull \hbox (badness 1867) in paragraph at lines 734--778
+\TU/FreeSerif(0)/m/n/14.4 aos dez deste mês sé-timo será o dia
+ []
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 734--778
+\TU/FreeSerif(0)/m/n/14.4 ofe-re-ce-reis oferta acesa ao SE-NHOR:
+ []
+
+[132]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [133]
+
+LaTeX Warning: Reference `0' on page 134 undefined on input line 781.
+
+
+Underfull \hbox (badness 4531) in paragraph at lines 781--804
+[][] [][]\TU/FreeSerif(0)/m/n/14.4 Manda aos fi-lhos de Is-rael que te
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 781--804
+\TU/FreeSerif(0)/m/n/14.4 para a lu-mi-ná-ria, para fa-zer ar-der as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 781--804
+\TU/FreeSerif(0)/m/n/14.4 lâm-pa-das con-ti-nu-a-mente. [][] []Fora do
+ []
+
+
+Underfull \hbox (badness 6592) in paragraph at lines 781--804
+\TU/FreeSerif(0)/m/n/14.4 con-ti-nu-a-mente: es-ta-tuto per-pé-tuo por
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 781--804
+\TU/FreeSerif(0)/m/n/14.4 vos-sas ge-ra-ções. [][] []Sobre o can-de-la-bro
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 781--804
+\TU/FreeSerif(0)/m/n/14.4 di-ante do SE-NHOR. [][] []E to-ma-rás boa
+ []
+
+
+Underfull \hbox (badness 4505) in paragraph at lines 781--804
+\TU/FreeSerif(0)/m/n/14.4 acen-di-das ao SE-NHOR, por es-ta-tuto
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 781--804
+\TU/FreeSerif(0)/m/n/14.4 blas-fe-mar o nome do SE-NHOR será
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 781--804
+\TU/FreeSerif(0)/m/n/14.4 pes-soa será pu-nido à morte. [][] []Mas o
+ []
+
+[134]
+
+LaTeX Warning: Reference `0' on page 135 undefined on input line 807.
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 807--862
+\TU/FreeSerif(0)/m/n/14.4 ano cin-quenta, e apre-go-a-reis li-ber-dade
+ []
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 807--862
+\TU/FreeSerif(0)/m/n/14.4 vos será ju-bi-leu; e vol-ta-reis cada um
+ []
+
+
+Underfull \hbox (badness 2653) in paragraph at lines 807--862
+\TU/FreeSerif(0)/m/n/14.4 vos será ju-bi-leu: não se-me-a-reis, nem
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 807--862
+\TU/FreeSerif(0)/m/n/14.4 o nú-mero dos anos de-pois do ju-bi-leu
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 807--862
+\TU/FreeSerif(0)/m/n/14.4 te há de ven-der ele. [][] []E não en-gane
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 807--862
+\TU/FreeSerif(0)/m/n/14.4 fi-lhos de-pois de vós, como pos-ses-são
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 807--862
+\TU/FreeSerif(0)/m/n/14.4 meios, e teu ir-mão que está com ele
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [135]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [136]
+
+LaTeX Warning: Reference `0' on page 137 undefined on input line 865.
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 865--911
+\TU/FreeSerif(0)/m/n/14.4 nem le-van-ta-reis para vós es-tá-tua, nem
+ []
+
+
+Underfull \hbox (badness 4608) in paragraph at lines 865--911
+\TU/FreeSerif(0)/m/n/14.4 po-reis em vossa terra pe-dra pin-tada
+ []
+
+
+Underfull \hbox (badness 3735) in paragraph at lines 865--911
+\TU/FreeSerif(0)/m/n/14.4 sá-ba-dos, e tende em re-ve-rên-cia meu
+ []
+
+
+Underfull \hbox (badness 5652) in paragraph at lines 865--911
+\TU/FreeSerif(0)/m/n/14.4 san-tu-á-rio: Eu sou o SE-NHOR. [][] []Se
+ []
+
+
+Underfull \hbox (badness 2418) in paragraph at lines 865--911
+\TU/FreeSerif(0)/m/n/14.4 obra; [][] []Eu da-rei vossa chuva em seu
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 865--911
+\TU/FreeSerif(0)/m/n/14.4 so-bre vós ter-ror, en-fer-mi-dade e fe-bre,
+ []
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 865--911
+\TU/FreeSerif(0)/m/n/14.4 a terra des-can-sará en-tão e des-fru-tará
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 865--911
+\TU/FreeSerif(0)/m/n/14.4 fu-gis-sem di-ante de es-pada, ainda que
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 865--911
+\TU/FreeSerif(0)/m/n/14.4 por sua ini-qui-dade; e pela ini-qui-dade
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 865--911
+\TU/FreeSerif(0)/m/n/14.4 de seus pais pe-re-ce-rão com eles: [][] []E
+ []
+
+
+Underfull \hbox (badness 3240) in paragraph at lines 865--911
+\TU/FreeSerif(0)/m/n/14.4 nem os abo-mi-na-rei para consumi-los,
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 865--911
+\TU/FreeSerif(0)/m/n/14.4 me lem-bra-rei de-les pelo pacto an-tigo,
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 865--911
+\TU/FreeSerif(0)/m/n/14.4 quando os ti-rei da terra do Egito aos
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 865--911
+\TU/FreeSerif(0)/m/n/14.4 re-gu-la-men-tos e leis que es-ta-be-le-ceu o
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [137]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 138 undefined on input line 914.
+
+[138]
+Underfull \hbox (badness 2600) in paragraph at lines 914--947
+\TU/FreeSerif(0)/m/n/14.4 que tua ava-li-a-ção, en-tão com-pa-re-cerá
+ []
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 914--947
+\TU/FreeSerif(0)/m/n/14.4 lhe im-porá va-lor o sa-cer-dote. [][] []E se
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 914--947
+\TU/FreeSerif(0)/m/n/14.4 SE-NHOR, tudo o que se der dele ao
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 914--947
+\TU/FreeSerif(0)/m/n/14.4 um ômer de se-me-a-dura de ce-vada se
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 914--947
+\TU/FreeSerif(0)/m/n/14.4 seu quinto: e se não o res-ga-ta-rem, se
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 914--947
+[][] []\TU/FreeSerif(0)/m/n/14.4 E to-dos os dí-zi-mos da terra, tanto
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [139]))
+[leftcolumn badness]: 1000000 on 14.1695pt
+[rightcolumn badness]: 1000000 on 14.1695pt
+[leftcolumn badness]: 1000000 on 14.1695pt
+[rightcolumn badness]: 1000000 on 14.1695pt
+[leftcolumn badness]: 1000000 on 14.1695pt
+[rightcolumn badness]: 1000000 on 14.1695pt
+[leftcolumn badness]: 1000000 on 14.1695pt
+[rightcolumn badness]: 1000000 on 14.1695pt
+[leftcolumn badness]: 1000000 on 14.1695pt
+[rightcolumn badness]: 1000000 on 14.1695pt
+[leftcolumn badness]: 1000000 on 14.1695pt
+[rightcolumn badness]: 1000000 on 14.1695pt
 - LAST -
-Extra skip:19.32469pt
-Left:319.79791pt/3.1248pt
-Right:303.59802pt/0.0pt
-Split: 319.79791pt
-Output:319.79791pt
+Extra skip:16.34389pt
+Left:206.39868pt/0.144pt
+Right:190.19879pt/0.0pt
+Split: 206.39868pt
+Output:206.39868pt
 Pageshrink: 0.0pt
 Pagestretch: 0.0pt
 @colht:662.56499pt
-FLUSHEND [output]: 319.79791pt
+FLUSHEND [output]: 206.39868pt
 FLUSHEND [leftcolumn badness]: 0
 FUSHEND [rightcolumn badness]: 10000
- [58] (./build//main.aux)
+
+[140] (./build/main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -2929,7 +4888,7 @@ L3 programming layer <2026-01-19>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 55E835B83BAB406192A74DCE47B5666A;82.
+(rerunfilecheck)             Checksum: 076BAC667826919E3A53CE9378E17D6B;241.
 )
 (\end occurred inside a group at level 1)
 
@@ -2937,25 +4896,25 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 ### bottom level
 
 Here is how much of LuaTeX's memory you used:
- 25744 strings out of 476076
+ 25870 strings out of 476076
  195338,1373583 words of node,token memory allocated
- 997 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 22 glue, 4 kern, 1 penalty, 1 glyph, 53 attribute, 
-94 glue_spec, 27 attribute_list, 1 write, 1 pdf_action nodes
-   avail lists: 1:5,2:2708,3:402,4:470,5:4947,6:50,7:16601,8:46,9:661,10:13,11:1
-177
- 47646 multiletter control sequences out of 65536+600000
- 139 fonts using 106770903 bytes
- 111i,7n,131p,1137b,3127s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 1173 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 34 glue, 4 kern, 1 penalty, 1 glyph, 77 attribute, 
+98 glue_spec, 39 attribute_list, 1 write, 1 pdf_action nodes
+   avail lists: 1:7,2:2702,3:408,4:479,5:5013,6:45,7:16639,8:46,9:667,10:14,11:1
+185
+ 47660 multiletter control sequences out of 65536+600000
+ 140 fonts using 107297651 bytes
+ 111i,7n,131p,1136b,3127s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/opentype/public/gnu-freefont/FreeSerifItalic.otf></
 usr/share/texmf-dist/fonts/opentype/public/newcomputermodern/NewCMMono10-Book.ot
 f></usr/share/texmf-dist/fonts/opentype/public/gnu-freefont/FreeSerif.otf></usr/
 share/texmf-dist/fonts/opentype/public/gnu-freefont/FreeSerifBold.otf></usr/shar
 e/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcirclew.pfb>
-Output written on main.pdf (62 pages, 365850 bytes).
+Output written on main.pdf (144 pages, 782006 bytes).
 
-PDF statistics: 366 PDF objects out of 1000 (max. 8388607)
- 284 compressed objects within 3 object streams
- 84 named destinations out of 1000 (max. 1048576)
- 9 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 757 PDF objects out of 1000 (max. 8388607)
+ 590 compressed objects within 6 object streams
+ 184 named destinations out of 1000 (max. 1048576)
+ 25 words of extra memory for PDF output out of 10000 (max. 100000000)
 

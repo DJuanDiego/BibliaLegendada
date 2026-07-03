@@ -1,31 +1,33 @@
 % ========== Importação da classe que define as medidas do papel, linha, espaçamento etc ==========
 %\input{preamble/12pta4.tex}
 \input{preamble/12pt.tex}
-\usepackage[colorlinks=true,linkcolor=AzulMarinho]{hyperref} % Links internos e externos
+\usepackage[colorlinks=true,linkcolor=blue]{hyperref} % Links internos e externos
 
 % ========== Corpo do documento (código original sem alteração) ==========
-\setmainfont{FreeSerif}
+\setmainfont{FreeSerif}[Ligatures={NoCommon, NoContextual, NoRequired}] % Remover ligaduras
 
 \begin{document}
 \sloppy % Sem hifenização
 \large % Letra Grande
 \TextColor % Cor preta
 \frenchspacing % Espaço menor após pontuação
- \vfill\eject
- \input{preamble/CPR}
- \input{preamble/FA}
- \input{preamble/PFC}
-\clearpage
+\vfill\eject
 
-\pagestyle{empty}
+\frontmatter
+\input{preamble/CPR}
+\input{preamble/FA}
+\input{preamble/PFC}
+% \clearpage
+
 \begin{center}
+	\pagestyle{empty}
 	\Large\bfseries Índice
 	\begin{multicols}{2}
     \raggedcolumns\large
     \vspace*{0pt}
 		\renewcommand{\contentsname}{}
 		\tableofcontents
-% 		\thispagestyle{empty}
+		\thispagestyle{empty}
 %		\clearpage
 	\end{multicols}
 \end{center}
