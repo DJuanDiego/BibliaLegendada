@@ -11,3 +11,11 @@ sed -e 's/^\\VS/  \0/g ; s/\\VerseOne/\n  \0/g ; /^ \{0,\}$/d' \
 # Comentar \MT e \par do mesmo bloco;
 sed -e '/\\MT/{:a;s/^/%/;n;/\\par/{s/^/%/;b;};/^}/b;/\\MT/b;ba;}' \
   -i ../source/{A,N}T/*.tex
+
+# Inserir espaço após ponto final e antes da Letra maiúscula.
+# Para identificar a quantidade de ocorrências e os locais executei:
+# grep -E '([a-z]|\}{1})\.([A-Z]{1})' ../source/{A,N}T/*.tex | nl
+sed -ri 's/([a-z]|\}{1})\.([A-Z]{1})/\1. \2/g' ../source/{A,N}T/*.tex
+
+# Localizar as ocorrências da expressão 'encima' e numerá-las.
+grep 'encima' ../source/{A,N}T/*.tex | nl
