@@ -9,15 +9,17 @@
 \usepackage[marginal3]{./preamble/footkmpj}  % Notas de letras Opções (flushmargin, 2 e 3; marginal, 2 e 3)
 \usepackage{calc, parselines} % Símbolos matemáticos simples e processamento do texto 13/06/2026
 \usepackage{csquotes, unicode-math}
-\usepackage{etoolbox} % for \ifstrempty
+\usepackage{etoolbox} % for \ifstrempty e final dos livros.
 \usepackage{setspace} % Espaçamento entre linhas
 \usepackage{fancybox, graphicx} % Caixas de texto e figuras/gráficos 03/05/2026
-\usepackage{tocloft, geometry, multicol} % Títulos (sessões, sumários etc), dimensões, colunas
+\usepackage{tocloft, geometry, multicol, minitoc} % Títulos (sessões, sumários etc), dimensões, colunas e divisão de sumários
 %\usepackage{textcase}
-\usepackage{hologo} % TeX logos
-\usepackage{url} % urls
-\usepackage{flushend, etoolbox} % colunas balanceadas e final dos livros
+\usepackage{hologo, url} % TeX logos e urls.
+% \usepackage{flushend} % colunas balanceadas
+\usepackage{balance} % colunas balanceadas
+% \flushbottom % Testar
 %\usepackage[utf8]{inputenc}
+% \usepackage{pbalance} % colunas balanceadas % Testar
 
 % Cores
 \definecolor{Black}{cmyk}{1, 1, 1, 1} % Preto puro
@@ -64,31 +66,22 @@
 \newcommand{\orange}[1]{{\color{Laranja}#1}}
 \newcommand{\brown}[1]{{\color{Marrom}#1}}
 
-\newcommand{\ShortTitle}[1]{\clearpage\gdef\theshorttitle{#1}\gdef\webbook{#1}\section*{}\addcontentsline{toc}{section}{#1}}
-% \newcommand{\ShortTitle}[1]{%
-% %  \clearpage
-%  \gdef\theshorttitle{#1}%
-%  \gdef\webbook{#1}%
-%  \section*{}%
-%  \addcontentsline{toc}{section}{#1}%
-%  \twocolumn[%
-%  %  \vspace*{1cm}%  <-- adiciona espaço no topo
-%  \begin{center}
-%    {\Large\centering\bfseries #1 \par}
-% %    \vspace{1ex}
-%  \end{center}
-%  ]}
+% Título curto em coluna única e entrada no sumário, conteúdo em coluna dupla e
+% última página balanceada
+\newcommand{\ShortTitle}[1]{\clearpage\gdef\theshorttitle{#1}\gdef\webbook{#1}\twocolumn[\vspace{-6ex}\section*{}\addcontentsline{toc}{section}{#1}\begin{center}{\Large\centering\bfseries #1 \par}\end{center}]\balance}
+
 \newcommand{\theshorttitle}{} % inicializa
 
 \newcommand{\PeriphTitle}[1]{%
-%   \clearpage
+  \clearpage
   \gdef\theshorttitle{#1}%
   \gdef\webbook{#1}%
   \NormalFont
 }
 
 % Título principal
-\newcommand{\MT}{\centering\Large\bfseries\TextColor\parindent=0mm\nopagebreak[3]} % Funcional
+% \newcommand{\MT}{\centering\Large\bfseries\TextColor\parindent=0mm\nopagebreak[3]} % Funcional
+\newcommand{\MT}{\centering\Large\bfseries\Black} % Funcional após alteração
 
 % Capítulo comum
 \newcommand{\Chap}[1]{{\Large\bfseries\vspace{1.5ex plus 3ex}\centering\setcounterpageref{footnote}{0}\parindent=0mm #1\nopagebreak\par}\def\webchap{#1:}\nopagebreak}

@@ -1,4 +1,12 @@
 \babel@toc {brazilian}{}\relax 
-\contentsline {section}{Gênesis}{3}{section*.2}%
-\contentsline {section}{Êxodo}{59}{section*.3}%
-\contentsline {section}{Levítico}{106}{section*.4}%
+\contentsline {part}{I\hspace {1em}Antigo Testamento}{1}{part.1}%
+\contentsline {section}{Gênesis}{3}{section*.1}%
+\contentsline {xpart}{Antigo Testamento}{3}{part.1}%
+\contentsline {section}{Êxodo}{62}{section*.2}%
+\contentsline {section}{Levítico}{112}{section*.3}%
+\contentsline {section}{Josué}{149}{section*.4}%
+\contentsline {section}{Juízes}{179}{section*.5}%
+\contentsline {part}{II\hspace {1em}Novo Testamento}{209}{part.2}%
+\contentsline {section}{Mateus}{211}{section*.6}%
+\contentsline {xpart}{Novo Testamento}{211}{part.2}%
+\contentsline {section}{Marcos}{252}{section*.7}%
