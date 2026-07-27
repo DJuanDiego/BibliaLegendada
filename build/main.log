@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.6.12)  20 JUL 2026 16:48
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.6.12)  27 JUL 2026 16:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -19880,23 +19880,43 @@ Underfull \hbox (badness 1072) in paragraph at lines 991--1012
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 991--1012
-\ZZZ muito sangue. [] Porém o SENHOR o
+Underfull \hbox (badness 2103) in paragraph at lines 991--1012
+\ZZZ homens valentes. [] E levantando-se o
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 991--1012
-\ZZZ sobre Israel. [] E me disse: Salomão
+Underfull \hbox (badness 2582) in paragraph at lines 991--1012
+\ZZZ casa a meu nome: porque és homem
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 991--1012
-\ZZZ guardai e inquiri todos os preceitos do
+Underfull \hbox (badness 1205) in paragraph at lines 991--1012
+\ZZZ de guerra, e derramaste muito sangue\ZZZ ”.
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 991--1012
+\ZZZ disse: “  \ZZZ Salomão teu filho, ele edificará
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 991--1012
+\ZZZ inquiri todos os preceitos do SENHOR
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 991--1012
+\ZZZ e a deixeis por herdade a vossos filhos
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 991--1012
+\ZZZ depois de vós perpetuamente. [] E tu,
  []
 
 
 Underfull \hbox (badness 1406) in paragraph at lines 991--1012
-\ZZZ Davi a Salomão seu filho: Anima-te e
+\ZZZ Davi a Salomão seu filho: \ZZZ Anima-te e
  []
 
 
@@ -19905,9 +19925,6 @@ Underfull \hbox (badness 1831) in paragraph at lines 991--1012
  []
 
 [384]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 LaTeX Warning: Reference `0' on page 385 undefined on input line 1014.
 
@@ -19934,11 +19951,6 @@ Underfull \hbox (badness 1009) in paragraph at lines 1015--1044
 
 Underfull \hbox (badness 1609) in paragraph at lines 1015--1044
 \ZZZ e força de todas as coisas. [] Agora,
- []
-
-
-Underfull \hbox (badness 2142) in paragraph at lines 1015--1044
-\ZZZ coração voluntariamente te ei oferecido
  []
 
 
