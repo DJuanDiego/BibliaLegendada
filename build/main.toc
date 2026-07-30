@@ -12,3 +12,4 @@
 \contentsline {section}{\numberline {}1 Reis}{301}{section.0.11}%
 \contentsline {section}{\numberline {}2 Reis}{332}{section.0.12}%
 \contentsline {section}{\numberline {}1 Crônicas}{360}{section.0.13}%
+\contentsline {section}{\numberline {}2 Crônicas}{387}{section.0.14}%
