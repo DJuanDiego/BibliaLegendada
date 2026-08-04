@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.6.12)  3 AUG 2026 15:00
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.6.12)  4 AUG 2026 16:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -20594,8 +20594,8 @@ Underfull \hbox (badness 1097) in paragraph at lines 284--300
  []
 
 
-Underfull \hbox (badness 2205) in paragraph at lines 284--300
-\ZZZ e disseram: Justo é o SENHOR. [] E
+Underfull \hbox (badness 1014) in paragraph at lines 284--300
+\ZZZ e disseram: \ZZZ Justo é o SENHOR\ZZZ . [] E
  []
 
 
@@ -20699,8 +20699,8 @@ Underfull \hbox (badness 1824) in paragraph at lines 328--343
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 328--343
-\ZZZ ao SENHOR o Deus de seus pais, e
+Underfull \hbox (badness 2469) in paragraph at lines 328--343
+\ZZZ ao SENHOR, o Deus de seus pais, e
  []
 
 
@@ -20709,18 +20709,28 @@ Underfull \hbox (badness 2460) in paragraph at lines 328--343
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 328--343
-\ZZZ havia dado repouso. [] Disse por tanto
+Underfull \hbox (badness 1189) in paragraph at lines 328--343
+\ZZZ Judá os altos e as imagens, e esteve o
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 328--343
+\ZZZ reino quieto diante dele. [] E edificou
  []
 
 
 Underfull \hbox (badness 2932) in paragraph at lines 328--343
-\ZZZ as partes. Edificaram, pois, e foram
+\ZZZ as partes\ZZZ . Edificaram, pois, e foram
  []
 
 
 Underfull \hbox (badness 1221) in paragraph at lines 328--343
 \ZZZ mil, e de Benjamim duzentos e oitenta
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 328--343
+\ZZZ milhares, e trezentos carros; e veio até
  []
 
 [397]
@@ -20734,37 +20744,32 @@ Underfull \hbox (badness 2726) in paragraph at lines 346--365
 
 
 Underfull \hbox (badness 2837) in paragraph at lines 346--365
-\ZZZ a Asa, e disse-lhe: Ouvi-me, Asa, e
+\ZZZ a Asa, e disse-lhe: \ZZZ Ouvi-me, Asa, e
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 346--365
-\ZZZ todo Judá e Benjamim: o SENHOR é
+Underfull \hbox (badness 3724) in paragraph at lines 346--365
+\ZZZ todo Judá e Benjamim: O SENHOR
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 346--365
-\ZZZ convosco, se vós fordes com ele: e se
+Underfull \hbox (badness 1762) in paragraph at lines 346--365
+\ZZZ é convosco, se vós fordes com ele: e
  []
 
 
-Underfull \hbox (badness 3769) in paragraph at lines 346--365
-\ZZZ se converteram ao SENHOR Deus de
+Underfull \hbox (badness 3058) in paragraph at lines 346--365
+\ZZZ se lhe buscardes, será achado de vós;
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 346--365
-\ZZZ Israel, e lhe buscaram, ele foi achado
- []
-
-
-Underfull \hbox (badness 1067) in paragraph at lines 346--365
-\ZZZ deles. [] Em aqueles tempos não havia
+Underfull \hbox (badness 2293) in paragraph at lines 346--365
+\ZZZ mas se lhe deixardes, ele também vos
  []
 
 
 Underfull \hbox (badness 1168) in paragraph at lines 346--365
-\ZZZ gente destruía à outra, e uma cidade a
+\ZZZ gente destruía a outra, e uma cidade a
  []
 
 
