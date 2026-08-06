@@ -12,14 +12,11 @@
 \usepackage{etoolbox} % for \ifstrempty e final dos livros.
 \usepackage{setspace} % Espaçamento entre linhas
 \usepackage{fancybox, graphicx} % Caixas de texto e figuras/gráficos 03/05/2026
-\usepackage{tocloft, geometry, multicol, minitoc} % Títulos (sessões, sumários etc), dimensões, colunas e divisão de sumários
-%\usepackage{textcase}
+\usepackage{geometry, multicol} % dimensões, colunas
 \usepackage{hologo, url} % TeX logos e urls.
-% \usepackage{flushend} % colunas balanceadas
-\usepackage{balance} % colunas balanceadas
-% \flushbottom % Testar
+\usepackage{flushend} % colunas balanceadas
+% \usepackage[titles]{tocloft}
 %\usepackage[utf8]{inputenc}
-% \usepackage{pbalance} % colunas balanceadas % Testar
 
 % Cores
 \definecolor{Black}{cmyk}{1, 1, 1, 1} % Preto puro
@@ -68,15 +65,15 @@
 
 % Título curto em coluna única e entrada no sumário, conteúdo em coluna dupla e
 % última página balanceada
-\newcommand{\ShortTitle}[1]{\clearpage\gdef\theshorttitle{#1}\gdef\webbook{#1}\twocolumn[\vspace{-6ex}\section*{}\addcontentsline{toc}{section}{#1}\begin{center}{\Large\centering\bfseries #1 \par}\end{center}]\balance}
+\newcommand{\ShortTitle}[1]{\flushcolsend\clearpage\gdef\theshorttitle{#1}\gdef\webbook{#1}\twocolumn[\vspace{-6ex}\section*{}\addcontentsline{toc}{section}{#1}\begin{center}{\Large\centering\bfseries #1 \par}\end{center}]\flushend}
 
 \newcommand{\theshorttitle}{} % inicializa
 
 \newcommand{\PeriphTitle}[1]{%
-  \clearpage
-  \gdef\theshorttitle{#1}%
-  \gdef\webbook{#1}%
-  \NormalFont
+\clearpage
+\gdef\theshorttitle{#1}%
+\gdef\webbook{#1}%
+\NormalFont
 }
 
 % Título principal
@@ -103,6 +100,27 @@
 \newcommand{\VS}[1]{{\TextColor\raisebox{\RV}{{\footnotesize#1}}\hspace{1mm}\markboth{\webbook\ \webchap #1}{\webbook\ \webchap #1}}} % Verse number
 
 \makeatletter
+
+% % Inicia o multicols no começo do sumário (executado uma vez na primeira compilação)
+% \AtBeginDocument{%
+%   \addtocontents{toc}{\string\begin{multicols}{3}}%
+% }
+
+% % Fecha o multicols atual ANTES de escrever a linha da parte
+% \pretocmd{\@part}{%
+%   \addtocontents{toc}{\string\end{multicols}}%
+% }{}{}
+%
+% % Abre um novo multicols DEPOIS de escrever a linha da parte
+% \apptocmd{\@part}{%
+%   \addtocontents{toc}{\string\begin{multicols}{3}}%
+% }{}{}
+%
+% % Fecha o último bloco multicols no final do documento
+% \AtEndDocument{%
+%   \addtocontents{toc}{\string\end{multicols}}%
+% }
+
 % Nota de rodapé com símbolo personalizado
 \renewcommand{\thefootnote}{\small\alph{footnote}} % letras
 \renewcommand{\@makefnmark}{%
@@ -121,22 +139,6 @@
 
 % Adição de texto (ex.: {\\ADD{...}})
 \newcommand{\ADD}[1]{\textit{#1}}
-
-% Fontes de sumário
-\renewcommand{\cfttoctitlefont}{\MTBSize}
-\renewcommand{\cftchapfont}{\TextSize}
-\renewcommand{\cftsecfont}{\TextSize}
-\renewcommand{\cftchappagefont}{\TextSize}
-\renewcommand{\cftsecpagefont}{\TextSize}
-
-% Ajustes tocloft para sumário em duas colunas
-\setlength{\cftbeforetoctitleskip}{-1ex}
-\setlength{\cftaftertoctitleskip}{0pt}
-\setlength{\cftbeforechapskip}{0pt}
-\setlength{\cftbeforesecskip}{0pt}
-\setlength{\cftparskip}{0pt}
-\setlength{\cftchapindent}{0pt}
-\setlength{\cftsecindent}{1.5em}  % pequeno recuo para seções
 
 % Opcional: remover pontos dos líderes
 %\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}

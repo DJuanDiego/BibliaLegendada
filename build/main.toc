@@ -1,12 +1,24 @@
 \babel@toc {brazilian}{}\relax 
-\contentsline {part}{I\hspace {1em}Antigo Testamento}{1}{part.1}%
-\contentsline {section}{Gênesis}{3}{section*.1}%
-\contentsline {xpart}{Antigo Testamento}{3}{part.1}%
-\contentsline {section}{Êxodo}{62}{section*.2}%
-\contentsline {section}{Levítico}{112}{section*.3}%
-\contentsline {section}{Josué}{149}{section*.4}%
-\contentsline {section}{Juízes}{179}{section*.5}%
-\contentsline {part}{II\hspace {1em}Novo Testamento}{209}{part.2}%
-\contentsline {section}{Mateus}{211}{section*.6}%
-\contentsline {xpart}{Novo Testamento}{211}{part.2}%
-\contentsline {section}{Marcos}{252}{section*.7}%
+\contentsline {part}{Antigo Testamento}{1}{section*.2}%
+\begin {multicols}{3}
+\contentsline {section}{Gênesis}{3}{section*.5}%
+\contentsline {section}{Êxodo}{63}{section*.6}%
+\contentsline {section}{Levítico}{114}{section*.7}%
+\contentsline {section}{Números}{152}{section*.8}%
+\contentsline {section}{Deuteronômio}{204}{section*.9}%
+\contentsline {section}{Josué}{248}{section*.10}%
+\contentsline {section}{Juízes}{279}{section*.11}%
+\contentsline {section}{Rute}{310}{section*.12}%
+\contentsline {section}{1 Samuel}{315}{section*.13}%
+\contentsline {section}{2 Samuel}{355}{section*.14}%
+\contentsline {section}{Malaquias}{388}{section*.15}%
+\end {multicols}
+\contentsline {part}{Novo Testamento}{393}{section*.16}%
+\begin {multicols}{3}
+\contentsline {section}{Mateus}{395}{section*.19}%
+\contentsline {section}{Marcos}{437}{section*.20}%
+\contentsline {section}{Lucas}{463}{section*.21}%
+\contentsline {section}{João}{506}{section*.22}%
+\contentsline {section}{Atos}{537}{section*.23}%
+\contentsline {section}{Apocalipse}{580}{section*.24}%
+\end {multicols}

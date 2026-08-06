@@ -19,18 +19,14 @@
 \input{preamble/PFC}
 % \clearpage
 
-\begin{center}
-	\pagestyle{empty}
-	\Large\bfseries Índice
-	\begin{multicols}{2}
-    \raggedcolumns\large
-    \vspace*{0pt}
-		\renewcommand{\contentsname}{}
-		\tableofcontents
-		\thispagestyle{empty}
+% Sumário Funcional
+% \settocdepth{section}
+\pagestyle{empty}
+{
+\tableofcontents*
+}
+\thispagestyle{empty}
 %		\clearpage
-	\end{multicols}
-\end{center}
 
 \mainmatter
 \pagestyle{myheadings}
@@ -46,16 +42,33 @@
 \setlength\columnsep{0.55cm}
 
 % \input{source/livros.tex}
-\part{Antigo Testamento}\minitoc
+\phantomsection
+\addcontentsline{toc}{part}{Antigo Testamento}
+\addtocontents{toc}{\string\begin{multicols}{3}}
+\part*{Antigo Testamento}
 \input{source/AT/01 - GEN_src.tex}
 \input{source/AT/02 - EXO_src.tex}
 \input{source/AT/03 - LEV_src.tex}
+\input{source/AT/04 - NUM_src.tex}
+\input{source/AT/05 - DEU_src.tex}
 \input{source/AT/06 - JOS_src.tex}
 \input{source/AT/07 - JDG_src.tex}
-%\input{source/AT/08 - RUT_src.tex}
-\part{Novo Testamento}\minitoc
+\input{source/AT/08 - RUT_src.tex}
+\input{source/AT/09 - 1SA_src.tex}
+\input{source/AT/10 - 2SA_src.tex}
+\input{source/AT/39 - MAL_src.tex} % Inserir flushcolsend no final %TODO
+\addtocontents{toc}{\string\end{multicols}}
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{part}{Novo Testamento}
+\addtocontents{toc}{\string\begin{multicols}{3}}
+\part*{Novo Testamento}
 \input{source/NT/40 - MAT_src.tex}
 \input{source/NT/41 - MRK_src.tex}
-%\input{source/NT/42 - LUK_src.tex}
-
+\input{source/NT/42 - LUK_src.tex}
+\input{source/NT/43 - JHN_src.tex}
+\input{source/NT/44 - ACT_src.tex}
+\input{source/NT/66 - REV_src.tex} % Inserir flushcolsend no final %TODO
+\addtocontents{toc}{\string\end{multicols}}
 \end{document}
