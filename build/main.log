@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.6.12)  4 AUG 2026 16:51
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.6.12)  6 AUG 2026 17:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -20786,8 +20786,8 @@ Underfull \hbox (badness 1005) in paragraph at lines 368--382
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 368--382
-[] \ZZZ Haja aliança entre mim e ti, como a
+Underfull \hbox (badness 1205) in paragraph at lines 368--382
+\ZZZ enviei prata e ouro, para que venhas e
  []
 
 
@@ -20855,11 +20855,6 @@ Underfull \hbox (badness 1448) in paragraph at lines 385--404
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 385--404
-\ZZZ duzentos e oitenta mil; [] Depois este,
- []
-
-
 Underfull \hbox (badness 1742) in paragraph at lines 385--404
 \ZZZ oferecido voluntariamente ao SENHOR,
  []
@@ -20872,13 +20867,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: Reference `0' on page 400 undefined on input line 406.
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 407--441
-\ZZZ desceu a Acabe a Samaria; por o que
+Underfull \hbox (badness 1210) in paragraph at lines 407--441
+\ZZZ de Judá: \ZZZ Queres vir comigo a Ramote
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 407--441
-\ZZZ respondeu a Josafá: Ainda há aqui um
+Underfull \hbox (badness 1895) in paragraph at lines 407--441
+\ZZZ de Gileade? \ZZZ E ele respondeu: \ZZZ Como
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 407--441
+\ZZZ ou ficarei eu quieto? \ZZZ E eles disseram:
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 407--441
+\ZZZ profeta do SENHOR, para que por ele
  []
 
 
@@ -20888,13 +20893,10 @@ Underfull \hbox (badness 1424) in paragraph at lines 407--441
 
 
 Underfull \hbox (badness 1688) in paragraph at lines 407--441
-\ZZZ gravemente ferido. [] E intensificou a
+\ZZZ gravemente ferido\ZZZ . [] E intensificou a
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [400]
+[400]
 
 LaTeX Warning: Reference `0' on page 401 undefined on input line 443.
 
@@ -20904,8 +20906,8 @@ Underfull \hbox (badness 1303) in paragraph at lines 444--455
  []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 444--455
-\ZZZ os bosques, e dispuseste tua coração a
+Underfull \hbox (badness 1742) in paragraph at lines 444--455
+\ZZZ os bosques, e dispuseste teu coração a
  []
 
 
@@ -20942,18 +20944,33 @@ Underfull \hbox (badness 1796) in paragraph at lines 458--495
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 458--495
-\ZZZ multidão; porque não é vossa a guerra,
+Underfull \hbox (badness 1466) in paragraph at lines 458--495
+\ZZZ filhos. [] E estava ali Jaaziel filho de
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 458--495
-\ZZZ de Ziz, e os achareis junto ao ribeiro,
+Underfull \hbox (badness 1590) in paragraph at lines 458--495
+\ZZZ e tu, rei Josafá. o SENHOR vos diz
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 458--495
-\ZZZ não temais nem desmaieis; saí amanhã
+Underfull \hbox (badness 2050) in paragraph at lines 458--495
+\ZZZ eles subirão pela encosta de Ziz, e os
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 458--495
+\ZZZ lutardes neste caso [][][][][]: Parai-vos, ficai
+ []
+
+
+Underfull \hbox (badness 4096) in paragraph at lines 458--495
+\ZZZ convosco. Ó Judá e Jerusalém, não
+ []
+
+
+Underfull \hbox (badness 3646) in paragraph at lines 458--495
+\ZZZ eles, que o SENHOR será convosco\ZZZ ”\ZZZ .
  []
 
 
@@ -20983,7 +21000,7 @@ Underfull \hbox (badness 1028) in paragraph at lines 458--495
 
 
 Underfull \hbox (badness 1533) in paragraph at lines 458--495
-\ZZZ pé, disse: Ouvi-me, Judá e moradores
+\ZZZ pé, disse: \ZZZ Ouvi-me, Judá e moradores
  []
 
 
@@ -20993,7 +21010,7 @@ Underfull \hbox (badness 1931) in paragraph at lines 458--495
 
 
 Underfull \hbox (badness 1221) in paragraph at lines 458--495
-\ZZZ para sempre. [] E quando começaram
+\ZZZ para sempre\ZZZ . [] E quando começaram
  []
 
 
@@ -21022,25 +21039,731 @@ Underfull \hbox (badness 1460) in paragraph at lines 458--495
  []
 
 
-Underfull \hbox (badness 1484) in paragraph at lines 458--495
-\ZZZ Deus de seus pais. [] Os demais dos
+Underfull \hbox (badness 2460) in paragraph at lines 458--495
+\ZZZ contra os inimigos de Israel. [] E o
  []
 
 
-Underfull \hbox (badness 2680) in paragraph at lines 458--495
-\ZZZ que estão escritos nas palavras de Jeú
+Underfull \hbox (badness 1424) in paragraph at lines 458--495
+[] \ZZZ Assim reinou Josafá sobre Judá: de
  []
 
 [401]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [402]
+
+LaTeX Warning: Reference `0' on page 403 undefined on input line 497.
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 498--518
+\ZZZ que as entranhas saiam de ti por causa
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 498--518
+\ZZZ da enfermidade de cada dia. [] Então
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 498--518
+\ZZZ despertou o SENHOR contra Jeorão o
+ []
+
+
+Underfull \hbox (badness 2134) in paragraph at lines 498--518
+\ZZZ espírito dos filisteus, e dos árabes que
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 498--518
+\ZZZ não fez queima em homenagem a ele,
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [402]))
-[403
+ [403]
 
-] (./build/main.aux)
+LaTeX Warning: Reference `0' on page 404 undefined on input line 520.
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 521--533
+\ZZZ porque sua mãe lhe aconselhava a agir
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 521--533
+\ZZZ feridas que lhe haviam feito em Ramá,
+ []
+
+
+LaTeX Warning: Reference `0' on page 404 undefined on input line 535.
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 536--557
+\ZZZ testemunho, e fizeram-lhe rei; e Joiada
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 536--557
+\ZZZ rasgou seus vestidos, e disse: Traição!
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 536--557
+\ZZZ e logo que havia ela passado a entrada
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 536--557
+\ZZZ de Davi. [] Pôs também porteiros às
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 536--557
+\ZZZ portas da casa do SENHOR, para que
+ []
+
+[404]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 405 undefined on input line 559.
+
+
+Underfull \hbox (badness 6268) in paragraph at lines 560--587
+\ZZZ a reinar, e quarenta anos reinou em
+ []
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 560--587
+\ZZZ duas mulheres; e gerou filhos e filhas.
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 560--587
+[] \ZZZ Depois disto aconteceu que Joás teve
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 560--587
+\ZZZ Atalia e seus filhos haviam destruído a
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 560--587
+\ZZZ Moisés servo de Deus havia imposto a
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 560--587
+\ZZZ quando viam que havia muito dinheiro,
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 560--587
+\ZZZ pelo sumo sacerdote, e levavam a arca,
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 560--587
+\ZZZ do SENHOR, e ferreiros e artesãos de
+ []
+
+
+Underfull \hbox (badness 2961) in paragraph at lines 560--587
+[] \ZZZ Faziam, pois, os oficiais a obra, e
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 560--587
+\ZZZ por suas mãos foi a obra restaurada, e
+ []
+
+
+Underfull \hbox (badness 5847) in paragraph at lines 560--587
+\ZZZ acabado, trouxeram o que restava do
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 560--587
+\ZZZ o serviço, utensílios para os sacrifícios,
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 560--587
+\ZZZ colheres, vasos de ouro e de prata. E
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 560--587
+\ZZZ vieram os príncipes de Judá, e fizeram
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 560--587
+\ZZZ de seus pais, e serviram aos bosques e
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 560--587
+\ZZZ Judá e Jerusalém por este seu pecado.
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 560--587
+[] \ZZZ E enviou-lhes profetas, para que os
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 560--587
+\ZZZ sobre o povo, lhes disse: Assim disse
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 560--587
+\ZZZ ele também vos deixará. [] Mas eles
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 560--587
+\ZZZ lhe de pedras por mandado do rei, no
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 560--587
+\ZZZ seus pais. E com Joás fizeram juízos.
+ []
+
+[405]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 406 undefined on input line 589.
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 590--618
+\ZZZ porque em Deus está a força, ou para
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 590--618
+\ZZZ grandemente contra Judá, e voltaram a
+ []
+
+
+Underfull \hbox (badness 3557) in paragraph at lines 590--618
+\ZZZ porque não fossem com ele à guerra,
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 590--618
+\ZZZ deles três mil, e tomaram um grande
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 590--618
+\ZZZ despojo. [] Regressando logo Amasias
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 590--618
+\ZZZ povo de tuas mãos? [] E falando-lhe
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 590--618
+\ZZZ cardo que estava no Líbano, enviou ao
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 590--618
+\ZZZ em Bete-Semes a Amazias rei de Judá,
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 590--618
+\ZZZ vasos que se acharam na casa de Deus
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 590--618
+\ZZZ filho de Joás, rei de Judá, quinze anos
+ []
+
+[406]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 407 undefined on input line 620.
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 621--644
+[][] \ZZZ Então todo o povo de Judá tomou
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 621--644
+\ZZZ à porta do ângulo, e junto à porta do
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 621--644
+\ZZZ vale, e junto às esquinas; e fortificou-
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 621--644
+\ZZZ e vinhas, e lavouras, assim nos montes
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 621--644
+\ZZZ da agricultura. [] Teve também Uzias
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 621--644
+\ZZZ por lista feita por mão de Jeiel escriba
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 621--644
+\ZZZ e esforçados, era dois mil e seiscentos.
+ []
+
+
+Underfull \hbox (badness 1867) in paragraph at lines 621--644
+\ZZZ até fazer-se forte. [] Mas quando foi
+ []
+
+
+Underfull \hbox (badness 3623) in paragraph at lines 621--644
+\ZZZ primeiros e últimos, escreveu-os Isaías
+ []
+
+[407]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 408 undefined on input line 646.
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 647--656
+\ZZZ muito. [] Ademais edificou cidades nas
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 647--656
+\ZZZ guerra com o rei dos filhos de Amom,
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 647--656
+\ZZZ de Amom naquele ano cem talentos de
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 647--656
+\ZZZ SENHOR seu Deus. [] Os demais dos
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 647--656
+\ZZZ começou a reinar era de vinte e cinco
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 647--656
+\ZZZ anos, e dezesseis reinou em Jerusalém.
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 647--656
+[] \ZZZ E descansou Jotão com seus pais, e
+ []
+
+[408]
+
+LaTeX Warning: Reference `0' on page 409 undefined on input line 658.
+
+
+Underfull \hbox (badness 7777) in paragraph at lines 659--686
+[][] \ZZZ De vinte anos era Acaz quando
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 659--686
+\ZZZ em Jerusalém: mas não fez o que era
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 659--686
+\ZZZ altos, e nas colinas, e debaixo de toda
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 659--686
+\ZZZ dele uma grande presa, que levaram a
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 659--686
+\ZZZ do rei, e a Azricão seu mordomo, e a
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 659--686
+\ZZZ de vossos irmãos: porque o SENHOR
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 659--686
+\ZZZ então alguns homens dos principais dos
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 659--686
+\ZZZ sobre nós. Vós tratais de acrescentar
+ []
+
+
+Underfull \hbox (badness 2134) in paragraph at lines 659--686
+\ZZZ o exército deixou os cativos e a presa
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 659--686
+[] \ZZZ Naquele tempo enviou a pedir o rei
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 659--686
+\ZZZ vindo e ferido aos de Judá, e haviam
+ []
+
+
+Underfull \hbox (badness 4543) in paragraph at lines 659--686
+\ZZZ levado cativos. [] Assim os filisteus
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 659--686
+\ZZZ haviam invadido as cidades da planície,
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 659--686
+\ZZZ e ao sul de Judá, e haviam tomado a
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 659--686
+\ZZZ com suas aldeias, Timna também com
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [409]
+
+LaTeX Warning: Reference `0' on page 410 undefined on input line 688.
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 689--725
+\ZZZ era mau aos olhos do SENHOR nosso
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 689--725
+\ZZZ diante dele, e lhe sirvais, e sejais seus
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 689--725
+\ZZZ e Matanias; [] E dos filhos de Hemã,
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 689--725
+\ZZZ Semaías e Uziel. [] Estes juntaram a
+ []
+
+
+Underfull \hbox (badness 3029) in paragraph at lines 689--725
+\ZZZ conforme ao mandamento do rei e as
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 689--725
+\ZZZ para tirá-la fora ao ribeiro de Cedrom.
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 689--725
+[] \ZZZ E começaram a santificar o primeiro
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 689--725
+\ZZZ mês vieram ao pórtico do SENHOR: e
+ []
+
+
+Underfull \hbox (badness 3826) in paragraph at lines 689--725
+\ZZZ dias, e no dezesseis do mês primeiro
+ []
+
+
+Underfull \hbox (badness 4886) in paragraph at lines 689--725
+\ZZZ acabaram. [] Logo passaram ao rei
+ []
+
+
+Underfull \hbox (badness 5460) in paragraph at lines 689--725
+\ZZZ e todos seus instrumentos, e a mesa
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 689--725
+\ZZZ os vasos que em sua transgressão havia
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 689--725
+\ZZZ o altar; também mataram os cordeiros,
+ []
+
+
+Underfull \hbox (badness 5175) in paragraph at lines 689--725
+\ZZZ e espargiram o sangue sobre o altar.
+ []
+
+
+Underfull \hbox (badness 2790) in paragraph at lines 689--725
+[] \ZZZ Fizeram depois chegar os bodes da
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 689--725
+\ZZZ expiação diante do rei e da multidão,
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 689--725
+\ZZZ e puseram sobre eles suas mãos: [] E
+ []
+
+
+Underfull \hbox (badness 3386) in paragraph at lines 689--725
+\ZZZ os sacerdotes os mataram, e expiando
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 689--725
+\ZZZ e harpas, conforme ao mandamento de
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 689--725
+\ZZZ profeta: porque aquele mandamento foi
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 689--725
+\ZZZ profetas. [] E os levitas estavam com
+ []
+
+
+Underfull \hbox (badness 4084) in paragraph at lines 689--725
+\ZZZ sacrificar o holocausto no altar; e ao
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 689--725
+\ZZZ soavam as trombetas; tudo até acabar-
+ []
+
+
+Underfull \hbox (badness 2343) in paragraph at lines 689--725
+\ZZZ de oferecer, inclinou-se o rei, e todos
+ []
+
+
+Underfull \hbox (badness 3088) in paragraph at lines 689--725
+\ZZZ os que com ele estavam, e adoraram.
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 689--725
+[] \ZZZ Então o rei Ezequias e os príncipes
+ []
+
+
+Underfull \hbox (badness 3240) in paragraph at lines 689--725
+\ZZZ disseram aos levitas que louvassem ao
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 689--725
+\ZZZ SENHOR pelas palavras de Davi e de
+ []
+
+
+Underfull \hbox (badness 5696) in paragraph at lines 689--725
+\ZZZ Asafe vidente: e eles louvaram com
+ []
+
+
+Underfull \hbox (badness 2229) in paragraph at lines 689--725
+[] \ZZZ E respondendo Ezequias disse: Vós
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 689--725
+\ZZZ e louvores na casa do SENHOR. E a
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 689--725
+[] \ZZZ E foi o número dos holocaustos que
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 689--725
+\ZZZ de coração para se santificarem que os
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 689--725
+\ZZZ de ofertas pacíficas, e libações de cada
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 689--725
+\ZZZ da casa do SENHOR. [] E alegrou-se
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 689--725
+\ZZZ Ezequias, e todo o povo, de que Deus
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [410]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 411 undefined on input line 727.
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 728--755
+[][] \ZZZ Enviou também Ezequias por todo
+ []
+
+
+Underfull \hbox (badness 2865) in paragraph at lines 728--755
+\ZZZ havia suficientes sacerdotes santificados,
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 728--755
+\ZZZ Israel, desde Berseba até Dã, para que
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 728--755
+\ZZZ modo que está escrito. [] Foram, pois,
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 728--755
+\ZZZ furor se apartará de vós. [] Porque se
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 728--755
+\ZZZ conforme à palavra do SENHOR. [] E
+ []
+
+
+Underfull \hbox (badness 4060) in paragraph at lines 728--755
+\ZZZ altares de incenso, e lançaram-nos no
+ []
+
+
+Underfull \hbox (badness 2932) in paragraph at lines 728--755
+\ZZZ à casa do SENHOR. [] E puseram-se
+ []
+
+
+Underfull \hbox (badness 3872) in paragraph at lines 728--755
+\ZZZ os sacerdotes espargiam o sangue que
+ []
+
+
+Underfull \hbox (badness 4859) in paragraph at lines 728--755
+\ZZZ havia muitos na congregação que não
+ []
+
+
+Underfull \hbox (badness 3536) in paragraph at lines 728--755
+\ZZZ está escrito. Mas Ezequias orou por
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 728--755
+\ZZZ eles, dizendo: SENHOR, que é bom,
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 728--755
+\ZZZ seu coração para buscar a Deus, [] Ao
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 728--755
+\ZZZ do santuário. [] E ouviu o SENHOR
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 728--755
+\ZZZ a Ezequias, e sarou o povo. [] Assim
+ []
+
+
+Underfull \hbox (badness 4872) in paragraph at lines 728--755
+\ZZZ celebraram os filhos de Israel que se
+ []
+
+
+Underfull \hbox (badness 4543) in paragraph at lines 728--755
+\ZZZ os levitas que tinham boa inteligência
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 728--755
+\ZZZ sacrificado na solenidade por sete dias,
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 728--755
+\ZZZ e dez mil ovelhas: e muitos sacerdotes
+ []
+
+[411]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)) [412]
+(./build/main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -21065,4 +21788,4 @@ Here is how much of TeX's memory you used:
  16 hyphenation exceptions out of 8191
  78i,6n,96p,1157b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ./build/main.pdf (407 pages).
+Output written on ./build/main.pdf (416 pages).
