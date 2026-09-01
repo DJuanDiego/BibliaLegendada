@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.6.12)  6 AUG 2026 17:21
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.6.12)  1 SEP 2026 15:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -21061,11 +21061,6 @@ Underfull \hbox (badness 1028) in paragraph at lines 498--518
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 498--518
-\ZZZ da enfermidade de cada dia. [] Então
- []
-
-
 Underfull \hbox (badness 2469) in paragraph at lines 498--518
 \ZZZ despertou o SENHOR contra Jeorão o
  []
@@ -21080,10 +21075,7 @@ Underfull \hbox (badness 2384) in paragraph at lines 498--518
 \ZZZ não fez queima em homenagem a ele,
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [403]
+[403]
 
 LaTeX Warning: Reference `0' on page 404 undefined on input line 520.
 
@@ -21107,7 +21099,7 @@ Underfull \hbox (badness 1406) in paragraph at lines 536--557
 
 
 Underfull \hbox (badness 1661) in paragraph at lines 536--557
-\ZZZ rasgou seus vestidos, e disse: Traição!
+\ZZZ rasgou seus vestidos, e disse: \ZZZ Traição!
  []
 
 
@@ -21218,13 +21210,13 @@ Underfull \hbox (badness 2384) in paragraph at lines 560--587
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 560--587
-\ZZZ sobre o povo, lhes disse: Assim disse
+Underfull \hbox (badness 5260) in paragraph at lines 560--587
+\ZZZ “  \ZZZ Por que quebrantais os mandamentos
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 560--587
-\ZZZ ele também vos deixará. [] Mas eles
+Underfull \hbox (badness 1270) in paragraph at lines 560--587
+\ZZZ ele também vos deixará\ZZZ ”\ZZZ . [] Mas eles
  []
 
 
@@ -21265,28 +21257,28 @@ Underfull \hbox (badness 3364) in paragraph at lines 590--618
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 590--618
-\ZZZ despojo. [] Regressando logo Amasias
+Underfull \hbox (badness 1412) in paragraph at lines 590--618
+\ZZZ despojo. [] Regressando logo Amazias
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 590--618
-\ZZZ povo de tuas mãos? [] E falando-lhe
+Underfull \hbox (badness 1173) in paragraph at lines 590--618
+\ZZZ povo de tuas mãos?\ZZZ ” [] \ZZZ E falando-lhe
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 590--618
-\ZZZ cardo que estava no Líbano, enviou ao
+Underfull \hbox (badness 1521) in paragraph at lines 590--618
+\ZZZ em mal, para cair tu e Judá contigo?\ZZZ ”
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 590--618
-\ZZZ em Bete-Semes a Amazias rei de Judá,
+Underfull \hbox (badness 2150) in paragraph at lines 590--618
+\ZZZ isto era da parte de Deus, que queria
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 590--618
-\ZZZ vasos que se acharam na casa de Deus
+Underfull \hbox (badness 1270) in paragraph at lines 590--618
+\ZZZ os entregar nas mãos de seus inimigos,
  []
 
 
@@ -21298,8 +21290,11 @@ Underfull \hbox (badness 1158) in paragraph at lines 590--618
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `0' on page 407 undefined on input line 620.
+ [407]
+
+LaTeX Warning: Reference `0' on page 408 undefined on input line 620.
 
 
 Underfull \hbox (badness 1478) in paragraph at lines 621--644
@@ -21345,10 +21340,6 @@ Underfull \hbox (badness 1867) in paragraph at lines 621--644
 Underfull \hbox (badness 3623) in paragraph at lines 621--644
 \ZZZ primeiros e últimos, escreveu-os Isaías
  []
-
-[407]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 
 LaTeX Warning: Reference `0' on page 408 undefined on input line 646.
@@ -21762,8 +21753,13 @@ Underfull \hbox (badness 1014) in paragraph at lines 728--755
 [411]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)) [412]
-(./build/main.aux)
+))
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [412]
+[413
+
+] (./build/main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -21788,4 +21784,4 @@ Here is how much of TeX's memory you used:
  16 hyphenation exceptions out of 8191
  78i,6n,96p,1157b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ./build/main.pdf (416 pages).
+Output written on ./build/main.pdf (417 pages).
