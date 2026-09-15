@@ -1,8 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.6.12)  1 SEP 2026 15:58
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.6.12)  15 SEP 2026 15:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
+**main.tex porbr2018_a4.tex porbr2018_all.tex porbr2018_book.tex porbr2018_prt.
+tex print.tex
 (./main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -869,7 +870,7 @@ Package csquotes Info: Redefining alias 'default' -> 'brazilian'.
 LaTeX Warning: Unused global option(s):
     [paper].
 
-(./build//main.aux
+(build//main.aux
 Package babel Info: 'brazilian' activates 'portuges' shorthands.
 (babel)             Reported on input line 8.
 )
@@ -916,7 +917,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package hyperref Info: Link coloring ON on input line 20.
-(./build//main.out) (./build//main.out)
+(build//main.out) (build//main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -1033,7 +1034,7 @@ ttp://
 
 ]) (./preamble/PFC.tex [3
 
-]) (./build/main.toc
+]) (build/main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -21459,6 +21460,11 @@ Underfull \hbox (badness 2512) in paragraph at lines 659--686
  []
 
 
+Underfull \hbox (badness 1253) in paragraph at lines 659--686
+\ZZZ provocando assim a ira ao SENHOR o
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [409]
@@ -21476,118 +21482,73 @@ Underfull \hbox (badness 1448) in paragraph at lines 689--725
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 689--725
-\ZZZ e Matanias; [] E dos filhos de Hemã,
+Underfull \hbox (badness 1137) in paragraph at lines 689--725
+\ZZZ e santificaram-se, e entraram, conforme
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 689--725
-\ZZZ Semaías e Uziel. [] Estes juntaram a
+Underfull \hbox (badness 1533) in paragraph at lines 689--725
+\ZZZ do SENHOR: e santificaram a casa do
  []
 
 
-Underfull \hbox (badness 3029) in paragraph at lines 689--725
-\ZZZ conforme ao mandamento do rei e as
+Underfull \hbox (badness 1389) in paragraph at lines 689--725
+\ZZZ SENHOR em oito dias, e no dezesseis
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 689--725
-\ZZZ para tirá-la fora ao ribeiro de Cedrom.
+Underfull \hbox (badness 3536) in paragraph at lines 689--725
+\ZZZ do mês primeiro acabaram. [] Logo
  []
 
 
-Underfull \hbox (badness 1067) in paragraph at lines 689--725
-[] \ZZZ E começaram a santificar o primeiro
+Underfull \hbox (badness 1087) in paragraph at lines 689--725
+\ZZZ Já limpamos toda a casa do SENHOR,
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 689--725
-\ZZZ mês vieram ao pórtico do SENHOR: e
+Underfull \hbox (badness 1939) in paragraph at lines 689--725
+\ZZZ o altar do holocausto, e todos \ZZZ os \ZZZ seus
  []
 
 
-Underfull \hbox (badness 3826) in paragraph at lines 689--725
-\ZZZ dias, e no dezesseis do mês primeiro
+Underfull \hbox (badness 2894) in paragraph at lines 689--725
+\ZZZ o altar; mataram logo os carneiros, e
  []
 
 
-Underfull \hbox (badness 4886) in paragraph at lines 689--725
-\ZZZ acabaram. [] Logo passaram ao rei
+Underfull \hbox (badness 3439) in paragraph at lines 689--725
+\ZZZ mataram os cordeiros, e espargiram o
  []
 
 
-Underfull \hbox (badness 5460) in paragraph at lines 689--725
-\ZZZ e todos seus instrumentos, e a mesa
+Underfull \hbox (badness 1558) in paragraph at lines 689--725
+\ZZZ mãos: [] E os sacerdotes os mataram,
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 689--725
-\ZZZ os vasos que em sua transgressão havia
+Underfull \hbox (badness 4072) in paragraph at lines 689--725
+\ZZZ e expiando espargiram o sangue deles
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 689--725
-\ZZZ o altar; também mataram os cordeiros,
+Underfull \hbox (badness 4048) in paragraph at lines 689--725
+\ZZZ sobre o altar, para reconciliar a todo
  []
 
 
-Underfull \hbox (badness 5175) in paragraph at lines 689--725
-\ZZZ e espargiram o sangue sobre o altar.
+Underfull \hbox (badness 2828) in paragraph at lines 689--725
+\ZZZ no altar; e ao tempo que começou o
  []
 
 
-Underfull \hbox (badness 2790) in paragraph at lines 689--725
-[] \ZZZ Fizeram depois chegar os bodes da
+Underfull \hbox (badness 1831) in paragraph at lines 689--725
+\ZZZ holocausto, começou também o cântico
  []
 
 
-Underfull \hbox (badness 3364) in paragraph at lines 689--725
-\ZZZ expiação diante do rei e da multidão,
- []
-
-
-Underfull \hbox (badness 1430) in paragraph at lines 689--725
-\ZZZ e puseram sobre eles suas mãos: [] E
- []
-
-
-Underfull \hbox (badness 3386) in paragraph at lines 689--725
-\ZZZ os sacerdotes os mataram, e expiando
- []
-
-
-Underfull \hbox (badness 1590) in paragraph at lines 689--725
-\ZZZ e harpas, conforme ao mandamento de
- []
-
-
-Underfull \hbox (badness 1028) in paragraph at lines 689--725
-\ZZZ profeta: porque aquele mandamento foi
- []
-
-
-Underfull \hbox (badness 1454) in paragraph at lines 689--725
-\ZZZ profetas. [] E os levitas estavam com
- []
-
-
-Underfull \hbox (badness 4084) in paragraph at lines 689--725
-\ZZZ sacrificar o holocausto no altar; e ao
- []
-
-
-Underfull \hbox (badness 2269) in paragraph at lines 689--725
-\ZZZ soavam as trombetas; tudo até acabar-
- []
-
-
-Underfull \hbox (badness 2343) in paragraph at lines 689--725
-\ZZZ de oferecer, inclinou-se o rei, e todos
- []
-
-
-Underfull \hbox (badness 3088) in paragraph at lines 689--725
-\ZZZ os que com ele estavam, e adoraram.
+Underfull \hbox (badness 3646) in paragraph at lines 689--725
+\ZZZ do SENHOR, com as trombetas e os
  []
 
 
@@ -21612,12 +21573,12 @@ Underfull \hbox (badness 5696) in paragraph at lines 689--725
 
 
 Underfull \hbox (badness 2229) in paragraph at lines 689--725
-[] \ZZZ E respondendo Ezequias disse: Vós
+[] \ZZZ E respondendo Ezequias disse: \ZZZ Vós
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 689--725
-\ZZZ e louvores na casa do SENHOR. E a
+Underfull \hbox (badness 1077) in paragraph at lines 689--725
+\ZZZ e louvores na casa do SENHOR\ZZZ . E a
  []
 
 
@@ -21712,7 +21673,7 @@ Underfull \hbox (badness 3536) in paragraph at lines 728--755
 
 
 Underfull \hbox (badness 2875) in paragraph at lines 728--755
-\ZZZ eles, dizendo: SENHOR, que é bom,
+\ZZZ eles, dizendo: \ZZZ SENHOR, que é bom,
  []
 
 
@@ -21722,7 +21683,7 @@ Underfull \hbox (badness 1024) in paragraph at lines 728--755
 
 
 Underfull \hbox (badness 1675) in paragraph at lines 728--755
-\ZZZ do santuário. [] E ouviu o SENHOR
+\ZZZ do santuário\ZZZ . [] E ouviu o SENHOR
  []
 
 
@@ -21753,13 +21714,586 @@ Underfull \hbox (badness 1014) in paragraph at lines 728--755
 [411]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-))
-Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Underfull \vbox (badness 1033) has occurred while \output is active []
 
  [412]
-[413
 
-] (./build/main.aux)
+LaTeX Warning: Reference `0' on page 413 undefined on input line 757.
+
+
+Underfull \hbox (badness 2409) in paragraph at lines 758--779
+[][] \ZZZ Feitas todas estas coisas, todos os
+ []
+
+
+Underfull \hbox (badness 8189) in paragraph at lines 758--779
+\ZZZ de Israel que se haviam achado ali,
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 758--779
+\ZZZ as estátuas e destruíram os bosques, e
+ []
+
+
+Underfull \hbox (badness 5970) in paragraph at lines 758--779
+\ZZZ derrubaram os altos e os altares por
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 758--779
+\ZZZ todo Judá e Benjamim, e também em
+ []
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 758--779
+\ZZZ seu ofício, os sacerdotes e os levitas
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 758--779
+\ZZZ para o holocausto e pacíficos, para que
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 758--779
+\ZZZ ministrassem, para que confessassem e
+ []
+
+
+Underfull \hbox (badness 2351) in paragraph at lines 758--779
+\ZZZ louvassem às portas dos acampamentos
+ []
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 758--779
+\ZZZ do SENHOR. [] A contribuição do rei
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 758--779
+\ZZZ e tarde, e holocaustos para os sábados,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 758--779
+\ZZZ ao povo que habitava em Jerusalém,
+ []
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 758--779
+\ZZZ que dessem a porção aos sacerdotes e
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 758--779
+\ZZZ levitas, para que se esforçassem na lei
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 758--779
+\ZZZ de todos os frutos da terra: trouxeram
+ []
+
+
+Underfull \hbox (badness 2351) in paragraph at lines 758--779
+\ZZZ das vacas e das ovelhas: e trouxeram
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 758--779
+\ZZZ e puseram-nos por amontoados. [] No
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 758--779
+\ZZZ aos sacerdotes e aos levitas acerca dos
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 758--779
+\ZZZ disse: Desde que começaram a trazer
+ []
+
+
+Underfull \hbox (badness 4726) in paragraph at lines 758--779
+\ZZZ e nos saciamos, e nos sobrou muito:
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 758--779
+\ZZZ do SENHOR; e prepararam-nas. [] E
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 758--779
+\ZZZ a Conanias levita, o principal, e Simei
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 758--779
+\ZZZ seu irmão foi o segundo. [] E Jeiel,
+ []
+
+
+Underfull \hbox (badness 1701) in paragraph at lines 758--779
+\ZZZ diária por seu ministério, segundo seus
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 758--779
+\ZZZ de seus pais, e aos levitas de idade de
+ []
+
+
+LaTeX Warning: Reference `0' on page 413 undefined on input line 781.
+
+
+Underfull \hbox (badness 2903) in paragraph at lines 782--815
+\ZZZ em Judá, e assentou campo contra as
+ []
+
+
+Underfull \hbox (badness 3019) in paragraph at lines 782--815
+\ZZZ cidades fortes, e determinou de entrar
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 782--815
+\ZZZ os reis de Assíria muitas águas quando
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 782--815
+\ZZZ fortificou também a Milo na cidade de
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 782--815
+\ZZZ pôs capitães de guerra sobre o povo, e
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 782--815
+\ZZZ ele está a força da carne, mas conosco
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 782--815
+\ZZZ para espantá-los e pôr-lhes temor, para
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 782--815
+\ZZZ de Jerusalém das mãos de Senaqueribe
+ []
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 782--815
+\ZZZ e foi muito grande diante de todas as
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 782--815
+\ZZZ de tesouros de prata e ouro, de pedras
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 782--815
+\ZZZ para si também cidades, e rebanhos de
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [413]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [414]
+
+LaTeX Warning: Reference `0' on page 415 undefined on input line 817.
+
+
+Underfull \hbox (badness 1867) in paragraph at lines 818--843
+\ZZZ começou a reinar, e cinquenta e cinco
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 818--843
+\ZZZ anos reinou em Jerusalém. [] Mas fez
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 818--843
+\ZZZ da casa do SENHOR. [] E passou seus
+ []
+
+
+Underfull \hbox (badness 3977) in paragraph at lines 818--843
+\ZZZ filhos por fogo no vale dos filhos de
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 818--843
+\ZZZ supersticiosas, e feitiçarias, e consultava
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 818--843
+\ZZZ pois, Manassés desviar-se a Judá e aos
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 818--843
+\ZZZ diante dos filhos de Israel. [] E falou
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 818--843
+\ZZZ o SENHOR a Manassés e a seu povo,
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 818--843
+\ZZZ mas eles não escutaram: [] Por isso o
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 818--843
+\ZZZ acorrentado com correntes levaram-no a
+ []
+
+
+Underfull \hbox (badness 1783) in paragraph at lines 818--843
+\ZZZ humilhado grandemente na presença do
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 818--843
+\ZZZ que se humilhasse, eis que estas coisas
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 818--843
+\ZZZ estão escritas nas palavras dos videntes.
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 818--843
+\ZZZ aumentou o pecado. [] E conspiraram
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [415]
+
+LaTeX Warning: Reference `0' on page 416 undefined on input line 845.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 846--880
+[][] \ZZZ De oito anos era Josias quando
+ []
+
+
+Underfull \hbox (badness 4328) in paragraph at lines 846--880
+\ZZZ aos olhos do SENHOR, e andou nos
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 846--880
+\ZZZ postas encima; despedaçou também os
+ []
+
+
+Underfull \hbox (badness 2932) in paragraph at lines 846--880
+\ZZZ bosques, e as esculturas e estátuas de
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 846--880
+\ZZZ ao redor. [] E quando havia derrubado
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 846--880
+\ZZZ os altares e os bosques, e quebrado e
+ []
+
+
+Underfull \hbox (badness 5231) in paragraph at lines 846--880
+\ZZZ esmigalhado as esculturas, e destruído
+ []
+
+
+Underfull \hbox (badness 6842) in paragraph at lines 846--880
+\ZZZ Azalias, e a Maaseias governador da
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 846--880
+\ZZZ e de todas as restantes de Israel, e de
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 846--880
+\ZZZ todo Judá e Benjamim, havendo depois
+ []
+
+
+Underfull \hbox (badness 4096) in paragraph at lines 846--880
+\ZZZ na casa do SENHOR, para reparar e
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 846--880
+\ZZZ em instrumentos musicais. [] Também
+ []
+
+
+Underfull \hbox (badness 5726) in paragraph at lines 846--880
+\ZZZ supervisionavam sobre os operários, e
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 846--880
+\ZZZ não guardaram a palavra do SENHOR,
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 846--880
+\ZZZ enviou a consultar ao SENHOR, assim
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 846--880
+\ZZZ suas palavras sobre este lugar, e sobre
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 846--880
+\ZZZ SENHOR, e com ele todos os homens
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 846--880
+\ZZZ de Judá, e os moradores de Jerusalém,
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 846--880
+\ZZZ e os sacerdotes, e os levitas, e todo o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 846--880
+\ZZZ seus mandamentos, seus testemunhos,
+ []
+
+
+Underfull \hbox (badness 3386) in paragraph at lines 846--880
+\ZZZ do pacto que estavam escritas naquele
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [416]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `0' on page 417 undefined on input line 882.
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 883--916
+\ZZZ Jerusalém, e sacrificaram a páscoa aos
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 883--916
+\ZZZ catorze do mês primeiro. [] E pôs aos
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 883--916
+\ZZZ os no ministério da casa do SENHOR.
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 883--916
+[] \ZZZ E disse aos levitas que ensinavam a
+ []
+
+
+Underfull \hbox (badness 3323) in paragraph at lines 883--916
+\ZZZ segundo a distribuição das famílias de
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 883--916
+\ZZZ meio de Moisés. [] E o rei Josias deu
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 883--916
+\ZZZ os que estavam presentes: isto era do
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 883--916
+\ZZZ sacerdotes e levitas. Hilquias, Zacarias
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 883--916
+\ZZZ mil e seiscentos  [][][][][], e trezentos bois.
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 883--916
+\ZZZ em panelas, em caldeiras, e caldeirões,
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 883--916
+\ZZZ para si, e para os sacerdotes filhos de
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 883--916
+\ZZZ Asafe estavam em seu posto, conforme
+ []
+
+
+Underfull \hbox (badness 3872) in paragraph at lines 883--916
+\ZZZ ao mandamento de Davi, de Asafe e
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 883--916
+\ZZZ e não era necessário que se afastassem
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 883--916
+\ZZZ a fazer guerra em Carquêmis junto a
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 883--916
+\ZZZ disfarçou-se para dar-lhe batalha, e não
+ []
+
+[417]
+
+LaTeX Warning: Reference `0' on page 418 undefined on input line 918.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [418]
+Underfull \hbox (badness 3240) in paragraph at lines 919--941
+\ZZZ constituiu o seu irmão Eliaquim como
+ []
+
+
+Underfull \hbox (badness 4647) in paragraph at lines 919--941
+[] \ZZZ Quando começou a reinar Jeoaquim
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 919--941
+\ZZZ subiu contra ele Nabucodonosor rei da
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 919--941
+\ZZZ Babilônia, e acorrentado com correntes
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 919--941
+\ZZZ o levou à Babilônia. [] Também levou
+ []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 919--941
+\ZZZ começou a reinar, e reinou três meses
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 919--941
+\ZZZ e dez dias em Jerusalém: e fez o que
+ []
+
+
+Underfull \hbox (badness 2134) in paragraph at lines 919--941
+\ZZZ mandou que o trouxessem à Babilônia,
+ []
+
+
+Underfull \hbox (badness 4492) in paragraph at lines 919--941
+\ZZZ juntamente com os utensílos preciosos
+ []
+
+
+Underfull \hbox (badness 2020) in paragraph at lines 919--941
+\ZZZ Zedequias quando começou a reinar, e
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 919--941
+\ZZZ o que era mau aos olhos do SENHOR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 919--941
+\ZZZ do SENHOR. [] Rebelou-se também
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 919--941
+\ZZZ contra Nabucodonosor, ao qual havia
+ []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 919--941
+\ZZZ e o povo, aumentaram a transgressão,
+ []
+
+
+Underfull \hbox (badness 3872) in paragraph at lines 919--941
+\ZZZ a eles por meio de seus mensageiros,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 919--941
+\ZZZ enviando insistentemente: porque ele
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 919--941
+\ZZZ mensageiros de Deus, e menosprezavam
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 919--941
+\ZZZ suas palavras, ridicularizando-se de seus
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 919--941
+\ZZZ Babilônia. [] E queimaram a casa de
+ []
+
+
+Underfull \hbox (badness 5741) in paragraph at lines 919--941
+[] \ZZZ Os que restaram da espada foram
+ []
+
+)) [419] (build/main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -21777,11 +22311,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 ### bottom level 
 Here is how much of TeX's memory you used:
  17381 strings out of 470175
- 331951 string characters out of 5479200
+ 331923 string characters out of 5479200
  1601032 words of memory out of 5000000
  45670 multiletter control sequences out of 15000+600000
  632465 words of font info for 104 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 78i,6n,96p,1157b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 78i,6n,96p,1239b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ./build/main.pdf (417 pages).
+Output written on build/main.pdf (423 pages).
