@@ -6,15 +6,16 @@
 \usepackage[default]{fontsetup}
 \usepackage[none]{hyphenat} % Remover hifenizações
 \usepackage[useregional]{datetime2} % Data no formato do idioma do documento
-\usepackage[marginal3]{./preamble/footkmpj}  % Notas de letras Opções (flushmargin, 2 e 3; marginal, 2 e 3)
+
 \usepackage{calc, parselines} % Símbolos matemáticos simples e processamento do texto 13/06/2026
 \usepackage{csquotes, unicode-math}
+
 \usepackage{etoolbox} % for \ifstrempty e final dos livros.
 \usepackage{setspace} % Espaçamento entre linhas
 \usepackage{fancybox, graphicx} % Caixas de texto e figuras/gráficos 03/05/2026
 \usepackage{geometry, multicol} % dimensões, colunas
 \usepackage{hologo, url} % TeX logos e urls.
-\usepackage{flushend} % colunas balanceadas
+\usepackage{balance} % colunas balanceadas
 % \usepackage[titles]{tocloft}
 %\usepackage[utf8]{inputenc}
 
@@ -65,7 +66,15 @@
 
 % Título curto em coluna única e entrada no sumário, conteúdo em coluna dupla e
 % última página balanceada
+<<<<<<< HEAD
+\newcommand{\ShortTitle}[1]{
+%\flushcolsend
+\clearpage\gdef\theshorttitle{#1}\gdef\webbook{#1}\twocolumn[\vspace{-6ex}\section*{}\addcontentsline{toc}{section}{#1}\begin{center}{\LARGE\centering\bfseries #1 \par}\end{center}]
+%\flushend
+} % Funcional
+=======
 \newcommand{\ShortTitle}[1]{\flushcolsend\clearpage\gdef\theshorttitle{#1}\gdef\webbook{#1}\twocolumn[\vspace{-6ex}\section*{}\addcontentsline{toc}{section}{#1}\begin{center}{\Large\centering\bfseries #1 \par}\end{center}]\flushend}
+>>>>>>> origin/lualatex
 
 \newcommand{\theshorttitle}{} % inicializa
 
@@ -77,15 +86,14 @@
 }
 
 % Título principal
-% \newcommand{\MT}{\centering\Large\bfseries\TextColor\parindent=0mm\nopagebreak[3]} % Funcional
-\newcommand{\MT}{\centering\Large\bfseries\Black} % Funcional após alteração
+\newcommand{\MT}{\centering\Large\bfseries\Black} % Funcional
 
 % Capítulo comum
-\newcommand{\Chap}[1]{{\Large\bfseries\vspace{1.5ex plus 3ex}\centering\setcounterpageref{footnote}{0}\parindent=0mm #1\nopagebreak\par}\def\webchap{#1:}\nopagebreak}
-\newcommand{\OneChap}{\vspace{1.5ex plus 3ex}\def\webchap{}}
-\newcommand{\ChapOne}[1]{\vspace{1.5ex plus 3ex}\def\webchap{#1:}}
-\newcommand{\PsalmChap}[1]{{\vspace{1.5ex plus 3ex}\centering #1\nopagebreak\par}\def\webchap{#1:}}
-\newcommand{\PoetryChap}[1]{{\vspace{1.5ex plus 3ex}\centering #1\nopagebreak\par}\def\webchap{#1:}}
+\newcommand{\Chap}[1]{{\Large\bfseries\vspace{1.78ex}\centering\setcounterpageref{footnote}{0}\parindent=0mm #1\nopagebreak\par}\def\webchap{#1:}\nopagebreak}
+\newcommand{\OneChap}{\vspace{1.78ex}\def\webchap{}}
+\newcommand{\ChapOne}[1]{\vspace{1.78ex}\def\webchap{#1:}}
+\newcommand{\PsalmChap}[1]{{\vspace{1.78ex}\centering #1\nopagebreak\par}\def\webchap{#1:}\nopagebreak}
+\newcommand{\PoetryChap}[1]{{\vspace{1.78ex}\centering #1\nopagebreak\par}\def\webchap{#1:}\nopagebreak}
 
 % Parágrafo de abertura de capítulo
 \newcommand{\PP}{\par\noindent}
@@ -99,8 +107,32 @@
 % Versículo padrão
 \newcommand{\VS}[1]{{\TextColor\raisebox{\RV}{{\footnotesize#1}}\hspace{1mm}\markboth{\webbook\ \webchap #1}{\webbook\ \webchap #1}}} % Verse number
 
+% Opções Nativas da classe Memoir (substituir footmisc/footkmpj)
+\raggedbottom % Espaçamento flexível
+\feettobottom % Posição no rodapé
+\feetbelowfloat % Notas abaixo
+\setlength{\footmarkwidth}{0.8em} % Largura da caixa da marca da nota
+\setlength{\footmarksep}{0.2em} % Separação da marca e do texto.
+\setlength{\footparident}{0em} % Recuo do parágrafo.
+\renewcommand{\foottextfont}{\fontsize{10pt}{10pt}\selectfont} % Fonte da nota 10pt.
+
 \makeatletter
 
+<<<<<<< HEAD
+% Garantia incondicional: injeta \\vfill\\relax antes do rodapé em qualquer página.
+\renewcommand\*{\m@mopfootnote}{\setbox\@outputbox \vbox{%
+  \boxmaxdepth\@maxdepth
+  \@tempdima\dp\@cclv 
+  \unvbox\@cclv%
+  \vskip-\@tempdima%
+  \vfill\relax % Expande o espaço em branco antes da nota
+  \vskip \skip\footins%
+  \color@begingroup%
+    \normalcolor%
+    \footnoterule%
+    \unvbox \footins%
+  \color@endgroup}}
+=======
 % % Inicia o multicols no começo do sumário (executado uma vez na primeira compilação)
 % \AtBeginDocument{%
 %   \addtocontents{toc}{\string\begin{multicols}{3}}%
@@ -120,17 +152,23 @@
 % \AtEndDocument{%
 %   \addtocontents{toc}{\string\end{multicols}}%
 % }
+>>>>>>> origin/lualatex
 
 % Nota de rodapé com símbolo personalizado
-\renewcommand{\thefootnote}{\small\alph{footnote}} % letras
+\renewcommand{\thefootnote}{\small\alph{footnote})} % letras
+
+% Formatação da marca
 \renewcommand{\@makefnmark}{%
-  \hbox{\raisebox{0.5ex}{\textcolor{footcolor}{\@thefnmark)}}}%
+%\hbox{\raisebox{0.5ex}{\textcolor{footcolor}{\@thefnmark)}}} % Anterior
+\hbox{\raisebox{0.5ex}{\textcolor{footcolor}{\@thefnmark}}} % 
 }
 
 % Define FTNT, uma cor 'footcolor' com a cor atual etc.
-\newcommand{\FTNT}[2]{\colorlet{footcolor}{.}\footnote{\fontsize{10pt}{10pt}\textcolor{footcolor}{\hspace{0.5mm}#2}}}
+\newcommand{\FTNT}[2]{\colorlet{footcolor}{.}\footnote{\textcolor{footcolor}{\hspace{0.5mm}#2}}}
 
-\newcommand{\XREF}[2]{\footnote{\textcolor{Black}{\fontsize{10pt}{10pt}\bfseries\itshape#2}}}
+\newcommand{\XREF}[2]{
+\footnote{\textcolor{Black}{
+\bfseries\itshape#2}}}
 
 \makeatother
 
