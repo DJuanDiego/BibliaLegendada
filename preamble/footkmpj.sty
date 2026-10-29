@@ -5,44 +5,25 @@
 %% Copyright (c) 2008 Robin Fairbairns
 %% Modified to use the full width of the page for footnotes in multicolumn
 %% mode by Michael Paul Johnson Oct, 2015.
-%%
-%% This work may be distributed and/or modified under the conditions of the
-%% LaTeX Project Public License, either version 1.3c of this license or (at
-%% your option) any later version. The latest version of this license is in:
-%% http://www.latex-project.org/lppl.txt, and version 1.3c or later is part
-%% of all distributions of LaTeX version 2005/12/01 or later.
-%%
-%% This work has the LPPL maintenance status `author-maintained'.
-%%
-%% This work consists of the files footmisc.dtx, footmisc.ins, and README
-%% and the derived files footmisc.sty and footmisc.pdf.
-%% -----------------------------------------------------------------------
-%%
-%% This is footmisc.dtx, and it's -*-LaTeX-*- text
+%% Modernized and optimized for LuaLaTeX and modern LaTeX2e.
+%% ----------------------------------------------------------------------
 \NeedsTeXFormat{LaTeX2e}
-%\XeTeXlinebreakpenalty = 10000
-%\sloppy
 \ProvidesPackage{footkmpj}%
-        [2011/06/06 v5.5b
-     a miscellany of footnote facilities%
-                   ]% $Id: footkmpj.dtx,v 4.25 2011/06/06 14:25:44 rf10 Exp rf10 $
+        [2026/10/23 v6.0
+     a miscellany of footnote facilities (LuaLaTeX optimized)%
+                   ]
 \NeedsTeXFormat{LaTeX2e}[1994/12/01]
 \newtoks\FN@temptoken
 \providecommand\protected@writeaux{%
   \protected@write\@auxout
-}%    \end{macrocode}
+}%
 \def\l@advance@macro{\@@dvance@macro\edef}
 \def\@@dvance@macro#1#2#3{\expandafter\@tempcnta#2\relax
   \advance\@tempcnta#3\relax
   #1#2{\the\@tempcnta}%
 }
 \let\@advance@macro\l@advance@macro
-\newif\ifFN@etex
-\ifx\dimexpr\undefined
-  \FN@etexfalse
-\else
-  \FN@etextrue
-\fi
+
 \newdimen\footnotemargin
 \footnotemargin1.8em\relax
 \DeclareOption{symbol}{\renewcommand\thefootnote{\fnsymbol{footnote}}}
@@ -84,16 +65,22 @@
   \FN@bottomtrue
 }
 \DeclareOption{marginal}{%
-  \footnotemargin-0.8em\relax
+  \footnotemargin0.4em\relax
 }
 \DeclareOption{marginal2}{%
-  \footnotemargin1.2em\relax
+  \footnotemargin0.6em\relax
+}
+\DeclareOption{marginal3}{%
+  \footnotemargin0.8em\relax
 }
 \DeclareOption{flushmargin}{%
-  \footnotemargin0pt\relax
+  \footnotemargin0.2em\relax
 }
 \DeclareOption{flushmargin2}{%
-  \footnotemargin1pt\relax
+  \footnotemargin0.0em\relax
+}
+\DeclareOption{flushmargin3}{%
+  \footnotemargin-0.2em\relax
 }
 \newif\ifFN@hangfoot  \FN@hangfootfalse
 \DeclareOption{hang}{%
@@ -128,56 +115,14 @@
 \newif\ifFN@multiplefootnote  \FN@multiplefootnotefalse
 \DeclareOption{multiple}{\FN@multiplefootnotetrue}
 \ProcessOptions
-\let  \if@tempswa  \ifFN@bottom
-\ifFN@para    \@tempswatrue \fi
+
+\let\if@tempswa\ifFN@bottom
+\ifFN@para \@tempswatrue \fi
+
 \if@tempswa
-  \@ifl@t@r\fmtversion{2005/12/01}{%
-    \CheckCommand*\@makecol{\ifvoid \footins
-        \setbox\@outputbox \box\@cclv
-      \else
-        \setbox\@outputbox \vbox{%
-          \boxmaxdepth \@maxdepth
-          \unvbox\@cclv
-          \vskip \skip\footins
-          \color@begingroup
-            \normalcolor\footnoterule
-            \unvbox\footins
-          \color@endgroup
-        }%
-      \fi
-      \let \@elt \relax
-      \xdef\@freelist{\@freelist\@midlist}%
-      \global\let\@midlist\@empty
-      \@combinefloats
-      \ifvbox\@kludgeins
-        \@makespecialcolbox
-      \else
-        \setbox\@outputbox \vbox to\@colht{%
-          \@texttop \dimen@\dp\@outputbox
-          \unvbox\@outputbox
-          \vskip -\dimen@\@textbottom
-        }%
-      \fi
-      \global\maxdepth\@maxdepth
-    }
-  }{%
-  \@ifl@t@r\fmtversion{2003/12/01}{%
-    \CheckCommand*\@makecol{\ifvoid \footins
-        \setbox\@outputbox \box\@cclv
-      \else
-        \setbox\@outputbox \vbox{%
-          \boxmaxdepth\@maxdepth
-          \@tempdima\dp\@cclv
-          \unvbox\@cclv
-          \vskip \skip\footins
-          \color@begingroup
-            \normalcolor
-            \footnoterule
-            \unvbox\footins
-          \color@endgroup
-        }%
-      \fi
-      \let \@elt \relax
+  \ifFN@bottom
+    \def\@makecol{%
+      \setbox\@outputbox\box\@cclv
       \xdef\@freelist{\@freelist\@midlist}%
       \global\let\@midlist\@empty
       \@combinefloats
@@ -188,56 +133,44 @@
           \@texttop
           \dimen@\dp\@outputbox
           \unvbox\@outputbox
-          \vskip -\dimen@
-          \@textbottom
+          \ifvoid\footins
+          \else
+            \vfill\relax
+            \vskip\skip\footins
+            \color@begingroup
+              \normalcolor\footnoterule
+              \ifFN@para
+                \global\setbox\FN@tempboxc\vbox{\makefootnoteparagraph}%
+                \unvbox\FN@tempboxc
+              \else
+                \unvbox\footins
+              \fi
+            \color@endgroup
+          \fi
+          \vskip -\dimen@\@textbottom
         }%
       \fi
       \global\maxdepth\@maxdepth
     }%
-  }{%
-    \@ifl@t@r\fmtversion{1999/12/01}{%
-      \CheckCommand*\@makecol{\ifvoid \footins
-          \setbox\@outputbox \box\@cclv
-        \else
-          \setbox\@outputbox \vbox{%
-            \boxmaxdepth\@maxdepth
-            \@tempdima\dp\@cclv
-            \unvbox\@cclv
-            \vskip \skip\footins
-            \color@begingroup
-              \normalcolor\footnoterule
-              \unvbox\footins
-            \color@endgroup
-          }%
-        \fi
-        \xdef\@freelist{\@freelist\@midlist}%
-        \global\let\@midlist\@empty
-        \@combinefloats
-        \ifvbox\@kludgeins
-          \@makespecialcolbox
-        \else
-          \setbox\@outputbox \vbox to\@colht{%
-            \@texttop \dimen@\dp\@outputbox
-            \unvbox\@outputbox
-            \vskip -\dimen@\@textbottom
-          }%
-        \fi
-        \global\maxdepth\@maxdepth
-      }%
-    }%
-  }{%
-      \CheckCommand*\@makecol{\ifvoid \footins
-        \setbox\@outputbox \box\@cclv
+  \else
+    \def\@makecol{%
+      \ifvoid\footins
+        \setbox\@outputbox\box\@cclv
       \else
-        \setbox\@outputbox \vbox{%
+        \setbox\@outputbox \vbox\bgroup
           \boxmaxdepth\@maxdepth
           \unvbox\@cclv
-          \vskip \skip\footins
+          \vskip\skip\footins
           \color@begingroup
             \normalcolor\footnoterule
-            \unvbox\footins
+            \ifFN@para
+              \global\setbox\FN@tempboxc\vbox{\makefootnoteparagraph}%
+              \unvbox\FN@tempboxc
+            \else
+              \unvbox\footins
+            \fi
           \color@endgroup
-        }%
+        \egroup
       \fi
       \xdef\@freelist{\@freelist\@midlist}%
       \global\let\@midlist\@empty
@@ -246,82 +179,17 @@
         \@makespecialcolbox
       \else
         \setbox\@outputbox \vbox to\@colht{%
-          \@texttop \dimen@\dp\@outputbox
+          \@texttop
+          \dimen@\dp\@outputbox
           \unvbox\@outputbox
           \vskip -\dimen@\@textbottom
         }%
       \fi
       \global\maxdepth\@maxdepth
     }%
-  }%
-}
-  \ifFN@para
-    \FN@temptoken{%
-      \toks@\expandafter{\the\toks@
-        \vskip\skip\footins
-        \color@begingroup
-          \normalcolor\footnoterule
-          \global\setbox\FN@tempboxc\vbox{\makefootnoteparagraph}%
-          \unvbox\FN@tempboxc
-        \color@endgroup
-      }%
-    }%
-  \else
-    \FN@temptoken{%
-      \toks@\expandafter{\the\toks@
-        \vskip\skip\footins
-        \color@begingroup
-          \normalcolor\footnoterule
-          \unvbox\footins
-        \color@endgroup
-      }%
-    }%
   \fi
-  \ifFN@bottom
-    \toks@{\setbox\@outputbox \box\@cclv
-      \xdef\@freelist{\@freelist\@midlist}%
-      \global\let\@midlist\@empty
-      \@combinefloats
-      \ifvoid\footins
-      \else
-        \setbox\@outputbox \vbox\bgroup
-          \boxmaxdepth\@maxdepth
-          \unvbox\@outputbox
-          \vfill\relax
-    }
-    \the\FN@temptoken
-    \toks@\expandafter{\the\toks@\egroup\fi}
-  \else
-    \toks@{\ifvoid\footins
-        \setbox\@outputbox\box\@cclv
-      \else
-        \setbox\@outputbox \vbox\bgroup
-        \boxmaxdepth\@maxdepth
-        \unvbox\@cclv
-    }
-    \the\FN@temptoken
-    \toks@\expandafter{\the\toks@
-      \egroup
-      \fi
-      \xdef\@freelist{\@freelist\@midlist}%
-      \global\let\@midlist\@empty
-      \@combinefloats
-    }%
-  \fi
-  \toks@\expandafter{\the\toks@
-    \ifvbox\@kludgeins
-      \@makespecialcolbox
-    \else
-      \setbox\@outputbox \vbox to\@colht{%
-        \@texttop \dimen@\dp\@outputbox
-        \unvbox\@outputbox
-        \vskip -\dimen@\@textbottom
-      }%
-    \fi
-    \global\maxdepth\@maxdepth
-  }
-  \edef\@makecol{\the\toks@}
 \fi
+
 \newif\ifFN@setspace
 \@ifpackageloaded{setspace}{%
   \FN@setspacetrue
@@ -333,6 +201,7 @@
 }{%
   \FN@setspacefalse
 }
+
 \ifFN@para
   \renewcommand\@footnotetext[1]{%
     \insert\footins{%
@@ -352,20 +221,15 @@
           \@makefntext{\ignorespaces#1\strut
             \penalty-10\relax
             \hskip\footglue
-          }% end of \@makefntext parameter
-        }% end of \hbox
+          }%
+        }%
         \dp\FN@tempboxa=0pt
-        \ifFN@etex
-          \ht\FN@tempboxa=\dimexpr\wd\FN@tempboxa *
-                          \footnotebaselineskip / \columnwidth\relax
-        \else
-          \ht\FN@tempboxa=\fudgefactor\wd\FN@tempboxa
-        \fi
+        \ht\FN@tempboxa=\dimexpr\wd\FN@tempboxa * \footnotebaselineskip / \columnwidth\relax
         \box\FN@tempboxa
       \color@endgroup
     }%
     \FN@mf@prepare
-  }
+  }%
 \else
   \ifFN@sidefn
     \renewcommand\@footnotetext[1]{%
@@ -412,6 +276,7 @@
     }%
   \fi
 \fi
+
 \ifFN@para
   \let\FN@tempboxa\@tempboxa
   \newbox\FN@tempboxb
@@ -420,45 +285,37 @@
   \long\def\@makefntext#1{\leavevmode
     \@makefnmark\nobreak
     \hskip.5em\relax#1%
-  }
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  }%
   \newdimen\footnotebaselineskip
   {%
     \footnotesize
     \global
-%      \footnotebaselineskip=\normalbaselineskip
       \footnotebaselineskip=9pt
-  }
-  \ifFN@etex
-  \else
-    \@tempdima=\footnotebaselineskip \multiply\@tempdima by 1024
-    \divide \@tempdima by \textwidth \multiply\@tempdima by 64
-    \xdef\fudgefactor{\strip@pt\@tempdima }%
-  \fi
+  }%
   \long\def\makefootnoteparagraph{\unvbox\footins \makehboxofhboxes
-    \setbox\FN@tempboxa=\hbox{\unhbox\FN@tempboxa \removehboxes}
+    \setbox\FN@tempboxa=\hbox{\unhbox\FN@tempboxa \removehboxes}%
     \hsize\columnwidth
-%    \renewcommand{\hsize}{\columnwidth}
     \@parboxrestore
     \baselineskip=9pt
     \noindent
     \rule{\z@}{\footnotesep}%
     \unhbox\FN@tempboxa\par
-  }
+  }%
   \def\makehboxofhboxes{\setbox\FN@tempboxa=\hbox{}%
     \loop
       \setbox\FN@tempboxb=\lastbox
       \ifhbox\FN@tempboxb
       \setbox\FN@tempboxa=\hbox{\box\FN@tempboxb\unhbox\FN@tempboxa}%
     \repeat
-  }
+  }%
   \def\removehboxes{\setbox\FN@tempboxa=\lastbox
     \ifhbox
       \FN@tempboxa{\removehboxes}%
       \unhbox\FN@tempboxa
     \fi
-  }
+  }%
 \fi
+
 \newif\ifFN@pp@footnotehint
 \newcounter{pp@next@reset}%
 \newif\ifFN@pp@towrite
@@ -470,7 +327,7 @@
       \stepcounter\@mpfn \protected@xdef\@thefnmark{\thempfn}%
       \@footnotemark \@footnotetext
     }%
-  }
+  }%
   \renewcommand*\footnote{\@ifnextchar [%]
     \@xfootnote
     {%
@@ -482,7 +339,7 @@
       \fi
       \@footnotetext
     }%
-  }
+  }%
   \CheckCommand*\footnotemark{%
     \@ifnextchar [%]
     \@xfootnotemark
@@ -491,7 +348,7 @@
       \protected@xdef\@thefnmark{\thefootnote}%
       \@footnotemark
     }%
-  }
+  }%
   \renewcommand*\footnotemark{%
     \@ifnextchar [%]
     \@xfootnotemark
@@ -504,7 +361,7 @@
         \FN@pp@towritefalse
       \fi
     }%
-  }
+  }%
   \gdef\FN@pp@initial@stab{\@addtoreset{footnote}{page}}
   \AtBeginDocument{\FN@pp@initial@stab}
   \newcounter{@fnserial}
@@ -521,7 +378,7 @@
       \protect\providecommand{\protect\FN@pp@footnotehinttrue}{}%
     }%
   }
-\def\FN@pp@lastfoot{-1}
+  \def\FN@pp@lastfoot{-1}
   \newcommand{\FN@pp@footnote@aux}[2]{%
     \ifnum\FN@pp@lastfoot<#1
       \ifFN@pp@footnotehint
@@ -580,35 +437,36 @@
     \gdef\FN@pp@prev@foot{#1}%
     \gdef\FN@pp@cpage{#2}%
   }
-\let\FN@pp@@clearpage\clearpage
-\renewcommand{\clearpage}{\footnotehint\FN@pp@@clearpage}
-\def\FN@pp@footnote{%
-  \if@minipage\else
-    \global\advance\c@@fnserial\@ne
-    \if@filesw
-      \xdef\FN@pp@writetemp{%
-        \noexpand\protected@writeaux\relax{%
-          \string\FN@pp@footnote@aux
-            {\the\c@@fnserial}{\noexpand\thepage}%
+  \let\FN@pp@@clearpage\clearpage
+  \renewcommand{\clearpage}{\footnotehint\FN@pp@@clearpage}
+  \def\FN@pp@footnote{%
+    \if@minipage\else
+      \global\advance\c@@fnserial\@ne
+      \if@filesw
+        \xdef\FN@pp@writetemp{%
+          \noexpand\protected@writeaux\relax{%
+            \string\FN@pp@footnote@aux
+              {\the\c@@fnserial}{\noexpand\thepage}%
+          }%
         }%
-      }%
-      \FN@pp@towritetrue
-    \fi
-    \ifnum\c@pp@next@reset>\c@@fnserial
-    \else
-      \global\expandafter\csname c@\@mpfn\endcsname\@ne
-      \protected@xdef\@thefnmark{\thempfn}%
-      \expandafter\let\expandafter\@tempa
-        \csname FN@pp@next-\number\c@pp@next@reset\endcsname
-      \ifx\@tempa\relax
-        \global\c@pp@next@reset\@MM
+        \FN@pp@towritetrue
+      \fi
+      \ifnum\c@pp@next@reset>\c@@fnserial
       \else
-        \global\c@pp@next@reset\@tempa
+        \global\expandafter\csname c@\@mpfn\endcsname\@ne
+        \protected@xdef\@thefnmark{\thempfn}%
+        \expandafter\let\expandafter\@tempa
+          \csname FN@pp@next-\number\c@pp@next@reset\endcsname
+        \ifx\@tempa\relax
+          \global\c@pp@next@reset\@MM
+        \else
+          \global\c@pp@next@reset\@tempa
+        \fi
       \fi
     \fi
-  \fi
-}
+  }
 \fi
+
 \ifFN@para
 \else
   \long\def\@makefntext#1{%
@@ -649,8 +507,9 @@
     \ifFN@hangfoot
       \par\egroup
     \fi
-  }
+  }%
 \fi
+
 \ifFN@multiplefootnote
   \providecommand*{\multiplefootnotemarker}{3sp}
   \providecommand*{\multfootsep}{,}
@@ -692,6 +551,7 @@
 \else
   \let\FN@mf@prepare\relax
 \fi
+
 \ifFN@stablefootnote
 \let\FN@sf@@footnote\footnote
 \def\footnote{\ifx\protect\@typeset@protect
@@ -724,6 +584,7 @@
 }
 \def\FN@sf@gobble@bracket[#1]{}
 \fi
+
 \newcommand\setfnsymbol[1]{%
   \@bsphack
   \@ifundefined{FN@fnsymbol@#1}%
@@ -784,6 +645,9 @@
     \expandafter\FN@build@symboldef
   \fi
 }
+
+\providecommand{\TextOrMath}[2]{\ifmmode#2\else#1\fi}
+
 \newcommand{\DefineFNsymbolsTM}{%
         \@ifstar{\@tempswbtrue\@DefineFNsymbolsTM}%
                 {\@tempswbfalse\@DefineFNsymbolsTM}}%
@@ -805,7 +669,7 @@
       \else
         \noexpand\@arabic##1\noexpand\FN@orange##1%
       \fi
-    \noexpand\fi
+      \noexpand\fi
   }%
 }%
 \def\FN@build@symboldefTM#1#2{%
@@ -816,22 +680,7 @@
     \expandafter\FN@build@symboldefTM
   \fi
 }
-\@ifundefined{TextOrMath}{%
-  \@ifundefined{eTeXversion}{%
-    \PackageError{footkmpj}{Can't define commands for footnote symbol}%
-                           {Use e-LaTeX, or load package fixltx2e before
-                             footkmpj}%
-  }{%
-    \protected\expandafter\def\csname TextOrMath\space\endcsname{%
-      \ifmmode \expandafter\@secondoftwo
-      \else    \expandafter\@firstoftwo   \fi
-    }
-    \edef\TextOrMath#1#2{%
-      \expandafter\noexpand\csname TextOrMath\space\endcsname
-{#1}{#2}%
-    }%
-  }%
-}{}
+
 \def\FN@orange#1{%
   \@bsphack
   \PackageInfo{footkmpj}{Footnote number \number#1 out of range}%
@@ -849,9 +698,9 @@
     }%
   }%
 }
-\@ifundefined{textbardbl}{%
-  \DeclareTextSymbol{\textbardbl}{OMS}{107}%
-  \DeclareTextSymbolDefault{\textbardbl}{TS1}}{}%
+
+\providecommand*{\textbardbl}{\|}
+
 \DefineFNsymbolsTM*{bringhurst}{%
   \textasteriskcentered *
   \textdagger    \dagger

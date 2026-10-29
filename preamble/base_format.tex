@@ -1,0 +1,188 @@
+\RequirePackage{fontspec}
+%\setmainfont{Latin Modern Roman}
+\usepackage[brazilian]{babel} % 28/04/2026 Idioma principal
+\usepackage[babel,final]{microtype} % Justificação (compilação final)
+\usepackage[cmyk]{xcolor} % Cores cmyk (impressão)
+\usepackage[default]{fontsetup}
+\usepackage[none]{hyphenat} % Remover hifenizações
+\usepackage[useregional]{datetime2} % Data no formato do idioma do documento
+
+\usepackage{calc, parselines} % Símbolos matemáticos simples e processamento do texto 13/06/2026
+\usepackage{csquotes, unicode-math}
+
+\usepackage{etoolbox} % for \ifstrempty e final dos livros.
+\usepackage{setspace} % Espaçamento entre linhas
+\usepackage{fancybox, graphicx} % Caixas de texto e figuras/gráficos 03/05/2026
+\usepackage{geometry, multicol} % dimensões, colunas
+\usepackage{hologo, url} % TeX logos e urls.
+\usepackage{balance} % colunas balanceadas
+% \usepackage[titles]{tocloft}
+%\usepackage[utf8]{inputenc}
+
+% Cores
+\definecolor{Black}{cmyk}{1, 1, 1, 1} % Preto puro
+\definecolor{Cinza}{cmyk}{0, 0, 0, 0.85}
+\definecolor{AzulMarinho}{cmyk}{1, 1, 0, 0.5}
+\definecolor{Azul}{cmyk}{1, 1, 0, 0.3}
+%\definecolor{VermelhoVivo}{cmyk}{0, 1, 1, 0.2} % Original
+%\definecolor{VermelhoVivo}{cmyk}{0, 1, 1, 0.25} % Opção 1
+\definecolor{VermelhoVivo}{cmyk}{0, 1, 1, 0.3} % Em uso
+\definecolor{Verde}{cmyk}{1, 0, 1, 0.55} % Original
+%\definecolor{Verde}{cmyk}{1, 0, 1, 0.3} % Opção 1
+%\definecolor{Magenta}{cmyk}{0, 0.95, 0.49, 0.05} % Original
+\definecolor{Magenta}{cmyk}{0, 1, 0.5, 0.05} % Original
+%\definecolor{Roxo}{cmyk}{0, 0.9, 0, 0.37} % Original
+\definecolor{Roxo}{cmyk}{0, 0.9, 0, 0.5} % Original
+% \definecolor{Laranja}{cmyk}{0, 0.6, 1, 0} % Em uso
+\definecolor{Laranja}{cmyk}{0, 0.65, 1, 0.2}
+% \definecolor{Marrom}{cmyk}{0, 0.7, 0.9, 0.5} % Original
+%\definecolor{Marrom}{cmyk}{0, 0.65, 0.9, 0.61} % Em uso
+\definecolor{Marrom}{cmyk}{0, 0.65, 0.95, 0.7} % Opção 1
+\definecolor{Verse}{cmyk}{0, 1, 0.65, 0.25} % Cor do versículo - Púrpura
+%\definecolor{Verse}{cmyk}{0.5, 0.5, 0.5, 0.7} % Cor do versículo - Cinza
+\definecolor{Amarelo}{cmyk}{0, 0.2, 1, 0.1}
+\definecolor{Oliva}{cmyk}{0, 0, 1, 0.5}
+
+\newcommand{\Black}{\color{Black}}
+\newcommand{\TextColor}{\Black}
+\newcommand{\IntroColor}{\color{AzulMarinho}}
+\newcommand{\OliveColor}{\color{Oliva}}
+\newcommand{\WJ}{\color{VermelhoVivo}}
+\newcommand{\Red}{\WJ}
+\newcommand{\Blue}{\IntroColor}
+\newcommand{\LightBlue}{\color{Azul}}
+\newcommand{\Green}{\color{Verde}}
+\newcommand{\YellowColor}{\color{Amarelo}}
+\newcommand{\VerseColor}{\color{Verse}}
+
+% Cores da legenda
+\newcommand{\blue}[1]{{\color{Azul}#1}}
+\newcommand{\red}[1]{{\color{VermelhoVivo}#1}}
+\newcommand{\green}[1]{{\color{Verde}#1}}
+\newcommand{\magenta}[1]{{\color{Magenta}#1}}
+\newcommand{\purple}[1]{{\color{Roxo}#1}}
+\newcommand{\orange}[1]{{\color{Laranja}#1}}
+\newcommand{\brown}[1]{{\color{Marrom}#1}}
+
+% Título curto em coluna única e entrada no sumário, conteúdo em coluna dupla e
+% última página balanceada
+<<<<<<< HEAD
+\newcommand{\ShortTitle}[1]{
+%\flushcolsend
+\clearpage\gdef\theshorttitle{#1}\gdef\webbook{#1}\twocolumn[\vspace{-6ex}\section*{}\addcontentsline{toc}{section}{#1}\begin{center}{\LARGE\centering\bfseries #1 \par}\end{center}]
+%\flushend
+} % Funcional
+=======
+\newcommand{\ShortTitle}[1]{\flushcolsend\clearpage\gdef\theshorttitle{#1}\gdef\webbook{#1}\twocolumn[\vspace{-6ex}\section*{}\addcontentsline{toc}{section}{#1}\begin{center}{\Large\centering\bfseries #1 \par}\end{center}]\flushend}
+>>>>>>> origin/lualatex
+
+\newcommand{\theshorttitle}{} % inicializa
+
+\newcommand{\PeriphTitle}[1]{%
+\clearpage
+\gdef\theshorttitle{#1}%
+\gdef\webbook{#1}%
+\NormalFont
+}
+
+% Título principal
+\newcommand{\MT}{\centering\Large\bfseries\Black} % Funcional
+
+% Capítulo comum
+\newcommand{\Chap}[1]{{\Large\bfseries\vspace{1.78ex}\centering\setcounterpageref{footnote}{0}\parindent=0mm #1\nopagebreak\par}\def\webchap{#1:}\nopagebreak}
+\newcommand{\OneChap}{\vspace{1.78ex}\def\webchap{}}
+\newcommand{\ChapOne}[1]{\vspace{1.78ex}\def\webchap{#1:}}
+\newcommand{\PsalmChap}[1]{{\vspace{1.78ex}\centering #1\nopagebreak\par}\def\webchap{#1:}\nopagebreak}
+\newcommand{\PoetryChap}[1]{{\vspace{1.78ex}\centering #1\nopagebreak\par}\def\webchap{#1:}\nopagebreak}
+
+% Parágrafo de abertura de capítulo
+\newcommand{\PP}{\par\noindent}
+
+% Versículo inicial do capítulo
+\newcommand{\VerseOne}[1]{\VS{#1}}
+\newcommand{\VP}[1]{\VS{#1}}
+\newcommand{\VA}[1]{\VS{#1}}
+\newcommand{\FV}[1]{\VS{#1}}
+
+% Versículo padrão
+\newcommand{\VS}[1]{{\TextColor\raisebox{\RV}{{\footnotesize#1}}\hspace{1mm}\markboth{\webbook\ \webchap #1}{\webbook\ \webchap #1}}} % Verse number
+
+% Opções Nativas da classe Memoir (substituir footmisc/footkmpj)
+\raggedbottom % Espaçamento flexível
+\feettobottom % Posição no rodapé
+\feetbelowfloat % Notas abaixo
+\setlength{\footmarkwidth}{0.8em} % Largura da caixa da marca da nota
+\setlength{\footmarksep}{0.2em} % Separação da marca e do texto.
+\setlength{\footparident}{0em} % Recuo do parágrafo.
+\renewcommand{\foottextfont}{\fontsize{10pt}{10pt}\selectfont} % Fonte da nota 10pt.
+
+\makeatletter
+
+<<<<<<< HEAD
+% Garantia incondicional: injeta \\vfill\\relax antes do rodapé em qualquer página.
+\renewcommand\*{\m@mopfootnote}{\setbox\@outputbox \vbox{%
+  \boxmaxdepth\@maxdepth
+  \@tempdima\dp\@cclv 
+  \unvbox\@cclv%
+  \vskip-\@tempdima%
+  \vfill\relax % Expande o espaço em branco antes da nota
+  \vskip \skip\footins%
+  \color@begingroup%
+    \normalcolor%
+    \footnoterule%
+    \unvbox \footins%
+  \color@endgroup}}
+=======
+% % Inicia o multicols no começo do sumário (executado uma vez na primeira compilação)
+% \AtBeginDocument{%
+%   \addtocontents{toc}{\string\begin{multicols}{3}}%
+% }
+
+% % Fecha o multicols atual ANTES de escrever a linha da parte
+% \pretocmd{\@part}{%
+%   \addtocontents{toc}{\string\end{multicols}}%
+% }{}{}
+%
+% % Abre um novo multicols DEPOIS de escrever a linha da parte
+% \apptocmd{\@part}{%
+%   \addtocontents{toc}{\string\begin{multicols}{3}}%
+% }{}{}
+%
+% % Fecha o último bloco multicols no final do documento
+% \AtEndDocument{%
+%   \addtocontents{toc}{\string\end{multicols}}%
+% }
+>>>>>>> origin/lualatex
+
+% Nota de rodapé com símbolo personalizado
+\renewcommand{\thefootnote}{\small\alph{footnote})} % letras
+
+% Formatação da marca
+\renewcommand{\@makefnmark}{%
+%\hbox{\raisebox{0.5ex}{\textcolor{footcolor}{\@thefnmark)}}} % Anterior
+\hbox{\raisebox{0.5ex}{\textcolor{footcolor}{\@thefnmark}}} % 
+}
+
+% Define FTNT, uma cor 'footcolor' com a cor atual etc.
+\newcommand{\FTNT}[2]{\colorlet{footcolor}{.}\footnote{\textcolor{footcolor}{\hspace{0.5mm}#2}}}
+
+\newcommand{\XREF}[2]{
+\footnote{\textcolor{Black}{
+\bfseries\itshape#2}}}
+
+\makeatother
+
+% Referência para rodapé (Negrito)
+\newcommand{\FR}[1]{\bfseries#1}
+
+% Adição de texto (ex.: {\\ADD{...}})
+\newcommand{\ADD}[1]{\textit{#1}}
+
+% Opcional: remover pontos dos líderes
+%\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+%\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+
+% Fonte normal
+\newcommand{\NormalFont}{\normalfont}
+\NormalFont
+\newcommand{\SmallFont}{\small}
