@@ -15,3 +15,4 @@
 \contentsline {section}{\numberline {}2 Crônicas}{387}{section.0.14}%
 \contentsline {section}{\numberline {}Esdras}{421}{section.0.15}%
 \contentsline {section}{\numberline {}Neemias}{431}{section.0.16}%
+\contentsline {section}{\numberline {}Ester}{445}{section.0.17}%
