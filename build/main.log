@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Debian)  (format=lualatex 2026.10.27)  5 NOV 2026 14:31
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Debian)  (format=lualatex 2026.10.27)  9 NOV 2026 14:44
  restricted system commands enabled.
 **main.tex porbr2018_a4.tex porbr2018_all.tex porbr2018_book.tex porbr2018_prt.
 tex print.tex
@@ -2723,11 +2723,6 @@ LaTeX Warning: Reference `0' on page 43 undefined on input line 1669.
 [43]) ("./source/AT/02 - EXO_src.tex" [44
 
 ]
-Underfull \hbox (badness 1308) in paragraph at lines 5--28
-\TU/FreeSerif(0)/m/n/12 ar-ma-ze-na-mento, Pi-tom e Ra-mes-sés. [][] []Pore
-́m,
- []
-
 
 LaTeX Warning: Reference `0' on page 45 undefined on input line 30.
 
@@ -3371,11 +3366,10 @@ Underfull \hbox (badness 5359) in paragraph at lines 1260--1317
 \TU/FreeSerif(0)/m/n/12 Hor-Gidgade. [][] []E par-ti-dos de Hor-Gidgade,
  []
 
-[137]
+[137] [138]
 
-LaTeX Warning: Reference `0' on page 138 undefined on input line 1319.
+LaTeX Warning: Reference `0' on page 139 undefined on input line 1319.
 
-[138]
 
 LaTeX Warning: Reference `0' on page 139 undefined on input line 1351.
 
@@ -4488,8 +4482,8 @@ LaTeX Warning: Reference `0' on page 328 undefined on input line 448.
 LaTeX Warning: Reference `0' on page 328 undefined on input line 465.
 
 
-Underfull \hbox (badness 1694) in paragraph at lines 465--514
-[][] []\TU/FreeSerif(0)/m/n/12 E mesmo an-tes, quando Saul ainda era rei,
+Underfull \hbox (badness 1655) in paragraph at lines 465--514
+\TU/FreeSerif(0)/m/n/12 con-du-zias as tro-pas de Is-rael.[][][] [][] Tam-bém o
  []
 
 [328]
@@ -5023,6 +5017,11 @@ LaTeX Warning: Reference `0' on page 384 undefined on input line 42.
 
 LaTeX Warning: Reference `0' on page 385 undefined on input line 77.
 
+
+Underfull \hbox (badness 1708) in paragraph at lines 77--101
+\TU/FreeSerif(0)/m/n/12 “  O que fa-zem es-tes fra-cos ju-deus? Será isso
+ []
+
 [385]
 
 LaTeX Warning: Reference `0' on page 386 undefined on input line 103.
@@ -5266,6 +5265,11 @@ LaTeX Warning: Reference `0' on page 413 undefined on input line 704.
 
 
 LaTeX Warning: Reference `0' on page 413 undefined on input line 748.
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 748--810
+\TU/FreeSerif(0)/m/n/12 Onde está a casa do prín-cipe?, e: Onde está
+ []
 
 [413]
 
@@ -6371,8 +6375,8 @@ You've lost some text.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 2143--2166
-\TU/FreeSerif(0)/m/n/12 aos per-ver-sos: Não exal-teis o vosso po-der! [][]
+Underfull \hbox (badness 1308) in paragraph at lines 2143--2166
+\TU/FreeSerif(0)/m/n/12 con-fi-eis em vosso po-der, [][][] [][] nem fa-leis com
  []
 
 ! Undefined control sequence.
@@ -7498,12 +7502,6 @@ Underfull \hbox (badness 2626) in paragraph at lines 5--60
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 5--60
-\TU/FreeSerif(0)/m/n/12 es-pé-cie de coi-sas va-li-o-sas, en-che-re-mos nos-sa
-s
- []
-
-
 Underfull \hbox (badness 1454) in paragraph at lines 5--60
 \TU/FreeSerif(0)/m/n/12 ela to-mará a alma da-que-les que a tem. [][] []A
  []
@@ -7665,10 +7663,10 @@ LaTeX Warning: Reference `0' on page 497 undefined on input line 1082.
 
 LaTeX Warning: Reference `0' on page 498 undefined on input line 1123.
 
-
-LaTeX Warning: Reference `0' on page 498 undefined on input line 1168.
-
 [498]
+
+LaTeX Warning: Reference `0' on page 499 undefined on input line 1168.
+
 
 LaTeX Warning: Reference `0' on page 499 undefined on input line 1214.
 
@@ -7789,6 +7787,11 @@ LaTeX Warning: Reference `0' on page 514 undefined on input line 53.
 ]
 
 LaTeX Warning: Reference `0' on page 515 undefined on input line 82.
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 82--133
+\TU/FreeSerif(0)/m/n/12 po-vos. [][] []O SE-NHOR vem a ju-ízo con-tra os
+ []
 
 [515]
 
@@ -8479,6 +8482,11 @@ Underfull \hbox (badness 1132) in paragraph at lines 2192--2299
 \TU/FreeSerif(0)/m/n/12 o tempo da ceifa. [][] []Comeu-me, esmagou-me
  []
 
+
+Underfull \hbox (badness 1057) in paragraph at lines 2192--2299
+[][] []\TU/FreeSerif(0)/m/n/12 Vós que es-ca-pas-tes do es-pada, ide em-bora,
+ []
+
 [606] [607]
 
 LaTeX Warning: Reference `0' on page 608 undefined on input line 2301.
@@ -8614,6 +8622,11 @@ Underfull \hbox (badness 1701) in paragraph at lines 484--582
 [626] [627]
 
 LaTeX Warning: Reference `0' on page 628 undefined on input line 584.
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 584--627
+[][] []\TU/FreeSerif(0)/m/n/12 Porém rebelou-se con-tra ele, en-vi-ando seus
+ []
 
 [628]
 
@@ -8957,6 +8970,11 @@ LaTeX Warning: Reference `0' on page 682 undefined on input line 31.
 
 LaTeX Warning: Reference `0' on page 683 undefined on input line 79.
 
+
+Underfull \hbox (badness 1448) in paragraph at lines 79--108
+\TU/FreeSerif(0)/m/n/12 Is-rael, aos quais dis-per-sa-ram en-tre as na-ções,
+ []
+
 [683]) ("./source/AT/30 - AMO_src.tex" [684
 
 ]
@@ -8996,7 +9014,7 @@ LaTeX Warning: Reference `0' on page 688 undefined on input line 220.
 
 LaTeX Warning: Reference `0' on page 689 undefined on input line 237.
 
-) ("./source/AT/31 - OBA_src.tex" [689] [690
+[689]) ("./source/AT/31 - OBA_src.tex" [690
 
 ]
 Underfull \hbox (badness 5388) in paragraph at lines 5--45
@@ -9051,11 +9069,6 @@ Underfull \hbox (badness 1194) in paragraph at lines 162--194
 LaTeX Warning: Reference `0' on page 697 undefined on input line 196.
 
 ) ("./source/AT/34 - NAM_src.tex" [697]
-Underfull \hbox (badness 1132) in paragraph at lines 5--44
-\TU/FreeSerif(0)/m/n/12 Ní-nive, [][][] [][] e per-se-guirá seus ini-mi-gos ate
-́ às
- []
-
 
 LaTeX Warning: Reference `0' on page 698 undefined on input line 46.
 
@@ -9235,12 +9248,6 @@ of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 1033) in paragraph at lines 5--39
-\TU/FreeSerif(0)/m/n/12 seu povo de seus pe-ca-dos. [][][] [][] [][] []E tudo is
-to
- []
 
 
 LaTeX Warning: Reference `0' on page 721 undefined on input line 41.
@@ -9750,6 +9757,11 @@ Underfull \hbox (badness 2865) in paragraph at lines 1289--1363
 seus
  []
 
+
+Underfull \hbox (badness 2142) in paragraph at lines 1289--1363
+\TU/FreeSerif(0)/m/n/12 de-les quando der-ra-ma-ram o san-gue [][][] [][] dos
+ []
+
 [742]
 
 LaTeX Warning: Reference `0' on page 743 undefined on input line 1365.
@@ -9779,11 +9791,11 @@ Underfull \hbox (badness 1194) in paragraph at lines 1455--1515
 \TU/FreeSerif(0)/m/n/12 e cinco to-las. [][] []As to-las, quando to-ma-ram as
  []
 
-[744]
+[744] [745]
 
-LaTeX Warning: Reference `0' on page 745 undefined on input line 1517.
+LaTeX Warning: Reference `0' on page 746 undefined on input line 1517.
 
-[745]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1591--1591
  [][] [][][][] \TU/FreeSerif(0)/b/n/10 26:31  \TU/FreeSerif(0)/m/n/10 fa-lha-rei
 s co-migo Ou: me aban-do-na-reis.
@@ -10704,8 +10716,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 63--117
-\TU/FreeSerif(0)/m/n/12 tais coi-sas, ao fazê-las, pen-sas que es-ca-pa-rás
+Underfull \hbox (badness 2644) in paragraph at lines 63--117
+\TU/FreeSerif(0)/m/n/12 fa-zes as mes-mas coi-sas. [][] []E sa-be-mos que o
  []
 
 
@@ -10804,6 +10816,12 @@ of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 197--249
+[][] []\TU/FreeSerif(0)/m/n/12 Ora, ao que tra-ba-lha, seu pa-ga-mento não e
+́
+ []
 
 [853]
 
@@ -11121,6 +11139,11 @@ and I'll forget about whatever was undefined.
 
 Underfull \hbox (badness 1117) in paragraph at lines 650--690
 \TU/FreeSerif(0)/m/n/12 Deus, que apre-sen-teis os vos-sos cor-pos como
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 650--690
+\TU/FreeSerif(0)/m/n/12 com a pre-sente era; [][][] [][] mas transformai-vos
  []
 
 [860]
@@ -11553,6 +11576,18 @@ of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 2653) in paragraph at lines 231--265
+\TU/FreeSerif(0)/m/n/12 ale-gria, paz, pa-ci-ên-cia, be-nig-ni-dade, bon-dade,
+
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 231--265
+\TU/FreeSerif(0)/m/n/12 fi-de-li-dade, [][][] [][] [][] []mansidão, do-mí-ni
+o pró-prio.
+ []
 
 
 LaTeX Warning: Reference `0' on page 888 undefined on input line 267.
@@ -12149,7 +12184,6 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: Reference `0' on page 921 undefined on input line 380.
 
-[921]
 ! Undefined control sequence.
 l.422 {\RQ
           {Êxodo 24:8
@@ -12171,9 +12205,9 @@ Underfull \hbox (badness 3724) in paragraph at lines 380--442
 
  []
 
-[922]
+[921]
 
-LaTeX Warning: Reference `0' on page 923 undefined on input line 444.
+LaTeX Warning: Reference `0' on page 922 undefined on input line 444.
 
 ! Undefined control sequence.
 l.458 {\RQ
@@ -12229,7 +12263,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[923]
+[922] [923]
 
 LaTeX Warning: Reference `0' on page 924 undefined on input line 546.
 
@@ -12243,8 +12277,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 546--638
-\TU/FreeSerif(0)/m/n/12 dos fi-lhos de Is-rael, e deu or-dem acerca dos
+Underfull \hbox (badness 1062) in paragraph at lines 546--638
+\TU/FreeSerif(0)/m/it/12 apoi-ado \TU/FreeSerif(0)/m/n/12 so-bre a ponta do seu ca-jado. [][] []Pela
  []
 
 [924]
@@ -12772,14 +12806,14 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 Here is how much of LuaTeX's memory you used:
  33964 strings out of 475635
- 244285,1648299 words of node,token memory allocated
- 19357 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 1350 glue, 4 kern, 1 glyph, 2811 attribute, 192 glu
-e_spec, 1406 attribute_list, 2 write, 51 pdf_action nodes
-   avail lists: 1:17,2:2644,3:743,4:621,5:6426,6:168,7:20354,8:46,9:1065,10:17,1
+ 244283,1648299 words of node,token memory allocated
+ 19561 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1350 glue, 4 kern, 1 glyph, 2845 attribute, 192 glu
+e_spec, 1423 attribute_list, 2 write, 68 pdf_action nodes
+   avail lists: 1:16,2:3193,3:743,4:621,5:6426,6:149,7:20354,8:46,9:1065,10:17,1
 1:1841
  53575 multiletter control sequences out of 65536+600000
- 178 fonts using 174655755 bytes
+ 178 fonts using 174656023 bytes
  111i,11n,131p,1218b,3131s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/opentype/public/gnu-freefont/FreeSerifItali
 c.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/newcomputermodern/New
@@ -12787,10 +12821,10 @@ CMMono10-Book.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/gnu-freef
 ont/FreeSerif.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/gnu-freef
 ont/FreeSerifBold.otf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /latxfont/lcirclew.pfb>
-Output written on main.pdf (961 pages, 6451045 bytes).
+Output written on main.pdf (961 pages, 6453206 bytes).
 
-PDF statistics: 7746 PDF objects out of 8907 (max. 8388607)
- 6700 compressed objects within 67 object streams
+PDF statistics: 7770 PDF objects out of 8907 (max. 8388607)
+ 6723 compressed objects within 68 object streams
  2387 named destinations out of 2487 (max. 1048576)
  545 words of extra memory for PDF output out of 10000 (max. 100000000)
 

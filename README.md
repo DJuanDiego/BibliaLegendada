@@ -2,7 +2,7 @@
 ==================
 
 <!-- ![alt text](https://github.com/DJuanDiego/BibliaLegendada/blob/master/amostra.png?raw=true) -->
-<img src="figures/amostra.png" width="90%"></img>
+<img src="figures/amostra.avif" width="90%"></img>
 
 Bíblia Livre com adição de 'legendas'. A legenda consiste no uso de cores para melhor ilustração do discurso de cada personagem. 
 
@@ -12,9 +12,16 @@ Auxiliar leitores na compreensão e cultivar ainda mais o interesse pelos diálo
 
 ## Ferramentas
 
-O texto é formatado utilizando LaTeX (XeTeX) para uma melhor organização e facilidade de execução de um texto tão imenso e detalhado.
+O texto é formatado utilizando LaTeX (LuaLaTeX) para uma melhor organização e facilidade de execução de um texto tão imenso e detalhado.
 
 Foram utilizados alguns Shell Scripts com expressões regulares para manipulação de caracteres.
+
+## Progresso
+
+### AT
+
+
+### NT
 
 
 ## Versão do Texto Bíblico
@@ -28,9 +35,10 @@ Todas as Escrituras em português citadas são da Bíblia Livre (BLIVRE), Copyri
 
 Todo o texto bíblico desta versão é LIVRE para uso. Nenhum valor é cobrado para uso ou download do texto ou do projeto na íntegra.
 
-Existe um desejo de minha parte de criar uma versão impressa junto à uma casa publicadora, sem a necessidade de uma editora. Este projeto, no entanto, é custoso e está aquém do orçamento do projeto.
+Existe um desejo de minha parte de criar uma versão impressa junto à uma casa publicadora, sem a necessidade de uma editora. Este passo, no entanto, é custoso e está aquém do orçamento do projeto.
 
 Àqueles que desejarem, entretanto, apoiar o projeto ou abençoar o meu trabalho podem fazê-lo através das plataformas abaixo listadas:
 
 Pix (Chave Aleatória) ->
 BTC ->
+--->
