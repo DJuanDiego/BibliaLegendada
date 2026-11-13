@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.10.21)  30 OCT 2026 21:02
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.10.21)  13 NOV 2026 00:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -24134,8 +24134,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 (./source/AT/17 - EST_src.tex [444]
-Underfull \hbox (badness 1052) in paragraph at lines 6--28
-[] \ZZZ Para mostrar as riquezas da glória de
+Underfull \hbox (badness 1303) in paragraph at lines 6--28
+\ZZZ fortaleza de Susã, [] no terceiro ano de
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 6--28
+[] \ZZZ para mostrar as riquezas da glória de
  []
 
 
@@ -24207,13 +24212,8 @@ Underfull \hbox (badness 1721) in paragraph at lines 31--54
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 31--54
-\ZZZ cumpriam os dias de seus enfeites, isto
- []
-
-
-Underfull \hbox (badness 1057) in paragraph at lines 31--54
-\ZZZ mais que todas as virgens; e ele pôs a
+Underfull \hbox (badness 1152) in paragraph at lines 31--54
+\ZZZ o banquete de Ester; e deu repouso às
  []
 
 
@@ -24271,11 +24271,6 @@ Underfull \hbox (badness 1178) in paragraph at lines 57--72
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 57--72
-\ZZZ prata nas mãos dos executarem a ação,
- []
-
-
 Underfull \hbox (badness 1184) in paragraph at lines 57--72
 \ZZZ para que sejam postos na tesouraria do
  []
@@ -24296,6 +24291,11 @@ Underfull \hbox (badness 2293) in paragraph at lines 75--92
 
 Underfull \hbox (badness 1448) in paragraph at lines 75--92
 \ZZZ que tinha sido publicado em Susã para
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 75--92
+\ZZZ assim jejuaremos; e assim virei ao rei,
  []
 
 [447]
