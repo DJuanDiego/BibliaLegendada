@@ -50,6 +50,7 @@
 \newcommand{\Blue}{\IntroColor}
 \newcommand{\LightBlue}{\color{Azul}}
 \newcommand{\Green}{\color{Verde}}
+\newcommand{\Grey}{\color{Cinza}}
 \newcommand{\YellowColor}{\color{Amarelo}}
 \newcommand{\VerseColor}{\color{Verse}}
 
@@ -85,10 +86,10 @@
 
 % Capítulo comum
 \newcommand{\Chap}[1]{{\Large\bfseries\vspace{1.78ex}\centering\setcounterpageref{footnote}{0}\parindent=0mm #1\nopagebreak\par}\def\webchap{#1:}\nopagebreak}
-\newcommand{\OneChap}{\vspace{1.78ex}\def\webchap{}}
-\newcommand{\ChapOne}[1]{\vspace{1.78ex}\def\webchap{#1:}}
-\newcommand{\PsalmChap}[1]{{\vspace{1.78ex}\centering #1\nopagebreak\par}\def\webchap{#1:}\nopagebreak}
-\newcommand{\PoetryChap}[1]{{\vspace{1.78ex}\centering #1\nopagebreak\par}\def\webchap{#1:}\nopagebreak}
+\newcommand{\OneChap}{{\Large\bfseries\setcounterpageref{footnote}{0}\vspace{1.78ex}}\def\webchap{}}
+\newcommand{\ChapOne}[1]{{\Large\bfseries\setcounterpageref{footnote}{0}\vspace{1.78ex}}\def\webchap{#1:}}
+\newcommand{\PsalmChap}[1]{{\Large\bfseries\vspace{1.78ex}\centering\setcounterpageref{footnote}{0} #1\nopagebreak\par}\def\webchap{#1:}\nopagebreak}
+\newcommand{\PoetryChap}[1]{{\Large\bfseries\vspace{1.78ex}\centering\setcounterpageref{footnote}{0} #1\nopagebreak\par}\def\webchap{#1:}\nopagebreak}
 
 % Parágrafo de abertura de capítulo
 \newcommand{\PP}{\par\noindent}
@@ -170,6 +171,9 @@
 
 % Adição de texto (ex.: {\\ADD{...}})
 \newcommand{\ADD}[1]{\textit{#1}}
+
+% Título dos salmos
+\newcommand{\D}[1]{\Grey\centering\footnotesize\bfseries{#1}}
 
 % Opcional: remover pontos dos líderes
 %\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}

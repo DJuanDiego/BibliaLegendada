@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Debian)  (format=lualatex 2026.10.27)  9 NOV 2026 14:44
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Debian)  (format=lualatex 2026.10.27)  17 NOV 2026 12:52
  restricted system commands enabled.
 **main.tex porbr2018_a4.tex porbr2018_all.tex porbr2018_book.tex porbr2018_prt.
 tex print.tex
@@ -2165,7 +2165,7 @@ Package: balance 1999/02/23 4.3 (PWD)
 \oldvsize=\dimen286
 )
 ! Undefined control sequence.
-l.107 \feettobottom
+l.108 \feettobottom
                     % Posição no rodapé
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2176,7 +2176,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \footparident 
                          
-l.111 \setlength{\footparident}{0em}
+l.112 \setlength{\footparident}{0em}
                                      % Recuo do parágrafo.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2187,7 +2187,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    \let 
-l.112 \renewcommand
+l.113 \renewcommand
                    {\foottextfont}{\fontsize{10pt}{10pt}\selectfont} % Fonte...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2196,7 +2196,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \let 
-l.112 \renewcommand
+l.113 \renewcommand
                    {\foottextfont}{\fontsize{10pt}{10pt}\selectfont} % Fonte...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2208,7 +2208,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 \set@color ...\@pdfcolorstack push{\current@color 
                                                   }\aftergroup \reset@color 
-l.125     \normalcolor
+l.126     \normalcolor
                       %
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2219,7 +2219,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \set@color ...\@pdfcolorstack push{\current@color 
                                                   }\aftergroup \reset@color 
-l.126     \footnoterule
+l.127     \footnoterule
                        %
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2504,6 +2504,9 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 (hyperref)                than one, level fixed on input line 1.
 
 
+LaTeX Warning: Reference `0' on page 3 undefined on input line 5.
+
+
 LaTeX Warning: Reference `0' on page 3 undefined on input line 39.
 
 Package babel Info: 'brazilian' activates 'portuges' shorthands.
@@ -2723,6 +2726,9 @@ LaTeX Warning: Reference `0' on page 43 undefined on input line 1669.
 [43]) ("./source/AT/02 - EXO_src.tex" [44
 
 ]
+
+LaTeX Warning: Reference `0' on page 45 undefined on input line 5.
+
 
 LaTeX Warning: Reference `0' on page 45 undefined on input line 30.
 
@@ -2944,6 +2950,9 @@ LaTeX Warning: Reference `0' on page 78 undefined on input line 1297.
 
 [78]) ("./source/AT/03 - LEV_src.tex" [79]
 
+LaTeX Warning: Reference `0' on page 80 undefined on input line 5.
+
+
 LaTeX Warning: Reference `0' on page 80 undefined on input line 25.
 
 [80
@@ -3133,7 +3142,11 @@ Underfull \hbox (badness 1173) in paragraph at lines 864--911
 
 LaTeX Warning: Reference `0' on page 104 undefined on input line 913.
 
-[104]) ("./source/AT/04 - NUM_src.tex" [105] [106
+[104]) ("./source/AT/04 - NUM_src.tex" [105]
+
+LaTeX Warning: Reference `0' on page 106 undefined on input line 5.
+
+[106
 
 
 ]
@@ -3379,7 +3392,11 @@ LaTeX Warning: Reference `0' on page 140 undefined on input line 1388.
 
 [140]) ("./source/AT/05 - DEU_src.tex" [141
 
-] [142
+]
+
+LaTeX Warning: Reference `0' on page 142 undefined on input line 5.
+
+[142
 
 
 ]
@@ -3589,6 +3606,9 @@ LaTeX Warning: Reference `0' on page 171 undefined on input line 1057.
 
 ) ("./source/AT/06 - JOS_src.tex" [171]
 
+LaTeX Warning: Reference `0' on page 172 undefined on input line 5.
+
+
 LaTeX Warning: Reference `0' on page 172 undefined on input line 26.
 
 
@@ -3751,6 +3771,10 @@ e
  []
 
 [191]) ("./source/AT/07 - JDG_src.tex" [192]
+
+LaTeX Warning: Reference `0' on page 193 undefined on input line 5.
+
+
 Underfull \hbox (badness 1072) in paragraph at lines 5--45
 [][] []\TU/FreeSerif(0)/m/n/12 Mas Adoni-Bezeque fu-giu; e seguiram-no, e
  []
@@ -3868,6 +3892,9 @@ LaTeX Warning: Reference `0' on page 212 undefined on input line 661.
 
 [212]) ("./source/AT/08 - RUT_src.tex" [213]
 
+LaTeX Warning: Reference `0' on page 214 undefined on input line 5.
+
+
 LaTeX Warning: Reference `0' on page 214 undefined on input line 30.
 
 [214
@@ -3882,6 +3909,9 @@ LaTeX Warning: Reference `0' on page 215 undefined on input line 56.
 LaTeX Warning: Reference `0' on page 216 undefined on input line 77.
 
 ) ("./source/AT/09 - 1SA_src.tex" [216]
+
+LaTeX Warning: Reference `0' on page 217 undefined on input line 5.
+
 
 LaTeX Warning: Reference `0' on page 217 undefined on input line 39.
 
@@ -4053,6 +4083,9 @@ LaTeX Warning: Reference `0' on page 243 undefined on input line 895.
 
 ]
 
+LaTeX Warning: Reference `0' on page 245 undefined on input line 5.
+
+
 LaTeX Warning: Reference `0' on page 245 undefined on input line 35.
 
 [245
@@ -4184,7 +4217,11 @@ LaTeX Warning: Reference `0' on page 266 undefined on input line 744.
 
 [266]) ("./source/AT/11 - 1KI_src.tex" [267
 
-] [268
+]
+
+LaTeX Warning: Reference `0' on page 268 undefined on input line 5.
+
+[268
 
 
 ]
@@ -4308,6 +4345,10 @@ a
  []
 
 [293]) ("./source/AT/12 - 2KI_src.tex" [294]
+
+LaTeX Warning: Reference `0' on page 295 undefined on input line 5.
+
+
 Underfull \hbox (badness 1748) in paragraph at lines 5--24
 \TU/FreeSerif(0)/m/n/12 ‘  []Do leito em que su-biste não des-ce-rás, an-t
 es
@@ -4414,6 +4455,9 @@ LaTeX Warning: Reference `0' on page 318 undefined on input line 743.
 LaTeX Warning: Reference `0' on page 318 undefined on input line 766.
 
 [318]) ("./source/AT/13 - 1CH_src.tex" [319]
+
+LaTeX Warning: Reference `0' on page 320 undefined on input line 5.
+
 
 LaTeX Warning: Reference `0' on page 320 undefined on input line 63.
 
@@ -4613,6 +4657,9 @@ LaTeX Warning: Reference `0' on page 341 undefined on input line 990.
 LaTeX Warning: Reference `0' on page 342 undefined on input line 1014.
 
 [342]) ("./source/AT/14 - 2CH_src.tex" [343]
+
+LaTeX Warning: Reference `0' on page 344 undefined on input line 5.
+
 
 LaTeX Warning: Reference `0' on page 344 undefined on input line 27.
 
@@ -4863,6 +4910,9 @@ Underfull \hbox (badness 1297) in paragraph at lines 911--934
 
 ]
 
+LaTeX Warning: Reference `0' on page 374 undefined on input line 5.
+
+
 LaTeX Warning: Reference `0' on page 374 undefined on input line 20.
 
 
@@ -4993,6 +5043,10 @@ Underfull \hbox (badness 1325) in paragraph at lines 269--314
  []
 
 [381]) ("./source/AT/16 - NEH_src.tex" [382]
+
+LaTeX Warning: Reference `0' on page 383 undefined on input line 5.
+
+
 Underfull \hbox (badness 3158) in paragraph at lines 5--17
 [][] []\TU/FreeSerif(0)/m/n/12 Pa-la-vras de Ne-e-mias, fi-lho de Ha-ca-lias. [
 ]E
@@ -5098,6 +5152,9 @@ LaTeX Warning: Reference `0' on page 394 undefined on input line 416.
 
 ]
 
+LaTeX Warning: Reference `0' on page 396 undefined on input line 5.
+
+
 LaTeX Warning: Reference `0' on page 396 undefined on input line 30.
 
 [396
@@ -5134,6 +5191,9 @@ LaTeX Warning: Reference `0' on page 401 undefined on input line 161.
 LaTeX Warning: Reference `0' on page 402 undefined on input line 196.
 
 ) ("./source/AT/18 - JOB_src.tex" [402]
+
+LaTeX Warning: Reference `0' on page 403 undefined on input line 5.
+
 
 LaTeX Warning: Reference `0' on page 403 undefined on input line 39.
 
@@ -5386,112 +5446,47 @@ LaTeX Warning: Reference `0' on page 425 undefined on input line 1757.
 [425]) ("./source/AT/19 - PSA_src.tex" [426
 
 ]
+
+LaTeX Warning: Reference `0' on page 427 undefined on input line 5.
+
+
 Underfull \hbox (badness 1033) in paragraph at lines 5--13
 [][] []\TU/FreeSerif(0)/m/n/12 Bem-aventurado o ho-mem que não anda no
  []
+
+
+LaTeX Warning: Reference `0' on page 427 undefined on input line 15.
 
 
 Underfull \hbox (badness 1769) in paragraph at lines 15--34
 \TU/FreeSerif(0)/m/n/12 go-ver-nan-tes to-mam con-se-lhos reu-ni-dos con-tra
  []
 
-! Undefined control sequence.
-l.36 \PsalmChap{3}{\D
-                      Salmo de Davi, quando ele fugia da presença de seu fi...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.52 \PsalmChap{4}{\D
-                      Salmo de Davi para o regente, com instrumentos de cord...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 427 undefined on input line 36.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-[]\TU/FreeSerif(0)/m/n/12 Salmo de Davi para o re-gente, com
- []
-
-! Undefined control sequence.
-l.71 \PsalmChap{5}{\D
-                      Salmo de Davi para o regente, com instrumentos de sopr...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 427 undefined on input line 52.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
-[]\TU/FreeSerif(0)/m/n/12 Salmo de Davi para o re-gente, com
- []
+LaTeX Warning: Reference `0' on page 427 undefined on input line 71.
 
 [427
 
 
 ]
-! Undefined control sequence.
-l.91 \PsalmChap{6}{\D
-                      Salmo de Davi para o regente, com instrumentos de cord...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 428 undefined on input line 91.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-[]\TU/FreeSerif(0)/m/n/12 Salmo de Davi para o re-gente, com
- []
+LaTeX Warning: Reference `0' on page 428 undefined on input line 112.
 
 
-Underfull \hbox (badness 4739) in paragraph at lines 91--91
-\TU/FreeSerif(0)/m/n/12 ins-tru-men-tos de cor-das, uma harpa de oito
- []
-
-! Undefined control sequence.
-l.112 \PsalmChap{7}{\D
-                       Cântico de Davi, que cantou ao SENHOR, depois das pa...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 1478) in paragraph at lines 112--112
-\TU/FreeSerif(0)/m/n/12 de-pois das pa-la-vras de Cuxe, des-cen-dente de
- []
-
-! Undefined control sequence.
-l.144 \PsalmChap{8}{\D
-                       Salmo de Davi para o regente, com “Gitite”:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 428 undefined on input line 144.
 
 [428]
-! Undefined control sequence.
-l.160 \PsalmChap{9}{\D
-                       Salmo de Davi, para o regente, em “Mute-Laben”:\p...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 160--160
-[]\TU/FreeSerif(0)/m/n/12 Salmo de Davi, para o re-gente, em
- []
+LaTeX Warning: Reference `0' on page 429 undefined on input line 160.
 
 
 Underfull \hbox (badness 1038) in paragraph at lines 162--201
@@ -5499,198 +5494,82 @@ Underfull \hbox (badness 1038) in paragraph at lines 162--201
 a \TU/FreeSerif(0)/m/it/12 com \TU/FreeSerif(0)/m/n/12 elas. [][] []Mas o
  []
 
-[429]
-! Undefined control sequence.
-l.237 \PsalmChap{11}{\D
-                        Salmo de Davi, para o regente:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.254 \PsalmChap{12}{\D
-                        Salmo de Davi, para o regente, com harpa de oito cor...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 429 undefined on input line 203.
+
+[429]
+
+LaTeX Warning: Reference `0' on page 430 undefined on input line 237.
+
+
+LaTeX Warning: Reference `0' on page 430 undefined on input line 254.
 
 
 Underfull \hbox (badness 1067) in paragraph at lines 256--271
 \TU/FreeSerif(0)/m/n/12 diz: Pela opres-são aos hu-mil-des, pelo ge-mido
  []
 
-! Undefined control sequence.
-l.273 \PsalmChap{13}{\D
-                        Salmo de Davi, para o regente:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.287 \PsalmChap{14}{\D
-                        Salmo de Davi, para o regente:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 430 undefined on input line 273.
 
-! Undefined control sequence.
-l.301 \PsalmChap{15}{\D
-                        Salmo de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 430 undefined on input line 287.
+
+
+LaTeX Warning: Reference `0' on page 430 undefined on input line 301.
 
 [430]
-! Undefined control sequence.
-l.312 \PsalmChap{16}{\D
-                        Cântico de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.343 \PsalmChap{17}{\D
-                        Oração de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.374 \PsalmChap{18}{\D
-                        Para o regente. Do servo do SENHOR, chamado Davi, o ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 431 undefined on input line 312.
 
 
-Underfull \hbox (badness 4378) in paragraph at lines 374--374
-[]\TU/FreeSerif(0)/m/n/12 Para o re-gente. Do servo do SE-NHOR,
- []
+LaTeX Warning: Reference `0' on page 431 undefined on input line 343.
+
+
+LaTeX Warning: Reference `0' on page 431 undefined on input line 374.
 
 [431]
-! Undefined control sequence.
-l.450 \PsalmChap{19}{\D
-                        Salmo de Davi, para o regente:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 432 undefined on input line 450.
 
 [432]
-! Undefined control sequence.
-l.482 \PsalmChap{20}{\D
-                        Salmo de Davi, para o regente:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 433 undefined on input line 482.
 
 
 Underfull \hbox (badness 1132) in paragraph at lines 484--496
 \TU/FreeSerif(0)/m/n/12 muito por tua sal-va-ção, e no nome do nosso
  []
 
-! Undefined control sequence.
-l.498 \PsalmChap{21}{\D
-                        Salmo de Davi para o regente:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.524 \PsalmChap{22}{\D
-                        Salmo de Davi para o regente, como em “cerva da ma...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 433 undefined on input line 498.
+
+
+LaTeX Warning: Reference `0' on page 433 undefined on input line 524.
 
 [433]
-! Undefined control sequence.
-l.586 \PsalmChap{23}{\D
-                        Salmo de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.599 \PsalmChap{24}{\D
-                        Salmo de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 434 undefined on input line 586.
 
-! Undefined control sequence.
-l.616 \PsalmChap{25}{\D
-                        Salmo de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 434 undefined on input line 599.
+
+
+LaTeX Warning: Reference `0' on page 434 undefined on input line 616.
 
 [434]
-! Undefined control sequence.
-l.650 \PsalmChap{26}{\D
-                        Salmo de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.667 \PsalmChap{27}{\D
-                        Salmo de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 435 undefined on input line 650.
+
+
+LaTeX Warning: Reference `0' on page 435 undefined on input line 667.
 
 [435]
-! Undefined control sequence.
-l.690 \PsalmChap{28}{\D
-                        Salmo de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.711 \PsalmChap{29}{\D
-                        Salmo de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 436 undefined on input line 690.
+
+
+LaTeX Warning: Reference `0' on page 436 undefined on input line 711.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 713--732
@@ -5702,28 +5581,16 @@ Underfull \hbox (badness 1005) in paragraph at lines 713--732
 [][] []\TU/FreeSerif(0)/m/n/12 A voz do SE-NHOR faz cha-mas de fogo se
  []
 
-! Undefined control sequence.
-l.734 \PsalmChap{30}{\D
-                        Salmo e canção de Davi para a dedicação da casa:...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 436 undefined on input line 734.
 
 
 Underfull \hbox (badness 5726) in paragraph at lines 736--763
 [][] []\TU/FreeSerif(0)/m/n/12 Eu te exal-ta-rei, SE-NHOR, por-que tu me
  []
 
-! Undefined control sequence.
-l.765 \PsalmChap{31}{\D
-                        Salmo de Davi, para o regente:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 436 undefined on input line 765.
 
 
 Underfull \hbox (badness 1297) in paragraph at lines 767--807
@@ -5737,14 +5604,8 @@ ta-leza; guia-me e
  []
 
 [436]
-! Undefined control sequence.
-l.809 \PsalmChap{32}{\D
-                        Instrução de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 437 undefined on input line 809.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 811--828
@@ -5756,88 +5617,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 811--828
 \TU/FreeSerif(0)/m/n/12 é per-do-ada, cujo pe-cado é en-co-berto. [][]
  []
 
+
+LaTeX Warning: Reference `0' on page 437 undefined on input line 830.
+
 [437]
-! Undefined control sequence.
-l.868 \PsalmChap{34}{\D
-                        Salmo de Davi, quando ele mudou seu comportamento pe...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 438 undefined on input line 868.
 
 
-Underfull \hbox (badness 5504) in paragraph at lines 868--868
-[]\TU/FreeSerif(0)/m/n/12 Salmo de Davi, quando ele mu-dou seu
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 868--868
-\TU/FreeSerif(0)/m/n/12 com-por-ta-mento pe-rante Abi-me-le-que, que o
- []
-
-! Undefined control sequence.
-l.901 \PsalmChap{35}{\D
-                        Salmo de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 438 undefined on input line 901.
 
 [438]
-! Undefined control sequence.
-l.952 \PsalmChap{36}{\D
-                        Salmo de Davi, servo do SENHOR, para o regente:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.980 \PsalmChap{37}{\D
-                        Salmo de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 439 undefined on input line 952.
+
+
+LaTeX Warning: Reference `0' on page 439 undefined on input line 980.
 
 [439]
-! Undefined control sequence.
-l.1040 \PsalmChap{38}{\D
-                         Salmo de Davi, para lembrança:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.1078 \PsalmChap{39}{\D
-                         Salmo de Davi, para o regente, conforme “Jedutum”..
-.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 1325) in paragraph at lines 1078--1078
-[]\TU/FreeSerif(0)/m/n/12 Salmo de Davi, para o re-gente, con-forme
- []
+LaTeX Warning: Reference `0' on page 440 undefined on input line 1040.
 
 [440]
-! Undefined control sequence.
-l.1105 \PsalmChap{40}{\D
-                         Salmo de Davi, para o regente:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 441 undefined on input line 1078.
+
+
+LaTeX Warning: Reference `0' on page 441 undefined on input line 1105.
 
 
 Underfull \hbox (badness 1342) in paragraph at lines 1107--1133
@@ -5862,14 +5668,8 @@ if(0)/m/n/12 mi-se-rá-vel e ne-ces-si-tado; \TU/FreeSerif(0)/m/it/12 mas \TU/
 FreeSerif(0)/m/n/12 o
  []
 
-! Undefined control sequence.
-l.1135 \PsalmChap{41}{\D
-                         Salmo de Davi, para o regente:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 441 undefined on input line 1135.
 
 
 Underfull \hbox (badness 4366) in paragraph at lines 1137--1160
@@ -5882,137 +5682,58 @@ Underfull \hbox (badness 1360) in paragraph at lines 1137--1160
  []
 
 [441]
-! Undefined control sequence.
-l.1162 \PsalmChap{42}{\D
-                         Salmo de instrução para o regente; dos filhos de ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 442 undefined on input line 1162.
 
 
 Underfull \hbox (badness 1655) in paragraph at lines 1164--1190
 [][] []\TU/FreeSerif(0)/m/n/12 As-sim como a corça geme de de-sejo pe-las
  []
 
-! Undefined control sequence.
-l.1204 \PsalmChap{44}{\D
-                         Instrução para o regente; dos filhos de Coré:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 442 undefined on input line 1192.
+
+
+LaTeX Warning: Reference `0' on page 442 undefined on input line 1204.
 
 [442]
-! Undefined control sequence.
-l.1242 \PsalmChap{45}{\D
-                         Instrução e canção de amor, para o regente; dos...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.1271 \PsalmChap{46}{\D
-                         Cântico sobre “Alamote”; para o regente, dos f...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 443 undefined on input line 1242.
 
-! Undefined control sequence.
-l.1296 \PsalmChap{47}{\D
-                         Salmo para o regente, dos filhos de Coré:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 443 undefined on input line 1271.
 
 [443]
-! Undefined control sequence.
-l.1312 \PsalmChap{48}{\D
-                         Cântico e salmo, dos filhos de Coré:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.1339 \PsalmChap{49}{\D
-                         Salmo para o regente, dos filhos de Coré:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 444 undefined on input line 1296.
 
-! Undefined control sequence.
-l.1385 \PsalmChap{50}{\D
-                         Salmo de Asafe:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 444 undefined on input line 1312.
+
+
+LaTeX Warning: Reference `0' on page 444 undefined on input line 1339.
 
 [444]
-! Undefined control sequence.
-l.1420 \PsalmChap{51}{\D
-                         Salmo de Davi, para o regente, quando o profeta Nat...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 445 undefined on input line 1385.
+
+
+LaTeX Warning: Reference `0' on page 445 undefined on input line 1420.
 
 
 Underfull \hbox (badness 4120) in paragraph at lines 1422--1445
 \TU/FreeSerif(0)/m/n/12 meu pe-cado. [][] []Porque eu re-co-nheço mi-nhas
  []
 
-! Undefined control sequence.
-l.1447 \PsalmChap{52}{\D
-                         Instrução de Davi, para o regente, quando Doegue,...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 [445]
-! Undefined control sequence.
-l.1467 \PsalmChap{53}{\D
-                         Instrução de Davi, para o regente, sobre “Maala...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 446 undefined on input line 1447.
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 1467--1467
-[]\TU/FreeSerif(0)/m/n/12 Ins-tru-ção de Davi, para o re-gente, so-bre
- []
-
-! Undefined control sequence.
-l.1480 \PsalmChap{54}{\D
-                         Instrução de Davi, para o regente, para instrumen...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 446 undefined on input line 1467.
 
 
-Underfull \hbox (badness 4429) in paragraph at lines 1480--1480
-[]\TU/FreeSerif(0)/m/n/12 Ins-tru-ção de Davi, para o re-gente, para
- []
+LaTeX Warning: Reference `0' on page 446 undefined on input line 1480.
 
 
 Underfull \hbox (badness 1546) in paragraph at lines 1482--1495
@@ -6020,143 +5741,52 @@ Underfull \hbox (badness 1546) in paragraph at lines 1482--1495
 0)/m/it/12 ho-mens
  []
 
-! Undefined control sequence.
-l.1497 \PsalmChap{55}{\D
-                         Instrução de Davi, para o regente, com instrument...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-
-Underfull \hbox (badness 4518) in paragraph at lines 1497--1497
-[]\TU/FreeSerif(0)/m/n/12 Ins-tru-ção de Davi, para o re-gente, com
- []
+LaTeX Warning: Reference `0' on page 446 undefined on input line 1497.
 
 [446]
-! Undefined control sequence.
-l.1546 \PsalmChap{56}{\D
-                         Salmo “Mictão” de Davi para o regente, conform...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 447 undefined on input line 1546.
 
 
-Underfull \hbox (badness 3128) in paragraph at lines 1546--1546
-[]\TU/FreeSerif(0)/m/n/12 Salmo “Mic-tão” de Davi para o re-gente,
- []
-
-! Undefined control sequence.
-l.1576 \PsalmChap{57}{\D
-                         Salmo “Mictão” para o regente, conforme “Alt...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 1496) in paragraph at lines 1576--1576
-[]\TU/FreeSerif(0)/m/n/12 Salmo “Mic-tão” para o re-gente, con-forme
- []
+LaTeX Warning: Reference `0' on page 447 undefined on input line 1576.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1578--1598
 [][] []\TU/FreeSerif(0)/m/n/12 Tem mi-se-ri-cór-dia de mim, ó Deus, tem
  []
 
-! Undefined control sequence.
-l.1600 \PsalmChap{58}{\D
-                         Salmo “Mictão” de Davi, para o regente, confor...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
+LaTeX Warning: Reference `0' on page 447 undefined on input line 1600.
 
-Underfull \hbox (badness 2221) in paragraph at lines 1600--1600
-[]\TU/FreeSerif(0)/m/n/12 Salmo “Mic-tão” de Davi, para o re-gente,
- []
-
-
+[447]
 Underfull \hbox (badness 10000) in paragraph at lines 1602--1619
 \TU/FreeSerif(0)/m/n/12 cor-re-ta-mente? [][] []Na ver-dade vós pra-ti-cais
  []
 
-[447]
-! Undefined control sequence.
-l.1621 \PsalmChap{59}{\D
-                         Salmo “Mictão” de Davi, para o regente, confor...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-
-Underfull \hbox (badness 2221) in paragraph at lines 1621--1621
-[]\TU/FreeSerif(0)/m/n/12 Salmo “Mic-tão” de Davi, para o re-gente,
- []
+LaTeX Warning: Reference `0' on page 448 undefined on input line 1621.
 
 
 Underfull \hbox (badness 4316) in paragraph at lines 1623--1652
 [][] []\TU/FreeSerif(0)/m/n/12 Livra-me de meus ini-mi-gos, ó Deus meu;
  []
 
-! Undefined control sequence.
-l.1654 \PsalmChap{60}{\D
-                         Salmo “Mictão” de Davi, de ensinamento, para o...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.1687 \PsalmChap{61}{\D
-                         Salmo de Davi, para o regente, com instrumento de c...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 448 undefined on input line 1654.
 
 [448]
-! Undefined control sequence.
-l.1704 \PsalmChap{62}{\D
-                         Salmo de Davi para o regente, conforme “Jedutum”...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 449 undefined on input line 1687.
 
 
-Underfull \hbox (badness 1983) in paragraph at lines 1704--1704
-[]\TU/FreeSerif(0)/m/n/12 Salmo de Davi para o re-gente, con-forme
- []
+LaTeX Warning: Reference `0' on page 449 undefined on input line 1704.
 
-! Undefined control sequence.
-l.1735 \PsalmChap{63}{\D
-                         Salmo de Davi, quando ele estava no deserto de Judá...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.1753 \PsalmChap{64}{\D
-                         Salmo de Davi, para o regente:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 449 undefined on input line 1735.
+
+
+LaTeX Warning: Reference `0' on page 449 undefined on input line 1753.
 
 
 Underfull \hbox (badness 1629) in paragraph at lines 1755--1774
@@ -6164,38 +5794,15 @@ Underfull \hbox (badness 1629) in paragraph at lines 1755--1774
 da do ter-ror do
  []
 
-! Undefined control sequence.
-l.1776 \PsalmChap{65}{\D
-                         Salmo e cântico de Davi, para o regente:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 [449]
-! Undefined control sequence.
-l.1808 \PsalmChap{66}{\D
-                         Cântico e salmo para o regente:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.1839 \PsalmChap{67}{\D
-                         Salmo e cântico, para o regente, com instrumento d...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 450 undefined on input line 1776.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1839--1839
-[]\TU/FreeSerif(0)/m/n/12 Salmo e cân-tico, para o re-gente, com
- []
+LaTeX Warning: Reference `0' on page 450 undefined on input line 1808.
+
+
+LaTeX Warning: Reference `0' on page 450 undefined on input line 1839.
 
 
 Underfull \hbox (badness 1163) in paragraph at lines 1841--1852
@@ -6203,39 +5810,20 @@ Underfull \hbox (badness 1163) in paragraph at lines 1841--1852
 s
  []
 
-! Undefined control sequence.
-l.1854 \PsalmChap{68}{\D
-                         Salmo e canção de Davi, para o regente:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
+LaTeX Warning: Reference `0' on page 450 undefined on input line 1854.
 
+[450]
 Underfull \hbox (badness 1406) in paragraph at lines 1856--1919
 \TU/FreeSerif(0)/m/n/12 anun-ciam as boas no-vas. [][] []Reis de exér-ci-tos
  []
 
-[450]
-! Undefined control sequence.
-l.1921 \PsalmChap{69}{\D
-                         Salmo de Davi, para o regente, conforme “os líri...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 451 undefined on input line 1921.
 
 [451]
-! Undefined control sequence.
-l.1976 \PsalmChap{70}{\D
-                         Memorial de Davi, para o regente:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 452 undefined on input line 1976.
 
 
 Underfull \hbox (badness 1028) in paragraph at lines 1978--1986
@@ -6246,6 +5834,9 @@ Underfull \hbox (badness 1028) in paragraph at lines 1978--1986
 Underfull \hbox (badness 1221) in paragraph at lines 1978--1986
 \TU/FreeSerif(0)/m/n/12 de me fa-zer o mal. [][] []Virem-se para trás por
  []
+
+
+LaTeX Warning: Reference `0' on page 452 undefined on input line 1988.
 
 
 Underfull \hbox (badness 1194) in paragraph at lines 1988--2022
@@ -6265,205 +5856,32 @@ Underfull \hbox (badness 1902) in paragraph at lines 1988--2022
  []
 
 [452]
-! Undefined control sequence.
-l.2024 \PsalmChap{72}{\D
-                         Para Salomão\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.2055 \PsalmChap{73}{\D
-                         Salmo de Asafe:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 453 undefined on input line 2024.
+
+
+LaTeX Warning: Reference `0' on page 453 undefined on input line 2055.
 
 [453]
-! Undefined control sequence.
-l.2104 \PsalmChap{74}{\D
-                         Instrução de Asafe:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 454 undefined on input line 2104.
 
 
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2112 }
-         que tu compraste desde a antiguidade; a tribo de tua herança, que ...
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2112 }
-         que tu compraste desde a antiguidade; a tribo de tua herança, que ...
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2116 }
-         as ruínas duradouras, tudo que o inimigo destruiu no santuário.
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2116 }
-         as ruínas duradouras, tudo que o inimigo destruiu no santuário.
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-l.2141 \PsalmChap{75}{\D
-                         Para o regente, conforme “altachete”; salmo e c...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2156 }
-         nem faleis com arrogância.
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2156 }
-         nem faleis com arrogância.
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 1308) in paragraph at lines 2143--2166
-\TU/FreeSerif(0)/m/n/12 con-fi-eis em vosso po-der, [][][] [][] nem fa-leis com
- []
-
-! Undefined control sequence.
-l.2168 \PsalmChap{76}{\D
-                         Salmo e cântico de Asafe, para o regente, com inst...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 454 undefined on input line 2141.
 
 [454]
-! Undefined control sequence.
-l.2189 \PsalmChap{77}{\D
-                         Salmo de Asafe, para o regente, conforme “Jedutum...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.2225 \PsalmChap{78}{\D
-                         Instrução de Asafe:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 455 undefined on input line 2168.
 
 
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2311 }
-         e com suas imagens de escultura moveram-no de ciúmes.
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Reference `0' on page 455 undefined on input line 2189.
 
 
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2311 }
-         e com suas imagens de escultura moveram-no de ciúmes.
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Reference `0' on page 455 undefined on input line 2225.
 
 [455] [456]
-! Undefined control sequence.
-l.2331 \PsalmChap{79}{\D
-                         Salmo de Asafe:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2347 }
-         salva a vida dos sentenciados à morte.
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2347 }
-         salva a vida dos sentenciados à morte.
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Reference `0' on page 457 undefined on input line 2331.
 
 
 Underfull \hbox (badness 1087) in paragraph at lines 2333--2350
@@ -6475,34 +5893,15 @@ Underfull \hbox (badness 1005) in paragraph at lines 2333--2350
 \TU/FreeSerif(0)/m/n/12 aos ani-mais da terra. [][] []Derramaram o san-gue
  []
 
-! Undefined control sequence.
-l.2352 \PsalmChap{80}{\D
-                         Para o regente, conforme “Susanedute”. Samo de ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.2386 \PsalmChap{81}{\D
-                         Salmo de Asafe, para o regente, conforme “Gitite”..
-.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 457 undefined on input line 2352.
 
 [457]
-! Undefined control sequence.
-l.2413 \PsalmChap{82}{\D
-                         Salmo de Asafe:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 458 undefined on input line 2386.
+
+
+LaTeX Warning: Reference `0' on page 458 undefined on input line 2413.
 
 
 Underfull \hbox (badness 1629) in paragraph at lines 2415--2425
@@ -6515,14 +5914,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 2415--2425
 \TU/FreeSerif(0)/m/n/12 in-jus-ta-mente, e fa-vo-re-ceis a apa-rên-cia dos
  []
 
-! Undefined control sequence.
-l.2427 \PsalmChap{83}{\D
-                         Cântico e Salmo de Asafe:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 458 undefined on input line 2427.
 
 
 Underfull \hbox (badness 4981) in paragraph at lines 2429--2449
@@ -6530,72 +5923,12 @@ Underfull \hbox (badness 4981) in paragraph at lines 2429--2449
 jas
  []
 
-! Undefined control sequence.
-l.2451 \PsalmChap{84}{\D
-                         Para o regente, com “Gitite”. Salmo dos filhos ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2464 }
-        
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2464 }
-        
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2473 }
-        
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2473 }
-        
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 [458]
-! Undefined control sequence.
-l.2478 \PsalmChap{85}{\D
-                         Salmo para o regente, dos filhos de Coré:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 459 undefined on input line 2451.
+
+
+LaTeX Warning: Reference `0' on page 459 undefined on input line 2478.
 
 
 Underfull \hbox (badness 5970) in paragraph at lines 2480--2494
@@ -6603,211 +5936,40 @@ Underfull \hbox (badness 5970) in paragraph at lines 2480--2494
 
  []
 
-! Undefined control sequence.
-l.2496 \PsalmChap{86}{\D
-                         Oração de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2516 }
-        
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2516 }
-        
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Reference `0' on page 459 undefined on input line 2496.
 
 
 Underfull \hbox (badness 2343) in paragraph at lines 2498--2522
 [][] []\TU/FreeSerif(0)/m/n/12 In-clina teus ou-vi-dos, SE-NHOR, e ouve-me,
  []
 
-! Undefined control sequence.
-l.2524 \PsalmChap{87}{\D
-                         Salmo e cântico, dos filhos de Coré:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2533 }
-         eis que da Filístia, Tiro e Cuxe
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2533 }
-         eis que da Filístia, Tiro e Cuxe
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2538 }
-        
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2538 }
-        
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 [459]
-! Undefined control sequence.
-l.2543 \PsalmChap{88}{\D
-                         Cântico e Salmo dos filhos de Coré, para o regent...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 460 undefined on input line 2524.
 
 
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2552 }
-        
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Reference `0' on page 460 undefined on input line 2543.
 
 
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2552 }
-        
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-l.2574 \PsalmChap{89}{\D
-                         Instrução de Etã Ezraíta:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2635 }
-         (Selá)
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2635 }
-         (Selá)
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Reference `0' on page 460 undefined on input line 2574.
 
 [460]
-! Undefined control sequence.
-l.2645 \PsalmChap{90}{\D
-                         Oração de Moisés, homem de Deus:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2699 }
-        ,  e lhe mostrarei a minha salvação.
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2699 }
-        ,  e lhe mostrarei a minha salvação.
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Reference `0' on page 461 undefined on input line 2645.
 
 [461]
-! Undefined control sequence.
-l.2702 \PsalmChap{92}{\D
-                         Salmo e cântico para o dia do Sábado:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 462 undefined on input line 2674.
+
+
+LaTeX Warning: Reference `0' on page 462 undefined on input line 2702.
+
+
+LaTeX Warning: Reference `0' on page 462 undefined on input line 2726.
+
+
+LaTeX Warning: Reference `0' on page 462 undefined on input line 2737.
 
 
 Underfull \hbox (badness 1521) in paragraph at lines 2737--2765
@@ -6815,56 +5977,39 @@ Underfull \hbox (badness 1521) in paragraph at lines 2737--2765
  []
 
 [462]
+
+LaTeX Warning: Reference `0' on page 463 undefined on input line 2767.
+
+
 Underfull \hbox (badness 1688) in paragraph at lines 2767--2785
 \TU/FreeSerif(0)/m/n/12 adi-ante de sua pre-sença com agra-de-ci-men-tos;
  []
 
-! Undefined control sequence.
-l.2821 \PsalmChap{98}{\D
-                         Salmo:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 463 undefined on input line 2787.
+
+
+LaTeX Warning: Reference `0' on page 463 undefined on input line 2805.
 
 [463]
-! Undefined control sequence.
-l.2851 \PsalmChap{100}{\D
-                          Salmo de louvor:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.2864 \PsalmChap{101}{\D
-                          Salmo de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 464 undefined on input line 2821.
 
-! Undefined control sequence.
-l.2880 \PsalmChap{102}{\D
-                          Oração do aflito, quando ele se viu desfalecido,...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 464 undefined on input line 2835.
+
+
+LaTeX Warning: Reference `0' on page 464 undefined on input line 2851.
+
+
+LaTeX Warning: Reference `0' on page 464 undefined on input line 2864.
 
 [464]
-! Undefined control sequence.
-l.2923 \PsalmChap{103}{\D
-                          Salmo de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 465 undefined on input line 2880.
+
+
+LaTeX Warning: Reference `0' on page 465 undefined on input line 2923.
 
 
 Underfull \hbox (badness 2142) in paragraph at lines 2925--2954
@@ -6888,40 +6033,41 @@ Underfull \hbox (badness 1558) in paragraph at lines 2925--2954
 []\TU/FreeSerif(0)/m/n/12 Misericordioso e pi-e-doso é o SE-NHOR, que
  []
 
-[465] [466]
+[465]
+
+LaTeX Warning: Reference `0' on page 466 undefined on input line 2956.
+
+
+LaTeX Warning: Reference `0' on page 466 undefined on input line 3011.
+
+[466]
+
+LaTeX Warning: Reference `0' on page 467 undefined on input line 3071.
+
+
 Underfull \hbox (badness 1087) in paragraph at lines 3071--3137
 \TU/FreeSerif(0)/m/n/12 SE-NHOR nosso Deus, e ajunta-nos den-tre as
  []
 
-[467] [468]
-! Undefined control sequence.
-l.3191 \PsalmChap{108}{\D
-                          Cântico e Salmo de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+[467]
 
-! Undefined control sequence.
-l.3213 \PsalmChap{109}{\D
-                          Salmo de Davi, para o regente:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 468 undefined on input line 3139.
 
-! Undefined control sequence.
-l.3258 \PsalmChap{110}{\D
-                          Salmo de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+[468]
+
+LaTeX Warning: Reference `0' on page 469 undefined on input line 3191.
+
+
+LaTeX Warning: Reference `0' on page 469 undefined on input line 3213.
 
 [469]
+
+LaTeX Warning: Reference `0' on page 470 undefined on input line 3258.
+
+
+LaTeX Warning: Reference `0' on page 470 undefined on input line 3274.
+
+
 Underfull \hbox (badness 1226) in paragraph at lines 3274--3286
 [][] []\TU/FreeSerif(0)/m/n/12 Ale-luia! Lou-va-rei ao SE-NHOR com todo o
  []
@@ -6937,58 +6083,28 @@ Underfull \hbox (badness 1337) in paragraph at lines 3274--3286
  []
 
 
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3294 }
-         será poderosa na terra; a geração dos corretos será bendita.
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3294 }
-         será poderosa na terra; a geração dos corretos será bendita.
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Reference `0' on page 470 undefined on input line 3288.
 
 
 Underfull \hbox (badness 4660) in paragraph at lines 3288--3306
 \TU/FreeSerif(0)/m/n/12 ao SE-NHOR, e que tem muito pra-zer em
  []
 
+
+LaTeX Warning: Reference `0' on page 470 undefined on input line 3308.
+
 [470]
 
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3367 }
-         me afrontaram; encontrei opressão e aflição.
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Reference `0' on page 471 undefined on input line 3322.
 
 
-! LaTeX Error: Counter too large.
+LaTeX Warning: Reference `0' on page 471 undefined on input line 3336.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3367 }
-         me afrontaram; encontrei opressão e aflição.
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+
+LaTeX Warning: Reference `0' on page 471 undefined on input line 3359.
+
+
+LaTeX Warning: Reference `0' on page 471 undefined on input line 3389.
 
 
 Underfull \hbox (badness 1824) in paragraph at lines 3389--3393
@@ -6996,6 +6112,13 @@ Underfull \hbox (badness 1824) in paragraph at lines 3389--3393
  []
 
 [471]
+
+LaTeX Warning: Reference `0' on page 472 undefined on input line 3395.
+
+
+LaTeX Warning: Reference `0' on page 472 undefined on input line 3445.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 3445--3668
 [][] []\TU/FreeSerif(0)/m/n/12 Bem-aventurados são os que guar-dam os
  []
@@ -7115,112 +6238,44 @@ Underfull \hbox (badness 1852) in paragraph at lines 3445--3668
  []
 
 [472] [473] [474]
-! Undefined control sequence.
-l.3670 \PsalmChap{120}{\D
-                          Cântico dos degraus:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.3685 \PsalmChap{121}{\D
-                          Cântico dos degraus:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 475 undefined on input line 3670.
 
-! Undefined control sequence.
-l.3699 \PsalmChap{122}{\D
-                          Cântico dos degraus, de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 475 undefined on input line 3685.
+
+[475]
+
+LaTeX Warning: Reference `0' on page 476 undefined on input line 3699.
 
 
 Underfull \hbox (badness 1014) in paragraph at lines 3701--3712
 \TU/FreeSerif(0)/m/n/12 ca-dei-ras da casa de Davi. [][] []Orai pela paz de
  []
 
-! Undefined control sequence.
-l.3714 \PsalmChap{123}{\D
-                          Cântico dos degraus:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.3725 \PsalmChap{124}{\D
-                          Cântico dos degraus, de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[475]
-! Undefined control sequence.
-l.3750 \PsalmChap{126}{\D
-                          Cântico dos degraus:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 476 undefined on input line 3714.
 
 
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3760 }
-         ó SENHOR, como as correntes de águas no sul.
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Reference `0' on page 476 undefined on input line 3725.
 
 
-! LaTeX Error: Counter too large.
+LaTeX Warning: Reference `0' on page 476 undefined on input line 3740.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3760 }
-         ó SENHOR, como as correntes de águas no sul.
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+
+LaTeX Warning: Reference `0' on page 476 undefined on input line 3750.
 
 
 Underfull \hbox (badness 2181) in paragraph at lines 3752--3763
 [][] []\TU/FreeSerif(0)/m/n/12 Quando o SE-NHOR res-tau-rou Sião de seu
  []
 
-! Undefined control sequence.
-l.3765 \PsalmChap{127}{\D
-                          Cântico dos degraus, de Salomão:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.3777 \PsalmChap{128}{\D
-                          Cântico dos degraus:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 476 undefined on input line 3765.
+
+[476]
+
+LaTeX Warning: Reference `0' on page 477 undefined on input line 3777.
 
 
 Underfull \hbox (badness 5939) in paragraph at lines 3779--3790
@@ -7232,77 +6287,51 @@ Underfull \hbox (badness 2591) in paragraph at lines 3779--3790
 \TU/FreeSerif(0)/m/n/12 co-me-rás do tra-ba-lho de tuas mãos; tu se-rás
  []
 
-! Undefined control sequence.
-l.3792 \PsalmChap{129}{\D
-                          Cântico dos degraus:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.3805 \PsalmChap{130}{\D
-                          Cântico dos degraus:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 477 undefined on input line 3792.
+
+
+LaTeX Warning: Reference `0' on page 477 undefined on input line 3805.
 
 
 Underfull \hbox (badness 1194) in paragraph at lines 3807--3819
 \TU/FreeSerif(0)/m/n/12 à voz de mi-nhas sú-pli-cas. [][] []Se tu, SE-NHOR,
  []
 
-[476]
-! Undefined control sequence.
-l.3821 \PsalmChap{131}{\D
-                          Cântico dos degraus, de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.3829 \PsalmChap{132}{\D
-                          Cântico dos degraus:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 477 undefined on input line 3821.
 
-! Undefined control sequence.
-l.3860 \PsalmChap{133}{\D
-                          Cântico dos degraus, de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 477 undefined on input line 3829.
+
+[477]
+
+LaTeX Warning: Reference `0' on page 478 undefined on input line 3860.
 
 
 Underfull \hbox (badness 1783) in paragraph at lines 3862--3867
 [][] []\TU/FreeSerif(0)/m/n/12 Vede como é bom e agra-dá-vel que ir-mãos
  []
 
-! Undefined control sequence.
-l.3869 \PsalmChap{134}{\D
-                          Cântico dos degraus:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 478 undefined on input line 3869.
 
 
 Underfull \hbox (badness 1430) in paragraph at lines 3871--3875
 \TU/FreeSerif(0)/m/n/12 do SE-NHOR, que pres-tais ser-viço à casa do
  []
 
-[477]
+
+LaTeX Warning: Reference `0' on page 478 undefined on input line 3877.
+
+
+LaTeX Warning: Reference `0' on page 478 undefined on input line 3908.
+
+[478]
+
+LaTeX Warning: Reference `0' on page 479 undefined on input line 3965.
+
+
 Underfull \hbox (badness 1199) in paragraph at lines 3965--3982
 [][] []\TU/FreeSerif(0)/m/n/12 Junto aos rios da Ba-bi-lô-nia nos sen-ta-mos 
 e
@@ -7318,128 +6347,38 @@ Underfull \hbox (badness 4303) in paragraph at lines 3965--3982
 [][] []\TU/FreeSerif(0)/m/n/12 Sobre os sal-guei-ros que há no meio dela
  []
 
-! Undefined control sequence.
-l.3984 \PsalmChap{138}{\D
-                          Salmo de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-[478]
-! Undefined control sequence.
-l.4005 \PsalmChap{139}{\D
-                          Salmo de Davi, para o regente:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 479 undefined on input line 3984.
 
 
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4022 }
-         eis que tu
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4022 }
-         eis que tu
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-l.4056 \PsalmChap{140}{\D
-                          Salmo de Davi, para o regente:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.4080 \PsalmChap{141}{\D
-                          Salmo de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4097 }
-        
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4097 }
-        
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Reference `0' on page 479 undefined on input line 4005.
 
 [479]
-! Undefined control sequence.
-l.4105 \PsalmChap{142}{\D
-                          Instrução de Davi; oração quando ele estava na...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.4118 \PsalmChap{143}{\D
-                          Salmo de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `0' on page 480 undefined on input line 4056.
 
-! Undefined control sequence.
-l.4141 \PsalmChap{144}{\D
-                          Salmo de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 480 undefined on input line 4080.
+
+
+LaTeX Warning: Reference `0' on page 480 undefined on input line 4105.
+
+
+LaTeX Warning: Reference `0' on page 480 undefined on input line 4118.
 
 [480]
-! Undefined control sequence.
-l.4172 \PsalmChap{145}{\D
-                          Cântico de Davi:\par }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+LaTeX Warning: Reference `0' on page 481 undefined on input line 4141.
+
+
+LaTeX Warning: Reference `0' on page 481 undefined on input line 4172.
+
+[481]
+
+LaTeX Warning: Reference `0' on page 482 undefined on input line 4203.
+
+
+LaTeX Warning: Reference `0' on page 482 undefined on input line 4223.
 
 
 Underfull \hbox (badness 1939) in paragraph at lines 4223--4253
@@ -7451,15 +6390,25 @@ Underfull \hbox (badness 2846) in paragraph at lines 4223--4253
 \TU/FreeSerif(0)/m/n/12 lou-vo-res ao nosso Deus; por-que agra-dá-vel e
  []
 
-[481]
+
+LaTeX Warning: Reference `0' on page 482 undefined on input line 4255.
+
+
 Underfull \hbox (badness 1163) in paragraph at lines 4255--4275
 \TU/FreeSerif(0)/m/n/12 louvai-o nas al-tu-ras. [][] []Louvai-o to-dos os seus
  []
 
 
+LaTeX Warning: Reference `0' on page 482 undefined on input line 4277.
+
+
 Underfull \hbox (badness 1024) in paragraph at lines 4277--4292
 []\TU/FreeSerif(0)/m/n/12 Alegre-se Is-rael em seu Cri-a-dor; os fi-lhos de
  []
+
+[482]
+
+LaTeX Warning: Reference `0' on page 483 undefined on input line 4294.
 
 
 Underfull \hbox (badness 1931) in paragraph at lines 4294--4300
@@ -7471,30 +6420,11 @@ Underfull \hbox (badness 5592) in paragraph at lines 4294--4300
 \TU/FreeSerif(0)/m/n/12 louvai-o com lira e harpa. [][] []Louvai-o com
  []
 
-) ("./source/AT/20 - PRO_src.tex" [482]
+) ("./source/AT/20 - PRO_src.tex" [483
 
-! LaTeX Error: Counter too large.
+]
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 }
-       e inteiros, como os que descem à cova.
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Counter too large.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 }
-       e inteiros, como os que descem à cova.
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Reference `0' on page 484 undefined on input line 5.
 
 
 Underfull \hbox (badness 2626) in paragraph at lines 5--60
@@ -7512,7 +6442,7 @@ Underfull \hbox (badness 1107) in paragraph at lines 5--60
  []
 
 
-LaTeX Warning: Reference `0' on page 483 undefined on input line 62.
+LaTeX Warning: Reference `0' on page 484 undefined on input line 62.
 
 
 Underfull \hbox (badness 2753) in paragraph at lines 62--91
@@ -7524,38 +6454,38 @@ Underfull \hbox (badness 2229) in paragraph at lines 62--91
 \TU/FreeSerif(0)/m/n/12 de-po-si-ta-res em ti meus man-da-men-tos, [][] []Para
  []
 
-[483
+[484
 
 
 ]
 
-LaTeX Warning: Reference `0' on page 484 undefined on input line 93.
+LaTeX Warning: Reference `0' on page 485 undefined on input line 93.
 
 
-LaTeX Warning: Reference `0' on page 484 undefined on input line 141.
-
-[484]
-
-LaTeX Warning: Reference `0' on page 485 undefined on input line 178.
-
-
-LaTeX Warning: Reference `0' on page 485 undefined on input line 215.
+LaTeX Warning: Reference `0' on page 485 undefined on input line 141.
 
 [485]
 
-LaTeX Warning: Reference `0' on page 486 undefined on input line 268.
+LaTeX Warning: Reference `0' on page 486 undefined on input line 178.
+
+
+LaTeX Warning: Reference `0' on page 486 undefined on input line 215.
+
+[486]
+
+LaTeX Warning: Reference `0' on page 487 undefined on input line 268.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 268--306
 \TU/FreeSerif(0)/m/n/12 em ti meus man-da-men-tos. [][] []Guarda meus
  []
 
-[486]
+[487]
 
-LaTeX Warning: Reference `0' on page 487 undefined on input line 308.
+LaTeX Warning: Reference `0' on page 488 undefined on input line 308.
 
 
-LaTeX Warning: Reference `0' on page 487 undefined on input line 357.
+LaTeX Warning: Reference `0' on page 488 undefined on input line 357.
 
 
 Underfull \hbox (badness 1742) in paragraph at lines 357--383
@@ -7568,12 +6498,12 @@ Underfull \hbox (badness 1888) in paragraph at lines 357--383
 \TU/FreeSerif(0)/m/n/12 toma de-sonra para si mesmo; e o que tenta
  []
 
-[487]
+[488]
 
-LaTeX Warning: Reference `0' on page 488 undefined on input line 385.
+LaTeX Warning: Reference `0' on page 489 undefined on input line 385.
 
 
-LaTeX Warning: Reference `0' on page 488 undefined on input line 432.
+LaTeX Warning: Reference `0' on page 489 undefined on input line 432.
 
 
 Underfull \hbox (badness 1178) in paragraph at lines 432--480
@@ -7586,24 +6516,24 @@ Underfull \hbox (badness 1147) in paragraph at lines 432--480
 \TU/FreeSerif(0)/m/n/12 dos cor-re-tos os guia; mas a per-ver-si-dade dos
  []
 
-[488]
-
-LaTeX Warning: Reference `0' on page 489 undefined on input line 482.
-
 [489]
 
-LaTeX Warning: Reference `0' on page 490 undefined on input line 533.
-
-
-LaTeX Warning: Reference `0' on page 490 undefined on input line 573.
+LaTeX Warning: Reference `0' on page 490 undefined on input line 482.
 
 [490]
 
-LaTeX Warning: Reference `0' on page 491 undefined on input line 623.
+LaTeX Warning: Reference `0' on page 491 undefined on input line 533.
+
+
+LaTeX Warning: Reference `0' on page 491 undefined on input line 573.
 
 [491]
 
-LaTeX Warning: Reference `0' on page 492 undefined on input line 672.
+LaTeX Warning: Reference `0' on page 492 undefined on input line 623.
+
+[492]
+
+LaTeX Warning: Reference `0' on page 493 undefined on input line 672.
 
 
 Underfull \hbox (badness 1616) in paragraph at lines 672--712
@@ -7612,23 +6542,23 @@ Underfull \hbox (badness 1616) in paragraph at lines 672--712
  []
 
 
-LaTeX Warning: Reference `0' on page 492 undefined on input line 714.
+LaTeX Warning: Reference `0' on page 493 undefined on input line 714.
 
 
 Underfull \hbox (badness 1888) in paragraph at lines 714--755
 [][] []\TU/FreeSerif(0)/m/n/12 Me-lhor é um pe-daço seco de co-mida com
  []
 
-[492]
-
-LaTeX Warning: Reference `0' on page 493 undefined on input line 757.
-
-
-LaTeX Warning: Reference `0' on page 493 undefined on input line 804.
-
 [493]
 
-LaTeX Warning: Reference `0' on page 494 undefined on input line 846.
+LaTeX Warning: Reference `0' on page 494 undefined on input line 757.
+
+
+LaTeX Warning: Reference `0' on page 494 undefined on input line 804.
+
+[494]
+
+LaTeX Warning: Reference `0' on page 495 undefined on input line 846.
 
 
 Underfull \hbox (badness 1484) in paragraph at lines 846--886
@@ -7636,46 +6566,46 @@ Underfull \hbox (badness 1484) in paragraph at lines 846--886
 isso \TU/FreeSerif(0)/m/n/12 ele men-di-gará
  []
 
-[494]
-
-LaTeX Warning: Reference `0' on page 495 undefined on input line 888.
-
-
-LaTeX Warning: Reference `0' on page 495 undefined on input line 937.
-
 [495]
 
-LaTeX Warning: Reference `0' on page 496 undefined on input line 981.
+LaTeX Warning: Reference `0' on page 496 undefined on input line 888.
+
+
+LaTeX Warning: Reference `0' on page 496 undefined on input line 937.
+
+[496]
+
+LaTeX Warning: Reference `0' on page 497 undefined on input line 981.
 
 
 Underfull \hbox (badness 1755) in paragraph at lines 981--1033
 [][] []\TU/FreeSerif(0)/m/n/12 Quando te sen-ta-res para co-mer com al-gum
  []
 
-[496]
-
-LaTeX Warning: Reference `0' on page 497 undefined on input line 1035.
-
-
-LaTeX Warning: Reference `0' on page 497 undefined on input line 1082.
-
 [497]
 
-LaTeX Warning: Reference `0' on page 498 undefined on input line 1123.
+LaTeX Warning: Reference `0' on page 498 undefined on input line 1035.
+
+
+LaTeX Warning: Reference `0' on page 498 undefined on input line 1082.
 
 [498]
 
-LaTeX Warning: Reference `0' on page 499 undefined on input line 1168.
-
-
-LaTeX Warning: Reference `0' on page 499 undefined on input line 1214.
+LaTeX Warning: Reference `0' on page 499 undefined on input line 1123.
 
 [499]
 
-LaTeX Warning: Reference `0' on page 500 undefined on input line 1258.
+LaTeX Warning: Reference `0' on page 500 undefined on input line 1168.
 
 
-LaTeX Warning: Reference `0' on page 500 undefined on input line 1299.
+LaTeX Warning: Reference `0' on page 500 undefined on input line 1214.
+
+[500]
+
+LaTeX Warning: Reference `0' on page 501 undefined on input line 1258.
+
+
+LaTeX Warning: Reference `0' on page 501 undefined on input line 1299.
 
 
 Underfull \hbox (badness 3199) in paragraph at lines 1340--1340
@@ -7683,71 +6613,77 @@ Underfull \hbox (badness 3199) in paragraph at lines 1340--1340
 s i.e., pe-que-nos ma-mí-fe-ros tam-bém
  []
 
-[500]
+[501]
 
-LaTeX Warning: Reference `0' on page 501 undefined on input line 1353.
+LaTeX Warning: Reference `0' on page 502 undefined on input line 1353.
 
-[501]) ("./source/AT/21 - ECC_src.tex" [502
-
-]
-
-LaTeX Warning: Reference `0' on page 503 undefined on input line 28.
-
-[503
-
+[502]) ("./source/AT/21 - ECC_src.tex" [503
 
 ]
 
-LaTeX Warning: Reference `0' on page 504 undefined on input line 73.
+LaTeX Warning: Reference `0' on page 504 undefined on input line 5.
 
 
-LaTeX Warning: Reference `0' on page 504 undefined on input line 107.
+LaTeX Warning: Reference `0' on page 504 undefined on input line 28.
 
-[504]
+[504
 
-LaTeX Warning: Reference `0' on page 505 undefined on input line 143.
+
+]
+
+LaTeX Warning: Reference `0' on page 505 undefined on input line 73.
+
+
+LaTeX Warning: Reference `0' on page 505 undefined on input line 107.
 
 [505]
 
-LaTeX Warning: Reference `0' on page 506 undefined on input line 172.
-
-
-LaTeX Warning: Reference `0' on page 506 undefined on input line 201.
+LaTeX Warning: Reference `0' on page 506 undefined on input line 143.
 
 [506]
 
-LaTeX Warning: Reference `0' on page 507 undefined on input line 240.
+LaTeX Warning: Reference `0' on page 507 undefined on input line 172.
 
 
-LaTeX Warning: Reference `0' on page 507 undefined on input line 274.
+LaTeX Warning: Reference `0' on page 507 undefined on input line 201.
 
 [507]
 
-LaTeX Warning: Reference `0' on page 508 undefined on input line 303.
+LaTeX Warning: Reference `0' on page 508 undefined on input line 240.
+
+
+LaTeX Warning: Reference `0' on page 508 undefined on input line 274.
 
 [508]
 
-LaTeX Warning: Reference `0' on page 509 undefined on input line 336.
+LaTeX Warning: Reference `0' on page 509 undefined on input line 303.
+
+[509]
+
+LaTeX Warning: Reference `0' on page 510 undefined on input line 336.
 
 
-LaTeX Warning: Reference `0' on page 509 undefined on input line 357.
+LaTeX Warning: Reference `0' on page 510 undefined on input line 357.
 
-) ("./source/AT/22 - SNG_src.tex" [509]
+) ("./source/AT/22 - SNG_src.tex" [510]
 
-LaTeX Warning: Reference `0' on page 510 undefined on input line 40.
+LaTeX Warning: Reference `0' on page 511 undefined on input line 5.
 
 
-LaTeX Warning: Reference `0' on page 510 undefined on input line 60.
+LaTeX Warning: Reference `0' on page 511 undefined on input line 40.
 
-[510
+
+LaTeX Warning: Reference `0' on page 511 undefined on input line 60.
+
+[511
 
 
 ]
 
-LaTeX Warning: Reference `0' on page 511 undefined on input line 78.
+LaTeX Warning: Reference `0' on page 512 undefined on input line 78.
 
 
-LaTeX Warning: Reference `0' on page 511 undefined on input line 100.
+LaTeX Warning: Reference `0' on page 512 undefined on input line 100.
 
 
 Underfull \hbox (badness 1005) in paragraph at lines 100--137
@@ -7755,18 +6691,22 @@ Underfull \hbox (badness 1005) in paragraph at lines 100--137
 /FreeSerif(0)/m/n/12 , e meu in-te-rior se
  []
 
-[511]
-
-LaTeX Warning: Reference `0' on page 512 undefined on input line 139.
-
-
-LaTeX Warning: Reference `0' on page 512 undefined on input line 172.
-
 [512]
 
-LaTeX Warning: Reference `0' on page 513 undefined on input line 200.
+LaTeX Warning: Reference `0' on page 513 undefined on input line 139.
 
-) ("./source/AT/23 - ISA_src.tex" [513]
+
+LaTeX Warning: Reference `0' on page 513 undefined on input line 172.
+
+[513]
+
+LaTeX Warning: Reference `0' on page 514 undefined on input line 200.
+
+) ("./source/AT/23 - ISA_src.tex" [514]
+
+LaTeX Warning: Reference `0' on page 515 undefined on input line 5.
+
+
 Underfull \hbox (badness 1024) in paragraph at lines 5--51
 \TU/FreeSerif(0)/m/n/12 pos-su-i-dor; \TU/FreeSerif(0)/m/it/12 mas \TU/FreeSeri
 f(0)/m/n/12 Is-rael não co-nhece, meu povo
@@ -7779,23 +6719,23 @@ Underfull \hbox (badness 1303) in paragraph at lines 5--51
  []
 
 
-LaTeX Warning: Reference `0' on page 514 undefined on input line 53.
+LaTeX Warning: Reference `0' on page 515 undefined on input line 53.
 
-[514
+[515
 
 
 ]
 
-LaTeX Warning: Reference `0' on page 515 undefined on input line 82.
+LaTeX Warning: Reference `0' on page 516 undefined on input line 82.
 
 
 Underfull \hbox (badness 1082) in paragraph at lines 82--133
 \TU/FreeSerif(0)/m/n/12 po-vos. [][] []O SE-NHOR vem a ju-ízo con-tra os
  []
 
-[515]
+[516]
 
-LaTeX Warning: Reference `0' on page 516 undefined on input line 135.
+LaTeX Warning: Reference `0' on page 517 undefined on input line 135.
 
 
 Underfull \hbox (badness 1776) in paragraph at lines 135--145
@@ -7808,18 +6748,18 @@ Underfull \hbox (badness 1533) in paragraph at lines 135--145
  []
 
 
-LaTeX Warning: Reference `0' on page 516 undefined on input line 147.
-
-[516]
-
-LaTeX Warning: Reference `0' on page 517 undefined on input line 212.
+LaTeX Warning: Reference `0' on page 517 undefined on input line 147.
 
 [517]
 
-LaTeX Warning: Reference `0' on page 518 undefined on input line 236.
+LaTeX Warning: Reference `0' on page 518 undefined on input line 212.
+
+[518]
+
+LaTeX Warning: Reference `0' on page 519 undefined on input line 236.
 
 
-LaTeX Warning: Reference `0' on page 518 undefined on input line 278.
+LaTeX Warning: Reference `0' on page 519 undefined on input line 278.
 
 
 Underfull \hbox (badness 4832) in paragraph at lines 283--283
@@ -7837,17 +6777,17 @@ Underfull \hbox (badness 1152) in paragraph at lines 278--313
 \TU/FreeSerif(0)/m/n/12 en-cherá a lar-gura de tua terra, ó Ema-nuel. [][]
  []
 
-[518]
-
-LaTeX Warning: Reference `0' on page 519 undefined on input line 315.
-
 [519]
 
-LaTeX Warning: Reference `0' on page 520 undefined on input line 348.
+LaTeX Warning: Reference `0' on page 520 undefined on input line 315.
 
 [520]
 
-LaTeX Warning: Reference `0' on page 521 undefined on input line 401.
+LaTeX Warning: Reference `0' on page 521 undefined on input line 348.
+
+[521]
+
+LaTeX Warning: Reference `0' on page 522 undefined on input line 401.
 
 
 Underfull \hbox (badness 1092) in paragraph at lines 401--425
@@ -7855,18 +6795,18 @@ Underfull \hbox (badness 1092) in paragraph at lines 401--425
  []
 
 
-LaTeX Warning: Reference `0' on page 521 undefined on input line 427.
-
-[521]
-
-LaTeX Warning: Reference `0' on page 522 undefined on input line 437.
-
-
-LaTeX Warning: Reference `0' on page 522 undefined on input line 475.
+LaTeX Warning: Reference `0' on page 522 undefined on input line 427.
 
 [522]
 
-LaTeX Warning: Reference `0' on page 523 undefined on input line 528.
+LaTeX Warning: Reference `0' on page 523 undefined on input line 437.
+
+
+LaTeX Warning: Reference `0' on page 523 undefined on input line 475.
+
+[523]
+
+LaTeX Warning: Reference `0' on page 524 undefined on input line 528.
 
 
 Underfull \hbox (badness 4217) in paragraph at lines 528--546
@@ -7874,37 +6814,37 @@ Underfull \hbox (badness 4217) in paragraph at lines 528--546
 /12 e \TU/FreeSerif(0)/m/n/12 é de-vas-tada;
  []
 
-[523]
-
-LaTeX Warning: Reference `0' on page 524 undefined on input line 548.
-
-
-LaTeX Warning: Reference `0' on page 524 undefined on input line 579.
-
 [524]
 
-LaTeX Warning: Reference `0' on page 525 undefined on input line 614.
+LaTeX Warning: Reference `0' on page 525 undefined on input line 548.
 
 
-LaTeX Warning: Reference `0' on page 525 undefined on input line 632.
+LaTeX Warning: Reference `0' on page 525 undefined on input line 579.
 
 [525]
 
-LaTeX Warning: Reference `0' on page 526 undefined on input line 672.
+LaTeX Warning: Reference `0' on page 526 undefined on input line 614.
 
 
-LaTeX Warning: Reference `0' on page 526 undefined on input line 684.
+LaTeX Warning: Reference `0' on page 526 undefined on input line 632.
 
 [526]
 
-LaTeX Warning: Reference `0' on page 527 undefined on input line 715.
+LaTeX Warning: Reference `0' on page 527 undefined on input line 672.
 
 
-LaTeX Warning: Reference `0' on page 527 undefined on input line 769.
+LaTeX Warning: Reference `0' on page 527 undefined on input line 684.
 
 [527]
 
-LaTeX Warning: Reference `0' on page 528 undefined on input line 804.
+LaTeX Warning: Reference `0' on page 528 undefined on input line 715.
+
+
+LaTeX Warning: Reference `0' on page 528 undefined on input line 769.
+
+[528]
+
+LaTeX Warning: Reference `0' on page 529 undefined on input line 804.
 
 
 Underfull \hbox (badness 1902) in paragraph at lines 804--845
@@ -7918,19 +6858,19 @@ Underfull \hbox (badness 1082) in paragraph at lines 804--845
 reeSerif(0)/m/it/12 e \TU/FreeSerif(0)/m/n/12 se
  []
 
-[528]
-
-LaTeX Warning: Reference `0' on page 529 undefined on input line 847.
-
-
-LaTeX Warning: Reference `0' on page 529 undefined on input line 875.
-
 [529]
 
-LaTeX Warning: Reference `0' on page 530 undefined on input line 917.
+LaTeX Warning: Reference `0' on page 530 undefined on input line 847.
 
 
-LaTeX Warning: Reference `0' on page 530 undefined on input line 941.
+LaTeX Warning: Reference `0' on page 530 undefined on input line 875.
+
+[530]
+
+LaTeX Warning: Reference `0' on page 531 undefined on input line 917.
+
+
+LaTeX Warning: Reference `0' on page 531 undefined on input line 941.
 
 
 Underfull \hbox (badness 1888) in paragraph at lines 941--1001
@@ -7948,29 +6888,29 @@ Underfull \hbox (badness 1102) in paragraph at lines 941--1001
 \TU/FreeSerif(0)/m/n/12 man-da-mento, man-da-mento so-bre man-da-mento,
  []
 
-[530]
-
-LaTeX Warning: Reference `0' on page 531 undefined on input line 1003.
-
 [531]
 
-LaTeX Warning: Reference `0' on page 532 undefined on input line 1057.
+LaTeX Warning: Reference `0' on page 532 undefined on input line 1003.
+
+[532]
+
+LaTeX Warning: Reference `0' on page 533 undefined on input line 1057.
 
 
 Underfull \hbox (badness 1968) in paragraph at lines 1057--1120
 \TU/FreeSerif(0)/m/n/12 que to-mam con-se-lho, mas não de mim; que
  []
 
-[532]
-
-LaTeX Warning: Reference `0' on page 533 undefined on input line 1122.
-
 [533]
 
-LaTeX Warning: Reference `0' on page 534 undefined on input line 1141.
+LaTeX Warning: Reference `0' on page 534 undefined on input line 1122.
+
+[534]
+
+LaTeX Warning: Reference `0' on page 535 undefined on input line 1141.
 
 
-LaTeX Warning: Reference `0' on page 534 undefined on input line 1174.
+LaTeX Warning: Reference `0' on page 535 undefined on input line 1174.
 
 
 Underfull \hbox (badness 1655) in paragraph at lines 1174--1234
@@ -7978,28 +6918,28 @@ Underfull \hbox (badness 1655) in paragraph at lines 1174--1234
 o,
  []
 
-[534]
-
-LaTeX Warning: Reference `0' on page 535 undefined on input line 1236.
-
 [535]
 
-LaTeX Warning: Reference `0' on page 536 undefined on input line 1277.
-
-
-LaTeX Warning: Reference `0' on page 536 undefined on input line 1298.
+LaTeX Warning: Reference `0' on page 536 undefined on input line 1236.
 
 [536]
 
-LaTeX Warning: Reference `0' on page 537 undefined on input line 1338.
+LaTeX Warning: Reference `0' on page 537 undefined on input line 1277.
+
+
+LaTeX Warning: Reference `0' on page 537 undefined on input line 1298.
 
 [537]
 
-LaTeX Warning: Reference `0' on page 538 undefined on input line 1401.
+LaTeX Warning: Reference `0' on page 538 undefined on input line 1338.
 
 [538]
 
-LaTeX Warning: Reference `0' on page 539 undefined on input line 1447.
+LaTeX Warning: Reference `0' on page 539 undefined on input line 1401.
+
+[539]
+
+LaTeX Warning: Reference `0' on page 540 undefined on input line 1447.
 
 
 Underfull \hbox (badness 1308) in paragraph at lines 1447--1458
@@ -8007,54 +6947,54 @@ Underfull \hbox (badness 1308) in paragraph at lines 1447--1458
  []
 
 
-LaTeX Warning: Reference `0' on page 539 undefined on input line 1460.
-
-[539]
-
-LaTeX Warning: Reference `0' on page 540 undefined on input line 1515.
+LaTeX Warning: Reference `0' on page 540 undefined on input line 1460.
 
 [540]
 
-LaTeX Warning: Reference `0' on page 541 undefined on input line 1567.
+LaTeX Warning: Reference `0' on page 541 undefined on input line 1515.
+
+[541]
+
+LaTeX Warning: Reference `0' on page 542 undefined on input line 1567.
 
 
 Underfull \hbox (badness 1881) in paragraph at lines 1567--1630
 [][] []\TU/FreeSerif(0)/m/n/12 Eis aqui meu servo, a quem sus-tento; meu
  []
 
-[541]
-
-LaTeX Warning: Reference `0' on page 542 undefined on input line 1632.
-
 [542]
 
-LaTeX Warning: Reference `0' on page 543 undefined on input line 1673.
+LaTeX Warning: Reference `0' on page 543 undefined on input line 1632.
 
 [543]
 
-LaTeX Warning: Reference `0' on page 544 undefined on input line 1724.
+LaTeX Warning: Reference `0' on page 544 undefined on input line 1673.
 
 [544]
 
-LaTeX Warning: Reference `0' on page 545 undefined on input line 1776.
-
-
-LaTeX Warning: Reference `0' on page 545 undefined on input line 1809.
+LaTeX Warning: Reference `0' on page 545 undefined on input line 1724.
 
 [545]
 
-LaTeX Warning: Reference `0' on page 546 undefined on input line 1845.
+LaTeX Warning: Reference `0' on page 546 undefined on input line 1776.
+
+
+LaTeX Warning: Reference `0' on page 546 undefined on input line 1809.
 
 [546]
 
-LaTeX Warning: Reference `0' on page 547 undefined on input line 1898.
+LaTeX Warning: Reference `0' on page 547 undefined on input line 1845.
 
 [547]
 
-LaTeX Warning: Reference `0' on page 548 undefined on input line 1945.
+LaTeX Warning: Reference `0' on page 548 undefined on input line 1898.
+
+[548]
+
+LaTeX Warning: Reference `0' on page 549 undefined on input line 1945.
 
 
-LaTeX Warning: Reference `0' on page 548 undefined on input line 1965.
+LaTeX Warning: Reference `0' on page 549 undefined on input line 1965.
 
 
 Underfull \hbox (badness 1082) in paragraph at lines 1965--1996
@@ -8066,12 +7006,12 @@ Underfull \hbox (badness 1496) in paragraph at lines 1965--1996
 \TU/FreeSerif(0)/m/n/12 mi-nha sal-va-ção du-rará para sem-pre, e mi-nha
  []
 
-[548]
+[549]
 
-LaTeX Warning: Reference `0' on page 549 undefined on input line 1998.
+LaTeX Warning: Reference `0' on page 550 undefined on input line 1998.
 
 
-LaTeX Warning: Reference `0' on page 549 undefined on input line 2026.
+LaTeX Warning: Reference `0' on page 550 undefined on input line 2026.
 
 
 Underfull \hbox (badness 1189) in paragraph at lines 2026--2053
@@ -8084,27 +7024,27 @@ Underfull \hbox (badness 2503) in paragraph at lines 2026--2053
 [][] []\TU/FreeSerif(0)/m/n/12 Verdadeiramente ele to-mou so-bre si nos-sas
  []
 
-[549]
-
-LaTeX Warning: Reference `0' on page 550 undefined on input line 2055.
-
-
-LaTeX Warning: Reference `0' on page 550 undefined on input line 2080.
-
 [550]
 
-LaTeX Warning: Reference `0' on page 551 undefined on input line 2103.
+LaTeX Warning: Reference `0' on page 551 undefined on input line 2055.
 
 
-LaTeX Warning: Reference `0' on page 551 undefined on input line 2124.
+LaTeX Warning: Reference `0' on page 551 undefined on input line 2080.
 
 [551]
 
-LaTeX Warning: Reference `0' on page 552 undefined on input line 2192.
+LaTeX Warning: Reference `0' on page 552 undefined on input line 2103.
+
+
+LaTeX Warning: Reference `0' on page 552 undefined on input line 2124.
 
 [552]
 
-LaTeX Warning: Reference `0' on page 553 undefined on input line 2227.
+LaTeX Warning: Reference `0' on page 553 undefined on input line 2192.
+
+[553]
+
+LaTeX Warning: Reference `0' on page 554 undefined on input line 2227.
 
 
 Underfull \hbox (badness 1221) in paragraph at lines 2227--2281
@@ -8118,13 +7058,13 @@ Underfull \hbox (badness 1997) in paragraph at lines 2227--2281
 r e men-tir con-tra o
  []
 
-[553]
-
-LaTeX Warning: Reference `0' on page 554 undefined on input line 2283.
-
 [554]
 
-LaTeX Warning: Reference `0' on page 555 undefined on input line 2326.
+LaTeX Warning: Reference `0' on page 555 undefined on input line 2283.
+
+[555]
+
+LaTeX Warning: Reference `0' on page 556 undefined on input line 2326.
 
 
 Underfull \hbox (badness 7740) in paragraph at lines 2331--2331
@@ -8133,66 +7073,69 @@ Underfull \hbox (badness 7740) in paragraph at lines 2331--2331
  []
 
 
-LaTeX Warning: Reference `0' on page 555 undefined on input line 2355.
+LaTeX Warning: Reference `0' on page 556 undefined on input line 2355.
 
 
-LaTeX Warning: Reference `0' on page 555 undefined on input line 2387.
-
-[555]
-
-LaTeX Warning: Reference `0' on page 556 undefined on input line 2420.
+LaTeX Warning: Reference `0' on page 556 undefined on input line 2387.
 
 [556]
 
-LaTeX Warning: Reference `0' on page 557 undefined on input line 2444.
+LaTeX Warning: Reference `0' on page 557 undefined on input line 2420.
 
 [557]
 
-LaTeX Warning: Reference `0' on page 558 undefined on input line 2510.
+LaTeX Warning: Reference `0' on page 558 undefined on input line 2444.
 
-[558]) ("./source/AT/24 - JER_src.tex" [559
+[558]
+
+LaTeX Warning: Reference `0' on page 559 undefined on input line 2510.
+
+[559]) ("./source/AT/24 - JER_src.tex" [560
 
 ]
 
-LaTeX Warning: Reference `0' on page 560 undefined on input line 33.
-
-[560
+LaTeX Warning: Reference `0' on page 561 undefined on input line 5.
 
 
-] [561]
+LaTeX Warning: Reference `0' on page 561 undefined on input line 33.
 
-LaTeX Warning: Reference `0' on page 562 undefined on input line 114.
+[561
 
 
-LaTeX Warning: Reference `0' on page 562 undefined on input line 152.
+] [562]
+
+LaTeX Warning: Reference `0' on page 563 undefined on input line 114.
+
+
+LaTeX Warning: Reference `0' on page 563 undefined on input line 152.
 
 
 Underfull \hbox (badness 2443) in paragraph at lines 152--204
 [][] []\TU/FreeSerif(0)/m/n/12 Se te con-ver-te-res, ó Is-rael,diz o SE-NHOR,
  []
 
-[562]
-
-LaTeX Warning: Reference `0' on page 563 undefined on input line 206.
-
 [563]
 
-LaTeX Warning: Reference `0' on page 564 undefined on input line 254.
+LaTeX Warning: Reference `0' on page 564 undefined on input line 206.
 
 [564]
 
-LaTeX Warning: Reference `0' on page 565 undefined on input line 306.
+LaTeX Warning: Reference `0' on page 565 undefined on input line 254.
 
-[565] [566]
+[565]
 
-LaTeX Warning: Reference `0' on page 567 undefined on input line 354.
+LaTeX Warning: Reference `0' on page 566 undefined on input line 306.
+
+[566] [567]
+
+LaTeX Warning: Reference `0' on page 568 undefined on input line 354.
 
 
-LaTeX Warning: Reference `0' on page 567 undefined on input line 406.
+LaTeX Warning: Reference `0' on page 568 undefined on input line 406.
 
-[567]
+[568]
 
-LaTeX Warning: Reference `0' on page 568 undefined on input line 450.
+LaTeX Warning: Reference `0' on page 569 undefined on input line 450.
 
 
 Underfull \hbox (badness 7151) in paragraph at lines 493--493
@@ -8200,31 +7143,31 @@ Underfull \hbox (badness 7151) in paragraph at lines 493--493
 ram pru-den-te-mente trad. alt. não
  []
 
-[568]
+[569]
 
-LaTeX Warning: Reference `0' on page 569 undefined on input line 506.
+LaTeX Warning: Reference `0' on page 570 undefined on input line 506.
 
 
 Underfull \hbox (badness 2189) in paragraph at lines 506--552
 [][] []\TU/FreeSerif(0)/m/n/12 Pa-la-vra que veio do SE-NHOR, a Je-re-mias,
  []
 
-[569]
+[570]
 
-LaTeX Warning: Reference `0' on page 570 undefined on input line 554.
+LaTeX Warning: Reference `0' on page 571 undefined on input line 554.
 
 
 Underfull \hbox (badness 3229) in paragraph at lines 563--563
  \TU/FreeSerif(0)/m/n/10 po-rém eles pouco se im-por-tam con-tigo. - os rins
  []
 
-[570]
-
-LaTeX Warning: Reference `0' on page 571 undefined on input line 595.
-
 [571]
 
-LaTeX Warning: Reference `0' on page 572 undefined on input line 647.
+LaTeX Warning: Reference `0' on page 572 undefined on input line 595.
+
+[572]
+
+LaTeX Warning: Reference `0' on page 573 undefined on input line 647.
 
 
 Underfull \hbox (badness 1565) in paragraph at lines 647--685
@@ -8232,20 +7175,20 @@ Underfull \hbox (badness 1565) in paragraph at lines 647--685
 se
  []
 
-[572]
-
-LaTeX Warning: Reference `0' on page 573 undefined on input line 687.
-
 [573]
 
-LaTeX Warning: Reference `0' on page 574 undefined on input line 726.
-
-
-LaTeX Warning: Reference `0' on page 574 undefined on input line 754.
+LaTeX Warning: Reference `0' on page 574 undefined on input line 687.
 
 [574]
 
-LaTeX Warning: Reference `0' on page 575 undefined on input line 812.
+LaTeX Warning: Reference `0' on page 575 undefined on input line 726.
+
+
+LaTeX Warning: Reference `0' on page 575 undefined on input line 754.
+
+[575]
+
+LaTeX Warning: Reference `0' on page 576 undefined on input line 812.
 
 
 Underfull \hbox (badness 1178) in paragraph at lines 812--839
@@ -8257,13 +7200,13 @@ Underfull \hbox (badness 1038) in paragraph at lines 812--839
 \TU/FreeSerif(0)/m/n/12 en-tre as na-ções, quem te-nha ou-vido tal coisa.
  []
 
-[575]
-
-LaTeX Warning: Reference `0' on page 576 undefined on input line 841.
-
 [576]
 
-LaTeX Warning: Reference `0' on page 577 undefined on input line 880.
+LaTeX Warning: Reference `0' on page 577 undefined on input line 841.
+
+[577]
+
+LaTeX Warning: Reference `0' on page 578 undefined on input line 880.
 
 
 Underfull \hbox (badness 1158) in paragraph at lines 880--912
@@ -8276,31 +7219,31 @@ Underfull \hbox (badness 2591) in paragraph at lines 880--912
  []
 
 
-LaTeX Warning: Reference `0' on page 577 undefined on input line 914.
-
-[577]
-
-LaTeX Warning: Reference `0' on page 578 undefined on input line 941.
+LaTeX Warning: Reference `0' on page 578 undefined on input line 914.
 
 [578]
 
-LaTeX Warning: Reference `0' on page 579 undefined on input line 997.
+LaTeX Warning: Reference `0' on page 579 undefined on input line 941.
+
+[579]
+
+LaTeX Warning: Reference `0' on page 580 undefined on input line 997.
 
 
 Underfull \hbox (badness 2050) in paragraph at lines 997--1060
 \TU/FreeSerif(0)/m/n/12 ove-lhas de meu re-ba-nho!,Diz o SE-NHOR. [][]
  []
 
-[579] [580]
+[580] [581]
 
-LaTeX Warning: Reference `0' on page 581 undefined on input line 1062.
+LaTeX Warning: Reference `0' on page 582 undefined on input line 1062.
 
 
-LaTeX Warning: Reference `0' on page 581 undefined on input line 1079.
+LaTeX Warning: Reference `0' on page 582 undefined on input line 1079.
 
-[581]
+[582]
 
-LaTeX Warning: Reference `0' on page 582 undefined on input line 1141.
+LaTeX Warning: Reference `0' on page 583 undefined on input line 1141.
 
 
 Underfull \hbox (badness 1237) in paragraph at lines 1141--1175
@@ -8313,17 +7256,17 @@ Underfull \hbox (badness 2460) in paragraph at lines 1141--1175
 \TU/FreeSerif(0)/m/n/12 de Jo-sias, rei de Judá, veio esta pa-la-vra do
  []
 
-[582]
-
-LaTeX Warning: Reference `0' on page 583 undefined on input line 1177.
-
 [583]
 
-LaTeX Warning: Reference `0' on page 584 undefined on input line 1209.
+LaTeX Warning: Reference `0' on page 584 undefined on input line 1177.
 
 [584]
 
-LaTeX Warning: Reference `0' on page 585 undefined on input line 1233.
+LaTeX Warning: Reference `0' on page 585 undefined on input line 1209.
+
+[585]
+
+LaTeX Warning: Reference `0' on page 586 undefined on input line 1233.
 
 
 Underfull \hbox (badness 1019) in paragraph at lines 1233--1273
@@ -8335,14 +7278,14 @@ Underfull \hbox (badness 7963) in paragraph at lines 1233--1273
 \TU/FreeSerif(0)/m/n/12 an-ci-ãos le-va-dos ca-ti-vos, como tam-bém aos
  []
 
-[585]
-
-LaTeX Warning: Reference `0' on page 586 undefined on input line 1275.
-
-
-LaTeX Warning: Reference `0' on page 586 undefined on input line 1319.
-
 [586]
+
+LaTeX Warning: Reference `0' on page 587 undefined on input line 1275.
+
+
+LaTeX Warning: Reference `0' on page 587 undefined on input line 1319.
+
+[587]
 Underfull \hbox (badness 7397) in paragraph at lines 1360--1360
  [][] [][][][] \TU/FreeSerif(0)/b/n/10 31:18  \TU/FreeSerif(0)/m/n/10 converte-m
 e, e se-rei con-ver-tido trad. alt.
@@ -8354,113 +7297,113 @@ Underfull \hbox (badness 1418) in paragraph at lines 1319--1392
 f(0)/m/it/12 este é
  []
 
-[587]
+[588]
 
-LaTeX Warning: Reference `0' on page 588 undefined on input line 1394.
+LaTeX Warning: Reference `0' on page 589 undefined on input line 1394.
 
-[588] [589]
+[589] [590]
 
-LaTeX Warning: Reference `0' on page 590 undefined on input line 1461.
-
-[590]
-
-LaTeX Warning: Reference `0' on page 591 undefined on input line 1510.
-
-
-LaTeX Warning: Reference `0' on page 591 undefined on input line 1549.
+LaTeX Warning: Reference `0' on page 591 undefined on input line 1461.
 
 [591]
 
-LaTeX Warning: Reference `0' on page 592 undefined on input line 1574.
+LaTeX Warning: Reference `0' on page 592 undefined on input line 1510.
+
+
+LaTeX Warning: Reference `0' on page 592 undefined on input line 1549.
+
+[592]
+
+LaTeX Warning: Reference `0' on page 593 undefined on input line 1574.
 
 
 Underfull \hbox (badness 1442) in paragraph at lines 1574--1611
 \TU/FreeSerif(0)/m/n/12 Jo-sias, rei de Judá, que veio esta pa-la-vra do
  []
 
-[592]
+[593]
 
-LaTeX Warning: Reference `0' on page 593 undefined on input line 1613.
+LaTeX Warning: Reference `0' on page 594 undefined on input line 1613.
 
 
 Underfull \hbox (badness 2671) in paragraph at lines 1613--1638
 \TU/FreeSerif(0)/m/n/12 lu-gar de Co-nias fi-lho de Je-o-a-quim, ao qual
  []
 
-[593]
-
-LaTeX Warning: Reference `0' on page 594 undefined on input line 1640.
-
 [594]
 
-LaTeX Warning: Reference `0' on page 595 undefined on input line 1683.
+LaTeX Warning: Reference `0' on page 595 undefined on input line 1640.
 
 [595]
 
-LaTeX Warning: Reference `0' on page 596 undefined on input line 1716.
+LaTeX Warning: Reference `0' on page 596 undefined on input line 1683.
+
+[596]
+
+LaTeX Warning: Reference `0' on page 597 undefined on input line 1716.
 
 
 Underfull \hbox (badness 1681) in paragraph at lines 1716--1751
 \TU/FreeSerif(0)/m/n/12 com ca-deias no meio de to-dos os pre-sos de
  []
 
-[596]
+[597]
 
-LaTeX Warning: Reference `0' on page 597 undefined on input line 1753.
+LaTeX Warning: Reference `0' on page 598 undefined on input line 1753.
 
 
-LaTeX Warning: Reference `0' on page 597 undefined on input line 1777.
+LaTeX Warning: Reference `0' on page 598 undefined on input line 1777.
 
 
 Underfull \hbox (badness 2903) in paragraph at lines 1777--1805
 [][] []\TU/FreeSerif(0)/m/n/12 En-tão che-ga-ram to-dos os co-man-dan-tes dos
  []
 
-[597]
-
-LaTeX Warning: Reference `0' on page 598 undefined on input line 1807.
-
 [598]
 
-LaTeX Warning: Reference `0' on page 599 undefined on input line 1832.
+LaTeX Warning: Reference `0' on page 599 undefined on input line 1807.
 
 [599]
 
-LaTeX Warning: Reference `0' on page 600 undefined on input line 1875.
+LaTeX Warning: Reference `0' on page 600 undefined on input line 1832.
+
+[600]
+
+LaTeX Warning: Reference `0' on page 601 undefined on input line 1875.
 
 
-LaTeX Warning: Reference `0' on page 600 undefined on input line 1888.
+LaTeX Warning: Reference `0' on page 601 undefined on input line 1888.
 
 
 Underfull \hbox (badness 1072) in paragraph at lines 1888--1942
 \TU/FreeSerif(0)/m/n/12 junto ao rio Eu-fra-tes em Car-que-mis, ao qual
  []
 
-[600]
-
-LaTeX Warning: Reference `0' on page 601 undefined on input line 1944.
-
 [601]
 
-LaTeX Warning: Reference `0' on page 602 undefined on input line 1960.
+LaTeX Warning: Reference `0' on page 602 undefined on input line 1944.
+
+[602]
+
+LaTeX Warning: Reference `0' on page 603 undefined on input line 1960.
 
 
 Underfull \hbox (badness 3690) in paragraph at lines 1960--2039
 [][] []\TU/FreeSerif(0)/m/n/12 So-bre Mo-abe. As-sim diz o SE-NHOR dos
  []
 
-[602]
+[603]
 
-LaTeX Warning: Reference `0' on page 603 undefined on input line 2041.
+LaTeX Warning: Reference `0' on page 604 undefined on input line 2041.
 
 
 Underfull \hbox (badness 2173) in paragraph at lines 2041--2111
 \TU/FreeSerif(0)/m/n/12 mar de an-gús-tia, não po-dem se sos-se-gar. [][]
  []
 
-[603] [604]
+[604] [605]
 
-LaTeX Warning: Reference `0' on page 605 undefined on input line 2113.
+LaTeX Warning: Reference `0' on page 606 undefined on input line 2113.
 
 
 Underfull \hbox (badness 1077) in paragraph at lines 2113--2190
@@ -8468,9 +7411,9 @@ Underfull \hbox (badness 1077) in paragraph at lines 2113--2190
 
  []
 
-[605]
+[606]
 
-LaTeX Warning: Reference `0' on page 606 undefined on input line 2192.
+LaTeX Warning: Reference `0' on page 607 undefined on input line 2192.
 
 
 Underfull \hbox (badness 1584) in paragraph at lines 2192--2299
@@ -8487,9 +7430,9 @@ Underfull \hbox (badness 1057) in paragraph at lines 2192--2299
 [][] []\TU/FreeSerif(0)/m/n/12 Vós que es-ca-pas-tes do es-pada, ide em-bora,
  []
 
-[606] [607]
+[607] [608]
 
-LaTeX Warning: Reference `0' on page 608 undefined on input line 2301.
+LaTeX Warning: Reference `0' on page 609 undefined on input line 2301.
 
 
 Underfull \hbox (badness 1199) in paragraph at lines 2301--2352
@@ -8501,18 +7444,22 @@ Underfull \hbox (badness 1259) in paragraph at lines 2301--2352
 \TU/FreeSerif(0)/m/n/12 se-gundo mês, aos vinte e cinco do mês, que
  []
 
-[608] [609]) ("./source/AT/25 - LAM_src.tex" [610
+[609] [610]) ("./source/AT/25 - LAM_src.tex" [611
 
-] [611
+]
+
+LaTeX Warning: Reference `0' on page 612 undefined on input line 5.
+
+[612
 
 
 ]
 
-LaTeX Warning: Reference `0' on page 612 undefined on input line 62.
+LaTeX Warning: Reference `0' on page 613 undefined on input line 62.
 
-[612]
+[613]
 
-LaTeX Warning: Reference `0' on page 613 undefined on input line 107.
+LaTeX Warning: Reference `0' on page 614 undefined on input line 107.
 
 
 Underfull \hbox (badness 2173) in paragraph at lines 107--211
@@ -8530,12 +7477,12 @@ Underfull \hbox (badness 1946) in paragraph at lines 107--211
 \TU/FreeSerif(0)/m/n/12 vida. [][] []Viste, SE-NHOR, a mal-dade que me
  []
 
-[613]
+[614]
 
-LaTeX Warning: Reference `0' on page 614 undefined on input line 213.
+LaTeX Warning: Reference `0' on page 615 undefined on input line 213.
 
 
-LaTeX Warning: Reference `0' on page 614 undefined on input line 261.
+LaTeX Warning: Reference `0' on page 615 undefined on input line 261.
 
 
 Underfull \hbox (badness 2538) in paragraph at lines 261--291
@@ -8548,32 +7495,36 @@ Underfull \hbox (badness 1478) in paragraph at lines 261--291
 pai,
  []
 
-[614]) ("./source/AT/26 - EZK_src.tex" [615
+[615]) ("./source/AT/26 - EZK_src.tex" [616
 
-] [616
+]
+
+LaTeX Warning: Reference `0' on page 617 undefined on input line 5.
+
+[617
 
 
 ]
 
-LaTeX Warning: Reference `0' on page 617 undefined on input line 53.
+LaTeX Warning: Reference `0' on page 618 undefined on input line 53.
 
 
-LaTeX Warning: Reference `0' on page 617 undefined on input line 68.
-
-[617]
-
-LaTeX Warning: Reference `0' on page 618 undefined on input line 104.
-
-
-LaTeX Warning: Reference `0' on page 618 undefined on input line 132.
+LaTeX Warning: Reference `0' on page 618 undefined on input line 68.
 
 [618]
 
-LaTeX Warning: Reference `0' on page 619 undefined on input line 169.
+LaTeX Warning: Reference `0' on page 619 undefined on input line 104.
+
+
+LaTeX Warning: Reference `0' on page 619 undefined on input line 132.
 
 [619]
 
-LaTeX Warning: Reference `0' on page 620 undefined on input line 193.
+LaTeX Warning: Reference `0' on page 620 undefined on input line 169.
+
+[620]
+
+LaTeX Warning: Reference `0' on page 621 undefined on input line 193.
 
 
 Underfull \hbox (badness 1117) in paragraph at lines 193--256
@@ -8581,37 +7532,37 @@ Underfull \hbox (badness 1117) in paragraph at lines 193--256
  []
 
 
-LaTeX Warning: Reference `0' on page 620 undefined on input line 258.
-
-[620]
-
-LaTeX Warning: Reference `0' on page 621 undefined on input line 282.
+LaTeX Warning: Reference `0' on page 621 undefined on input line 258.
 
 [621]
 
-LaTeX Warning: Reference `0' on page 622 undefined on input line 296.
-
-
-LaTeX Warning: Reference `0' on page 622 undefined on input line 322.
+LaTeX Warning: Reference `0' on page 622 undefined on input line 282.
 
 [622]
 
-LaTeX Warning: Reference `0' on page 623 undefined on input line 355.
+LaTeX Warning: Reference `0' on page 623 undefined on input line 296.
+
+
+LaTeX Warning: Reference `0' on page 623 undefined on input line 322.
 
 [623]
 
-LaTeX Warning: Reference `0' on page 624 undefined on input line 393.
+LaTeX Warning: Reference `0' on page 624 undefined on input line 355.
 
 [624]
 
-LaTeX Warning: Reference `0' on page 625 undefined on input line 435.
+LaTeX Warning: Reference `0' on page 625 undefined on input line 393.
 
 [625]
 
-LaTeX Warning: Reference `0' on page 626 undefined on input line 471.
+LaTeX Warning: Reference `0' on page 626 undefined on input line 435.
+
+[626]
+
+LaTeX Warning: Reference `0' on page 627 undefined on input line 471.
 
 
-LaTeX Warning: Reference `0' on page 626 undefined on input line 484.
+LaTeX Warning: Reference `0' on page 627 undefined on input line 484.
 
 
 Underfull \hbox (badness 1701) in paragraph at lines 484--582
@@ -8619,29 +7570,29 @@ Underfull \hbox (badness 1701) in paragraph at lines 484--582
 
  []
 
-[626] [627]
+[627] [628]
 
-LaTeX Warning: Reference `0' on page 628 undefined on input line 584.
+LaTeX Warning: Reference `0' on page 629 undefined on input line 584.
 
 
 Underfull \hbox (badness 1127) in paragraph at lines 584--627
 [][] []\TU/FreeSerif(0)/m/n/12 Porém rebelou-se con-tra ele, en-vi-ando seus
  []
 
-[628]
-
-LaTeX Warning: Reference `0' on page 629 undefined on input line 629.
-
 [629]
 
-LaTeX Warning: Reference `0' on page 630 undefined on input line 685.
+LaTeX Warning: Reference `0' on page 630 undefined on input line 629.
+
+[630]
+
+LaTeX Warning: Reference `0' on page 631 undefined on input line 685.
 
 
-LaTeX Warning: Reference `0' on page 630 undefined on input line 707.
+LaTeX Warning: Reference `0' on page 631 undefined on input line 707.
 
-[630] [631]
+[631] [632]
 
-LaTeX Warning: Reference `0' on page 632 undefined on input line 791.
+LaTeX Warning: Reference `0' on page 633 undefined on input line 791.
 
 
 Underfull \hbox (badness 1024) in paragraph at lines 791--855
@@ -8653,9 +7604,9 @@ Underfull \hbox (badness 1968) in paragraph at lines 791--855
 []\TU/FreeSerif(0)/m/n/12 E isto será como uma adi-vi-nha-ção falsa aos
  []
 
-[632]
+[633]
 
-LaTeX Warning: Reference `0' on page 633 undefined on input line 857.
+LaTeX Warning: Reference `0' on page 634 undefined on input line 857.
 
 
 Underfull \hbox (badness 3078) in paragraph at lines 907--907
@@ -8663,24 +7614,24 @@ Underfull \hbox (badness 3078) in paragraph at lines 907--907
 rei, con-su-mi-rei, re-tri-bu-i-rei trad. alt.
  []
 
-[633]
+[634]
 
-LaTeX Warning: Reference `0' on page 634 undefined on input line 910.
+LaTeX Warning: Reference `0' on page 635 undefined on input line 910.
 
-[634] [635]
+[635] [636]
 
-LaTeX Warning: Reference `0' on page 636 undefined on input line 1002.
-
-[636]
-
-LaTeX Warning: Reference `0' on page 637 undefined on input line 1054.
-
-
-LaTeX Warning: Reference `0' on page 637 undefined on input line 1076.
+LaTeX Warning: Reference `0' on page 637 undefined on input line 1002.
 
 [637]
 
-LaTeX Warning: Reference `0' on page 638 undefined on input line 1119.
+LaTeX Warning: Reference `0' on page 638 undefined on input line 1054.
+
+
+LaTeX Warning: Reference `0' on page 638 undefined on input line 1076.
+
+[638]
+
+LaTeX Warning: Reference `0' on page 639 undefined on input line 1119.
 
 
 Underfull \hbox (badness 1953) in paragraph at lines 1119--1173
@@ -8692,33 +7643,33 @@ Underfull \hbox (badness 2564) in paragraph at lines 1119--1173
 \TU/FreeSerif(0)/m/n/12 mer-ca-do-res de Sabá e de Ra-amá eram teus
  []
 
-[638]
-
-LaTeX Warning: Reference `0' on page 639 undefined on input line 1175.
-
 [639]
 
-LaTeX Warning: Reference `0' on page 640 undefined on input line 1225.
+LaTeX Warning: Reference `0' on page 640 undefined on input line 1175.
 
 [640]
 
-LaTeX Warning: Reference `0' on page 641 undefined on input line 1263.
+LaTeX Warning: Reference `0' on page 641 undefined on input line 1225.
 
 [641]
 
-LaTeX Warning: Reference `0' on page 642 undefined on input line 1309.
-
-
-LaTeX Warning: Reference `0' on page 642 undefined on input line 1339.
+LaTeX Warning: Reference `0' on page 642 undefined on input line 1263.
 
 [642]
+
+LaTeX Warning: Reference `0' on page 643 undefined on input line 1309.
+
+
+LaTeX Warning: Reference `0' on page 643 undefined on input line 1339.
+
+[643]
 Underfull \hbox (badness 1400) in paragraph at lines 1339--1385
 \TU/FreeSerif(0)/m/n/12 mor-tos pela es-pada, por-que o ter-ror de-les se
  []
 
-[643]
+[644]
 
-LaTeX Warning: Reference `0' on page 644 undefined on input line 1387.
+LaTeX Warning: Reference `0' on page 645 undefined on input line 1387.
 
 
 Underfull \hbox (badness 2205) in paragraph at lines 1406--1406
@@ -8726,80 +7677,83 @@ Underfull \hbox (badness 2205) in paragraph at lines 1406--1406
 ̃o do vi-gi-lante i.e.
  []
 
-[644]
-
-LaTeX Warning: Reference `0' on page 645 undefined on input line 1442.
-
 [645]
 
-LaTeX Warning: Reference `0' on page 646 undefined on input line 1495.
+LaTeX Warning: Reference `0' on page 646 undefined on input line 1442.
+
+[646]
+
+LaTeX Warning: Reference `0' on page 647 undefined on input line 1495.
 
 
-LaTeX Warning: Reference `0' on page 646 undefined on input line 1523.
+LaTeX Warning: Reference `0' on page 647 undefined on input line 1523.
 
 
 Underfull \hbox (badness 1158) in paragraph at lines 1523--1572
 \TU/FreeSerif(0)/m/n/12 será la-vrada, em lu-gar de ser as-so-lada di-ante
  []
 
-[646] [647]
+[647] [648]
 
-LaTeX Warning: Reference `0' on page 648 undefined on input line 1574.
-
-[648]
-
-LaTeX Warning: Reference `0' on page 649 undefined on input line 1619.
+LaTeX Warning: Reference `0' on page 649 undefined on input line 1574.
 
 [649]
 
-LaTeX Warning: Reference `0' on page 650 undefined on input line 1654.
+LaTeX Warning: Reference `0' on page 650 undefined on input line 1619.
 
 [650]
 
-LaTeX Warning: Reference `0' on page 651 undefined on input line 1712.
+LaTeX Warning: Reference `0' on page 651 undefined on input line 1654.
 
 [651]
 
-LaTeX Warning: Reference `0' on page 652 undefined on input line 1780.
+LaTeX Warning: Reference `0' on page 652 undefined on input line 1712.
 
 [652]
 
-LaTeX Warning: Reference `0' on page 653 undefined on input line 1818.
+LaTeX Warning: Reference `0' on page 653 undefined on input line 1780.
 
 [653]
 
-LaTeX Warning: Reference `0' on page 654 undefined on input line 1849.
+LaTeX Warning: Reference `0' on page 654 undefined on input line 1818.
 
 [654]
 
-LaTeX Warning: Reference `0' on page 655 undefined on input line 1906.
+LaTeX Warning: Reference `0' on page 655 undefined on input line 1849.
 
 [655]
 
-LaTeX Warning: Reference `0' on page 656 undefined on input line 1957.
+LaTeX Warning: Reference `0' on page 656 undefined on input line 1906.
 
 [656]
 
-LaTeX Warning: Reference `0' on page 657 undefined on input line 2005.
+LaTeX Warning: Reference `0' on page 657 undefined on input line 1957.
 
 [657]
 
-LaTeX Warning: Reference `0' on page 658 undefined on input line 2060.
+LaTeX Warning: Reference `0' on page 658 undefined on input line 2005.
 
 [658]
 
-LaTeX Warning: Reference `0' on page 659 undefined on input line 2106.
+LaTeX Warning: Reference `0' on page 659 undefined on input line 2060.
 
-[659]) ("./source/AT/27 - DAN_src.tex" [660]
+[659]
 
-LaTeX Warning: Reference `0' on page 661 undefined on input line 38.
+LaTeX Warning: Reference `0' on page 660 undefined on input line 2106.
 
-[661
+[660]) ("./source/AT/27 - DAN_src.tex" [661]
+
+LaTeX Warning: Reference `0' on page 662 undefined on input line 5.
 
 
-] [662]
+LaTeX Warning: Reference `0' on page 662 undefined on input line 38.
 
-LaTeX Warning: Reference `0' on page 663 undefined on input line 103.
+[662
+
+
+] [663]
+
+LaTeX Warning: Reference `0' on page 664 undefined on input line 103.
 
 
 Underfull \hbox (badness 5091) in paragraph at lines 103--141
@@ -8822,90 +7776,93 @@ Underfull \hbox (badness 1584) in paragraph at lines 103--141
 
  []
 
-[663]
+[664]
 
-LaTeX Warning: Reference `0' on page 664 undefined on input line 143.
+LaTeX Warning: Reference `0' on page 665 undefined on input line 143.
 
 
 Underfull \hbox (badness 1009) in paragraph at lines 143--203
 \TU/FreeSerif(0)/m/n/12 para que trou-xes-sem di-ante de mim to-dos os
  []
 
-[664] [665]
+[665] [666]
 
-LaTeX Warning: Reference `0' on page 666 undefined on input line 205.
+LaTeX Warning: Reference `0' on page 667 undefined on input line 205.
 
 
 Underfull \hbox (badness 4242) in paragraph at lines 205--246
 \TU/FreeSerif(0)/m/n/12 cal-deus e os adi-vi-nha-do-res. [][] []Pois nele foi
  []
 
-[666]
+[667]
 
-LaTeX Warning: Reference `0' on page 667 undefined on input line 248.
+LaTeX Warning: Reference `0' on page 668 undefined on input line 248.
 
 
 Underfull \hbox (badness 1242) in paragraph at lines 248--288
 [][] []\TU/FreeSerif(0)/m/n/12 Então o mesmo Da-niel era su-pe-rior a es-tes
  []
 
-[667]
-
-LaTeX Warning: Reference `0' on page 668 undefined on input line 290.
-
 [668]
 
-LaTeX Warning: Reference `0' on page 669 undefined on input line 331.
+LaTeX Warning: Reference `0' on page 669 undefined on input line 290.
+
+[669]
+
+LaTeX Warning: Reference `0' on page 670 undefined on input line 331.
 
 
 Underfull \hbox (badness 1178) in paragraph at lines 331--388
 [][] []\TU/FreeSerif(0)/m/n/12 No ter-ceiro ano do rei-nado do rei Bel-sa-zar,
  []
 
-[669]
-
-LaTeX Warning: Reference `0' on page 670 undefined on input line 390.
-
 [670]
 
-LaTeX Warning: Reference `0' on page 671 undefined on input line 429.
+LaTeX Warning: Reference `0' on page 671 undefined on input line 390.
 
 [671]
 
-LaTeX Warning: Reference `0' on page 672 undefined on input line 460.
+LaTeX Warning: Reference `0' on page 672 undefined on input line 429.
 
-[672] [673]
+[672]
 
-LaTeX Warning: Reference `0' on page 674 undefined on input line 571.
+LaTeX Warning: Reference `0' on page 673 undefined on input line 460.
 
-) ("./source/AT/28 - HOS_src.tex" [674]
+[673] [674]
 
-LaTeX Warning: Reference `0' on page 675 undefined on input line 42.
+LaTeX Warning: Reference `0' on page 675 undefined on input line 571.
+
+) ("./source/AT/28 - HOS_src.tex" [675]
+
+LaTeX Warning: Reference `0' on page 676 undefined on input line 5.
+
+
+LaTeX Warning: Reference `0' on page 676 undefined on input line 42.
 
 
 Underfull \hbox (badness 1325) in paragraph at lines 42--71
 [][] []\TU/FreeSerif(0)/m/n/12 Di-zei a vos-sos ir-mãos: Meu Povo, e vos-sas
  []
 
-[675
+[676
 
 
 ]
 
-LaTeX Warning: Reference `0' on page 676 undefined on input line 73.
+LaTeX Warning: Reference `0' on page 677 undefined on input line 73.
 
 
-LaTeX Warning: Reference `0' on page 676 undefined on input line 84.
+LaTeX Warning: Reference `0' on page 677 undefined on input line 84.
 
-[676]
+[677]
 
-LaTeX Warning: Reference `0' on page 677 undefined on input line 119.
-
-
-LaTeX Warning: Reference `0' on page 677 undefined on input line 144.
+LaTeX Warning: Reference `0' on page 678 undefined on input line 119.
 
 
-LaTeX Warning: Reference `0' on page 677 undefined on input line 158.
+LaTeX Warning: Reference `0' on page 678 undefined on input line 144.
+
+
+LaTeX Warning: Reference `0' on page 678 undefined on input line 158.
 
 
 Underfull \hbox (badness 1546) in paragraph at lines 158--187
@@ -8918,16 +7875,16 @@ Underfull \hbox (badness 1024) in paragraph at lines 158--187
 \TU/FreeSerif(0)/m/n/12 ex-pos-tas es-tão a per-ver-si-dade de Efraim e as
  []
 
-[677]
-
-LaTeX Warning: Reference `0' on page 678 undefined on input line 189.
-
-
-LaTeX Warning: Reference `0' on page 678 undefined on input line 212.
-
 [678]
 
-LaTeX Warning: Reference `0' on page 679 undefined on input line 241.
+LaTeX Warning: Reference `0' on page 679 undefined on input line 189.
+
+
+LaTeX Warning: Reference `0' on page 679 undefined on input line 212.
+
+[679]
+
+LaTeX Warning: Reference `0' on page 680 undefined on input line 241.
 
 
 Underfull \hbox (badness 1062) in paragraph at lines 241--268
@@ -8936,16 +7893,16 @@ Underfull \hbox (badness 1062) in paragraph at lines 241--268
  []
 
 
-LaTeX Warning: Reference `0' on page 679 undefined on input line 270.
+LaTeX Warning: Reference `0' on page 680 undefined on input line 270.
 
 
 Underfull \hbox (badness 1565) in paragraph at lines 270--307
 \TU/FreeSerif(0)/m/n/12 Egito cha-mei a meu fi-lho. [][] []Quanto mais os
  []
 
-[679]
+[680]
 
-LaTeX Warning: Reference `0' on page 680 undefined on input line 309.
+LaTeX Warning: Reference `0' on page 681 undefined on input line 309.
 
 
 Underfull \hbox (badness 1406) in paragraph at lines 309--335
@@ -8953,136 +7910,155 @@ Underfull \hbox (badness 1406) in paragraph at lines 309--335
  []
 
 
-LaTeX Warning: Reference `0' on page 680 undefined on input line 337.
+LaTeX Warning: Reference `0' on page 681 undefined on input line 337.
 
-[680]
+[681]
 
-LaTeX Warning: Reference `0' on page 681 undefined on input line 370.
+LaTeX Warning: Reference `0' on page 682 undefined on input line 370.
 
-) ("./source/AT/29 - JOL_src.tex" [681]
+) ("./source/AT/29 - JOL_src.tex" [682]
 
-LaTeX Warning: Reference `0' on page 682 undefined on input line 31.
+LaTeX Warning: Reference `0' on page 683 undefined on input line 5.
 
-[682
+
+LaTeX Warning: Reference `0' on page 683 undefined on input line 31.
+
+[683
 
 
 ]
 
-LaTeX Warning: Reference `0' on page 683 undefined on input line 79.
+LaTeX Warning: Reference `0' on page 684 undefined on input line 79.
 
 
 Underfull \hbox (badness 1448) in paragraph at lines 79--108
 \TU/FreeSerif(0)/m/n/12 Is-rael, aos quais dis-per-sa-ram en-tre as na-ções,
  []
 
-[683]) ("./source/AT/30 - AMO_src.tex" [684
+[684]) ("./source/AT/30 - AMO_src.tex" [685
 
 ]
 
-LaTeX Warning: Reference `0' on page 685 undefined on input line 33.
+LaTeX Warning: Reference `0' on page 686 undefined on input line 5.
 
-[685
+
+LaTeX Warning: Reference `0' on page 686 undefined on input line 33.
+
+[686
 
 
 ]
 
-LaTeX Warning: Reference `0' on page 686 undefined on input line 69.
+LaTeX Warning: Reference `0' on page 687 undefined on input line 69.
 
 
-LaTeX Warning: Reference `0' on page 686 undefined on input line 96.
+LaTeX Warning: Reference `0' on page 687 undefined on input line 96.
 
 
 Underfull \hbox (badness 1038) in paragraph at lines 96--119
 \TU/FreeSerif(0)/m/n/12 a mim,diz o SE-NHOR. [][] []Enviei en-tre vós a
  []
 
-[686]
-
-LaTeX Warning: Reference `0' on page 687 undefined on input line 121.
-
-
-LaTeX Warning: Reference `0' on page 687 undefined on input line 160.
-
 [687]
 
-LaTeX Warning: Reference `0' on page 688 undefined on input line 192.
+LaTeX Warning: Reference `0' on page 688 undefined on input line 121.
 
 
-LaTeX Warning: Reference `0' on page 688 undefined on input line 220.
+LaTeX Warning: Reference `0' on page 688 undefined on input line 160.
 
 [688]
 
-LaTeX Warning: Reference `0' on page 689 undefined on input line 237.
+LaTeX Warning: Reference `0' on page 689 undefined on input line 192.
 
-[689]) ("./source/AT/31 - OBA_src.tex" [690
+
+LaTeX Warning: Reference `0' on page 689 undefined on input line 220.
+
+[689]
+
+LaTeX Warning: Reference `0' on page 690 undefined on input line 237.
+
+[690]) ("./source/AT/31 - OBA_src.tex" [691
 
 ]
+
+LaTeX Warning: Reference `0' on page 692 undefined on input line 5.
+
+
 Underfull \hbox (badness 5388) in paragraph at lines 5--45
 \TU/FreeSerif(0)/m/n/12 quanto a Edom: Te-mos ou-vido no-tí-cias do
  []
 
-) ("./source/AT/32 - JON_src.tex" [691
+) ("./source/AT/32 - JON_src.tex" [692
 
 
 ]
 
-LaTeX Warning: Reference `0' on page 692 undefined on input line 30.
+LaTeX Warning: Reference `0' on page 693 undefined on input line 5.
 
 
-LaTeX Warning: Reference `0' on page 692 undefined on input line 52.
-
-[692
+LaTeX Warning: Reference `0' on page 693 undefined on input line 30.
 
 
-]
+LaTeX Warning: Reference `0' on page 693 undefined on input line 52.
 
-LaTeX Warning: Reference `0' on page 693 undefined on input line 65.
-
-) ("./source/AT/33 - MIC_src.tex" [693]
-
-LaTeX Warning: Reference `0' on page 694 undefined on input line 43.
-
-[694
+[693
 
 
 ]
 
-LaTeX Warning: Reference `0' on page 695 undefined on input line 83.
+LaTeX Warning: Reference `0' on page 694 undefined on input line 65.
+
+) ("./source/AT/33 - MIC_src.tex" [694]
+
+LaTeX Warning: Reference `0' on page 695 undefined on input line 5.
 
 
-LaTeX Warning: Reference `0' on page 695 undefined on input line 113.
+LaTeX Warning: Reference `0' on page 695 undefined on input line 43.
 
-[695]
-
-LaTeX Warning: Reference `0' on page 696 undefined on input line 140.
+[695
 
 
-LaTeX Warning: Reference `0' on page 696 undefined on input line 162.
+]
+
+LaTeX Warning: Reference `0' on page 696 undefined on input line 83.
+
+
+LaTeX Warning: Reference `0' on page 696 undefined on input line 113.
+
+[696]
+
+LaTeX Warning: Reference `0' on page 697 undefined on input line 140.
+
+
+LaTeX Warning: Reference `0' on page 697 undefined on input line 162.
 
 
 Underfull \hbox (badness 1194) in paragraph at lines 162--194
 \TU/FreeSerif(0)/m/n/12 de azeite? Da-rei meu pri-mo-gê-nito por mi-nha
  []
 
-[696]
+[697]
 
-LaTeX Warning: Reference `0' on page 697 undefined on input line 196.
+LaTeX Warning: Reference `0' on page 698 undefined on input line 196.
 
-) ("./source/AT/34 - NAM_src.tex" [697]
+) ("./source/AT/34 - NAM_src.tex" [698]
 
-LaTeX Warning: Reference `0' on page 698 undefined on input line 46.
+LaTeX Warning: Reference `0' on page 699 undefined on input line 5.
+
+
+LaTeX Warning: Reference `0' on page 699 undefined on input line 46.
 
 
 Underfull \hbox (badness 1635) in paragraph at lines 46--61
 \TU/FreeSerif(0)/m/n/12 a for-ta-leza, olha para o ca-mi-nho, pre-para os
  []
 
-[698
+[699
 
 
 ]
 
-LaTeX Warning: Reference `0' on page 699 undefined on input line 63.
+LaTeX Warning: Reference `0' on page 700 undefined on input line 63.
 
 
 Underfull \hbox (badness 2173) in paragraph at lines 63--97
@@ -9094,16 +8070,19 @@ Underfull \hbox (badness 1158) in paragraph at lines 63--97
 [][] []\TU/FreeSerif(0)/m/n/12 Eis que es-tou con-tra ti,diz o SE-NHOR dos
  []
 
-) ("./source/AT/35 - HAB_src.tex" [699]
+) ("./source/AT/35 - HAB_src.tex" [700]
 
-LaTeX Warning: Reference `0' on page 700 undefined on input line 36.
+LaTeX Warning: Reference `0' on page 701 undefined on input line 5.
 
-[700
+
+LaTeX Warning: Reference `0' on page 701 undefined on input line 36.
+
+[701
 
 
 ]
 
-LaTeX Warning: Reference `0' on page 701 undefined on input line 68.
+LaTeX Warning: Reference `0' on page 702 undefined on input line 68.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 68--96
@@ -9115,71 +8094,81 @@ Underfull \hbox (badness 1048) in paragraph at lines 68--96
 \TU/FreeSerif(0)/m/n/12 “Si-gui-o-note”. [][] []Ó SE-NHOR, ou-vido te-nho tua
  []
 
-) ("./source/AT/36 - ZEP_src.tex" [701]
+) ("./source/AT/36 - ZEP_src.tex" [702]
+
+LaTeX Warning: Reference `0' on page 703 undefined on input line 5.
+
+
 Underfull \hbox (badness 4266) in paragraph at lines 29--29
  [][] [][][][] \TU/FreeSerif(0)/b/n/10 1:12  \TU/FreeSerif(0)/m/n/10 aco-mo-da-d
 os como se-di-men-tos de vi-nho lit.
  []
 
 
-LaTeX Warning: Reference `0' on page 702 undefined on input line 38.
+LaTeX Warning: Reference `0' on page 703 undefined on input line 38.
 
-[702
-
-
-]
-
-LaTeX Warning: Reference `0' on page 703 undefined on input line 66.
-
-[703]) ("./source/AT/37 - HAG_src.tex" [704
-
-]
-
-LaTeX Warning: Reference `0' on page 705 undefined on input line 27.
-
-[705
-
-
-]) ("./source/AT/38 - ZEC_src.tex" [706
-
-]
-
-LaTeX Warning: Reference `0' on page 707 undefined on input line 34.
-
-[707
+[703
 
 
 ]
 
-LaTeX Warning: Reference `0' on page 708 undefined on input line 56.
+LaTeX Warning: Reference `0' on page 704 undefined on input line 66.
+
+[704]) ("./source/AT/37 - HAG_src.tex" [705
+
+]
+
+LaTeX Warning: Reference `0' on page 706 undefined on input line 5.
 
 
-LaTeX Warning: Reference `0' on page 708 undefined on input line 81.
+LaTeX Warning: Reference `0' on page 706 undefined on input line 27.
+
+[706
 
 
-LaTeX Warning: Reference `0' on page 708 undefined on input line 104.
+]) ("./source/AT/38 - ZEC_src.tex" [707
 
-[708]
+]
 
-LaTeX Warning: Reference `0' on page 709 undefined on input line 125.
+LaTeX Warning: Reference `0' on page 708 undefined on input line 5.
 
 
-LaTeX Warning: Reference `0' on page 709 undefined on input line 149.
+LaTeX Warning: Reference `0' on page 708 undefined on input line 34.
+
+[708
+
+
+]
+
+LaTeX Warning: Reference `0' on page 709 undefined on input line 56.
+
+
+LaTeX Warning: Reference `0' on page 709 undefined on input line 81.
+
+
+LaTeX Warning: Reference `0' on page 709 undefined on input line 104.
 
 [709]
 
-LaTeX Warning: Reference `0' on page 710 undefined on input line 177.
+LaTeX Warning: Reference `0' on page 710 undefined on input line 125.
+
+
+LaTeX Warning: Reference `0' on page 710 undefined on input line 149.
 
 [710]
 
-LaTeX Warning: Reference `0' on page 711 undefined on input line 204.
-
-
-LaTeX Warning: Reference `0' on page 711 undefined on input line 239.
+LaTeX Warning: Reference `0' on page 711 undefined on input line 177.
 
 [711]
 
-LaTeX Warning: Reference `0' on page 712 undefined on input line 258.
+LaTeX Warning: Reference `0' on page 712 undefined on input line 204.
+
+
+LaTeX Warning: Reference `0' on page 712 undefined on input line 239.
+
+[712]
+
+LaTeX Warning: Reference `0' on page 713 undefined on input line 258.
 
 
 Underfull \hbox (badness 2096) in paragraph at lines 258--281
@@ -9192,20 +8181,23 @@ Underfull \hbox (badness 1052) in paragraph at lines 258--281
  []
 
 
-LaTeX Warning: Reference `0' on page 712 undefined on input line 283.
+LaTeX Warning: Reference `0' on page 713 undefined on input line 283.
 
-[712]
+[713]
 
-LaTeX Warning: Reference `0' on page 713 undefined on input line 301.
+LaTeX Warning: Reference `0' on page 714 undefined on input line 301.
 
 
-LaTeX Warning: Reference `0' on page 713 undefined on input line 313.
+LaTeX Warning: Reference `0' on page 714 undefined on input line 313.
 
-[713]) ("./source/AT/39 - MAL_src.tex" [714
+[714]) ("./source/AT/39 - MAL_src.tex" [715
 
 ]
 
-LaTeX Warning: Reference `0' on page 715 undefined on input line 23.
+LaTeX Warning: Reference `0' on page 716 undefined on input line 5.
+
+
+LaTeX Warning: Reference `0' on page 716 undefined on input line 23.
 
 
 Underfull \hbox (badness 1810) in paragraph at lines 23--63
@@ -9213,12 +8205,12 @@ Underfull \hbox (badness 1810) in paragraph at lines 23--63
 ́s, e
  []
 
-[715
+[716
 
 
 ]
 
-LaTeX Warning: Reference `0' on page 716 undefined on input line 65.
+LaTeX Warning: Reference `0' on page 717 undefined on input line 65.
 
 
 Underfull \hbox (badness 1194) in paragraph at lines 65--86
@@ -9226,19 +8218,21 @@ Underfull \hbox (badness 1194) in paragraph at lines 65--86
  []
 
 
-LaTeX Warning: Reference `0' on page 716 undefined on input line 88.
+LaTeX Warning: Reference `0' on page 717 undefined on input line 88.
 
-[716]) [717
-
-] [718
+[717]) [718
 
 ] [719
+
 
 
 ] [720] ("./source/NT/40 - MAT_src.tex"
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 1.
+
+
+LaTeX Warning: Reference `0' on page 721 undefined on input line 5.
 
 ! Undefined control sequence.
 l.34 {\RQ
@@ -9832,6 +8826,9 @@ LaTeX Warning: Reference `0' on page 749 undefined on input line 1792.
 [749]) ("./source/NT/41 - MRK_src.tex" [750
 
 ]
+
+LaTeX Warning: Reference `0' on page 751 undefined on input line 5.
+
 ! Undefined control sequence.
 l.8 {\RQ
         {Malaquias 3:1
@@ -10094,6 +9091,10 @@ LaTeX Warning: Reference `0' on page 767 undefined on input line 908.
 [767]) ("./source/NT/42 - LUK_src.tex" [768
 
 ]
+
+LaTeX Warning: Reference `0' on page 769 undefined on input line 5.
+
+
 Underfull \hbox (badness 2894) in paragraph at lines 135--135
  [][] [][][][] \TU/FreeSerif(0)/b/n/10 1:78  \TU/FreeSerif(0)/m/n/10 pro-funda 
 mi-se-ri-cór-dia Lit. das en-tra-nhas de
@@ -10310,7 +9311,11 @@ LaTeX Warning: Reference `0' on page 796 undefined on input line 1605.
 
 [796] [797]) ("./source/NT/43 - JHN_src.tex" [798
 
-] [799
+]
+
+LaTeX Warning: Reference `0' on page 799 undefined on input line 5.
+
+[799
 
 
 ]
@@ -10432,6 +9437,10 @@ LaTeX Warning: Reference `0' on page 819 undefined on input line 1123.
 [819]) ("./source/NT/44 - ACT_src.tex" [820
 
 ]
+
+LaTeX Warning: Reference `0' on page 821 undefined on input line 5.
+
+
 Underfull \hbox (badness 3590) in paragraph at lines 5--42
 \TU/FreeSerif(0)/m/n/12 as coi-sas que Je-sus co-me-çou, tanto a fa-zer
  []
@@ -10684,6 +9693,9 @@ LaTeX Warning: Reference `0' on page 848 undefined on input line 1544.
 LaTeX Warning: Reference `0' on page 849 undefined on input line 1621.
 
 [849]) ("./source/NT/45 - ROM_src.tex" [850]
+
+LaTeX Warning: Reference `0' on page 851 undefined on input line 5.
+
 ! Undefined control sequence.
 l.38 {\RQ
          {Habacuque 2:4
@@ -11252,6 +10264,9 @@ LaTeX Warning: Reference `0' on page 863 undefined on input line 831.
 
 ]
 
+LaTeX Warning: Reference `0' on page 865 undefined on input line 5.
+
+
 LaTeX Warning: Reference `0' on page 865 undefined on input line 55.
 
 ! Undefined control sequence.
@@ -11341,6 +10356,9 @@ Underfull \hbox (badness 1320) in paragraph at lines 569--663
 LaTeX Warning: Reference `0' on page 875 undefined on input line 665.
 
 [875]) ("./source/NT/47 - 2CO_src.tex" [876]
+
+LaTeX Warning: Reference `0' on page 877 undefined on input line 5.
+
 
 LaTeX Warning: Reference `0' on page 877 undefined on input line 46.
 
@@ -11467,6 +10485,9 @@ LaTeX Warning: Reference `0' on page 883 undefined on input line 379.
 LaTeX Warning: Reference `0' on page 884 undefined on input line 413.
 
 ) ("./source/NT/48 - GAL_src.tex" [884]
+
+LaTeX Warning: Reference `0' on page 885 undefined on input line 5.
+
 
 LaTeX Warning: Reference `0' on page 885 undefined on input line 41.
 
@@ -11596,6 +10617,9 @@ LaTeX Warning: Reference `0' on page 888 undefined on input line 267.
 
 ]
 
+LaTeX Warning: Reference `0' on page 890 undefined on input line 5.
+
+
 LaTeX Warning: Reference `0' on page 890 undefined on input line 53.
 
 [890
@@ -11659,6 +10683,9 @@ and I'll forget about whatever was undefined.
 
 ]
 
+LaTeX Warning: Reference `0' on page 895 undefined on input line 5.
+
+
 LaTeX Warning: Reference `0' on page 895 undefined on input line 52.
 
 [895
@@ -11680,6 +10707,9 @@ Underfull \hbox (badness 1424) in paragraph at lines 132--161
 [897]) ("./source/NT/51 - COL_src.tex" [898
 
 ]
+
+LaTeX Warning: Reference `0' on page 899 undefined on input line 5.
+
 
 LaTeX Warning: Reference `0' on page 899 undefined on input line 54.
 
@@ -11723,6 +10753,10 @@ Underfull \hbox (badness 1424) in paragraph at lines 95--131
 LaTeX Warning: Reference `0' on page 901 undefined on input line 133.
 
 ) ("./source/NT/52 - 1TH_src.tex" [901]
+
+LaTeX Warning: Reference `0' on page 902 undefined on input line 5.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 5--25
 [][] []\TU/FreeSerif(0)/m/n/12 Paulo, Sil-vano, e Ti-mó-teo, à igreja dos
  []
@@ -11770,6 +10804,10 @@ Underfull \hbox (badness 1286) in paragraph at lines 78--106
 LaTeX Warning: Reference `0' on page 904 undefined on input line 108.
 
 ) ("./source/NT/53 - 2TH_src.tex" [904]
+
+LaTeX Warning: Reference `0' on page 905 undefined on input line 5.
+
+
 Underfull \hbox (badness 4001) in paragraph at lines 5--19
 [][] []\TU/FreeSerif(0)/m/n/12 Paulo, e Sil-vano, e Ti-mó-teo, à igreja dos
  []
@@ -11786,6 +10824,10 @@ LaTeX Warning: Reference `0' on page 905 undefined on input line 54.
 ]) ("./source/NT/54 - 1TI_src.tex" [906
 
 ]
+
+LaTeX Warning: Reference `0' on page 907 undefined on input line 5.
+
+
 Underfull \hbox (badness 3407) in paragraph at lines 5--38
 [][] []\TU/FreeSerif(0)/m/n/12 Paulo, após-tolo de Je-sus Cristo se-gundo o
  []
@@ -11848,6 +10890,9 @@ i-dente que nada po-de-mos le-var dele. [][]
 
 ]
 
+LaTeX Warning: Reference `0' on page 911 undefined on input line 5.
+
+
 LaTeX Warning: Reference `0' on page 911 undefined on input line 45.
 
 [911
@@ -11880,6 +10925,10 @@ LaTeX Warning: Reference `0' on page 912 undefined on input line 116.
 [912]) ("./source/NT/56 - TIT_src.tex" [913
 
 ]
+
+LaTeX Warning: Reference `0' on page 914 undefined on input line 5.
+
+
 Underfull \hbox (badness 3471) in paragraph at lines 5--34
 [][] []\TU/FreeSerif(0)/m/n/12 Paulo, servo de Deus e após-tolo de Je-sus
  []
@@ -11935,11 +10984,17 @@ Underfull \hbox (badness 3449) in paragraph at lines 61--84
 
 ]) ("./source/NT/57 - PHM_src.tex" [915
 
-]) ("./source/NT/58 - HEB_src.tex"
-[916
+]
+
+LaTeX Warning: Reference `0' on page 916 undefined on input line 5.
+
+) ("./source/NT/58 - HEB_src.tex" [916
 
 
 ]
+
+LaTeX Warning: Reference `0' on page 917 undefined on input line 5.
+
 ! Undefined control sequence.
 l.25 {\RQ
          {Salmos 2:7
@@ -12390,6 +11445,9 @@ Underfull \hbox (badness 1173) in paragraph at lines 700--744
 
 ]
 
+LaTeX Warning: Reference `0' on page 928 undefined on input line 5.
+
+
 LaTeX Warning: Reference `0' on page 928 undefined on input line 45.
 
 ! Undefined control sequence.
@@ -12448,6 +11506,9 @@ Underfull \hbox (badness 1400) in paragraph at lines 149--179
  []
 
 ) ("./source/NT/60 - 1PE_src.tex" [930]
+
+LaTeX Warning: Reference `0' on page 931 undefined on input line 5.
+
 ! Undefined control sequence.
 l.38 {\RQ
          {Levítico 11:44-45
@@ -12597,6 +11658,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ) ("./source/NT/61 - 2PE_src.tex" [934]
+
+LaTeX Warning: Reference `0' on page 935 undefined on input line 5.
+
+
 Underfull \hbox (badness 1097) in paragraph at lines 5--30
 \TU/FreeSerif(0)/m/n/12 a en-trada no reino eterno de nosso Se-nhor e
  []
@@ -12644,6 +11709,10 @@ Underfull \hbox (badness 1622) in paragraph at lines 68--101
 [936]) ("./source/NT/62 - 1JN_src.tex" [937
 
 ]
+
+LaTeX Warning: Reference `0' on page 938 undefined on input line 5.
+
+
 Underfull \hbox (badness 1264) in paragraph at lines 5--17
 \TU/FreeSerif(0)/m/n/12 foi ma-ni-festa) [][] []o que vi-mos e ou-vi-mos, isso
  []
@@ -12670,16 +11739,27 @@ Underfull \hbox (badness 1102) in paragraph at lines 84--113
 
 LaTeX Warning: Reference `0' on page 940 undefined on input line 115.
 
-) ("./source/NT/63 - 2JN_src.tex" [940]) ("./source/NT/64 - 3JN_src.tex"
-[941
+) ("./source/NT/63 - 2JN_src.tex" [940]
 
+LaTeX Warning: Reference `0' on page 941 undefined on input line 5.
 
-
-]) ("./source/NT/65 - JUD_src.tex" [942
+) ("./source/NT/64 - 3JN_src.tex" [941
 
 
 
 ]
+
+LaTeX Warning: Reference `0' on page 942 undefined on input line 5.
+
+) ("./source/NT/65 - JUD_src.tex" [942
+
+
+
+]
+
+LaTeX Warning: Reference `0' on page 943 undefined on input line 5.
+
+
 Underfull \hbox (badness 2285) in paragraph at lines 5--39
 \TU/FreeSerif(0)/m/n/12 por Deus Pai, e guar-da-dos por Je-sus Cristo.
  []
@@ -12694,6 +11774,9 @@ eSerif(0)/m/it/12 vos
 
 
 ]
+
+LaTeX Warning: Reference `0' on page 944 undefined on input line 5.
+
 
 LaTeX Warning: Reference `0' on page 944 undefined on input line 44.
 
@@ -12805,15 +11888,15 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 ### bottom level
 
 Here is how much of LuaTeX's memory you used:
- 33964 strings out of 475635
- 244283,1648299 words of node,token memory allocated
- 19561 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 1350 glue, 4 kern, 1 glyph, 2845 attribute, 192 glu
+ 33965 strings out of 475635
+ 305363,1648299 words of node,token memory allocated
+ 19546 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1350 glue, 4 kern, 1 glyph, 2845 attribute, 189 glu
 e_spec, 1423 attribute_list, 2 write, 68 pdf_action nodes
-   avail lists: 1:16,2:3193,3:743,4:621,5:6426,6:149,7:20354,8:46,9:1065,10:17,1
-1:1841
- 53575 multiletter control sequences out of 65536+600000
- 178 fonts using 174656023 bytes
+   avail lists: 1:15,2:3193,3:823,4:682,5:6600,6:150,7:22018,8:46,9:1065,10:17,1
+1:1938
+ 53576 multiletter control sequences out of 65536+600000
+ 178 fonts using 174655487 bytes
  111i,11n,131p,1218b,3131s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/opentype/public/gnu-freefont/FreeSerifItali
 c.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/newcomputermodern/New
@@ -12821,10 +11904,10 @@ CMMono10-Book.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/gnu-freef
 ont/FreeSerif.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/gnu-freef
 ont/FreeSerifBold.otf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /latxfont/lcirclew.pfb>
-Output written on main.pdf (961 pages, 6453206 bytes).
+Output written on main.pdf (961 pages, 6457370 bytes).
 
-PDF statistics: 7770 PDF objects out of 8907 (max. 8388607)
- 6723 compressed objects within 68 object streams
+PDF statistics: 7771 PDF objects out of 8907 (max. 8388607)
+ 6724 compressed objects within 68 object streams
  2387 named destinations out of 2487 (max. 1048576)
  545 words of extra memory for PDF output out of 10000 (max. 100000000)
 
