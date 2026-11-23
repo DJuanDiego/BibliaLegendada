@@ -1,19 +1,18 @@
 % ========== Importação da classe que define as medidas do papel, linha, espaçamento etc ==========
 %\input{preamble/12pta4.tex}
 \input{preamble/12pt.tex}
-\usepackage[colorlinks=true,linkcolor=blue]{hyperref} % Links internos e externos
 
 % ========== Corpo do documento (código original sem alteração) ==========
-\setmainfont{FreeSerif}[Ligatures={NoCommon, NoContextual, NoRequired}] % Remover ligaduras
+\setmainfont{FreeSerif}[no-math, Ligatures={NoCommon, NoContextual, NoRequired}] % Remover carregamento de símbolos matemático, ligaduras etc.
 
 \begin{document}
-\sloppy % Sem hifenização
 % \large % Letra Grande
 \TextColor % Cor preta
 \frenchspacing % Espaço menor após pontuação
 \vfill\eject
 
 \frontmatter
+\sloppy % Sem hifenização
 \input{preamble/CPR}
 \input{preamble/FA}
 \input{preamble/PFC}
@@ -27,8 +26,8 @@
 }
 \thispagestyle{empty}
 %		\clearpage
-
 \mainmatter
+\sloppy % Sem hifenização
 \pagestyle{myheadings}
 
 \makeatletter
@@ -38,8 +37,6 @@
 \def\@evenhead{{\bfseries\rightmark\hfil\thepage\hfil\leftmark}}
 \def\@oddhead{{\bfseries\rightmark\hfil\thepage\hfil\leftmark}}
 \makeatother
-
-\setlength\columnsep{0.55cm}
 
 \input{source/livros.tex}
 

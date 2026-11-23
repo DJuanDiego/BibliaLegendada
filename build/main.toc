@@ -63,11 +63,11 @@
 \contentsline {section}{Filemom}{916}{section*.64}%
 \contentsline {section}{Hebreus}{917}{section*.65}%
 \contentsline {section}{Tiago}{928}{section*.66}%
-\contentsline {section}{1 Pedro}{931}{section*.67}%
-\contentsline {section}{2 Pedro}{935}{section*.68}%
-\contentsline {section}{1 João}{938}{section*.69}%
-\contentsline {section}{2 João}{941}{section*.70}%
-\contentsline {section}{3 João}{942}{section*.71}%
-\contentsline {section}{Judas}{943}{section*.72}%
-\contentsline {section}{Apocalipse}{944}{section*.73}%
+\contentsline {section}{1 Pedro}{932}{section*.67}%
+\contentsline {section}{2 Pedro}{936}{section*.68}%
+\contentsline {section}{1 João}{939}{section*.69}%
+\contentsline {section}{2 João}{942}{section*.70}%
+\contentsline {section}{3 João}{943}{section*.71}%
+\contentsline {section}{Judas}{944}{section*.72}%
+\contentsline {section}{Apocalipse}{945}{section*.73}%
 \end {multicols}

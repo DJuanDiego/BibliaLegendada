@@ -1,23 +1,23 @@
 \RequirePackage{fontspec}
-%\setmainfont{Latin Modern Roman}
+\usepackage[colorlinks=true,linkcolor=blue]{hyperref} % Links internos e externos
+\usepackage{bookmark} % Salto na hierarquia do documento (part to sec).
 \usepackage[brazilian]{babel} % 28/04/2026 Idioma principal
 \usepackage[babel,final]{microtype} % Justificação (compilação final)
+\hbadness=10000 % Tolerância do aviso de linha (sloppy).
 \usepackage[cmyk]{xcolor} % Cores cmyk (impressão)
-\usepackage[default]{fontsetup}
+%\usepackage[default]{fontsetup}
 \usepackage[none]{hyphenat} % Remover hifenizações
 \usepackage[useregional]{datetime2} % Data no formato do idioma do documento
 
 \usepackage{calc, parselines} % Símbolos matemáticos simples e processamento do texto 13/06/2026
 \usepackage[maxlevel=7]{csquotes}
-\usepackage{unicode-math}
+%\usepackage{unicode-math}
 \usepackage{etoolbox} % for \ifstrempty e final dos livros.
 \usepackage{setspace} % Espaçamento entre linhas
 \usepackage{fancybox, graphicx} % Caixas de texto e figuras/gráficos 03/05/2026
 \usepackage{geometry, multicol} % dimensões, colunas
 \usepackage{hologo, url} % TeX logos e urls.
 \usepackage{balance} % colunas balanceadas
-% \usepackage[titles]{tocloft}
-%\usepackage[utf8]{inputenc}
 
 % Cores
 \definecolor{Black}{cmyk}{1, 1, 1, 1} % Preto puro
@@ -85,11 +85,11 @@
 \newcommand{\MT}{\centering\Large\bfseries\Black} % Funcional
 
 % Capítulo comum
-\newcommand{\Chap}[1]{{\Large\bfseries\vspace{1.78ex}\centering\setcounterpageref{footnote}{0}\parindent=0mm #1\nopagebreak\par}\def\webchap{#1:}\nopagebreak}
-\newcommand{\OneChap}{{\Large\bfseries\setcounterpageref{footnote}{0}\vspace{1.78ex}}\def\webchap{}}
-\newcommand{\ChapOne}[1]{{\Large\bfseries\setcounterpageref{footnote}{0}\vspace{1.78ex}}\def\webchap{#1:}}
-\newcommand{\PsalmChap}[1]{{\Large\bfseries\vspace{1.78ex}\centering\setcounterpageref{footnote}{0} #1\nopagebreak\par}\def\webchap{#1:}\nopagebreak}
-\newcommand{\PoetryChap}[1]{{\Large\bfseries\vspace{1.78ex}\centering\setcounterpageref{footnote}{0} #1\nopagebreak\par}\def\webchap{#1:}\nopagebreak}
+\newcommand{\Chap}[1]{{\Large\bfseries\vspace{1.78ex}\centering\setcounter{footnote}{0}\parindent=0mm #1\nopagebreak\par}\def\webchap{#1:}\nopagebreak}
+\newcommand{\OneChap}{{\Large\bfseries\setcounter{footnote}{0}\vspace{1.78ex}}\def\webchap{}}
+\newcommand{\ChapOne}[1]{{\Large\bfseries\setcounter{footnote}{0}\vspace{1.78ex}}\def\webchap{#1:}}
+\newcommand{\PsalmChap}[1]{{\Large\bfseries\vspace{1.78ex}\centering\setcounter{footnote}{0} #1\nopagebreak\par}\def\webchap{#1:}\nopagebreak}
+\newcommand{\PoetryChap}[1]{{\Large\bfseries\vspace{1.78ex}\centering\setcounter{footnote}{0} #1\nopagebreak\par}\def\webchap{#1:}\nopagebreak}
 
 % Parágrafo de abertura de capítulo
 \newcommand{\PP}{\par\noindent}
@@ -105,17 +105,16 @@
 
 % Opções Nativas da classe Memoir (substituir footmisc/footkmpj)
 \raggedbottom % Espaçamento flexível
-\feettobottom % Posição no rodapé
 \feetbelowfloat % Notas abaixo
 \setlength{\footmarkwidth}{0.8em} % Largura da caixa da marca da nota
 \setlength{\footmarksep}{0.2em} % Separação da marca e do texto.
-\setlength{\footparident}{0em} % Recuo do parágrafo.
+\setlength{\footparindent}{0em} % Recuo do parágrafo.
 \renewcommand{\foottextfont}{\fontsize{10pt}{10pt}\selectfont} % Fonte da nota 10pt.
 
 \makeatletter
 
 % Garantia incondicional: injeta \\vfill\\relax antes do rodapé em qualquer página.
-\renewcommand\*{\m@mopfootnote}{\setbox\@outputbox \vbox{%
+\renewcommand{\m@mopfootnote}{\setbox\@outputbox \vbox{%
   \boxmaxdepth\@maxdepth
   \@tempdima\dp\@cclv 
   \unvbox\@cclv%
@@ -127,6 +126,7 @@
     \footnoterule%
     \unvbox \footins%
   \color@endgroup}}
+
 % % Inicia o multicols no começo do sumário (executado uma vez na primeira compilação)
 % \AtBeginDocument{%
 %   \addtocontents{toc}{\string\begin{multicols}{3}}%
@@ -163,6 +163,8 @@
 \newcommand{\XREF}[2]{
 \footnote{\textcolor{Black}{
 \bfseries\itshape#2}}}
+
+\newcommand{\RQ}[1]{\FTNT{}{\itshape\FR #1}}
 
 \makeatother
 
