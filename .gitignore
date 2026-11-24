@@ -1,0 +1,25 @@
+# Arquivos
+*.aux
+*.bak
+*.cb
+*.cb2
+*.fmt
+*.fls
+*.fot
+.*.lb
+*.lof
+*.log
+*.lot
+*.maf
+*.mtc
+*.mtc0
+*.out
+*.pdf
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.toc
+
+# Pastas
+build/
