@@ -18,7 +18,6 @@ Foram utilizados alguns Shell Scripts com expressões regulares para manipulaç�
 
 ## Progresso
 
-### AT
 ### 📖 Livros do Antigo Testamento
 
 <table>
@@ -44,7 +43,7 @@ Foram utilizados alguns Shell Scripts com expressões regulares para manipulaç�
       ☑ 2 Crônicas<br>
       ☑ Esdras<br>
       ☑ Neemias<br>
-      ☐ Ester<br>
+      ☑ Ester<br>
       ☐ Jó<br>
       ☐ Salmos<br>
       ☐ Provérbios<br>
@@ -75,9 +74,6 @@ Foram utilizados alguns Shell Scripts com expressões regulares para manipulaç�
 </table>
 
 
-### NT
-
-### NT
 ### 📖 Livros do Novo Testamento
 
 <table>
